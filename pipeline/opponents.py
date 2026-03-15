@@ -2,55 +2,15 @@
 """
 Opponent scouting — research 3 key players from the opposing team each match.
 
-Builds a database over time so future guides can include "ones to watch"
-from the visiting squad without re-spending tokens on already-researched players.
+Uses Perplexity to find players who have active social media AND whose
+partners also have active social media. Builds a database over time so
+future guides can include "ones to watch" without re-researching.
 """
 import json
 from pathlib import Path
 
-from roster import fetch_roster
-from research import research_all
-
-
-# How many new opponent players to research per match
-SCOUT_COUNT = 3
-
-# MLS team roster URLs (expand as needed)
-OPPONENT_ROSTER_URLS = {
-    # Western Conference
-    "LA Galaxy": "https://www.lagalaxy.com/roster",
-    "LAFC": "https://www.lafc.com/roster",
-    "Portland Timbers": "https://www.timbers.com/roster",
-    "Seattle Sounders FC": "https://www.soundersfc.com/roster",
-    "Real Salt Lake": "https://www.rsl.com/roster",
-    "Colorado Rapids": "https://www.coloradorapids.com/roster",
-    "Minnesota United FC": "https://www.mnufc.com/roster",
-    "Vancouver Whitecaps FC": "https://www.whitecapsfc.com/roster",
-    "San Jose Earthquakes": "https://www.sjearthquakes.com/roster",
-    "Sporting Kansas City": "https://www.sportingkc.com/roster",
-    "St. Louis CITY SC": "https://www.stlcitysc.com/roster",
-    "San Diego FC": "https://www.sandiegofc.com/roster",
-    # Eastern Conference
-    "Inter Miami CF": "https://www.intermiamicf.com/roster",
-    "Columbus Crew": "https://www.columbuscrew.com/roster",
-    "FC Cincinnati": "https://www.fccincinnati.com/roster",
-    "Charlotte FC": "https://www.charlottefc.com/roster",
-    "Nashville SC": "https://www.nashvillesc.com/roster",
-    "New York Red Bulls": "https://www.newyorkredbulls.com/roster",
-    "New York City FC": "https://www.newyorkcityfc.com/roster",
-    "Philadelphia Union": "https://www.philadelphiaunion.com/roster",
-    "Atlanta United FC": "https://www.atlutd.com/roster",
-    "Orlando City SC": "https://www.orlandocitysc.com/roster",
-    "Toronto FC": "https://www.torontofc.ca/roster",
-    "CF Montréal": "https://www.cfmontreal.com/roster",
-    "D.C. United": "https://www.dcunited.com/roster",
-    "Chicago Fire FC": "https://www.chicagofirefc.com/roster",
-    "New England Revolution": "https://www.revolutionsoccer.net/roster",
-    # Texas teams (opponents to each other)
-    "Houston Dynamo FC": "https://www.houstondynamofc.com/roster",
-    "FC Dallas": "https://www.fcdallas.com/roster",
-    "Austin FC": "https://www.austinfc.com/roster",
-}
+from config import OPPONENT_SCOUT_PROMPT
+from research import _call_perplexity, _extract_json, research_player, verify_player
 
 
 def load_opponent_db(db_path: Path) -> dict:
@@ -66,97 +26,95 @@ def save_opponent_db(db: dict, db_path: Path):
     db_path.write_text(json.dumps(db, indent=2, default=str))
 
 
-def pick_players_to_scout(roster: list[dict], already_scouted: list[str], count: int = SCOUT_COUNT) -> list[dict]:
-    """
-    Pick players to scout, prioritizing:
-    1. Players we haven't researched yet
-    2. Forwards and midfielders (more interesting for the audience)
-    """
-    # Filter out already-scouted players
-    unscouted = [p for p in roster if p.get("name", "") not in already_scouted]
-
-    if not unscouted:
-        # Everyone's been scouted — skip
-        return []
-
-    # Sort: forwards first, then midfielders, then defenders, then goalkeepers
-    position_priority = {"forward": 0, "midfielder": 1, "defender": 2, "goalkeeper": 3}
-
-    def sort_key(p):
-        pos = p.get("position", "").lower()
-        for key, val in position_priority.items():
-            if key in pos:
-                return val
-        return 4
-
-    unscouted.sort(key=sort_key)
-
-    return unscouted[:count]
-
-
 async def scout_opponent(opponent_name: str, base_dir: Path) -> list[dict]:
     """
-    Research 3 players from the opponent team.
-    Saves results to the opponent database so we don't re-research them.
+    Use Perplexity to find 3 opponent players with active social media
+    (both player AND partner must have Instagram). Then do a full
+    research + verify pass on each one.
     """
+    import asyncio
+
     db_path = base_dir / "data" / "opponents.json"
     db = load_opponent_db(db_path)
-
-    # Get the opponent's roster URL
-    roster_url = OPPONENT_ROSTER_URLS.get(opponent_name)
-    if not roster_url:
-        # Try fuzzy match
-        for name, url in OPPONENT_ROSTER_URLS.items():
-            if opponent_name.lower() in name.lower() or name.lower() in opponent_name.lower():
-                roster_url = url
-                opponent_name = name
-                break
-
-    if not roster_url:
-        print(f"   ⚠️  No roster URL for opponent: {opponent_name}")
-        return []
-
-    # Fetch opponent roster
-    opponent_config = {
-        "name": opponent_name,
-        "mls_roster_url": roster_url,
-    }
-
-    print(f"   Fetching {opponent_name} roster...")
-    try:
-        roster = await fetch_roster(opponent_config)
-    except Exception as e:
-        print(f"   ⚠️  Could not fetch opponent roster: {e}")
-        return []
-
-    if not roster:
-        print(f"   ⚠️  No players found for {opponent_name}")
-        return []
-
-    # Check what we already have
     team_db = db.get(opponent_name, {})
     already_scouted = list(team_db.keys())
 
-    # Pick players to research
-    to_scout = pick_players_to_scout(roster, already_scouted)
-    if not to_scout:
-        print(f"   ✅ All {opponent_name} players already in database ({len(already_scouted)} scouted)")
-        return list(team_db.values())
+    # Build exclude clause so we don't re-research known players
+    exclude_clause = ""
+    if already_scouted:
+        names = ", ".join(already_scouted)
+        exclude_clause = f"EXCLUDE these players (already in our database): {names}"
 
-    print(f"   🔍 Scouting {len(to_scout)} new players: {', '.join(p['name'] for p in to_scout)}")
+    # Ask Perplexity to find 3 players with social media + partner social media
+    prompt = OPPONENT_SCOUT_PROMPT.format(
+        opponent_name=opponent_name,
+        exclude_clause=exclude_clause,
+    )
 
-    # Research them
-    scouted = await research_all(to_scout)
+    print(f"   Asking Perplexity for {opponent_name} players with active social media...")
+    result = await _call_perplexity(prompt)
+    candidates = _extract_json(result)
+
+    if not candidates:
+        print(f"   ⚠️  Could not parse opponent scout results")
+        return []
+
+    # Handle case where result is a dict with a list inside
+    if isinstance(candidates, dict):
+        for key in ("players", "results", "data"):
+            if key in candidates and isinstance(candidates[key], list):
+                candidates = candidates[key]
+                break
+        else:
+            candidates = [candidates]
+
+    # Filter: must have both player and partner Instagram
+    valid = []
+    for c in candidates:
+        if not c.get("player_instagram") or not c.get("partner_instagram"):
+            print(f"   ⚠️  Skipping {c.get('name', '?')} — missing player or partner Instagram")
+            continue
+        if c.get("name") in already_scouted:
+            continue
+        valid.append(c)
+
+    if not valid:
+        print(f"   ⚠️  No valid candidates found (need both player + partner Instagram)")
+        return []
+
+    print(f"   🔍 Scouting {len(valid)} players: {', '.join(c['name'] for c in valid)}")
+
+    # Build player dicts and run full research + verify on each
+    players = []
+    for c in valid:
+        player = {
+            "name": c["name"],
+            "jersey_number": c.get("jersey_number"),
+            "position": c.get("position", "Unknown"),
+            "player_instagram": c.get("player_instagram"),
+            "partner_name": c.get("partner_name"),
+            "partner_instagram": c.get("partner_instagram"),
+        }
+        players.append(player)
+
+    # Research and verify in parallel
+    research_tasks = [research_player(p, opponent_name) for p in players]
+    await asyncio.gather(*research_tasks)
+
+    verify_tasks = [verify_player(p) for p in players]
+    await asyncio.gather(*verify_tasks)
 
     # Save to database
-    for player in scouted:
+    for player in players:
         name = player.get("name", "")
         if name:
-            team_db[name] = player
+            # Store a clean version (no binary data)
+            entry = {k: v for k, v in player.items() if k not in ("headshot_b64", "caricature_b64")}
+            team_db[name] = entry
 
     db[opponent_name] = team_db
     save_opponent_db(db, db_path)
 
     print(f"   💾 Opponent database updated: {len(team_db)} total players for {opponent_name}")
 
-    return scouted
+    return players

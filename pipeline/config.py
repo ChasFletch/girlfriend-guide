@@ -136,6 +136,43 @@ Return JSON:
 
 Flag anything that conflicts with the original claims."""
 
+OPPONENT_SCOUT_PROMPT = """Find 3 players from {opponent_name} (MLS soccer team) who meet ALL of these criteria:
+
+1. The player has an ACTIVE, PUBLIC Instagram account (required — no Instagram = skip this player)
+2. The player has a wife or girlfriend who ALSO has an active, public Instagram account (required)
+3. The player is notable enough that fans would recognize them (starter, fan favorite, star player)
+
+This is for a "Girlfriend Guide" — a fun guide for people who got dragged to the game. We care about
+social media, relationships, and personality — NOT career stats.
+
+SEARCH STRATEGY:
+- Start with the team's most well-known players (DPs, national team players, fan favorites)
+- For each candidate, search "{player_name} instagram" to confirm they have an active account
+- Then search "{player_name} wife instagram" or "{player_name} girlfriend instagram"
+- ONLY include the player if BOTH the player AND their partner have confirmed Instagram handles
+- If you cannot confirm both handles, skip that player and try the next one
+
+{exclude_clause}
+
+Return EXACTLY 3 players as a JSON array. For each player return:
+[
+  {{
+    "name": "Full Name",
+    "jersey_number": 10,
+    "position": "Forward",
+    "player_instagram": "@confirmed_handle",
+    "partner_name": "Partner's Name",
+    "partner_instagram": "@confirmed_handle",
+    "one_liner": "One fun sentence about why this player is worth knowing"
+  }}
+]
+
+CRITICAL RULES:
+- Do NOT include a player unless you can confirm BOTH Instagram handles exist
+- Do NOT guess or fabricate Instagram handles — only include handles you found via search
+- If you cannot find 3 players who meet ALL criteria, return fewer. Quality over quantity.
+- Set any field to null if you cannot confirm it — do NOT make up data."""
+
 CARICATURE_PROMPT = """Transform this soccer player photo into a fun cartoon caricature.
 Exaggerated features, bold outlines, vibrant colors, playful confident expression.
 Keep the likeness clearly recognizable — this should look like THIS specific person.
