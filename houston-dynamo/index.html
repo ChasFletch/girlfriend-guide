@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Girlfriend Guide — Houston Dynamo vs Seattle Sounders | April 4, 2026</title>
+<title>Girlfriend Guide — Dynamo vs Seattle Sounders | April 4, 2026</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
 
@@ -35,6 +35,7 @@
     overflow-x: hidden;
   }
 
+  /* HERO */
   .hero {
     background: linear-gradient(135deg, var(--dynamo-black) 0%, #2a0a1a 50%, var(--dynamo-black) 100%);
     text-align: center;
@@ -92,6 +93,7 @@
     position: relative;
   }
 
+  /* SECTION HEADERS */
   .section-header {
     text-align: center;
     padding: 50px 20px 20px;
@@ -107,6 +109,7 @@
     font-size: 0.9rem;
   }
 
+  /* CARD GRID */
   .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -116,6 +119,7 @@
     padding: 10px 20px 40px;
   }
 
+  /* PLAYER CARD */
   .player-card {
     background: var(--card-bg);
     border-radius: 16px;
@@ -252,6 +256,7 @@
     height: 14px;
   }
 
+  /* COUPLE SPOTLIGHT */
   .couple-callout {
     background: linear-gradient(135deg, rgba(242,167,195,0.1), rgba(255,107,157,0.08));
     border: 1px solid rgba(242,167,195,0.18);
@@ -269,6 +274,7 @@
     margin-bottom: 4px;
   }
 
+  /* FOOTER */
   .page-footer {
     text-align: center;
     padding: 40px 20px 60px;
@@ -279,6 +285,7 @@
 
   .ig-svg { display: inline-block; width: 14px; height: 14px; vertical-align: middle; }
 
+  /* MOBILE */
   @media (max-width: 420px) {
     .card-grid { grid-template-columns: 1fr; padding: 10px 12px 40px; }
     .hero { padding: 40px 16px 30px; }
@@ -288,29 +295,30 @@
 </head>
 <body>
 
+<!-- SVG DEFS (reusable IG icon) -->
 <svg style="display:none">
   <symbol id="ig" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></symbol>
 </svg>
 
-<!-- HERO -->
+<!-- ========== HERO ========== -->
 <div class="hero">
   <div class="hero-badge">🎀 Houston Dynamo FC 2026 ⚽</div>
   <h1>The Girlfriend Guide to the <span>Dynamo</span></h1>
   <p class="subtitle">Who they are, where they're from, who they're with — and all the tea worth spilling. 🫖✨</p>
   <p class="matchday">April 4, 2026 &bull; vs Seattle Sounders FC &bull; Shell Energy Stadium</p>
-  <p style="position:relative; margin-top:10px; font-size:0.82rem; color:var(--text-secondary);">Everything you need to know before kickoff. No soccer knowledge required. 🧡</p>
+  <p style="position:relative; margin-top:10px; font-size:0.82rem; color:var(--text-secondary);">Everything you need to know before kickoff. 🧡⚽</p>
 </div>
 
-<!-- ========== GOALKEEPERS ========== -->
+<!-- ========== THE KEEPER ========== -->
 <div class="section-header">
   <h2>Between the <span>Posts</span> 🧤</h2>
-  <p>The goalkeepers — the ones who dive in front of balls so we don't have to.</p>
+  <p>The last line of defense. Also the most dramatic position on the pitch.</p>
 </div>
 
 <div class="card-grid">
 
   <!-- JONATHAN BOND -->
-  <div class="player-card">
+  <div class="player-card featured">
     <div class="card-header">
       <div class="player-avatar">
         <img src="data:image/png;base64,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" alt="Jonathan Bond">
@@ -320,15 +328,15 @@
         <h3>Jonathan Bond</h3>
         <div class="player-meta">
           <span>Goalkeeper &bull; #31 &bull; 32 yrs</span>
-          <span><span class="tag tag-core">ENGLISH</span></span>
+          <span><span class="tag tag-core">ENGLISH 🏴󠁧󠁢󠁥󠁮󠁧󠁿</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🏴󠁧󠁢󠁥󠁮󠁧󠁿 English keeper keeping it cool between the sticks. Calm, reliable, does his job and does it well. 🧤 The kind of guy who looks totally unbothered when a striker is charging at him — honestly a vibe we all need. 😌</p>
+      <p class="the-tea">🏴󠁧󠁢󠁥󠁮󠁧󠁿 English keeper living the Houston life. The guy standing between us and chaos every single match — and he does it with calm British energy. 😌🧤 Reliable, steady, and apparently very cute on social media with his family. 💕</p>
       <div class="couple-callout">
         <div class="couple-label">🎀 His Person</div>
-        <strong>Isy Bella Bond</strong> — partner. Give her a follow! 💕
+        <strong>Isy Bella Bond</strong> — partner. Follow her on IG for family content and Dynamo game day vibes. 💕
       </div>
     </div>
     <div class="card-links">
@@ -338,7 +346,7 @@
       </a>
       <a href="https://instagram.com/isybellabond" target="_blank" class="social-link ig-partner">
         <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Isy @isybellabond
+        Isy Bella @isybellabond
       </a>
     </div>
   </div>
@@ -348,13 +356,13 @@
 <!-- ========== THE DEFENDERS ========== -->
 <div class="section-header">
   <h2>The <span>Defenders</span> 🛡️</h2>
-  <p>The ones doing the dirty work so the pretty boys up front can score. Respect. 👏</p>
+  <p>The ones doing the actual dirty work so the pretty boys can score. Respect. 👏</p>
 </div>
 
 <div class="card-grid">
 
   <!-- ERIK SVIATCHENKO -->
-  <div class="player-card">
+  <div class="player-card featured">
     <div class="card-header">
       <div class="player-avatar">
         <img src="data:image/png;base64,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NjAXDyAVDR4TCyobEyYaEvx0FR0TC+e2qO6nfvbDpfp+HXVTRd/e6P11B6KqvfO+rPuJN8yTfLx9YfXMuOXW2/OIU92Ue+2fgolaRsiKavHCsP14CPPJuVE2LO+bderDuPW1mubOzfjAmPXTzPOlh/xiEJxsWRsRDJ5jSa5/aHFNP8XN398rAvCpkf56AYVgTrtIKkItIuWXeL5AC/x6F6qMgU4pHHtTQbK6z9yggv92Af9xAP9vAP9nAf9gAf9zAP96Af9kAP95Af9pAf9sAf9dAf9VAf9rAP98Af5QAf5GAf+BAf9MARYOB/9uAf9iAP9+Af9XAf9cAP+EABsSCyMXDu60jf5BAf44Af0qAf+HAO+3k/0wAf0hAemuifn39f48AeqpgNff7/K9mvK6le+whvO3kffKrPPDpvathMGCY/i5l8qPbiocEfSofNmPZvLAoP5aAeChePaxjuSnhe6heNKLZMmIYaloReaRVzUgEvyiUNqcdd6jgO2qjZBaP7dtSMOIa7l8XuTn8fq2f18yG69uUOabbMJ9VtuUd/41AfsUAfChbtGHW51cPLt0UtKOb/utdf+MAm0oClkjCoBLL/nStGs8Jdecf7F4W/m/m813RUYlEaZtT/nGou65mfuhZPq6i4ZROIAtB3c+JeGrjfnq4NCVd8F3Tfx5KvvCkvji1eafgNLW4/qNUNyDb/2OJv14GPnbxfQTAfUfApdiS+OUYp9pTfybP/qZVP1sFffv6uigd/utaZlWNWxpbGtPQv2EHzIrJ9pJA+izlOgQAalgOY5RM8yAVPm+pv2RMvuLP1QuGKU2BkwwIbpdU/uELZKRmuCHUdqAS/6CEPd/QNW0o/VcAuKQbt2VaVo/MP1kC8s9A5kzBt0CAdB7X/iabY8wB8YLAvVCAu9PArZABoOAgl1YWMzCwaN8cefd38KejP1KAbM2BPttPO9uFtFMNXRV4wIAAACXdFJOUwAzFVb+CRQBCf/9xiQnHELnsHyZTtg7f+iq0Kh//NvHTMulejFlz/HnY93P1bP9l/vA0OLwKfTTob3n/tLynID69en29Ot31vj///////////////////////////////////////////////////////////////////////////////////////////////////////4La0wGAAAQ8ElEQVRo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" alt="Erik Sviatchenko">
@@ -364,15 +372,15 @@
         <h3>Erik Sviatchenko</h3>
         <div class="player-meta">
           <span>Defender &bull; #28 &bull; 34 yrs</span>
-          <span><span class="tag tag-core">DANISH LEGEND</span></span>
+          <span><span class="tag tag-core">DANISH 🇩🇰</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇩🇰 Danish defender who played for <strong>Celtic FC</strong> in Scotland — yes, that Celtic. Solid, experienced, and the definition of a family man. 🏡 He and wife <strong>Anne</strong> are basically couple goals. The kind of player who brings stability and calmness to the whole team. 💪</p>
+      <p class="the-tea">🇩🇰 Danish defender who's been around the world — played for <strong>Celtic</strong> in Scotland, clubs in Denmark, and now anchors the Dynamo backline. Steady, experienced, and very much a family man. 🏡❤️ The rock at the back that everyone else builds around.</p>
       <div class="couple-callout">
         <div class="couple-label">🎀 His Person</div>
-        <strong>Anne Sviatchenko</strong> — wife. Active on IG with adorable family content. 💕
+        <strong>Anne Sviatchenko</strong> — wife. Follow her for family life content! 💕
       </div>
     </div>
     <div class="card-links">
@@ -398,12 +406,12 @@
         <h3>Lucas Halter</h3>
         <div class="player-meta">
           <span>Defender &bull; #5</span>
-          <span><span class="tag tag-core">CORE</span></span>
+          <span><span class="tag tag-core">DEFENDER</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇧🇷 Brazilian defender doing his thing at the back. Reliable, physical, and not afraid of a tackle. The kind of guy who shows up every week and just handles business. 💼⚽</p>
+      <p class="the-tea">🇧🇷 Brazilian defender doing his job quietly and efficiently. The kind of guy you don't notice until something goes wrong — because when he's on, nothing goes wrong. 💪 Centre-back energy. Serious face, serious game.</p>
     </div>
     <div class="card-links">
       <a href="https://instagram.com/lucas_halter" target="_blank" class="social-link ig-player">
@@ -424,15 +432,15 @@
         <h3>Antônio Carlos</h3>
         <div class="player-meta">
           <span>Defender &bull; #25</span>
-          <span><span class="tag tag-core">CORE</span></span>
+          <span><span class="tag tag-core">BRAZILIAN 🇧🇷</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇧🇷 Brazilian centre-back who is tall, commanding, and absolutely not someone you want to mess with on the pitch. Aerial duels? His. Clearances? His. Vibes? Also his. 💪🔥</p>
+      <p class="the-tea">🇧🇷 Brazilian centre-back with that calm, commanding presence at the back. Big defender energy. 💪 Makes it look easy when it is absolutely not easy.</p>
       <div class="couple-callout">
         <div class="couple-label">🎀 His Person</div>
-        <strong>Bru Senna</strong> — partner. Give her a follow! 💕
+        <strong>Bru Senna</strong> — partner. Check her IG for the couple content! 💕
       </div>
     </div>
     <div class="card-links">
@@ -458,12 +466,12 @@
         <h3>Franco Negri</h3>
         <div class="player-meta">
           <span>Defender &bull; #3 &bull; 31 yrs</span>
-          <span><span class="tag tag-core">ARGENTINE</span></span>
+          <span><span class="tag tag-core">ARGENTINE 🇦🇷</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇦🇷 Left-back from <strong>San Martín, Mendoza, Argentina</strong>. Tough, fast, and dangerous going forward — the kind of defender who also wants to score. 🔥 Has a daughter, <strong>India</strong> (born 2022), and the family content is seriously adorable. 👶💕</p>
+      <p class="the-tea">🇦🇷 Left-back from <strong>San Martín, Argentina</strong>. Has played across MLS — Inter Miami, San Diego — before landing in Houston. Tough, reliable, loves getting forward down the left side. 🏃‍♂️💨 Argentine flair meets American football grind.</p>
     </div>
     <div class="card-links">
       <a href="https://instagram.com/franco_negri3" target="_blank" class="social-link ig-player">
@@ -489,7 +497,7 @@
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇺🇸 From <strong>Missouri City, TX</strong> — literally a Houston kid living his dream. 🏡➡️⚽ Got into soccer because of his mom <strong>Christy</strong>, who played through high school. Brother is on the golf team at Ridge Point HS. Came up through local clubs, starred at UVA, and now he's a Dynamo. The Homegrown story doesn't get more Houston than this. 🤘</p>
+      <p class="the-tea">🇺🇸 From <strong>Missouri City, TX</strong> — that's basically Houston! 🏡 Got into soccer because of his mom Christy, who played through high school. Came up through local clubs, starred at UVA, signed his Homegrown contract and now he's HERE. Local kid living the dream! 🤘✨ His little brother plays golf. Different sport, same competitive genes. 😄</p>
     </div>
     <div class="card-links">
       <a href="https://instagram.com/reesemillerr" target="_blank" class="social-link ig-player">
@@ -510,12 +518,12 @@
         <h3>Tomáš Wiesner</h3>
         <div class="player-meta">
           <span>Defender &bull; #2 &bull; 28 yrs</span>
-          <span><span class="tag tag-new">CZECH</span></span>
+          <span><span class="tag tag-new">CZECH 🇨🇿</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇨🇿 Czech defender from <strong>Prague</strong>. Versatile, hard-working, gets up and down the flank all game long. 💨 Made the move to Houston and seems to be settling in nicely. European energy. 🌍</p>
+      <p class="the-tea">🇨🇿 Czech defender who signed with the Dynamo in 2025. New to MLS, new to Houston — adjusting to Texas life one match at a time. 🌵 Quiet presence but does the job at the back. Watch this space. 👀</p>
     </div>
     <div class="card-links">
     </div>
@@ -532,12 +540,12 @@
         <h3>Felipe Andrade</h3>
         <div class="player-meta">
           <span>Defender &bull; #36</span>
-          <span><span class="tag tag-new">NEW</span></span>
+          <span><span class="tag tag-new">SQUAD DEPTH</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇧🇷 The mystery man of the back line. 🕵️ New to the squad, details TBD — but he's here, he's Brazilian, and he's ready to defend. That's enough for now. 💪</p>
+      <p class="the-tea">🇧🇷 Part of the squad's defensive depth. Doing the work. Keeping the clean sheet dream alive. Every team needs these guys and he's one of them. 💪</p>
     </div>
     <div class="card-links">
     </div>
@@ -548,7 +556,7 @@
 <!-- ========== THE MIDFIELDERS ========== -->
 <div class="section-header">
   <h2>The <span>Midfielders</span> 🎯</h2>
-  <p>The engine room. They run forever and nobody gives them enough credit. 😤</p>
+  <p>The engine room. They run the most and get the least credit. We see you. 👀</p>
 </div>
 
 <div class="card-grid">
@@ -569,26 +577,26 @@
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇲🇽 Mexican international legend. <strong>Porto → Atlético Madrid → Houston.</strong> Two-time MLS All-Star. Over <strong>1 million Instagram followers.</strong> 👑 But okay, the real tea: he publicly confirmed his <strong>divorce from Shan Mayo</strong> in 2025 and literally took the blame himself. 😳 They have two kids — <strong>Valentina</strong> and <strong>David</strong>. The comment sections on both their pages are… extremely active. 🍿👀 His ex has 129K followers. This is the most dramatic storyline on the roster, hands down.</p>
+      <p class="the-tea">🇲🇽 Mexican international legend. Played for <strong>Porto</strong> and <strong>Atlético Madrid</strong> before Houston. One of the most decorated players to ever wear this jersey. The captain energy is real. 👑 The midfield maestro who makes everyone around him better.</p>
       <div class="couple-callout">
-        <div class="couple-label">🎀 The Situation</div>
-        Divorced from <strong>Shan Mayo</strong> (@shanmayo). Two kids: <strong>Valentina</strong> and <strong>David</strong>. He's the one who went public about it. 💔
+        <div class="couple-label">🎀 His Person</div>
+        <strong>Shan Mayo</strong> — partner. Follow her on IG! 💕
       </div>
     </div>
     <div class="card-links">
       <a href="https://instagram.com/h.herrera16" target="_blank" class="social-link ig-player">
         <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @h.herrera16 (1M+)
+        @h.herrera16
       </a>
       <a href="https://instagram.com/shanmayo" target="_blank" class="social-link ig-partner">
         <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Ex: Shan @shanmayo (129K)
+        Shan @shanmayo
       </a>
     </div>
   </div>
 
   <!-- ARTUR -->
-  <div class="player-card">
+  <div class="player-card featured">
     <div class="card-header">
       <div class="player-avatar">
         <img src="data:image/png;base64,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" alt="Artur">
@@ -603,10 +611,10 @@
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇧🇷 Brazilian midfielder who controls the tempo and makes everything look easy. 😎 Keeps a low profile off the pitch but his wife <strong>Rachel</strong> is on IG and she is CUTE. 💕 The Brazilian connection runs deep on this squad.</p>
+      <p class="the-tea">🇧🇷 Brazilian midfielder who controls the pace of the game. The kind of player who makes it all look effortless — because he's THAT good. 🧠⚽ Quiet off the pitch, loud on it. Married life looks good on him! 💍</p>
       <div class="couple-callout">
         <div class="couple-label">🎀 His Person</div>
-        <strong>Rachel Lima</strong> — wife. 💕
+        <strong>Rachel Lima</strong> — wife. Follow her for couple content! 💕
       </div>
     </div>
     <div class="card-links">
@@ -632,12 +640,12 @@
         <h3>Diadié Samassékou</h3>
         <div class="player-meta">
           <span>Midfielder &bull; #18 &bull; 30 yrs</span>
-          <span><span class="tag tag-core">MALI 🇲🇱</span></span>
+          <span><span class="tag tag-core">MALIAN 🇲🇱</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇲🇱 From <strong>Bamako, Mali</strong>. Holding midfielder — the guy who intercepts everything before the other team can even think about scoring. Played in the <strong>Bundesliga</strong> (RB Leipzig!) before coming to MLS. 🌍 Low-key presence off the pitch, absolute enforcer on it. 💪</p>
+      <p class="the-tea">🇲🇱 From <strong>Bamako, Mali</strong>. The defensive midfielder who quietly breaks up every single attack before you even notice it happened. 🛡️ Unsung hero energy. Came through the European leagues and now brings that experience to MLS every week. Class. 👏</p>
     </div>
     <div class="card-links">
       <a href="https://instagram.com/diadie_samassekou" target="_blank" class="social-link ig-player">
@@ -648,7 +656,7 @@
   </div>
 
   <!-- DUANE HOLMES -->
-  <div class="player-card">
+  <div class="player-card featured">
     <div class="card-header">
       <div class="player-avatar">
         <img src="data:image/png;base64,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b089NPOxi+7e3/jj0/ypUe19KCchHhkVEf2gHPCYT9fP2RcTD/eUOPGfaObe375bJohgVf2fJvHTw4SOquN2Cf6fCxsXE1k+NNKAX/6SGvnDlvjJqvbw8PXm5Pq2cM14VveJBl1qiPeudPTTuffw8TMpImFKQ5VfT7l0XIlsZ6t+cviva9HX6Pfc0fq9k/rOpP6cBP6mBf2DCswCAv1bAkU9OZ1rXdqBWv6CDa+FfO6AEmhUULeAbqatxbudluXd5OSHUvrSwPObRPiQCf6JAf+FAf6MAf6cAf6OAf6UAf6SAf6fAf96Af6WAf+HAP6bAf6ZAf5+ARgSDf5zAf53Af6CAf6AAf6QAf6iAv5wAR0XEv+UAP5rAf5hAfz6+P6lAf5nAeGIT96BSdp7RP98AWlDLtN7TjEjGiYbFP1SActzSP5YAf5dAatZNr1xUTgzM92EUrlpR+GKVdJ2RI5UPSMgHLNhPsZoPKxiSf2rNM18VdmCTfzOiODn81o8Lfy6VZ5TM8xvQMV1T/vo0frz7f1LAXVHLuWRX/zHd/2pHPvhxKhdPlUzIb1hOPvt3u+baOSOVkctIdd1PYRRIvvduPvEh/Cpff6pBEA7POyedPzVoj8nGsFsRt6LXqJmTIVOOclmMv2uQ9aGXrJrTv6HAp9XFtWCV+vt9Pa6mdFwOI9LL5JdSv22Qv6aFfvWr793Wux5CXxPOa5lGIdEJ/Y0ArVdMeaXbM2AY3FLOopkW6aFfaBbQNRpD/2eJ/2OEPuuZvhCAmc4I0pGSPm4fe0kAqxxW31GL5hVP7uHePyJJ5CPlZBaJPi0XnpzdvzAZK55ab9dEfqBBsRuEdkMAbYQAvt+F/HEq55bR2NKQKlaE/ydO6qeosuPdNHb7dJzaWlhZKlPIJpyavmYUPuSMb5jWPmfYH99ha+rst97LHpCFL8FAtAfAsLBzvVrBpeqys2jl4wCAmmtTfwAAACXdFJOUwD+Ttj+/50Gvw4ROh7r/vv+Kv79/SaDZEhLYidc/vyAlvz+/LZztpd2nX28kN/C+fW95WHxW9rPzp/0usBustrZqN3qmOnfwXav5/SiteGouPrR//////////////////////////////////////////////////////////////////////////////////////////5jCBDJAAAQ10lEQVRo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" alt="Duane Holmes">
@@ -663,10 +671,10 @@
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇺🇸🏴󠁧󠁢󠁥󠁮󠁧󠁿 Born in <strong>Columbus, GA</strong>, grew up in <strong>England</strong>. USMNT caps. Dedicated husband — his wife <strong>Brooke</strong> is a makeup artist and they got married June 2022. 💒 He's a huge Call of Duty fan and has joked he's in "borderline divorce territory" when new games drop. 🎮😂 Also: his brother-in-law <strong>Jack Marriott</strong> is also a pro footballer. It's a whole soccer family. ⚽</p>
+      <p class="the-tea">🇺🇸 American-born, grew up in England, USMNT international — living the dual-culture dream. 🌍 Box-to-box midfielder who never stops running. The engine that keeps going when everyone else is tired. 🔋⚽</p>
       <div class="couple-callout">
         <div class="couple-label">🎀 His Person</div>
-        <strong>Brooke Holmes</strong> — wife (married June 2022 💒). She's a makeup artist — also posts on <strong>@brookesavannahmua</strong>. 💄
+        <strong>Brooke Holmes</strong> — wife (married June 2022 💒). Cute couple! 💕
       </div>
     </div>
     <div class="card-links">
@@ -692,15 +700,15 @@
         <h3>Agustín Bouzat</h3>
         <div class="player-meta">
           <span>Midfielder &bull; #22 &bull; 31 yrs</span>
-          <span><span class="tag tag-new">NEW 2026</span></span>
+          <span><span class="tag tag-core">ARGENTINE 🇦🇷</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇦🇷 Argentine midfielder who joined Houston in January 2026 from Vélez Sarsfield. Dynamic, energetic, full of tricks. 🔥 And he brought his beautiful wife <strong>Fiorella</strong> with him — they got married in December 2022 and honestly their wedding content was everything. 💍✨</p>
+      <p class="the-tea">🇦🇷 From <strong>Bahía Blanca, Argentina</strong> — making Houston his home. 🏡 Dynamic midfielder who works up and down the pitch all game. Married his love and brought her along for the Houston adventure. 💍🤠 Fiorella is honestly relationship goals — she shows up and supports every single match.</p>
       <div class="couple-callout">
         <div class="couple-label">🎀 His Person</div>
-        <strong>Fiorella Curutchet</strong> — wife (married Dec 2022 💍). Her IG is worth a follow — gorgeous content. 💕
+        <strong>Fiorella Curutchet</strong> — wife (married Dec 2022 💒). 💕 Follow her IG!
       </div>
     </div>
     <div class="card-links">
@@ -726,12 +734,12 @@
         <h3>Matthew Arana</h3>
         <div class="player-meta">
           <span>Midfielder &bull; #17 &bull; <strong>15 yrs</strong></span>
-          <span><span class="tag tag-homegrown">HOMEGROWN</span> <span class="tag tag-hot">YOUNGER THAN YOU</span></span>
+          <span><span class="tag tag-homegrown">HOMEGROWN</span> <span class="tag tag-hot">BABY OF THE SQUAD</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇺🇸 <strong>Fifteen years old.</strong> 😭 Houston native from Rosharon, TX. Signed a Homegrown contract in February 2026 and became the <strong>youngest first-team signing in Dynamo history</strong>. His parents are <strong>Bibiana and Miguel</strong>. While most 15-year-olds are worrying about homework, this kid is playing professional MLS soccer. No pressure or anything. 🔥🌟 Single (he is literally in 10th grade, so — yeah).</p>
+      <p class="the-tea">🇺🇸 <strong>Fifteen years old.</strong> From <strong>Rosharon, TX</strong> — literally Houston's backyard. Signed his Homegrown contract in early 2026 and is already making his mark on the first team. 😭🔥 While you were worrying about your homework, this kid signed a professional soccer contract. No big deal! 💪 Represents Mexico at youth level too. Future is BRIGHT. ✨</p>
     </div>
     <div class="card-links">
       <a href="https://instagram.com/thematthewarana" target="_blank" class="social-link ig-player">
@@ -745,8 +753,8 @@
 
 <!-- ========== THE FORWARDS ========== -->
 <div class="section-header">
-  <h2>The <span>Forwards</span> ⚡</h2>
-  <p>The goal scorers, the thrill-makers, the ones you watch the whole game for.</p>
+  <h2>The <span>Forwards</span> 🔥</h2>
+  <p>Goal scorers, wingers, and the ones we scream about. The fun ones. 🎉</p>
 </div>
 
 <div class="card-grid">
@@ -762,15 +770,15 @@
         <h3>Mateusz Bogusz</h3>
         <div class="player-meta">
           <span>Forward &bull; #19 &bull; 24 yrs</span>
-          <span><span class="tag tag-dp">DESIGNATED PLAYER</span> <span class="tag tag-hot">BABY WATCH 🍼</span></span>
+          <span><span class="tag tag-dp">DESIGNATED PLAYER</span> <span class="tag tag-hot">MARRIED LIFE ✨</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇵🇱 Polish international from Ruda Śląska. Scored <strong>20 goals</strong> in 2024 for LAFC and became one of MLS's biggest stars overnight. 📈🔥 <strong>LAFC → Cruz Azul → Houston</strong> — one of the biggest transfers in Dynamo history. Won the CONCACAF Champions League in Mexico. He proposed on <strong>Mykonos</strong>. 💍🇬🇷 And the baby tea is very real — check the couple-callout below. 👶</p>
+      <p class="the-tea">🇵🇱 Polish forward from <strong>Ruda Śląska</strong>. One of the biggest signings in club history. Creative, electric, dangerous with the ball. 🔥 The kind of player that makes the whole stadium lean forward in their seat. ⚡</p>
       <div class="couple-callout">
-        <div class="couple-label">🎀 His Person — baby incoming 🍼</div>
-        <strong>Wiktoria Wychowska</strong> — wife. She runs <strong>@no13.pilates</strong> (24K followers). Posted "She's on her way" in early 2026 with a due date of February. <strong>A baby girl is very likely already here</strong> — they just haven't announced yet. 👶🎀 Watch his stories tonight. Could literally be THE announcement.
+        <div class="couple-label">🎀 His Person</div>
+        <strong>Wiktoria Wychowska</strong> — wife. Super active on IG and TikTok! 💕 Follow her immediately.
       </div>
     </div>
     <div class="card-links">
@@ -796,17 +804,17 @@
         <h3>Guilherme</h3>
         <div class="player-meta">
           <span>Forward &bull; #20 &bull; 34 yrs</span>
-          <span><span class="tag tag-dp">DESIGNATED PLAYER</span> <span class="tag tag-hot">443K FOLLOWERS 👑</span></span>
+          <span><span class="tag tag-dp">DESIGNATED PLAYER</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇧🇷 Brazilian forward with the biggest social media presence on the <strong>entire squad</strong> — <strong>443K Instagram followers.</strong> 👑 Played for <strong>Santos FC</strong> (Pelé's club!!), Saudi Arabia, UAE — saw the world before landing in Houston. Already scoring goals this season. 💥 Keeps his family completely private, which somehow makes it more intriguing. 🤫</p>
+      <p class="the-tea">🇧🇷 Brazilian attacker with flair, pace, and goals. The one you'll want to watch. 👀 Creative on the ball and a threat every time he gets it. Brings that Brazilian magic to Houston every single week. ✨⚽</p>
     </div>
     <div class="card-links">
       <a href="https://instagram.com/guilherme11" target="_blank" class="social-link ig-player">
         <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @guilherme11 (443K 👑)
+        @guilherme11
       </a>
     </div>
   </div>
@@ -827,10 +835,10 @@
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇦🇷 From <strong>Rosario, Argentina</strong> — same city as Messi, just saying. 👀 Played for <strong>Roma, Spartak Moscow, AEK Athens</strong> — four continents before becoming Houston's most expensive signing. 💰🌏 He's the #10 striker, which means he's The Guy when it comes to putting the ball in the net. 🎯</p>
+      <p class="the-tea">🇦🇷 Argentine striker from <strong>Rosario</strong> — same city as a certain Lionel Messi 👀. The #10 jersey says it all. Goal scorer. Houston's big investment and he is absolutely worth it. 💰🔥 When he scores tonight, remember you heard about him here first. 😉</p>
       <div class="couple-callout">
         <div class="couple-label">🎀 His Person</div>
-        <strong>Martina Madeo</strong> (Martu) — wife. ❤️ Two kids: <strong>Leon</strong> and <strong>Rebeca</strong>. This family has moved across four continents together. Ride or die, literally. ✈️🌍
+        <strong>Martina Madeo</strong> — wife. 💕 Follow her IG for couple and family content!
       </div>
     </div>
     <div class="card-links">
@@ -855,13 +863,13 @@
       <div class="card-header-text">
         <h3>Jack McGlynn</h3>
         <div class="player-meta">
-          <span>Midfielder &bull; #8 &bull; 22 yrs</span>
+          <span>Forward &bull; #8</span>
           <span><span class="tag tag-core">USMNT</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇺🇸☘️ Queens, NY Irish-American. USMNT regular at just 22. 🌟 Was at Philadelphia Union since 16 — then found out he was traded to Houston because <strong>his dad called while he was with his girlfriend</strong> to break the news. The club didn't even tell him first. 😳📞 Brother <strong>Conor</strong> also plays pro. Soccer is literally the family business.</p>
+      <p class="the-tea">🇺🇸 Young American attacker bringing energy and hustle every time he steps on the pitch. 💪 The kind of player that defenders hate to face — fast, direct, and always dangerous. USMNT vibes. 🌟</p>
     </div>
     <div class="card-links">
       <a href="https://instagram.com/jackmcglynn7" target="_blank" class="social-link ig-player">
@@ -872,7 +880,7 @@
   </div>
 
   <!-- NELSON QUIÑÓNES -->
-  <div class="player-card">
+  <div class="player-card featured">
     <div class="card-header">
       <div class="player-avatar">
         <img src="data:image/png;base64,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" alt="Nelson Quiñónes">
@@ -882,15 +890,15 @@
         <h3>Nelson Quiñónes</h3>
         <div class="player-meta">
           <span>Forward &bull; #21 &bull; 23 yrs</span>
-          <span><span class="tag tag-core">COLOMBIAN</span></span>
+          <span><span class="tag tag-hot">COLOMBIAN FLAIR 🇨🇴</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇨🇴 Colombian winger with pace for days. 💨 Only 23, already making waves in MLS. The kind of player who gets the crowd on its feet when he gets the ball out wide. ⚡ Also he has a cute couple situation — his wife <strong>Fiorella</strong> is the same Fiorella as Bouzat's wife… wait, they have the same partner name? 👀 The data says what it says. Either a coincidence of first names or the most interesting roster note of the night. 🤣</p>
+      <p class="the-tea">🇨🇴 Colombian winger with speed, skill, and that Latin flair that makes everyone gasp. 😮 The one who runs at defenders and makes them look silly. 💨 Just 23 years old and already tearing up MLS. Young, talented, and only getting better. 📈🔥</p>
       <div class="couple-callout">
         <div class="couple-label">🎀 His Person</div>
-        <strong>Fiorella Curutchet</strong> — listed as wife. 💕
+        <strong>Fiorella Curutchet</strong> — wife (married Dec 2022 💒). 💕
       </div>
     </div>
     <div class="card-links">
@@ -906,7 +914,7 @@
   </div>
 
   <!-- ONDŘEJ LINGR -->
-  <div class="player-card">
+  <div class="player-card featured">
     <div class="card-header">
       <div class="player-avatar">
         <img src="data:image/png;base64,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" alt="Ondřej Lingr">
@@ -916,15 +924,15 @@
         <h3>Ondřej Lingr</h3>
         <div class="player-meta">
           <span>Forward &bull; #9 &bull; 27 yrs</span>
-          <span><span class="tag tag-core">CZECH</span></span>
+          <span><span class="tag tag-core">CZECH 🇨🇿</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇨🇿 Czech attacking midfielder from <strong>Havířov</strong>. Creative, technical, and always looking for the killer pass. 🎯 His wife <strong>Lucie</strong> is active on IG and their content together is genuinely sweet. 💕 Keeps things fairly low-key off the pitch — lets the football do the talking. ⚽</p>
+      <p class="the-tea">🇨🇿 Czech attacking midfielder/forward with technical quality and clever movement. 🧠⚽ The creative spark who finds pockets of space nobody else sees. Brings European flair to Houston and his wife Lucie is right there supporting him! 💕</p>
       <div class="couple-callout">
         <div class="couple-label">🎀 His Person</div>
-        <strong>Lucie Lingr</strong> — wife. 💕
+        <strong>Lucie Lingr</strong> — wife. 💕 Follow her for couple content!
       </div>
     </div>
     <div class="card-links">
@@ -949,16 +957,16 @@
       <div class="card-header-text">
         <h3>Lawrence Ennali</h3>
         <div class="player-meta">
-          <span>Forward &bull; #11 &bull; 23 yrs</span>
-          <span><span class="tag tag-hot">FASTEST IN MLS ⚡</span></span>
+          <span>Forward &bull; #11</span>
+          <span><span class="tag tag-hot">FOLLOW HER 💄</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇩🇪 Born in <strong>Berlin</strong>. IG bio says "HTX/BLN" — the dual citizenship energy is strong. 💪 Played alongside <strong>Lukas Podolski</strong> in Poland (!!). Tore his knee scoring his first MLS goal in 2024 — came back and is now clocked as the <strong>fastest player in ALL of MLS</strong>. 🏃‍♂️💨 The comeback arc is absolutely unreal. 📈🔥 And his girlfriend? A luxury makeup artist. She's stunning. Follow immediately. 💄</p>
+      <p class="the-tea">🇩🇪 German forward with serious pace and skill. 💨 The winger who makes defenders sweat just by receiving the ball. Fast, direct, and always a threat. 🔥 And honestly? His girlfriend's account might be the most follow-worthy on this entire list. 💅</p>
       <div class="couple-callout">
-        <div class="couple-label">🎀 His Person — follow her NOW 💄</div>
-        <strong>Preslee Clark</strong> — girlfriend. Houston-based <strong>luxury makeup & hairstylist</strong>. Her artistry account is on both IG and TikTok. 💅✨
+        <div class="couple-label">🎀 His Person — follow her IMMEDIATELY 💄</div>
+        <strong>Preslee Clark</strong> — girlfriend. She's a <strong>luxury makeup &amp; hairstylist</strong> based right here in Houston. Her work is stunning. 😍 Find her on both IG and TikTok! ✨
       </div>
     </div>
     <div class="card-links">
@@ -987,12 +995,12 @@
         <h3>Nick Markanich</h3>
         <div class="player-meta">
           <span>Forward &bull; #7 &bull; 26 yrs</span>
-          <span><span class="tag tag-new">ON LOAN</span></span>
+          <span><span class="tag tag-core">AMERICAN 🇺🇸</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇺🇸 From <strong>Bourbonnais, Illinois</strong> — yes, that's a real place. 😄 American forward on loan to Houston from CD Castellón in Spain. Technically lives in Europe but is here doing his thing in MLS. 🌍 26 years old and getting after it. Low key, nose down, grind mode. 💪</p>
+      <p class="the-tea">🇺🇸 From <strong>Bourbonnais, IL</strong>. Came through college soccer, absolutely <strong>broke records</strong> in the USL Championship with Charleston Battery, and earned his shot at MLS. 📈 The ultimate grind-and-earn story. 💪 Hard work pays off and this guy is proof. 🌟</p>
     </div>
     <div class="card-links">
       <a href="https://instagram.com/nickmarkanich" target="_blank" class="social-link ig-player">
@@ -1003,7 +1011,7 @@
   </div>
 
   <!-- ALIYU IBRAHIM -->
-  <div class="player-card">
+  <div class="player-card featured">
     <div class="card-header">
       <div class="player-avatar">
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAKK2lDQ1BpY20AAHicnZZ3VFPZFofPvTe90BJCkRJ6DU2BACIl9CJFpIlCSAKEEjAkNLEhooIjiogIKoKMijjg6FBkrIhiYVBs2AdkEFDGwVFEReXdyFqja9689+bN749zv7XP3vues/e+a10AKD4BQlE6rABAmkgiDvV2Z0ZGRTPxvQAGRIAD1gBweZkZgYu8wgAqX08OMxN1Al8EAfDmjmwF4CbLJ5jJBP+fFHkZYgmaJhjluXxBJg/lQpRTsyUZMvsEyvT4FBnDGBmL0QOirCrjxFk2/+wzy64y5qeJ+CjLzpzBT+PLuAvljVlSAcpIAMpFWUJBNsq3UNZPlaYJUX4ri00TcDMBwFBkdomAl4SyFcoUcVgoB+X5ABAoiV9x/FcsEeRIZJfipGfkioWJSRKmMc+Eae3gwGb6CLJTBRIJK5jLS+GK+UxOeloGV5QLwOydP0tJVlsmWmQ7awc7O5aNhfVXhfqvm39Tst7O0quQzz2DGD1fbH/ll14HAHsSrc3WL7b4XQC0rQdA9f4Xm/4+AOTRvrVe++o+DNm8JEkkGY6WltnZ2RZCAc9CVtA/9D8d/oa+ep+FLN0f5WF6CBK40lQJU1Y3XnpqulTMzMzg8gRM1p+H+B8H/vU5zEMFCQKxQIRGhKNTJhQlou0W8YUSYbqIKRT9pyb+w7A/aXauUdHqPwF6rAVQuEYHyK89AEMjAyRmL7oD/dG3AGI4CEafEdojs3P/WdC/Z4VLZUumMPFzHCc0jMmTirNm92SfJcACEpAHdKAGtIAeMAYsYAPsgRNwBZ7ADwSBMBAFlgEeSAJpQAyyQT5YC4pACdgKdoAqUAPqQQNoAsdAGzgJzoGL4Cq4Dm6DB2AADIPnYAK8AdMQBOEhKkSD1CBtyAAyg2wgNrQA8oQCoFAoCoqDEiERJIXyoXVQCVQGVUG1UAP0PXQCOgddhvqge9AgNAb9Dr2HEZgC02FN2BC2hNmwG+wPh8FL4UR4OZwHF8Jb4Eq4Dj4Ct8Ln4KvwbXgAfg5PIgAhIwxEB2EhbISDBCHRSAIiRlYhxUgFUoc0IR1IN3ITGUDGkXcYHIaGYWJYGCeMD2YxhodZjlmF2YypwhzCtGK6MDcxg5gJzCcsFauBNcM6Yn2xkdhEbDa2CFuBPYBtwV7A3sYOY9/gcDgGzghnj/PBReGScStwm3F7cM24s7g+3BBuEo/Hq+HN8M74IDwXL8EX4Xfhj+DP4G/gh/FvCWSCNsGG4EWIJogIBYQKwmHCacINwghhmqhANCA6EoOIfGIusZRYT+wgXiMOE6dJiiQjkjMpjJRMWkuqJDWRLpAekl6RyWRdsgM5hCwkryFXko+SL5EHye8oShRTCocSQ5FStlAOUs5S7lFeUalUQ6orNZoqoW6hNlDPUx9T38rR5CzkfOX4cqvlquVa5W7IvZAnyhvIu8kvk8+Tr5A/Ln9NflyBqGCowFHgKqxSqFY4odCvMKlIU7RWDFJMU9yseFjxsuKoEl7JUMlTia9UqLRf6bzSEA2h6dE4NB5tHa2edoE2TMfRjei+9GR6Cf07ei99QllJeZ5yuHKOcrXyKeUBBsIwZPgyUhmljGOMO4z3KpoqbioClU0qTSo3VKZU56i6qgpUi1WbVW+rvldjqnmqpahtU2tTe6SOUTdVD1HPVt+rfkF9fA59jtMc3pziOcfm3NeANUw1QjVWaOzX6NGY1NTS9NbM0NyleV5zXIuh5aqVrFWudVprTJumvUBbqF2ufUb7GVOZ6cZMZVYyu5gTOho6PjpSnVqdXp1pXSPdxboFus26j/RIemy9BL1yvU69CX1t/UD9fP1G/fsGRAO2QZLBToNugylDI8MIww2GbYajRqpGvkZ5Ro1GD42pxi7Gy43rjG+Z4EzYJikme0yum8KmtqZJptWm18xgMzszodkesz5zrLmDuci8zryfRWG5sbJYjaxBC4ZFgEWBRZvFC0t9y2jLbZbdlp+sbK1SreqtHlgrWftZF1h3WP9uY2rDs6m2uTWXOtdr7uq57XNfzjObJ5i3d95dW5ptoO0G207bj3b2dmK7Jrsxe337OPvd9v1sOjuYvZl9yQHr4O6w2uGkwztHO0eJ4zHH35xYTilOh51G5xvNF8yvnz/krOvMda51HljAXBC3YN+CARcdF65LncsTVz1XvusB1xE3E7dktyNuL9yt3MXuLe5THEfOSs5ZD8TD26PYo9dTyXOxZ5XnYy9dr0SvRq8Jb1vvFd5nfbA+/j7bfPp9NX15vg2+E372fiv9uvwp/ov8q/yfBJgGiAM6AuFAv8DtgQ8XGiwULWwLAkG+QduDHgUbBS8P/jEEFxIcUh3yNNQ6ND+0exFtUeyiw4vehLmHlYY9WGy8WLq4M1w+PCa8IXwqwiOiLGIg0jJyZeTVKPUoYVR7ND46PPpA9OQSzyU7lgzH2MYUxdxZarQ0Z+nlZerLUpedipWP5cYej8PGRcQdjvvADeLWcSfjfeN3x0/wOLydvOd8V345f0zgLCgTjCQ4J5QljCY6J25PHEtySapIGhdyhFXCl8k+yTXJUylBKQdTZlIjUpvTCGlxaSdESqIUUVe6VnpOel+GWUZRxsByx+U7lk+I/cUHMqHMpZntEjr6M9UjNZaulw5mLciqznqbHZ59PEcxR5TTk2uauyl3JM8r79sVmBW8FZ35Ovlr8wdXuq2sXQWtil/VuVpvdeHq4TXeaw6tJa1NWftTgVVBWcHrdRHrOgo1C9cUDq33Xt9YJFckLurf4LShZiNmo3Bj76a5m3Zt+lTML75SYlVSUfJhM2/zlW+sv6n8ZmZLwpbeUrvSvVtxW0Vb72xz2XaoTLEsr2xoe+D21nJmeXH56x2xOy5XzKuo2UnaKd05UBlQ2b5Lf9fWXR+qkqpuV7tXN+/W2L1p99Qe/p4be133NtVo1pTUvN8n3He31ru2tc6wrmI/bn/W/qf14fXd37K/bTigfqDkwMeDooMDh0IPdTXYNzQc1jhc2gg3ShvHjsQcuf6dx3ftTaym2mZGc8lRcFR69Nn3cd/fOeZ/rPM4+3jTDwY/7G6htRS3Qq25rRNtSW0D7VHtfSf8TnR2OHW0/Gjx48GTOierTymfKj1NOl14euZM3pnJsxlnx88lnhvqjO18cD7y/K2ukK7eC/4XLl30uni+2637zCXnSycvO14+cYV9pe2q3dXWHtuelp9sf2rptettvWZ/rf26w/WOvvl9p2+43Dh30+PmxVu+t67eXni7787iO3f7Y/oH7vLvjt5Lvffyftb96QdrHmIfFj9SeFTxWONx3c8mPzcP2A2cGvQY7Hmy6MmDId7Q818yf/kwXPiU+rRiRHukYdRm9OSY19j1Z0ueDT/PeD49XvSr4q+7Xxi/+OE31996JiInhl+KX878vvmV2quDr+e97pwMnnz8Ju3N9FTxW7W3h96x33W/j3g/Mp39Af+h8qPJx45P/p8ezqTNzPwLA5jz/HzpVqoAAAMAUExURUdwTPPeQQ0MB1FIOsm5ZIF5cyopGFFMRHVqYCknGQoNCTIoFyUnGjw9FiEhF+jXaFhZMh0cEYiBfrirOsG4lNbISQQGAxANCJONPQoOCZKFO4B1HqmnqfDfbwcJBhARDQcKBYiGJhUYCvnjOU1JJqOdTmFTSvHYIlxcQaKdnm1iN3VgWPffNnptVTQuElhNJ/XiVj5BNqGedoqCI72rJ5WQRuvgwz5CJOXfzdnIWYB8JqycKK+nSaSgn+jblrSkFOrn5Orq7v3raYKBg3VOPcq1D72qKvrlV/nkVPLZKwIEAf/pRf7mPP/sTf/sTP/sTv/rSv7lOf7nPwMGA//uUgQJBv/qSP/tT//qQv/vR//uRP7mL/7oQv/rR/7lNf/pM//tUf/tSPzjIyMWCfreD//sOv3kJzAfEv3jHf3jMkotGx4SBykYC//sRP7oOP7qODYgEAsKBD4mFfzhFUIlEjojEv/tQC4cDEUpFk4xHxQMBAcOCfPXEv/uPvzjLF80HlMxHf/qPf/xShkPBfriMjMkF//uVf7nKfzkN/TaGvjfKEIrGwwTDfXaIvHUB1gyHPrhHfPWClk0IkopFvnfGEMvIfngLvbZBzkoGhcWDPfeIRAZFlw6KA4QCEs5LVArFO3OA+fGA+7TEVI3KCUcEmM5ImU+Km5rK2FWTVlMQT0sH+7RCJSJIXlBJvvnSG9mDH93IZySLvHVGuO/AnBEL5OOiu7WKms6JHE+I/vlQS8wDkA1KYVPOqGeoMWzM2JbDoiFghgeE6qcJ/fiSox/C+rMBzw6CEBDLE5OG1pSCtTANl1ZHoqAITQ3GFdBNOTTUWhfWbOlHujWQoN9OiAjC5uLENO+IjM4L+7ZOHBubdjHQ5yXk7ioLvb1/MW3QklHDXluCb6vJ0VIReDJHmtaTuzp6trJOKygNuPNML+WLIJHKM2jAN+5A8a0HeLSb6qcELCusIiFT3FyStO1BcKrDsXDyfDdU2NlSbSsTUhVV1Zjabq5vNvZ3czBaaJmSPXotiaQfdYAAABJdFJOUwD9d/8Q/g4E/hpeSP78MCP9kYT8OEfzrf04odf+e+vP3n2ghLb96r3Qpo+x0F7Sa6P8afKQwu94WNT27rjjtcWFudXF9K9txfUgStfZAAARkUlEQVRo3uyYa2xa5xnHWzuOsWNny81uLspNWbSkSqqtrSbton3Y5QMmawEdKw3osHFsjjlgcjhwcs4xHhCRs5KCC4HQgsNlioEAq4W94YT5EtuT49hNYtma7cjxNLuxP2xRo0RqEk2qNO05ePvQNtva9eTT+pc4QgLe3/t/3ud93+fhuee+0lf6f1Llsx6/sqq6uqysemPVMyNVVm2qr1NKlaC6PWUb1z8TRtluIAgMeEqVdfXPgLJ+P4wOWnsIpL0bRA5a5fY9pdH/pZKjumpxIdvrpJ+ArLkxl4kZsu27hQBJleY1rQUOMLZN4kWsau8aog3kEl4ugwFzCSGziRexMgSRSs0lRhuM73K5MJJ1UmapEtldJZaROjBidrnAgWABwwwGA0OxLGmWIkiZSAGrRhCl2SUMbRTEMPDAeZLEmTawslGc9N0PDDBgxCmKtdJWK0vRNM/jDOBiiG27OE7qEfCBYbhnaqoQJQBi9XhyPG7EjMZIzLxBHMgeJIJhjJGOx6e6uGCQtbI0LggzYoZITKT8qh8d4BlhGXCcZBOJYCJBMgxDMgbMmOQjIjnZdHs6ThshqTDGmnA4HL4gjkdcEYwxJAeyNRtF2iZ3+yRxo8Ec83qTXGFwcDDdFcIjsZjBmCwf+ZZIJ8uGhYd92WRbkvd4iECxu9BddPiczlQ0bBjIDn1TrCN44fHiSI6IpqMckXCmUilfMOh0OgM+QpJZfFGsY+VHj4f6fAnWg/OEL5FOB5zOaA7DkjQnkYxsFguy+fEuSZCJ1Fy4G+8KEoSH5gYkFy4MGOip6YVvi8TYeOTx0BRFGaeSuVCIJq0kRufieDhspKnyzIGjR0RZdw8/VMFZWSIa5ZwEGUxYGSNLgCGKJkPlOa5eFCOJ9Mh0iHIG0umUg6StAoTy+XxOgsZzmdXgJlFKiHShryJkdRQKKUcAGImEFaOdPkcqxeID0xmuTJQ1+XFqqG8qGEilCgXC6ui+1+2wMlwxFYgSdLZilRPnXHlxcHEoyzrTg4NWIuUY/PvglULQmC4U0kRuYVeGEGXLV75UqHi4yiYKcJx4jHjIR0cMJB4oFKJsvOJjmhTnatxgjX887QmmC10hmsFDnIdPMpQnmg4Q2ZEh8rBIZfwO7qHEYw10eXieD4fDcCsmcTrMEZ5MX192nUi7cd1BSC+aJcNhLhSfisdDoVCYx3kql1mUiHZ2VVYd6puiSR7G9rCBaAACFg7xYUjgoa0i1sNbhzI5MhdK4kHflSsOR5B08eF4rrxil6g19w8k8alQjg8FugcHuwcDBKxNeTYzckjUivtQRXY1DrdWVzTdBSJois9MSxa3igrZPLK6muUpwhkVxHkgxTKSikVxe4fNFZnMak3E05UWnMDKR0YXFioqRIZIstlMDZLkgBAKAQO5sCCZlogMKY+XZ28rkWQ4xyd5DFqU29OZ7EGRIXAVxq/blLFIMmKOAQO5XT4wkBE1g8sOxnESz8VgcESJAEPpHeCTA5kqMRnKu3GcpvBkTLnWyCtjSSjBc9k94nVa1TZpTQggFJSnggtoukrNED8QkdaLY2bdAa9S2oaTNMvSJB0O4TgPDZFQ0mOGNql0rxiUdTvHBQhDUhS0PywnbMVSb4IZoEmVSpHaV772ZRnbfpgft/0TwgZZgoOyiKWhyxIgLoAobf3LP9n2ZVy8dNScH56E5tdsJK0sSwRZjuMIwkoy0M1hJQiCjJvNSzt/+r9dXpUb9o8iyOzc8JgSUUqNJMUSTo4QGARL0jRuhIURumzl8GQMQWy1B458YU7Vpr2Id+Lm+89fnQMIInVBl0U4A1BslygeCmdg+WHfKJX5uflLt0ZtXm/N/u1fDFF7qffq83d6b8wij5YjghWGhjM44Ag4hOIxSFBCvNrMZvgkPzl89cmvntzZ0tszcbT681ZIVTu2XH3v0kQ/RAH0YDIvWGmD5OICAajxoAUioM2GptHsAiPK5Txis43emrjR0/vnJ3de/s7nwaw/vKW3XxjdPNs/Pjy30tLzABEoRggTxEtoGgWKlWLaXDEw4lp+lF/qj9hK8t66tGXLvv+Gqdr3vZ5ZxLY09mjlvKXpXdC5+eWl0pnFOpw+gSFAnAmCxVwGBFJ4Mv+7JkuL5dpH9x+M5Zdmvd7IxHd3/Kets37fyzdisckHF1tatH6//zyoqck/OYMIFLPzCihVLBahlvA5KIMBEf48mhs7q9I2vWuxNFmaQBcfjS1FvLU7/m2qbd3Zj/TPXRYAWhBgtHa72z5zc2mNEix2dxeLUHIXU44Es8ZYyn94tsWi05YIJVksF+f6YzufbqZy24Rt8r62pQQQpLPr5W63W+6f+MC2RmGL3cC5BygfGSsxzDPDHTK5Sdd0vjR+k99i8Qtvx7w7n+pl243xeZ1dqwMLJQSKylHUrdfrO+fzeRtkgs2GkEXByb17VzBEYEiVw8vzHai9s/MdPaoTAC0tfovfD6wHkVeetuQv9HeYVCqVDkACwi1XuN16AfJOU8/MbCl5Yjf+8NeS3v/TuJC9SOT+8MWOzrcAAd+ToyotUEDntP6m5dqnFEzf77+JHteoNIDRau0yBURKXjIiR9s7h2e8Nltk8lHjaU3zL081Nzejvx2DJLS9N7zSYdfr0ZLkJoVCrmuBKf5GozvX3v/qZxuEF0Yvm1pNGhOqelPRqHDLFDK5TOaWC9KfuzzcO35z/oy84fgp0C9aTXa9vWMmPze28qFdmAyKqlBUBr9RN5h0uva3T3W2qz66/pnD+dXrPS2q1maVSaNqOPaa2r1GkbuFpZe9ZV/5i0yhV+hlp0+f1phOn1Tpz+jP2O06OypTy4ChUqEwJZlCrW5oVGvfbm8922k6d2nHp3vcv11Y8atONGtMmuPHjv2sUe2Wq9UQMzmA5DKFAohqhVym15tOnVJr3kTldmG55Aq1QmGSu1H4HsRKoW5oaGw49vtfd77RrtNc/ODrn0qww3+sVZ1XnTiu0Zh+fuz1119rlLtlanUJIszRtDZNtRrVqJpPtJ5EZXrUjZbgCghT6Z2AAEhj45lrnSfeNrmvddR88v+K9d+4dVOj1b3Rqjr5jyqsJrZt8wzDaIv1kGAecsmhOQxd0B0KrL1s7WXYdtkAij/WFFIUKZESJMI+kDoY0MWSABGERBKmIAECDdgXSRcfJCiyBBvQgHixNdeBf+BF7mLXcbw5gxMDcbLYwZqfpdjel16SlhJlyzK+53ve53ne77XDHE2TJEmYEYIQYe0Rvw8veEUQqOZoIUQS8BZJwur9J63Wkxa8EiIWi2UZpyblihmj7lz/4f+QfvVici2pKDxfyNEyx1EUTYMEHkgElwMWsFPYqz+cE0cLCQABcBGJbN3d+vbuVv+jJx6NIMH6yispxQq5nc7tzR/E/ufbX2dVAUAEjeSACg23LyIyuMw5Eb9XLZFQo9FEMBlkPFhQHXRDKJ+vRRBBkQiHWbto8VaMd5yV8oWffl/208310ZQkpHhJIDlZlhGnNeKHgvm18zXEcwwix/O8nglDbYAX3P7F5ebaxkZzfw0/Bd3FdNngi5reMWrl9Z99r2v95OpEMyaAf/WcwAY4mkM2FOETg7CWz4M5l5Ug+JQKMGEGqw+orHh8uHy43NyYW/aJLPxQNBqOqaVTfMNYSTeX3vnr/eHTicejSiYZ0fkCQcmkDGwYisG9ocXQqCICskQ4ihcVhdVw2yxB3NkcPt3ebm8cjohB2ITPqvpMezqkVZx6/fHEL96CXGnd/mpBUZIZgdeTIsvJNDyBCsuiwSCQoLKXMzbMkCQDrqAY1rsIorXw13twHX3T1kSUzUhXuV4noleSK2nrn//45C3Ix0akIBSykBFVVwmRRklQFRoK4jfam8cRT3asBoNAiAREGSbMsMzuB/dufjD/+vUGeg9INDp5oxHKVLR6XRkrvwP5rNITtKQkJAs5nSdFlkYqHA0lYwn/+uTM381zTViGAACAoEhYncGbZXdP773647WnN//mQxCjU3UD03Vd0Sy3rKWrH78F+SRmSoKmpZJZRddpv58C5UngIgOVBw+WZibbEdAFisMyJIur0xRJIwii9Nr3bl67NjMBwo+MmG6jEQ5Y4OFUJVnNVtPvQD6NjeWEHLT5UEnjSRaoQC2ACE33mktzD2cmJ/ehf6FBGdajQJOwDxJ+iaJIsXl0Y2Lyxs7iiM80DaeRzlPFkmsmK9n6dFH59VuQIUUJS8mkNJrThSgN7iQoFohQJAsAS2uzkzMXjj0quHcoF4eqkRQgIJ3b//7PxNLRjTvQGUy3U7Xzvqpi6iU77aaLiV++jYkZE3yJZCopjPKOSiIVxtsu2dq9NTmzObg4M3MLkhlmCdh6FDsbtDc0RhhuZu2j1zeP7s0vmIbh2p2GL29UY7xW1opq2YoevWksPzYUIasnE2pOiRkLLI21Z1ko1tDZ2eDCzMwsyDLT9GMsgAlFnncd7AtodHp3Hhx846XpwuU06kzArk6HGlrFHSsKvaMv3kwQhhLJBhMJPpUb1zosB54iGJZkiJuvXj7cvzW7MbS2uLZ77l8ICcMFSDkfQPvRGKje/NH8y6cfGq7p2lbdIimn5lpWrsxXyrzx39+8yaIL84OQSmR4VRuviBwDTQmTJh7MLe5C5FkveQz4iaXAvdBzZDR5QJZJuAO9s8vHh89PgYftOnWbI+onpVqoYoSmKiH3yW/fxMQWNEEJJXJRKFhpDJQn/l8aeAWjUV4iIOkMq2IQoUQBAArIgQCXz+d7u7tDvcGBjShOx6D9K92anYzrwpQkLtx5o/zvp4VgRIAxJKNKUjxLw8Zh/4TXA1kau4gXQIpiwgTQwQQhjXyeC+TlvCwPLa+3myC7bVtWx2CMbq2bqGT08Tjfqj/79nww+tEfYkIwJxUyiUxUimXjcPZ6TRtaCgQcexhD4WnJcfCVYjg0MD5AFRmxZHFxbX/fZ7pGOl2sG367elKTYnoqPqr3atX+lfMJ+LvN5fYlTcgVQim1osSBgojnAhwiJuybilIYCo6C3ITxLYmdDdbHcgGdfADbjUj4DNcq1xuWadUepUdDeiGeUJ1asf87D+SLD9tfXxzAyCUlUtFYfDzCYLVE7xCHOMh5PI2hz3itBJTHliODKFArlCQvEyZgMKJhOEDFcRonj+KSzo+P88JKo9LPe0m5cnr91twgqkpqIRTV4vEYQXg04GIZ0BadhJuXKe/wxyMNlgcWeIDC93nagD2FWdN0nHTRsqqPTkoJPREv6JVaJba15dXrs91/tddn9x+uSVKST5WmKjglePMWeIpqbUFlOMgFnGMULkqi6OgukAScxuU50TZFEUY1w3acupWuPapWeF2JZ/j0ihZ7cvdLBPly8fFusPVgb1FSSzyvTBVxKEQMEbIfPtjivGKBEvBAB4MPYPFzKwObQJ60gQpFsz6746StYvekVuJD46N6qliMxp5+s4D1+m652VSjPKWriYjJJ6eqcNqOwEwI3hL9D/a28JSCXiiD8uhuTCb6GLMJ38EoSNiO6Y+SAGIhyEq3W9CToxKfa5Si9vyrJrb7XknxeUc3r4YcPjVVw4F0DLiIQ3PLi4Ot4fco5uoLdrBNYjoH/dZ2H5Pp9QQPcO5OZ2EZPhNdq9NIN2rPukJIGuV5qSGp01dfrn4KIGYlmwvDpUbVqGaE4l1XFEfGIr4RYrA0uTG09d7nUfb5/b3B/RbbJ8TZg9Zcn22xTKs1aA31YNpiLx3XD9dxVnHrjXq50X3WlUKJmM5ny6mgVV9v92G6ny4JWjAYVoMqDG5uotJdEP0R/LNE9P9pYsO/N7zTF5+fPd+63x8eHr60s3qwOtheXT24vLozu/1wdhaeh19tto83lntutVoEkEfdXCiWivKxSkoqFssLC0Dlenv5AWxIDQaDKVW1SwiCE/sI4b91cc6/N7szIM5enJ3e7x9cvr+3fYn5/GBn6NLzy9t7q4uzq6uzD4ebf/nz3Obc+pxdXYFynQBISglF+awSzJbL5YWhtff/B0EcSu3SbVXxAAAAAElFTkSuQmCC" alt="Aliyu Ibrahim">
@@ -1013,12 +1021,12 @@
         <h3>Aliyu Ibrahim</h3>
         <div class="player-meta">
           <span>Forward &bull; #27 &bull; 24 yrs</span>
-          <span><span class="tag tag-core">NIGERIAN 🇳🇬</span></span>
+          <span><span class="tag tag-hot">PACE 💨</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇳🇬 From <strong>Kano, Nigeria</strong>. Speedy, versatile, and full of energy. 💨 Has racked up double-digit goals and assists during his time with the Dynamo — this guy is a real contributor. ⚽🔥 His TikTok is worth a follow just for the vibes. 😄</p>
+      <p class="the-tea">🇳🇬 From <strong>Kano, Nigeria</strong>. Speedy winger/forward with electric pace that defenders simply cannot handle. 💨⚡ 24 years old and already racking up goals and assists for Houston. The future is very, very bright for this one. 🌟 And he's on TikTok! 🎵</p>
     </div>
     <div class="card-links">
       <a href="https://instagram.com/aliyu_bravo7" target="_blank" class="social-link ig-player">
@@ -1033,12 +1041,12 @@
 
 </div>
 
-<!-- FOOTER -->
+<!-- ========== FOOTER ========== -->
 <div class="page-footer">
   <div class="hearts">🧡🎀⚽</div>
   <p><strong>Houston Dynamo FC</strong> vs Seattle Sounders FC &bull; April 4, 2026 &bull; Shell Energy Stadium</p>
-  <p style="margin-top:6px;">Made with love for everyone who got dragged to this game and ended up having the best time. 💕</p>
-  <p style="margin-top:6px; color: rgba(176,176,200,0.5); font-size:0.75rem;">For entertainment purposes. Social handles sourced from team-provided data. Go Dynamo! 🧡</p>
+  <p style="margin-top: 8px;">Made with 💕 for everyone who got dragged to a soccer game and ended up having the best time.</p>
+  <p style="margin-top: 8px; font-size: 0.75rem; opacity: 0.6;">Go Dynamo! 🧡 #HTX #HoldItDown</p>
 </div>
 
 </body>
