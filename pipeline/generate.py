@@ -92,7 +92,7 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", f
 
     # --- Step 5: Assemble Guide ---
     print(f"\n📝 Step 5/6: Assembling guide via Claude...")
-    template_path = team_dir / "index.html"
+    template_path = team_dir / "template.html"
     output_path = team_dir / "index.html"
 
     await assemble_guide(

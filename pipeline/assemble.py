@@ -69,6 +69,12 @@ async def assemble_guide(
 
     html_content = _extract_html(response.content[0].text)
 
+    if not html_content or len(html_content.strip()) < 100:
+        raise RuntimeError(
+            f"Assembly failed: Claude returned empty or too-short HTML ({len(html_content)} chars). "
+            "Refusing to overwrite existing guide."
+        )
+
     # Inject caricature images as base64 data URIs
     html_content = _inject_caricatures(html_content, players)
 
