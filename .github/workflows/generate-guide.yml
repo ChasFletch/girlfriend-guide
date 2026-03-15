@@ -1,0 +1,72 @@
+name: Generate Girlfriend Guide
+
+on:
+  # Manual trigger with inputs
+  workflow_dispatch:
+    inputs:
+      team:
+        description: "Team slug (e.g. houston-dynamo)"
+        required: true
+        default: "houston-dynamo"
+      opponent:
+        description: "Opponent team name"
+        required: true
+      date:
+        description: "Match date (YYYY-MM-DD)"
+        required: true
+      theme:
+        description: "Match theme (e.g. Rodeo Night)"
+        required: false
+        default: ""
+
+  # Or schedule — runs every Monday to prep for the week's matches
+  # Uncomment when ready:
+  # schedule:
+  #   - cron: '0 14 * * 1'  # Mondays at 9am CT
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Generate guide
+        env:
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          INPUT_TEAM: ${{ github.event.inputs.team }}
+          INPUT_OPPONENT: ${{ github.event.inputs.opponent }}
+          INPUT_DATE: ${{ github.event.inputs.date }}
+          INPUT_THEME: ${{ github.event.inputs.theme }}
+        run: |
+          cd pipeline
+          python generate.py \
+            --team "$INPUT_TEAM" \
+            --opponent "$INPUT_OPPONENT" \
+            --date "$INPUT_DATE" \
+            --theme "$INPUT_THEME"
+
+      - name: Commit and push generated guide
+        env:
+          INPUT_TEAM: ${{ github.event.inputs.team }}
+          INPUT_OPPONENT: ${{ github.event.inputs.opponent }}
+          INPUT_DATE: ${{ github.event.inputs.date }}
+        run: |
+          git config user.name "Girlfriend Guide Bot"
+          git config user.email "bot@girlfriendguide.gg"
+          git add -A
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Generate guide: $INPUT_TEAM vs $INPUT_OPPONENT ($INPUT_DATE)"
+          git push
