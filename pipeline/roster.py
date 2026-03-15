@@ -2,6 +2,7 @@
 Roster scraper — fetches the current roster and player headshot URLs
 from an MLS team's website.
 """
+import base64
 import httpx
 from bs4 import BeautifulSoup
 from pathlib import Path
@@ -85,8 +86,10 @@ async def download_headshots(players: list[dict], output_dir: Path) -> list[dict
                 resp.raise_for_status()
                 filepath.write_bytes(resp.content)
                 player["headshot_path"] = str(filepath)
+                player["headshot_b64"] = base64.b64encode(resp.content).decode("utf-8")
             except httpx.HTTPError:
                 player["headshot_path"] = None
+                player["headshot_b64"] = None
 
     return players
 

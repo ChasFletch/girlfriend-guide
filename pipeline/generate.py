@@ -127,7 +127,7 @@ def _save_artifacts(players: list[dict], path: Path):
     path.parent.mkdir(parents=True, exist_ok=True)
     cleaned = []
     for p in players:
-        entry = {k: v for k, v in p.items() if k != "caricature_b64"}
+        entry = {k: v for k, v in p.items() if k not in ("caricature_b64", "headshot_b64")}
         cleaned.append(entry)
     path.write_text(json.dumps(cleaned, indent=2, default=str))
 

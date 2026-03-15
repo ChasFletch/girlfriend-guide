@@ -72,6 +72,9 @@ async def assemble_guide(
     # Inject caricature images as base64 data URIs
     html_content = _inject_caricatures(html_content, players)
 
+    # Inject headshot images as base64 data URIs (MLS hotlink protection blocks external URLs)
+    html_content = _inject_headshots(html_content, players)
+
     # Write output
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(html_content)
@@ -146,6 +149,26 @@ def _inject_caricatures(html: str, players: list[dict]) -> str:
         ]:
             if pattern in html:
                 html = html.replace(pattern, f'src="{data_uri}"')
+
+    return html
+
+
+def _inject_headshots(html: str, players: list[dict]) -> str:
+    """
+    Replace external MLS headshot URLs with base64 data URIs.
+    MLS CDN blocks hotlinking, so we embed the downloaded images directly.
+    """
+    for player in players:
+        b64 = player.get("headshot_b64")
+        headshot_url = player.get("headshot_url")
+        if not b64 or not headshot_url:
+            continue
+
+        data_uri = f"data:image/png;base64,{b64}"
+
+        # Replace the exact external URL wherever it appears
+        if headshot_url in html:
+            html = html.replace(headshot_url, data_uri)
 
     return html
 
