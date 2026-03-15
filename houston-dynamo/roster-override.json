@@ -2,7 +2,8 @@
   {
     "name": "Jonathan Bond",
     "jersey_number": 31,
-    "position": "Goalkeeper"
+    "position": "Goalkeeper",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/sppefkzfbfdrr233apam.png"
   },
   {
     "name": "Blake Gillingham",
@@ -12,7 +13,8 @@
   {
     "name": "Jimmy Maurer",
     "jersey_number": 33,
-    "position": "Goalkeeper"
+    "position": "Goalkeeper",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/fojoxaokmztxkpm6bxq3.png"
   },
   {
     "name": "Logan Erb",
@@ -27,22 +29,26 @@
   {
     "name": "Erik Sviatchenko",
     "jersey_number": 28,
-    "position": "Defender"
+    "position": "Defender",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/p5dtxsywjowvbotyggjx.png"
   },
   {
     "name": "Lucas Halter",
     "jersey_number": 5,
-    "position": "Defender"
+    "position": "Defender",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/ypmjwzspge5ugnq1wvrp.png"
   },
   {
     "name": "Antônio Carlos",
     "jersey_number": 25,
-    "position": "Defender"
+    "position": "Defender",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/v1dp19tpiqanxfir5iht.png"
   },
   {
     "name": "Franco Negri",
     "jersey_number": 3,
-    "position": "Defender"
+    "position": "Defender",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/jb6iukxtbiajkj7gh6st.png"
   },
   {
     "name": "Felipe Andrade",
@@ -52,7 +58,8 @@
   {
     "name": "Reese Miller",
     "jersey_number": 34,
-    "position": "Defender"
+    "position": "Defender",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/jet0uo7r4mxlkggrjvej.png"
   },
   {
     "name": "Tomas Wiesner",
@@ -62,71 +69,91 @@
   {
     "name": "Héctor Herrera",
     "jersey_number": 16,
-    "position": "Midfielder"
+    "position": "Midfielder",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/lhj5me76wrhniijx04fp.png"
   },
   {
     "name": "Artur",
     "jersey_number": 6,
-    "position": "Midfielder"
+    "position": "Midfielder",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/hmchhpxhlaoqug0tlr1x.png"
   },
   {
     "name": "Diadié Samassékou",
     "jersey_number": 18,
-    "position": "Midfielder"
+    "position": "Midfielder",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/brddubbl1itddxzutoda.png"
   },
   {
     "name": "Duane Holmes",
     "jersey_number": 14,
-    "position": "Midfielder"
+    "position": "Midfielder",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/hktuius5qbxmtvm3uat4.png"
   },
   {
     "name": "Agustín Bouzat",
     "jersey_number": 22,
-    "position": "Midfielder"
+    "position": "Midfielder",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/eiscbda51xqtevz2ewtv.png"
   },
   {
     "name": "Matthew Arana",
     "jersey_number": 17,
-    "position": "Midfielder"
+    "position": "Midfielder",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/kb7fvh5wvwcfydv7y6tt.png"
   },
   {
     "name": "Mateusz Bogusz",
     "jersey_number": 19,
-    "position": "Forward"
+    "position": "Forward",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/eftbqo2ay7yudlvxmxe2.png"
   },
   {
     "name": "Guilherme",
     "jersey_number": 20,
-    "position": "Forward"
+    "position": "Forward",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/i4vlrgcc3289nmwdzv1i.png"
   },
   {
     "name": "Ezequiel Ponce",
     "jersey_number": 10,
-    "position": "Forward"
+    "position": "Forward",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/bqpdhq0fesibfzu6huxq.png"
   },
   {
     "name": "Jack McGlynn",
     "jersey_number": 8,
-    "position": "Forward"
+    "position": "Forward",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/p9esvh2jbv8bldpcndfx.png"
   },
   {
     "name": "Nelson Quiñónes",
     "jersey_number": 21,
-    "position": "Forward"
+    "position": "Forward",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/bmgprm2vhbmlhfwnm8dm.png"
   },
   {
     "name": "Ondřej Lingr",
     "jersey_number": 9,
-    "position": "Forward"
+    "position": "Forward",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/spspxzb4vac3ygssamew.png"
   },
   {
     "name": "Lawrence Ennali",
     "jersey_number": 11,
-    "position": "Forward"
+    "position": "Forward",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/vbfrkzanmsbmdux17ove.png"
   },
   {
     "name": "Nick Markanich",
     "jersey_number": 7,
-    "position": "Forward"
+    "position": "Forward",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/pqwvvhpmkaiw22xhqtt2.png"
+  },
+  {
+    "name": "Aliyu Ibrahim",
+    "jersey_number": 27,
+    "position": "Forward",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/c7h5ipxzm9nruskf2gyk.png"
   }
 ]

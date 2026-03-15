@@ -124,7 +124,11 @@ in the exact style of the template provided. The guide should:
   cool, or lovable. Celebrate current relationships — don't mention past breakups or
   divorces unless it's genuinely recent news. "Tea" should make someone smile, not cringe.
   Ask yourself: "Would this player repost this?" If not, rewrite it.
-- Include the caricature images (provided as base64 data URIs or file paths)
+- Include player headshot images using the headshot_url from the player data (as <img> tags)
+- Include caricature images where available (provided as base64 data URIs or file paths)
+- Include Instagram links for players and their partners where available from the research data
+- Include any TikTok or other social media links from the research data
+- Social links should use the same styling as the template (with icons/badges)
 
 Team: {team_name}
 Match: {match_description}

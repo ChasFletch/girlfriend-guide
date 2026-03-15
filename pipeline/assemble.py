@@ -97,6 +97,8 @@ def _prepare_player_data(players: list[dict]) -> list[dict]:
             "jersey_number": p.get("jersey_number"),
             "position": p.get("position"),
             "has_caricature": p.get("caricature_b64") is not None,
+            "has_headshot": p.get("headshot_b64") is not None,
+            "headshot_url": p.get("headshot_url"),
         }
 
         # Add verified research (with confidence levels)
