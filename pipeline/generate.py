@@ -67,7 +67,7 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = ""):
 
     # --- Step 3: Research + Verify ---
     print(f"\n🔍 Step 3/6: Researching players via Perplexity...")
-    players = await research_all(players)
+    players = await research_all(players, team_config["name"])
     print(f"   ✅ Research complete for {len(players)} players")
 
     print(f"\n🔎 Verifying claims (second pass)...")

@@ -15,7 +15,7 @@ PERPLEXITY_MODEL = "sonar-pro"
 
 GEMINI_MODEL = "gemini-2.5-flash-image"
 
-CLAUDE_MODEL = "claude-sonnet-4-20250514"
+CLAUDE_MODEL = "claude-sonnet-4-6"
 
 # --- Team Configs ---
 # Each team the pipeline can generate a guide for.
@@ -49,7 +49,7 @@ TEAMS = {
 
 # --- Prompt Templates ---
 
-RESEARCH_PROMPT = """Research Houston Dynamo soccer player {player_name} (#{jersey_number}, {position}).
+RESEARCH_PROMPT = """Research {team_name} soccer player {player_name} (#{jersey_number}, {position}).
 
 Find and return ALL of the following in JSON format:
 {{

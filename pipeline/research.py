@@ -13,12 +13,13 @@ from config import (
 )
 
 
-async def research_player(player: dict) -> dict:
+async def research_player(player: dict, team_name: str = "MLS") -> dict:
     """
     First pass: research a player's personal life, relationships, fun facts.
     Returns raw research JSON merged with the original player dict.
     """
     prompt = RESEARCH_PROMPT.format(
+        team_name=team_name,
         player_name=player["name"],
         jersey_number=player.get("jersey_number", "?"),
         position=player.get("position", "Unknown"),
@@ -70,10 +71,10 @@ async def verify_player(player: dict) -> dict:
     return player
 
 
-async def research_all(players: list[dict]) -> list[dict]:
+async def research_all(players: list[dict], team_name: str = "MLS") -> list[dict]:
     """Research all players concurrently."""
     import asyncio
-    tasks = [research_player(p) for p in players]
+    tasks = [research_player(p, team_name) for p in players]
     return await asyncio.gather(*tasks)
 
 
