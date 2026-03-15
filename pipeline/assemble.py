@@ -59,15 +59,18 @@ async def assemble_guide(
         template_html=template_html,
     )
 
-    # Call Claude
+    # Call Claude with streaming (required for large max_tokens / long requests)
     client = _get_client()
-    response = await client.messages.create(
+    full_text = ""
+    async with client.messages.stream(
         model=CLAUDE_MODEL,
         max_tokens=32000,
         messages=[{"role": "user", "content": prompt}],
-    )
+    ) as stream:
+        async for text in stream.text_stream:
+            full_text += text
 
-    html_content = _extract_html(response.content[0].text)
+    html_content = _extract_html(full_text)
 
     if not html_content or len(html_content.strip()) < 100:
         raise RuntimeError(
