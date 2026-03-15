@@ -21,12 +21,23 @@ def _get_client():
     return _client
 
 
-async def generate_caricature(player: dict, team_config: dict, output_dir: Path) -> dict:
+async def generate_caricature(player: dict, team_config: dict, output_dir: Path, fresh: bool = False) -> dict:
     """
     Generate a caricature from a player's headshot photo.
     Updates the player dict with 'caricature_path' and 'caricature_b64'.
+    Reuses existing caricature if already generated (unless fresh=True).
     """
     output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Check for cached caricature
+    slug = _slugify(player["name"])
+    cached_path = output_dir / f"{slug}-caricature.png"
+    if not fresh and cached_path.exists() and cached_path.stat().st_size > 0:
+        cached_bytes = cached_path.read_bytes()
+        player["caricature_path"] = str(cached_path)
+        player["caricature_b64"] = base64.b64encode(cached_bytes).decode("utf-8")
+        return player
+
     headshot_path = player.get("headshot_path")
 
     if not headshot_path or not Path(headshot_path).exists():
@@ -95,20 +106,27 @@ def _generate_image(image_bytes: bytes, prompt: str) -> bytes | None:
 
 
 async def generate_all_caricatures(
-    players: list[dict], team_config: dict, output_dir: Path
+    players: list[dict], team_config: dict, output_dir: Path, fresh: bool = False
 ) -> list[dict]:
     """
     Generate caricatures for all players.
     Runs with limited concurrency to respect API rate limits.
+    Reuses cached caricatures unless fresh=True.
     """
     semaphore = asyncio.Semaphore(5)  # Max 5 concurrent requests
 
     async def _throttled(player):
         async with semaphore:
-            return await generate_caricature(player, team_config, output_dir)
+            return await generate_caricature(player, team_config, output_dir, fresh)
 
     tasks = [_throttled(p) for p in players]
-    return await asyncio.gather(*tasks)
+    results = await asyncio.gather(*tasks)
+
+    cached = sum(1 for p in results if p.get("caricature_path") and not fresh)
+    if cached and not fresh:
+        print(f"   📦 Reused {cached} cached caricatures")
+
+    return results
 
 
 def _slugify(name: str) -> str:

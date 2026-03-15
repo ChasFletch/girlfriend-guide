@@ -1,9 +1,11 @@
 """
 Research module — uses Perplexity Sonar API for player research
-and a second verification pass.
+and a second verification pass. Supports caching to avoid redundant API calls.
 """
 import json
 import httpx
+from datetime import datetime, timezone
+from pathlib import Path
 from config import (
     PERPLEXITY_API_KEY,
     PERPLEXITY_BASE_URL,
@@ -11,6 +13,8 @@ from config import (
     RESEARCH_PROMPT,
     VERIFY_PROMPT,
 )
+
+CACHE_MAX_AGE_DAYS = 7
 
 
 async def research_player(player: dict, team_name: str = "MLS") -> dict:
@@ -71,18 +75,109 @@ async def verify_player(player: dict) -> dict:
     return player
 
 
-async def research_all(players: list[dict], team_name: str = "MLS") -> list[dict]:
-    """Research all players concurrently."""
-    import asyncio
-    tasks = [research_player(p, team_name) for p in players]
-    return await asyncio.gather(*tasks)
+def load_cache(cache_path: Path) -> dict:
+    """Load the research cache from disk."""
+    if cache_path.exists():
+        try:
+            return json.loads(cache_path.read_text())
+        except (json.JSONDecodeError, OSError):
+            pass
+    return {}
 
 
-async def verify_all(players: list[dict]) -> list[dict]:
-    """Verify all players concurrently."""
+def save_cache(cache: dict, cache_path: Path):
+    """Save the research cache to disk."""
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    cache_path.write_text(json.dumps(cache, indent=2, default=str))
+
+
+def _is_cache_fresh(entry: dict) -> bool:
+    """Check if a cache entry is still within the max age."""
+    cached_at = entry.get("_cached_at")
+    if not cached_at:
+        return False
+    try:
+        cached_time = datetime.fromisoformat(cached_at)
+        age = datetime.now(timezone.utc) - cached_time
+        return age.days < CACHE_MAX_AGE_DAYS
+    except (ValueError, TypeError):
+        return False
+
+
+async def research_all(
+    players: list[dict], team_name: str = "MLS", cache_path: Path | None = None, fresh: bool = False
+) -> list[dict]:
+    """Research all players, using cache when available."""
     import asyncio
-    tasks = [verify_player(p) for p in players]
-    return await asyncio.gather(*tasks)
+
+    cache = {} if fresh else load_cache(cache_path) if cache_path else {}
+    to_research = []
+    cached_count = 0
+
+    for p in players:
+        name = p["name"]
+        if not fresh and name in cache and _is_cache_fresh(cache[name]):
+            p["research"] = cache[name]["research"]
+            cached_count += 1
+        else:
+            to_research.append(p)
+
+    if cached_count:
+        print(f"   📦 Loaded {cached_count} players from research cache")
+
+    if to_research:
+        tasks = [research_player(p, team_name) for p in to_research]
+        await asyncio.gather(*tasks)
+
+    # Update cache with all research results
+    if cache_path:
+        for p in players:
+            if "research" in p:
+                cache[p["name"]] = {
+                    "research": p["research"],
+                    "_cached_at": datetime.now(timezone.utc).isoformat(),
+                }
+        save_cache(cache, cache_path)
+
+    return players
+
+
+async def verify_all(
+    players: list[dict], cache_path: Path | None = None, fresh: bool = False
+) -> list[dict]:
+    """Verify all players, using cache when available."""
+    import asyncio
+
+    cache = {} if fresh else load_cache(cache_path) if cache_path else {}
+    to_verify = []
+    cached_count = 0
+
+    for p in players:
+        name = p["name"]
+        if not fresh and name in cache and _is_cache_fresh(cache[name]) and "verified" in cache[name]:
+            p["verified"] = cache[name]["verified"]
+            cached_count += 1
+        else:
+            to_verify.append(p)
+
+    if cached_count:
+        print(f"   📦 Loaded {cached_count} players from verification cache")
+
+    if to_verify:
+        tasks = [verify_player(p) for p in to_verify]
+        await asyncio.gather(*tasks)
+
+    # Update cache with verification results
+    if cache_path:
+        for p in players:
+            if "verified" in p:
+                if p["name"] not in cache:
+                    cache[p["name"]] = {}
+                cache[p["name"]]["verified"] = p["verified"]
+                cache[p["name"]]["_cached_at"] = datetime.now(timezone.utc).isoformat()
+        save_cache(cache, cache_path)
+
+    return players
 
 
 def apply_corrections(players: list[dict], corrections_path: str) -> list[dict]:

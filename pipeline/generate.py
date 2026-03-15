@@ -24,7 +24,7 @@ from assemble import assemble_guide
 from opponents import scout_opponent
 
 
-async def run(team_slug: str, opponent: str, match_date: str, theme: str = ""):
+async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", fresh: bool = False):
     """Run the full pipeline for a single team + match."""
     team_config = TEAMS.get(team_slug)
     if not team_config:
@@ -66,12 +66,15 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = ""):
     print(f"   ✅ Downloaded {with_headshots}/{len(players)} headshots")
 
     # --- Step 3: Research + Verify ---
+    research_cache_path = team_dir / "research-cache.json"
     print(f"\n🔍 Step 3/6: Researching players via Perplexity...")
-    players = await research_all(players, team_config["name"])
+    if fresh:
+        print(f"   🔄 Fresh mode — ignoring cache")
+    players = await research_all(players, team_config["name"], research_cache_path, fresh)
     print(f"   ✅ Research complete for {len(players)} players")
 
     print(f"\n🔎 Verifying claims (second pass)...")
-    players = await verify_all(players)
+    players = await verify_all(players, research_cache_path, fresh)
     print(f"   ✅ Verification complete")
 
     # Apply community corrections
@@ -83,7 +86,7 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = ""):
     # --- Step 4: Generate Caricatures ---
     print(f"\n🎨 Step 4/6: Generating caricatures via Gemini...")
     caricature_dir = build_dir / "caricatures"
-    players = await generate_all_caricatures(players, team_config, caricature_dir)
+    players = await generate_all_caricatures(players, team_config, caricature_dir, fresh)
     with_caricatures = sum(1 for p in players if p.get("caricature_path"))
     print(f"   ✅ Generated {with_caricatures}/{len(players)} caricatures")
 
@@ -135,9 +138,10 @@ def main():
     parser.add_argument("--opponent", required=True, help="Opponent team name")
     parser.add_argument("--date", required=True, help="Match date (YYYY-MM-DD)")
     parser.add_argument("--theme", default="", help="Match theme (e.g. 'Rodeo Night')")
+    parser.add_argument("--fresh", action="store_true", help="Skip cache and re-research all players")
     args = parser.parse_args()
 
-    asyncio.run(run(args.team, args.opponent, args.date, args.theme))
+    asyncio.run(run(args.team, args.opponent, args.date, args.theme, args.fresh))
 
 
 if __name__ == "__main__":
