@@ -3,7 +3,11 @@
     "name": "Jonathan Bond",
     "jersey_number": 31,
     "position": "Goalkeeper",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/sppefkzfbfdrr233apam.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/sppefkzfbfdrr233apam.png",
+    "player_instagram": "@jonathanbond23",
+    "partner_name": "Isy Bella Bond",
+    "partner_description": "partner",
+    "partner_instagram": "@isybellabond"
   },
   {
     "name": "Blake Gillingham",
@@ -14,12 +18,19 @@
     "name": "Jimmy Maurer",
     "jersey_number": 33,
     "position": "Goalkeeper",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/fojoxaokmztxkpm6bxq3.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/fojoxaokmztxkpm6bxq3.png",
+    "player_instagram": "@jimsmaurer",
+    "partner_name": "Kristen Maurer",
+    "partner_description": "wife"
   },
   {
     "name": "Logan Erb",
     "jersey_number": 40,
-    "position": "Goalkeeper"
+    "position": "Goalkeeper",
+    "player_instagram": "@logan__erb",
+    "partner_name": "Morgan Beverly",
+    "partner_description": "girlfriend",
+    "partner_instagram": "@mbeverly3"
   },
   {
     "name": "Pedro Oliveira",
@@ -30,25 +41,35 @@
     "name": "Erik Sviatchenko",
     "jersey_number": 28,
     "position": "Defender",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/p5dtxsywjowvbotyggjx.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/p5dtxsywjowvbotyggjx.png",
+    "player_instagram": "@eriksviat",
+    "partner_name": "Anne Sviatchenko",
+    "partner_description": "wife",
+    "partner_instagram": "@annesviat"
   },
   {
     "name": "Lucas Halter",
     "jersey_number": 5,
     "position": "Defender",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/ypmjwzspge5ugnq1wvrp.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/ypmjwzspge5ugnq1wvrp.png",
+    "player_instagram": "@lucas_halter"
   },
   {
     "name": "Antônio Carlos",
     "jersey_number": 25,
     "position": "Defender",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/v1dp19tpiqanxfir5iht.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/v1dp19tpiqanxfir5iht.png",
+    "player_instagram": "@antoniocapocasali25",
+    "partner_name": "Bru Senna",
+    "partner_description": "partner",
+    "partner_instagram": "@bru_senna"
   },
   {
     "name": "Franco Negri",
     "jersey_number": 3,
     "position": "Defender",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/jb6iukxtbiajkj7gh6st.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/jb6iukxtbiajkj7gh6st.png",
+    "player_instagram": "@franco_negri3"
   },
   {
     "name": "Felipe Andrade",
@@ -59,7 +80,8 @@
     "name": "Reese Miller",
     "jersey_number": 34,
     "position": "Defender",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/jet0uo7r4mxlkggrjvej.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/jet0uo7r4mxlkggrjvej.png",
+    "player_instagram": "@reesemillerr"
   },
   {
     "name": "Tomas Wiesner",
@@ -70,90 +92,134 @@
     "name": "Héctor Herrera",
     "jersey_number": 16,
     "position": "Midfielder",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/lhj5me76wrhniijx04fp.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/lhj5me76wrhniijx04fp.png",
+    "player_instagram": "@h.herrera16",
+    "partner_name": "Shan Mayo",
+    "partner_description": "partner",
+    "partner_instagram": "@shanmayo"
   },
   {
     "name": "Artur",
     "jersey_number": 6,
     "position": "Midfielder",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/hmchhpxhlaoqug0tlr1x.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/hmchhpxhlaoqug0tlr1x.png",
+    "player_instagram": "@arturl33",
+    "partner_name": "Rachel Lima",
+    "partner_description": "wife",
+    "partner_instagram": "@rachel.limaaa"
   },
   {
     "name": "Diadié Samassékou",
     "jersey_number": 18,
     "position": "Midfielder",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/brddubbl1itddxzutoda.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/brddubbl1itddxzutoda.png",
+    "player_instagram": "@diadie_samassekou"
   },
   {
     "name": "Duane Holmes",
     "jersey_number": 14,
     "position": "Midfielder",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/hktuius5qbxmtvm3uat4.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/hktuius5qbxmtvm3uat4.png",
+    "player_instagram": "@duaneholmes",
+    "partner_name": "Brooke Holmes",
+    "partner_description": "wife (married June 2022)",
+    "partner_instagram": "@brookesavannah2"
   },
   {
     "name": "Agustín Bouzat",
     "jersey_number": 22,
     "position": "Midfielder",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/eiscbda51xqtevz2ewtv.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/eiscbda51xqtevz2ewtv.png",
+    "player_instagram": "@chiquibouzat",
+    "partner_name": "Fiorella Curutchet",
+    "partner_description": "wife (married Dec 2022)",
+    "partner_instagram": "@fiorecurutchet"
   },
   {
     "name": "Matthew Arana",
     "jersey_number": 17,
     "position": "Midfielder",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/kb7fvh5wvwcfydv7y6tt.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/kb7fvh5wvwcfydv7y6tt.png",
+    "player_instagram": "@thematthewarana"
   },
   {
     "name": "Mateusz Bogusz",
     "jersey_number": 19,
     "position": "Forward",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/eftbqo2ay7yudlvxmxe2.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/eftbqo2ay7yudlvxmxe2.png",
+    "player_instagram": "@x_bogus",
+    "partner_name": "Wiktoria Wychowska",
+    "partner_description": "wife",
+    "partner_instagram": "@wiktoria.wychowska"
   },
   {
     "name": "Guilherme",
     "jersey_number": 20,
     "position": "Forward",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/i4vlrgcc3289nmwdzv1i.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/i4vlrgcc3289nmwdzv1i.png",
+    "player_instagram": "@guilherme11"
   },
   {
     "name": "Ezequiel Ponce",
     "jersey_number": 10,
     "position": "Forward",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/bqpdhq0fesibfzu6huxq.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/bqpdhq0fesibfzu6huxq.png",
+    "player_instagram": "@ezequielp9",
+    "partner_name": "Martina Ponce Soto-Aguilar",
+    "partner_description": "wife, Chilean roots",
+    "partner_instagram": "@maartinaponce"
   },
   {
     "name": "Jack McGlynn",
     "jersey_number": 8,
     "position": "Forward",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/p9esvh2jbv8bldpcndfx.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/p9esvh2jbv8bldpcndfx.png",
+    "player_instagram": "@jackmcglynn7"
   },
   {
     "name": "Nelson Quiñónes",
     "jersey_number": 21,
     "position": "Forward",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/bmgprm2vhbmlhfwnm8dm.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/bmgprm2vhbmlhfwnm8dm.png",
+    "player_instagram": "@nelson___jr7",
+    "partner_name": "Fiorella Curutchet",
+    "partner_description": "wife (married Dec 2022)",
+    "partner_instagram": "@fiorecurutchet"
   },
   {
     "name": "Ondřej Lingr",
     "jersey_number": 9,
     "position": "Forward",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/spspxzb4vac3ygssamew.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/spspxzb4vac3ygssamew.png",
+    "player_instagram": "@ondylingr",
+    "partner_name": "Lucie Lingr",
+    "partner_description": "wife",
+    "partner_instagram": "@lucielingr"
   },
   {
     "name": "Lawrence Ennali",
     "jersey_number": 11,
     "position": "Forward",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/vbfrkzanmsbmdux17ove.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/vbfrkzanmsbmdux17ove.png",
+    "player_instagram": "@ennalilawrence",
+    "partner_name": "Preslee Clark",
+    "partner_description": "girlfriend, luxury makeup & hairstylist",
+    "partner_instagram": "@presleeclark",
+    "partner_tiktok": "@presleeclarkartistry"
   },
   {
     "name": "Nick Markanich",
     "jersey_number": 7,
     "position": "Forward",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/pqwvvhpmkaiw22xhqtt2.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/pqwvvhpmkaiw22xhqtt2.png",
+    "player_instagram": "@nickmarkanich"
   },
   {
     "name": "Aliyu Ibrahim",
     "jersey_number": 27,
     "position": "Forward",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/c7h5ipxzm9nruskf2gyk.png"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/c7h5ipxzm9nruskf2gyk.png",
+    "player_instagram": "@aliyu_bravo7",
+    "partner_tiktok": "@ibrahmaliyu"
   }
 ]

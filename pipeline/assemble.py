@@ -43,8 +43,8 @@ async def assemble_guide(
     if template_path.exists():
         template_html = template_path.read_text()
         # Truncate if too long — Claude just needs the structure, not all content
-        if len(template_html) > 15000:
-            template_html = template_html[:15000] + "\n<!-- ... truncated for brevity ... -->"
+        if len(template_html) > 30000:
+            template_html = template_html[:30000] + "\n<!-- ... truncated for brevity ... -->"
 
     # Prepare player data for Claude (strip binary data, keep essentials)
     players_for_prompt = _prepare_player_data(players)
@@ -63,7 +63,7 @@ async def assemble_guide(
     client = _get_client()
     response = await client.messages.create(
         model=CLAUDE_MODEL,
-        max_tokens=16000,
+        max_tokens=32000,
         messages=[{"role": "user", "content": prompt}],
     )
 
@@ -90,6 +90,9 @@ async def assemble_guide(
 
 def _prepare_player_data(players: list[dict]) -> list[dict]:
     """Strip large binary fields, keep what Claude needs for writing."""
+    # Fields to always exclude (binary data, internal fields)
+    _exclude = {"caricature_b64", "headshot_b64", "caricature_path", "headshot_path"}
+
     cleaned = []
     for p in players:
         entry = {
@@ -100,6 +103,12 @@ def _prepare_player_data(players: list[dict]) -> list[dict]:
             "has_headshot": p.get("headshot_b64") is not None,
             "headshot_url": p.get("headshot_url"),
         }
+
+        # Pass through social/relationship fields from roster override
+        for key in ("player_instagram", "player_tiktok", "partner_name",
+                     "partner_description", "partner_instagram", "partner_tiktok"):
+            if p.get(key):
+                entry[key] = p[key]
 
         # Add verified research (with confidence levels)
         if "verified" in p:
