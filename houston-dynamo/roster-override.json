@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Jonathan Bond",
+    "jersey_number": 31,
+    "position": "Goalkeeper"
+  },
+  {
+    "name": "Blake Gillingham",
+    "jersey_number": 1,
+    "position": "Goalkeeper"
+  },
+  {
+    "name": "Jimmy Maurer",
+    "jersey_number": 33,
+    "position": "Goalkeeper"
+  },
+  {
+    "name": "Logan Erb",
+    "jersey_number": 40,
+    "position": "Goalkeeper"
+  },
+  {
+    "name": "Pedro Oliveira",
+    "jersey_number": 30,
+    "position": "Goalkeeper"
+  },
+  {
+    "name": "Erik Sviatchenko",
+    "jersey_number": 28,
+    "position": "Defender"
+  },
+  {
+    "name": "Lucas Halter",
+    "jersey_number": 5,
+    "position": "Defender"
+  },
+  {
+    "name": "Antônio Carlos",
+    "jersey_number": 25,
+    "position": "Defender"
+  },
+  {
+    "name": "Franco Negri",
+    "jersey_number": 3,
+    "position": "Defender"
+  },
+  {
+    "name": "Felipe Andrade",
+    "jersey_number": 36,
+    "position": "Defender"
+  },
+  {
+    "name": "Reese Miller",
+    "jersey_number": 34,
+    "position": "Defender"
+  },
+  {
+    "name": "Tomas Wiesner",
+    "jersey_number": 2,
+    "position": "Defender"
+  },
+  {
+    "name": "Héctor Herrera",
+    "jersey_number": 16,
+    "position": "Midfielder"
+  },
+  {
+    "name": "Artur",
+    "jersey_number": 6,
+    "position": "Midfielder"
+  },
+  {
+    "name": "Diadié Samassékou",
+    "jersey_number": 18,
+    "position": "Midfielder"
+  },
+  {
+    "name": "Duane Holmes",
+    "jersey_number": 14,
+    "position": "Midfielder"
+  },
+  {
+    "name": "Agustín Bouzat",
+    "jersey_number": 22,
+    "position": "Midfielder"
+  },
+  {
+    "name": "Matthew Arana",
+    "jersey_number": 17,
+    "position": "Midfielder"
+  },
+  {
+    "name": "Mateusz Bogusz",
+    "jersey_number": 19,
+    "position": "Forward"
+  },
+  {
+    "name": "Guilherme",
+    "jersey_number": 20,
+    "position": "Forward"
+  },
+  {
+    "name": "Ezequiel Ponce",
+    "jersey_number": 10,
+    "position": "Forward"
+  },
+  {
+    "name": "Jack McGlynn",
+    "jersey_number": 8,
+    "position": "Forward"
+  },
+  {
+    "name": "Nelson Quiñónes",
+    "jersey_number": 21,
+    "position": "Forward"
+  },
+  {
+    "name": "Ondřej Lingr",
+    "jersey_number": 9,
+    "position": "Forward"
+  },
+  {
+    "name": "Lawrence Ennali",
+    "jersey_number": 11,
+    "position": "Forward"
+  },
+  {
+    "name": "Nick Markanich",
+    "jersey_number": 7,
+    "position": "Forward"
+  }
+]
