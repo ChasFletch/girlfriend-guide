@@ -7,6 +7,16 @@ from pathlib import Path
 import anthropic
 from config import ANTHROPIC_API_KEY, CLAUDE_MODEL, ASSEMBLY_PROMPT
 
+# Use async client since this function is awaited from generate.py
+_async_client = None
+
+
+def _get_client():
+    global _async_client
+    if _async_client is None:
+        _async_client = anthropic.AsyncAnthropic(api_key=ANTHROPIC_API_KEY)
+    return _async_client
+
 
 async def assemble_guide(
     players: list[dict],
@@ -50,8 +60,8 @@ async def assemble_guide(
     )
 
     # Call Claude
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-    response = client.messages.create(
+    client = _get_client()
+    response = await client.messages.create(
         model=CLAUDE_MODEL,
         max_tokens=16000,
         messages=[{"role": "user", "content": prompt}],

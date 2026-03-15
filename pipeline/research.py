@@ -168,8 +168,8 @@ async def _call_perplexity(prompt: str) -> str:
             timeout=60.0,
         )
         resp.raise_for_status()
+        data = resp.json()
 
-    data = resp.json()
     return data["choices"][0]["message"]["content"]
 
 
