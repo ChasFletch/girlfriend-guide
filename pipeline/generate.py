@@ -116,7 +116,7 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = ""):
     print(f"\n💾 Build artifacts saved to {artifacts_path}")
 
     print(f"\n🎉 Done! Guide ready at: {output_path}")
-    print(f"   Push to GitHub Pages will auto-deploy to girlfriendguide.gg")
+    print(f"   Push to GitHub and Netlify will auto-deploy to girlfriendguide.gg")
 
 
 def _save_artifacts(players: list[dict], path: Path):
