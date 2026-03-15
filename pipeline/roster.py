@@ -2,7 +2,6 @@
 Roster scraper — fetches the current roster and player headshot URLs
 from an MLS team's website.
 """
-import base64
 import httpx
 from bs4 import BeautifulSoup
 from pathlib import Path
@@ -65,12 +64,15 @@ async def fetch_roster(team_config: dict) -> list[dict]:
     return players
 
 
-async def download_headshots(players: list[dict], output_dir: Path) -> list[dict]:
+async def download_headshots(players: list[dict], output_dir: Path, img_dir: Path | None = None) -> list[dict]:
     """
-    Download headshot images for each player into output_dir.
-    Updates each player dict with a local 'headshot_path' field.
+    Download headshot images for each player.
+    Saves to img_dir (for deployment) if provided, otherwise output_dir (build cache).
+    Updates each player dict with 'headshot_path' and 'img_filename'.
     """
     output_dir.mkdir(parents=True, exist_ok=True)
+    if img_dir:
+        img_dir.mkdir(parents=True, exist_ok=True)
 
     async with httpx.AsyncClient() as client:
         for player in players:
@@ -78,18 +80,28 @@ async def download_headshots(players: list[dict], output_dir: Path) -> list[dict
                 player["headshot_path"] = None
                 continue
 
-            filename = _slugify(player["name"]) + ".jpg"
+            filename = _slugify(player["name"]) + ".png"
             filepath = output_dir / filename
+
+            # Skip download if we already have it in the deploy img dir
+            deploy_path = img_dir / filename if img_dir else None
+            if deploy_path and deploy_path.exists() and deploy_path.stat().st_size > 0:
+                player["headshot_path"] = str(deploy_path)
+                player["img_filename"] = filename
+                continue
 
             try:
                 resp = await client.get(player["headshot_url"], follow_redirects=True)
                 resp.raise_for_status()
                 filepath.write_bytes(resp.content)
                 player["headshot_path"] = str(filepath)
-                player["headshot_b64"] = base64.b64encode(resp.content).decode("utf-8")
+                player["img_filename"] = filename
+
+                # Also save to the deploy img directory
+                if img_dir:
+                    (img_dir / filename).write_bytes(resp.content)
             except httpx.HTTPError:
                 player["headshot_path"] = None
-                player["headshot_b64"] = None
 
     return players
 
