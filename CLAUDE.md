@@ -49,7 +49,7 @@ The pipeline (`pipeline/`) runs via GitHub Actions:
 2. **Headshots** — Download player photos from MLS CDN, embed as base64
 3. **Research** — Perplexity API to find social handles, relationship info, personality details
 4. **Verify** — Second Perplexity pass to fact-check claims
-5. **Caricatures** — Gemini generates cartoon versions from headshot photos
+5. **Caricatures** — Gemini generates cartoon versions ONLY for players without real headshots (fallback only)
 6. **Assembly** — Claude generates the final HTML guide from research + template
 
 ### Key Files
