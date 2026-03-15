@@ -1,7 +1,7 @@
 name: Generate Girlfriend Guide
 
 on:
-  # Manual trigger with inputs
+  # Manual trigger — still works for any game
   workflow_dispatch:
     inputs:
       team:
@@ -19,14 +19,73 @@ on:
         required: false
         default: ""
 
-  # Or schedule — runs every Monday to prep for the week's matches
-  # Uncomment when ready:
-  # schedule:
-  #   - cron: '0 14 * * 1'  # Mondays at 9am CT
+  # Automated — runs every Monday to prep for the week's home matches
+  schedule:
+    - cron: '0 14 * * 1'  # Mondays at 9am CT
 
 jobs:
+  # Step 1: Check all Texas teams for upcoming home games (scheduled runs only)
+  check-schedule:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule'
+    outputs:
+      matrix: ${{ steps.schedule.outputs.matrix }}
+      has_games: ${{ steps.schedule.outputs.has_games }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Check next home game for each Texas team
+        id: schedule
+        run: |
+          cd pipeline
+          MATRIX='{"include":['
+          HAS_GAMES=false
+
+          for TEAM in houston-dynamo fc-dallas austin-fc; do
+            # Capture schedule output
+            OUTPUT=$(python -c "
+          import asyncio, json
+          from schedule import fetch_schedule, get_next_home_game
+          matches = asyncio.run(fetch_schedule('$TEAM'))
+          game = get_next_home_game('$TEAM', matches)
+          if game:
+              print(json.dumps({'team': '$TEAM', 'opponent': game['opponent'], 'date': game['date']}))
+          " 2>/dev/null || true)
+
+            if [ -n "$OUTPUT" ]; then
+              if [ "$HAS_GAMES" = true ]; then
+                MATRIX="$MATRIX,"
+              fi
+              MATRIX="$MATRIX$OUTPUT"
+              HAS_GAMES=true
+            fi
+          done
+
+          MATRIX="$MATRIX]}"
+          echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+          echo "has_games=$HAS_GAMES" >> $GITHUB_OUTPUT
+
+  # Step 2: Generate guides (home games only, or manual trigger)
   generate:
     runs-on: ubuntu-latest
+    needs: [check-schedule]
+    if: |
+      always() && (
+        github.event_name == 'workflow_dispatch' ||
+        (github.event_name == 'schedule' && needs.check-schedule.outputs.has_games == 'true')
+      )
+    strategy:
+      matrix: ${{ github.event_name == 'schedule' && fromJson(needs.check-schedule.outputs.matrix) || fromJson('{"include":[{"team":"placeholder"}]}') }}
+      fail-fast: false
     timeout-minutes: 15
 
     steps:
@@ -41,32 +100,39 @@ jobs:
       - name: Install dependencies
         run: pip install -r pipeline/requirements.txt
 
+      - name: Set match variables
+        id: match
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "team=${{ github.event.inputs.team }}" >> $GITHUB_OUTPUT
+            echo "opponent=${{ github.event.inputs.opponent }}" >> $GITHUB_OUTPUT
+            echo "date=${{ github.event.inputs.date }}" >> $GITHUB_OUTPUT
+            echo "theme=${{ github.event.inputs.theme }}" >> $GITHUB_OUTPUT
+          else
+            echo "team=${{ matrix.team }}" >> $GITHUB_OUTPUT
+            echo "opponent=${{ matrix.opponent }}" >> $GITHUB_OUTPUT
+            echo "date=${{ matrix.date }}" >> $GITHUB_OUTPUT
+            echo "theme=" >> $GITHUB_OUTPUT
+          fi
+
       - name: Generate guide
         env:
           PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          INPUT_TEAM: ${{ github.event.inputs.team }}
-          INPUT_OPPONENT: ${{ github.event.inputs.opponent }}
-          INPUT_DATE: ${{ github.event.inputs.date }}
-          INPUT_THEME: ${{ github.event.inputs.theme }}
         run: |
           cd pipeline
           python generate.py \
-            --team "$INPUT_TEAM" \
-            --opponent "$INPUT_OPPONENT" \
-            --date "$INPUT_DATE" \
-            --theme "$INPUT_THEME"
+            --team "${{ steps.match.outputs.team }}" \
+            --opponent "${{ steps.match.outputs.opponent }}" \
+            --date "${{ steps.match.outputs.date }}" \
+            --theme "${{ steps.match.outputs.theme }}"
 
       - name: Commit and push generated guide
-        env:
-          INPUT_TEAM: ${{ github.event.inputs.team }}
-          INPUT_OPPONENT: ${{ github.event.inputs.opponent }}
-          INPUT_DATE: ${{ github.event.inputs.date }}
         run: |
           git config user.name "Girlfriend Guide Bot"
           git config user.email "bot@girlfriendguide.gg"
           git add -A
           git diff --staged --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Generate guide: $INPUT_TEAM vs $INPUT_OPPONENT ($INPUT_DATE)"
+          git commit -m "Generate guide: ${{ steps.match.outputs.team }} vs ${{ steps.match.outputs.opponent }} (${{ steps.match.outputs.date }})"
           git push

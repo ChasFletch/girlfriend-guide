@@ -21,6 +21,7 @@ from roster import fetch_roster, download_headshots, load_roster_override
 from research import research_all, verify_all, apply_corrections
 from caricature import generate_all_caricatures
 from assemble import assemble_guide
+from opponents import scout_opponent
 
 
 async def run(team_slug: str, opponent: str, match_date: str, theme: str = ""):
@@ -42,7 +43,7 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = ""):
     }
 
     # --- Step 1: Get Roster ---
-    print(f"\n📋 Step 1/5: Fetching roster for {team_config['name']}...")
+    print(f"\n📋 Step 1/6: Fetching roster for {team_config['name']}...")
 
     override_path = team_dir / "roster-override.json"
     players = load_roster_override(override_path)
@@ -58,14 +59,14 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = ""):
         sys.exit(1)
 
     # --- Step 2: Download Headshots ---
-    print(f"\n📸 Step 2/5: Downloading headshots...")
+    print(f"\n📸 Step 2/6: Downloading headshots...")
     headshot_dir = build_dir / "headshots"
     players = await download_headshots(players, headshot_dir)
     with_headshots = sum(1 for p in players if p.get("headshot_path"))
     print(f"   ✅ Downloaded {with_headshots}/{len(players)} headshots")
 
     # --- Step 3: Research + Verify ---
-    print(f"\n🔍 Step 3/5: Researching players via Perplexity...")
+    print(f"\n🔍 Step 3/6: Researching players via Perplexity...")
     players = await research_all(players)
     print(f"   ✅ Research complete for {len(players)} players")
 
@@ -80,14 +81,14 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = ""):
         print(f"   📝 Applied community corrections from {corrections_path}")
 
     # --- Step 4: Generate Caricatures ---
-    print(f"\n🎨 Step 4/5: Generating caricatures via Gemini...")
+    print(f"\n🎨 Step 4/6: Generating caricatures via Gemini...")
     caricature_dir = build_dir / "caricatures"
     players = await generate_all_caricatures(players, team_config, caricature_dir)
     with_caricatures = sum(1 for p in players if p.get("caricature_path"))
     print(f"   ✅ Generated {with_caricatures}/{len(players)} caricatures")
 
     # --- Step 5: Assemble Guide ---
-    print(f"\n📝 Step 5/5: Assembling guide via Claude...")
+    print(f"\n📝 Step 5/6: Assembling guide via Claude...")
     template_path = team_dir / "index.html"
     output_path = team_dir / "index.html"
 
@@ -100,13 +101,22 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = ""):
     )
     print(f"   ✅ Guide written to {output_path}")
 
+    # --- Step 6: Scout Opponent ---
+    print(f"\n🕵️ Step 6: Scouting 3 players from {opponent}...")
+    try:
+        scouted = await scout_opponent(opponent, base_dir)
+        if scouted:
+            print(f"   ✅ Scouted {len(scouted)} opponent players")
+    except Exception as e:
+        print(f"   ⚠️  Opponent scouting failed (non-fatal): {e}")
+
     # --- Save build artifacts for debugging ---
     artifacts_path = build_dir / "pipeline-output.json"
     _save_artifacts(players, artifacts_path)
     print(f"\n💾 Build artifacts saved to {artifacts_path}")
 
     print(f"\n🎉 Done! Guide ready at: {output_path}")
-    print(f"   Push to GitHub and Netlify will auto-deploy to girlfriendguide.gg")
+    print(f"   Push to GitHub Pages will auto-deploy to girlfriendguide.gg")
 
 
 def _save_artifacts(players: list[dict], path: Path):

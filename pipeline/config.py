@@ -29,6 +29,22 @@ TEAMS = {
         "secondary_color": "#101820",
         "jersey_colors": "orange and white",
     },
+    "fc-dallas": {
+        "name": "FC Dallas",
+        "slug": "fc-dallas",
+        "mls_roster_url": "https://www.fcdallas.com/roster",
+        "primary_color": "#BF0D3E",
+        "secondary_color": "#002D72",
+        "jersey_colors": "red and white",
+    },
+    "austin-fc": {
+        "name": "Austin FC",
+        "slug": "austin-fc",
+        "mls_roster_url": "https://www.austinfc.com/roster",
+        "primary_color": "#00B140",
+        "secondary_color": "#000000",
+        "jersey_colors": "verde (green) and black",
+    },
 }
 
 # --- Prompt Templates ---
