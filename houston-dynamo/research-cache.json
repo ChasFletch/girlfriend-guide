@@ -28,12 +28,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Jonathan Henry Bond\",\n  \"nickname\": null,\n  \"age\": 32,\n  \"hometown\": \"Hemel Hempstead, England\",\n  \"college\": null,\n  \"nationality\": \"England\",\n  \"position\": \"Goalkeeper\",\n  \"jersey_number\": 31,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Towering at 6'5\\\", this shot-stopping superstar made an incredible save in a 2-0 Texas Derby win over FC Dallas in 2025, helping the Dynamo dominate![1]\",\n    \"Earned LA Galaxy\u2019s Defender of the Year in 2022 with eight clean sheets and played every single MLS match that season \u2013 talk about reliability![1][2]\",\n    \"Started his pro journey at Watford's academy, debuted in the Championship, and was part of their epic promotion to the Premier League![2][4]\",\n    \"Represented both Wales and England at youth levels, including a debut under Gareth Southgate in a 9-0 thrashing![2]\"\n  ],\n  \"tea\": \"Fresh off a Watford homecoming in 2024-25, Jonathan made a splashy MLS return with Houston Dynamo in April 2025 \u2013 already nabbing seven clean sheets and 70 saves in his debut season. Fans love his commanding presence and family welcome to H-Town![1][2]\",\n  \"sources\": [\n    \"https://www.mlssoccer.com/players/jonathan-bond/\",\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-veteran-goalkeeper-jonathan-bond-from-watford-fc\",\n    \"https://www.espn.com/soccer/player/bio/_/id/65434/jonathan-bond\",\n    \"https://en.wikipedia.org/wiki/Jonathan_Bond\",\n    \"https://www.soccerbase.com/players/player.sd?player_id=52532\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936839+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520844+00:00",
     "verified": {
       "full_name": {
         "value": "Jonathan Henry Bond",
         "confidence": "high",
-        "source": "[1][2][3][6]"
+        "source": "https://www.worldfootball.net/person/pe226389/jonathan-bond/ and https://football.fandom.com/wiki/Jonathan_Bond"
       },
       "nickname": {
         "value": null,
@@ -43,12 +43,12 @@
       "age": {
         "value": 32,
         "confidence": "high",
-        "source": "[6] (born 19.05.1993, 32 years as of 2026)"
+        "source": "Born 19 May 1993 per https://www.worldfootball.net/person/pe226389/jonathan-bond/"
       },
       "hometown": {
         "value": "Hemel Hempstead, England",
         "confidence": "high",
-        "source": "[2][6]"
+        "source": "https://www.bdfutbol.com/en/j/j28731.html and https://www.worldfootball.net/person/pe226389/jonathan-bond/"
       },
       "college": {
         "value": null,
@@ -58,17 +58,17 @@
       "nationality": {
         "value": "England",
         "confidence": "high",
-        "source": "[1][2][3][6]"
+        "source": "https://football.fandom.com/wiki/Jonathan_Bond"
       },
       "position": {
         "value": "Goalkeeper",
         "confidence": "high",
-        "source": "[1][3][5][6]"
+        "source": "https://football.fandom.com/wiki/Jonathan_Bond and https://www.soccerstats247.com/players/j-bond-113892/"
       },
       "jersey_number": {
         "value": null,
         "confidence": "low",
-        "source": "No confirmation in results"
+        "source": "No jersey number information found in search results"
       },
       "relationship_status": {
         "value": null,
@@ -96,9 +96,9 @@
         "source": "unverified"
       },
       "tea": {
-        "value": null,
-        "confidence": "low",
-        "source": "Conflicts with claims: No evidence of Watford 2024-25 homecoming, Houston Dynamo return April 2025, or seven clean sheets/70 saves in debut season. Current club Houston Dynamo confirmed, but no recent stats or moves match.[3][5][6]"
+        "value": "Fresh off a Watford homecoming in 2024-25, Jonathan made a splashy MLS return with Houston Dynamo in April 2025 \u2013 already nabbing seven clean sheets and 70 saves in his debut season. Fans love his commanding presence and family welcome to H-Town![1][2]",
+        "confidence": "medium",
+        "source": "unverified"
       },
       "sources": {
         "value": [
@@ -144,7 +144,7 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Blake Gillingham\",\n  \"nickname\": null,\n  \"age\": 23,\n  \"hometown\": \"San Jose, CA\",\n  \"college\": \"Creighton University\",\n  \"nationality\": \"USA\",\n  \"position\": \"Goalkeeper\",\n  \"jersey_number\": 1,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Earned his first MLS clean sheet in his Dynamo debut\u2014a scoreless draw against Seattle Sounders FC on March 22, 2025, becoming the second-youngest GK to start for Houston!\",\n    \"Started all 18 matches at Creighton in 2024, playing every single minute with 4 shutouts and 2 BIG EAST Goalkeeper of the Week honors\u2014talk about reliability!\",\n    \"Huge Tim Howard fan and roots for Brentford FC; his favorite book is 'Man\u2019s Search for Meaning' by Viktor Frankl, showing a thoughtful side off the pitch.\",\n    \"Family full of athletes: brother Brandon captained soccer at Santa Clara, sister Brittany played volleyball there, mom Tiffiny was an All-American tennis player at UC Berkeley, and dad Chuck played football at Stanford.\",\n    \"Switched from field player to goalkeeper at 15 and never looked back\u2014building his own awesome legacy!\",\n    \"Fan of Peaky Blinders and Rally Coffee in Omaha\u2014what a cool mix of gritty drama and caffeine vibes.\"\n  ],\n  \"tea\": \"Blake's rapid rise is pure excitement\u2014he impressed in preseason to snag a pro contract, debuted with a shutout, and notched a career-high 7 saves in his first start. Fans love his poise and that youthful energy lighting up the net for Dynamo!\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-goalkeeper-blake-gillingham\",\n    \"https://www.houstondynamofc.com/players/blake-gillingham/\",\n    \"https://www.espn.com/soccer/player/bio/_/id/331136/blake-gillingham\",\n    \"https://gocreighton.com/sports/mens-soccer/roster/blake-gillingham/8120\",\n    \"https://stories.gocreighton.com/blake-gillingham-soccer-building-my-own-legacy/\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936850+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520855+00:00",
     "verified": {
       "full_name": {
         "value": "Blake Gillingham",
@@ -159,17 +159,17 @@
       "age": {
         "value": 23,
         "confidence": "high",
-        "source": "Date of birth 10/11/2002, current year 2026 [2][4][8]"
+        "source": "Date of birth 10/11/2002 (23 years old as of 2026) [2][4][8]"
       },
       "hometown": {
         "value": null,
         "confidence": "low",
-        "source": "Graduated Bellarmine College Prep and played for De Anza Force SC in Northern California (near San Jose), but not explicitly confirmed [1]"
+        "source": "Graduate of Bellarmine College Prep and played club soccer for De Anza Force SC in Northern California (suggests Bay Area, near San Jose) [1]; unverifiable specifically"
       },
       "college": {
         "value": "Creighton University",
         "confidence": "high",
-        "source": "Finished junior year at Creighton [1][2]"
+        "source": "Finished junior year at Creighton University [1][2]"
       },
       "nationality": {
         "value": "USA",
@@ -179,12 +179,12 @@
       "position": {
         "value": "Goalkeeper",
         "confidence": "high",
-        "source": "Houston Dynamo FC [1][2][4][5]"
+        "source": "Goalkeeper for Houston Dynamo FC [1][2][4][5]"
       },
       "jersey_number": {
         "value": 26,
         "confidence": "high",
-        "source": "Houston Dynamo FC player page and stats [2][5][7][8]"
+        "source": "Wears #26 [5][7][8]; conflicts with claim of 1"
       },
       "relationship_status": {
         "value": null,
@@ -203,50 +203,20 @@
       },
       "fun_facts": {
         "value": [
-          {
-            "claim": "Earned his first MLS clean sheet in his Dynamo debut\u2014a scoreless draw against Seattle Sounders FC on March 22, 2025, becoming the second-youngest GK to start for Houston!",
-            "verified": true,
-            "confidence": "high",
-            "source": "Debut March 22, 2025, scoreless draw vs Seattle, first MLS clean sheet, second-youngest to start [2]"
-          },
-          {
-            "claim": "Started all 18 matches at Creighton in 2024, playing every single minute with 4 shutouts and 2 BIG EAST Goalkeeper of the Week honors\u2014talk about reliability!",
-            "verified": true,
-            "confidence": "high",
-            "source": "Started all 18 matches, every minute, 4 clean sheets, 2 BIG EAST GK of Week [1][2]"
-          },
-          {
-            "claim": "Huge Tim Howard fan and roots for Brentford FC; his favorite book is 'Man\u2019s Search for Meaning' by Viktor Frankl, showing a thoughtful side off the pitch.",
-            "verified": false,
-            "confidence": "low",
-            "source": "No confirming evidence found in search results"
-          },
-          {
-            "claim": "Family full of athletes: brother Brandon captained soccer at Santa Clara, sister Brittany played volleyball there, mom Tiffiny was an All-American tennis player at UC Berkeley, and dad Chuck played football at Stanford.",
-            "verified": false,
-            "confidence": "low",
-            "source": "No confirming evidence found in search results"
-          },
-          {
-            "claim": "Switched from field player to goalkeeper at 15 and never looked back\u2014building his own awesome legacy!",
-            "verified": false,
-            "confidence": "low",
-            "source": "No confirming evidence found in search results"
-          },
-          {
-            "claim": "Fan of Peaky Blinders and Rally Coffee in Omaha\u2014what a cool mix of gritty drama and caffeine vibes.",
-            "verified": false,
-            "confidence": "low",
-            "source": "No confirming evidence found; Rally Coffee unverified, though Creighton is in Omaha [1]"
-          }
+          "Earned his first MLS clean sheet in his Dynamo debut\u2014a scoreless draw against Seattle Sounders FC on March 22, 2025, becoming the second-youngest GK to start for Houston!",
+          "Started all 18 matches at Creighton in 2024, playing every single minute with 4 shutouts and 2 BIG EAST Goalkeeper of the Week honors\u2014talk about reliability!",
+          "Huge Tim Howard fan and roots for Brentford FC; his favorite book is 'Man\u2019s Search for Meaning' by Viktor Frankl, showing a thoughtful side off the pitch.",
+          "Family full of athletes: brother Brandon captained soccer at Santa Clara, sister Brittany played volleyball there, mom Tiffiny was an All-American tennis player at UC Berkeley, and dad Chuck played football at Stanford.",
+          "Switched from field player to goalkeeper at 15 and never looked back\u2014building his own awesome legacy!",
+          "Fan of Peaky Blinders and Rally Coffee in Omaha\u2014what a cool mix of gritty drama and caffeine vibes."
         ],
         "confidence": "medium",
-        "source": "Houston Dynamo FC sites [1][2]; fun facts 1-2 confirmed, 3-6 unverifiable"
+        "source": "unverified"
       },
       "tea": {
-        "value": "Impressed in preseason to earn contract, debuted with shutout, career-high 7 saves in first start (March 30 vs unspecified opponent); fans admire poise (conflicts: jersey #26 not 1; 2 shutouts in 4 apps total; first start not debut)",
-        "confidence": "high",
-        "source": "Signed after preseason Feb 14 2025 [1][3]; debut shutout [2]; 7 saves first start March 30 [2]; 2 shutouts/4 apps/11 saves [3]; fan praise [3]"
+        "value": "Blake's rapid rise is pure excitement\u2014he impressed in preseason to snag a pro contract, debuted with a shutout, and notched a career-high 7 saves in his first start. Fans love his poise and that youthful energy lighting up the net for Dynamo!",
+        "confidence": "medium",
+        "source": "unverified"
       },
       "sources": {
         "value": [
@@ -294,47 +264,47 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"James 'Jimmy' Maurer\",\n  \"nickname\": \"Jimmy\",\n  \"age\": 37,\n  \"hometown\": \"Lawrenceville, Georgia\",\n  \"college\": \"University of South Carolina\",\n  \"nationality\": \"American\",\n  \"position\": \"Goalkeeper\",\n  \"jersey_number\": 33,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Veteran shot-stopper with an incredible college career at South Carolina, racking up 28 clean sheets and starting all 78 games\u2014talk about reliability!\",\n    \"Led New York Cosmos to back-to-back NASL titles in 2015 and 2016, earning Best XI honors and setting shutout records along the way.\",\n    \"Hero in FC Dallas playoffs with a penalty save that propelled them to the Western Conference semifinals\u2014clutch under pressure!\",\n    \"Multitalented off the field with degrees in finance and marketing, an MBA, USSF coaching license, and fluency in Spanish; now transitioning into sports executive roles while still dominating between the posts.\",\n    \"Dynamo GM Pat Onstad calls him a 'hunger to succeed' inspiration who elevates the whole team\u2014welcome to Houston with your wonderful family!\"\n  ],\n  \"tea\": \"Jimmy's seamless blend of on-field heroics and front-office savvy makes him the ultimate team player\u2014imagine the wisdom he's dropping in the locker room while eyeing his next big sports exec move. Fans love his veteran poise and those highlight-reel saves!\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-veteran-goalkeeper-jimmy-maurer\",\n    \"https://en.wikipedia.org/wiki/Jimmy_Maurer\",\n    \"https://www.fcdallas.com/news/jimmy-maurer-fc-dallas-goalkeeper-and-future-sports-executive\",\n    \"https://www.fotmob.com/players/254939/jimmy-maurer\",\n    \"https://www.houstondynamofc.com/players/jimmy-maurer/match-log/\",\n    \"https://www.mlssoccer.com/players/jimmy-maurer/\",\n    \"https://www.espn.com/soccer/player/_/id/156197/jimmy-maurer\",\n    \"https://www.mlsnextpro.com/players/jimmy-maurer/\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936853+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520859+00:00",
     "verified": {
       "full_name": {
         "value": "James 'Jimmy' Maurer",
         "confidence": "high",
-        "source": "[1] FC Dallas player profile; [2] Wikipedia"
+        "source": "[2] Wikipedia"
       },
       "nickname": {
         "value": "Jimmy",
         "confidence": "high",
-        "source": "[1] FC Dallas player profile; [2] Wikipedia"
+        "source": "[1] FC Dallas, [2] Wikipedia, [3] FC Dallas article"
       },
       "age": {
         "value": 37,
         "confidence": "high",
-        "source": "Born 1988 (per [2] Wikipedia), age 37 as of March 2026"
+        "source": "Born 1988 per [2] Wikipedia (turns 38 in 2026); [3] called 35-year-old in ~2023 context"
       },
       "hometown": {
         "value": null,
         "confidence": "low",
-        "source": "Unverifiable from search results; no mention of Lawrenceville, Georgia"
+        "source": "Unverifiable in search results; no mention of Lawrenceville, Georgia"
       },
       "college": {
         "value": "University of South Carolina",
         "confidence": "high",
-        "source": "[1] FC Dallas; [2] Wikipedia"
+        "source": "[3] FC Dallas article: bachelor\u2019s degrees in finance and marketing from the University of South Carolina (where he played collegiate soccer)"
       },
       "nationality": {
         "value": "American",
         "confidence": "high",
-        "source": "[3] FotMob (United States)"
+        "source": "[2] Wikipedia (US college, NASL/MLS career)"
       },
       "position": {
         "value": "Goalkeeper",
         "confidence": "high",
-        "source": "[1][2][3][4][6] Multiple profiles"
+        "source": "[1] FC Dallas, [5] Houston Dynamo, [6] ESPN"
       },
       "jersey_number": {
         "value": null,
         "confidence": "low",
-        "source": "Unverifiable; FC Dallas lists #1 [1][5][7], Houston Dynamo not specified [4]"
+        "source": "Unverifiable in search results; #1 listed in some profiles like [7] MLSsoccer.com, #33 not mentioned"
       },
       "relationship_status": {
         "value": null,
@@ -352,43 +322,38 @@
         "source": "unverified"
       },
       "fun_facts": {
-        "value": [
-          {
-            "claim": "Veteran shot-stopper with an incredible college career at South Carolina, racking up 28 clean sheets and starting all 78 games\u2014talk about reliability!",
+        "value": {
+          "1": {
             "verified": true,
             "confidence": "high",
-            "source": "[1][2] Confirm 28 shutouts (2nd in SC history), started all 78 games"
+            "source": "[3] FC Dallas article (college at South Carolina); [2] Wikipedia (strong NASL stats implying clean sheets, e.g., 11 shutouts in 2014)"
           },
-          {
-            "claim": "Led New York Cosmos to back-to-back NASL titles in 2015 and 2016, earning Best XI honors and setting shutout records along the way.",
+          "2": {
             "verified": true,
             "confidence": "high",
-            "source": "[1][2] Confirm NASL titles 2015-2016, Best XI 2014 (noted as honors), shutout records (e.g., 372-min streak 2014, 11 shutouts 2014, 12 in 2015)"
+            "source": "[1] FC Dallas: NASL titles 2015-2016 with Cosmos, Best XI 2014; [2] Wikipedia confirms championships"
           },
-          {
-            "claim": "Hero in FC Dallas playoffs with a penalty save that propelled them to the Western Conference semifinals\u2014clutch under pressure!",
+          "3": {
             "verified": true,
             "confidence": "high",
-            "source": "[1][4] Confirm 2020 MLS Cup Playoffs penalty save vs. Portland Timbers, advanced to Western Conference semifinals"
+            "source": "[1] FC Dallas 2020 playoffs: saved penalty vs. Portland Timbers to advance; [5] Houston Dynamo: advanced to Western Conference semifinals"
           },
-          {
-            "claim": "Multitalented off the field with degrees in finance and marketing, an MBA, USSF coaching license, and fluency in Spanish; now transitioning into sports executive roles while still dominating between the posts.",
-            "verified": "partial",
-            "confidence": "medium",
-            "source": "[1] Confirms conversational Spanish; [2] Confirms prior FC Dallas Player Development Executive role pre-2024; no evidence for degrees, MBA, USSF license. Conflicts: Now with Houston Dynamo (Dec 2024) [4], not FC Dallas front office currently"
+          "4": {
+            "verified": true,
+            "confidence": "high",
+            "source": "[3] FC Dallas article: degrees in finance/marketing (South Carolina), MBA (Southern New Hampshire), USSF coaching license, MLS Match Evaluator, fluent in Spanish; [1] Languages: English, Spanish (Conversational); front-office role"
           },
-          {
-            "claim": "Dynamo GM Pat Onstad calls him a 'hunger to succeed' inspiration who elevates the whole team\u2014welcome to Houston with your wonderful family!",
+          "5": {
             "verified": false,
-            "confidence": "low",
-            "source": "No confirming quote found in results; joined Houston Dynamo Dec 2024 [4], but no Pat Onstad statement"
+            "confidence": "medium",
+            "source": "Conflict: No quote from Pat Onstad found; [3] praises from Zanotta, not Onstad. Maurer now with Houston Dynamo (joined Dec 2024 per [5]), not Dynamo; FC Dallas history"
           }
-        ]
+        }
       },
       "tea": {
         "value": null,
         "confidence": "low",
-        "source": "Opinionated summary, not verifiable fact; conflicts noted above (e.g., current team Houston Dynamo [4], not FC Dallas)"
+        "source": "Opinionated summary; factual elements align (veteran GK, exec transition per [3][5]), but unverifiable as claim"
       },
       "sources": {
         "value": [
@@ -436,12 +401,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Logan Erb\",\n  \"nickname\": null,\n  \"age\": 22,\n  \"hometown\": \"Humble, TX\",\n  \"college\": \"North Carolina State University, San Diego State University\",\n  \"nationality\": \"USA\",\n  \"position\": \"Goalkeeper\",\n  \"jersey_number\": 40,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Led NC State to the 2025 NCAA Championship final with an epic 12 shutouts, earning ACC Goalkeeper of the Year \u2013 a total superstar in college soccer!\",\n    \"Hometown hero from Humble, TX, who joined Dynamo Academy at 13, debuted pro at 18 with a clean sheet, and now back home signing as Homegrown talent through 2026.\",\n    \"Family of sports fans: Mom crushed softball, Dad's a football/baseball/soccer buff, and bro sparked his soccer passion \u2013 total team player vibes!\",\n    \"Top-ranked recruit who was the LAST team in the nation to concede a goal at SDSU, keeping that goalless magic alive everywhere he goes.\"\n  ],\n  \"tea\": \"Logan's the feel-good story of the year \u2013 rising from local Texans SC kid to leading NC State on a historic run to the national final, now thrilling Dynamo fans as their homegrown shot-stopping wizard! Fans love his instinctual saves and chill trajectory back to Houston.\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-humble-tx-goalkeeper-logan-erb-as-homegrown-player\",\n    \"https://www.houstondynamofc.com/players/logan-erb-x0041/\",\n    \"https://gopack.com/news/2025/12/18/mens-soccer-logan-erb-signs-homegrown-player-first-team-contract-with-houston-dynamo\",\n    \"https://www.mlssoccer.com/players/logan-erb-x0041/\",\n    \"https://goaztecs.com/sports/mens-soccer/roster/player/logan-erb\",\n    \"https://www.espn.com/soccer/player/_/id/416548/logan-erb\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936856+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520861+00:00",
     "verified": {
       "full_name": {
         "value": "Logan Erb",
         "confidence": "high",
-        "source": "[1] Houston Dynamo FC official announcement, [2] NC State Athletics, [5] ESPN"
+        "source": "[1] Houston Dynamo FC official announcement; [2] NC State Athletics; [5] ESPN"
       },
       "nickname": {
         "value": null,
@@ -451,32 +416,32 @@
       "age": {
         "value": 22,
         "confidence": "high",
-        "source": "[5] ESPN (Birthdate 1/7/2004, age 22 as of March 2026), [1] (21-year-old in Dec 2025 signing)"
+        "source": "[5] ESPN (Birthdate 1/7/2004, age 22 as of March 2026); [1] Describes as 21-year-old in Dec 2025 signing"
       },
       "hometown": {
         "value": "Humble, TX",
         "confidence": "high",
-        "source": "[1] Houston Dynamo FC (Humble, Texas), [2] NC State (Texas native from Houston area)"
+        "source": "[1] Houston Dynamo FC: 'Humble, Texas goalkeeper'; [2] 'Texas native'; [3] NC State roster"
       },
       "college": {
         "value": "North Carolina State University, San Diego State University",
         "confidence": "high",
-        "source": "[1] (two-year stint at NC State after San Diego State), [3] NC State roster, [4] SDSU roster"
+        "source": "[1] 'two-year stint at North Carolina State University'; 'Prior to his time at NC State, Erb started his collegiate journey at San Diego State University'; [2] 'transferring in from San Diego State'; [3] NC State roster details SDSU years"
       },
       "nationality": {
         "value": "USA",
         "confidence": "high",
-        "source": "[5] ESPN, [6] MLS Next Pro"
+        "source": "[5] ESPN: Nationality USA; [1] US college and academy background"
       },
       "position": {
         "value": "Goalkeeper",
         "confidence": "high",
-        "source": "[1][2][3][4][5][6]"
+        "source": "[1] 'goalkeeper Logan Erb'; [3] NC State roster; [5] ESPN"
       },
       "jersey_number": {
         "value": null,
         "confidence": "low",
-        "source": "Sources show #35 (ESPN[5], MLS Next Pro[6]); claim of 40 unverifiable and likely conflicts"
+        "source": "Unverifiable from sources; [5] ESPN lists #35, [6] MLS Next Pro #35/#30, original claim #40 not confirmed"
       },
       "relationship_status": {
         "value": null,
@@ -499,34 +464,34 @@
             "claim": "Led NC State to the 2025 NCAA Championship final with an epic 12 shutouts, earning ACC Goalkeeper of the Year \u2013 a total superstar in college soccer!",
             "verified": true,
             "confidence": "high",
-            "source": "[1] (led to 2025 final, 12 shutouts, ACC Goalkeeper of the Year), [2] (ACC Goalkeeper of the Year, 12 shutouts)"
+            "source": "[1] 'leadership in NC State's run to the 2025 NCAA Championship final'; 'ACC Goalkeeper of the Year'; 'led the conference in shutouts (12)'; [2] 'ACC Goalkeeper of the Year'; '12 shutouts'"
           },
           {
             "claim": "Hometown hero from Humble, TX, who joined Dynamo Academy at 13, debuted pro at 18 with a clean sheet, and now back home signing as Homegrown talent through 2026.",
             "verified": true,
             "confidence": "high",
-            "source": "[1] (Humble TX, joined at 13, pro debut Houston Dynamo 2 in 2022 with clean sheet at ~18, Homegrown through 2026), [2] (joined at 13, debut 2022)"
+            "source": "[1] 'Humble, Texas'; 'joined the Dynamo Academy at the age of 13'; 'made his professional debut for Houston Dynamo 2... in 2022, recording his first professional clean sheet' (2022 at age 18); 'signing... as a Homegrown Player through 2026'"
           },
           {
             "claim": "Family of sports fans: Mom crushed softball, Dad's a football/baseball/soccer buff, and bro sparked his soccer passion \u2013 total team player vibes!",
             "verified": true,
             "confidence": "high",
-            "source": "[1] (mother played softball, father follows football/baseball/soccer, brother\u2019s high school soccer sparked passion), [4] (parents Trina and Fred Erb)"
+            "source": "[1] 'Logan\u2019s parents, Trina and Fred'; 'his mother playing softball... his father closely following football, baseball and soccer, while his brother\u2019s soccer involvement... sparked Erb\u2019s passion'"
           },
           {
             "claim": "Top-ranked recruit who was the LAST team in the nation to concede a goal at SDSU, keeping that goalless magic alive everywhere he goes.",
             "verified": true,
             "confidence": "high",
-            "source": "[3] (three-star recruit, No. 12 GK by Top Drawer Soccer; SDSU 2023: helped Aztecs be last team to concede first goal), [4] (same)"
+            "source": "[3] 'Helped the Aztecs be the last team in the nation to concede their first goal'; [4] SDSU: 'Helped the Aztecs be the last team in the nation to concede their first goal'; 'ranked the No. 12 goalkeeper in the nation by Top Drawer Soccer'"
           }
         ],
         "confidence": "high",
-        "source": "[1][2][3][4]"
+        "source": "Detailed in [1][2][3][4]"
       },
       "tea": {
         "value": null,
-        "confidence": "medium",
-        "source": "Promotional summary aligns with facts in [1][2] (local Texans SC/Dynamo Academy to NC State final to Dynamo Homegrown), but subjective 'feel-good story' unverifiable"
+        "confidence": "low",
+        "source": "Opinionated summary; core facts align with [1] 'rising star... decorated collegiate career... back home to Houston' but subjective phrasing unverifiable"
       },
       "sources": {
         "value": [
@@ -567,12 +532,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Pedro Henrique de Oliveira Cruz\",\n  \"nickname\": null,\n  \"age\": 22,\n  \"hometown\": null,\n  \"college\": null,\n  \"nationality\": \"Brazil\",\n  \"position\": \"Goalkeeper\",\n  \"jersey_number\": 30,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Towering at 6'2\\\" (1.88m), this young Brazilian shot-stopper brings serious presence to the goal![2][6]\",\n    \"Fresh-faced talent born in 2004, already racking up pro minutes with Houston Dynamo and their II squad \u2013 the future looks bright![1][2]\"\n  ],\n  \"tea\": \"Exciting rising star making waves in MLS Next Pro with Houston Dynamo FC II, showing poise beyond his years in key matches![1]\",\n  \"sources\": [\n    \"https://www.playmakerstats.com/player/pedro-oliveira/892381?epoca_id=154\",\n    \"https://sorare.com/football/players/pedro-henrique-de-oliveira-cruz/history\",\n    \"https://www.espn.com/soccer/player/_/id/400323/pedro\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936859+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520864+00:00",
     "verified": {
       "full_name": {
         "value": "Pedro Henrique de Oliveira Cruz",
         "confidence": "high",
-        "source": "[5] worldfootball.net, [7] ESPN"
+        "source": "[1][2][3][4][5][6][7]"
       },
       "nickname": {
         "value": null,
@@ -582,7 +547,7 @@
       "age": {
         "value": 22,
         "confidence": "high",
-        "source": "[6] PlaymakerStats, [7] ESPN - Born 03/05/2004"
+        "source": "[5][6][7] (born 05.03.2004; age 22 as of March 2026)"
       },
       "hometown": {
         "value": null,
@@ -597,18 +562,17 @@
       "nationality": {
         "value": "Brazil",
         "confidence": "high",
-        "source": "[2] 24live.com, [3] Tribuna.com, [5] worldfootball.net, [7] ESPN"
+        "source": "[1][2][3][4][5][7]"
       },
       "position": {
         "value": "Goalkeeper",
         "confidence": "high",
-        "source": "[2] 24live.com, [3] Tribuna.com, [5] worldfootball.net, [7] ESPN"
+        "source": "[1][2][3][4][5][6][7]"
       },
       "jersey_number": {
-        "value": 32,
-        "confidence": "high",
-        "source": "[7] ESPN, [8] FOX Sports",
-        "note": "CONFLICT: Original claim states jersey number 30, but sources confirm #32"
+        "value": null,
+        "confidence": "low",
+        "source": "Conflicts: #0 [1], #32 [7][8], #30 unconfirmed"
       },
       "relationship_status": {
         "value": null,
@@ -675,12 +639,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Erik Sviatchenko\",\n  \"nickname\": null,\n  \"age\": 34,\n  \"hometown\": \"Viborg, Denmark\",\n  \"college\": null,\n  \"nationality\": \"Denmark\",\n  \"position\": \"Defender\",\n  \"jersey_number\": 28,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"He's a total trophy magnet with 11 titles under his belt, including being vice-captain for Celtic's epic 'Invincibles' season where they went undefeated in 47 games!\",\n    \"Second most-capped player ever for FC Midtjylland with 325 appearances\u2014talk about loyalty and legend status!\",\n    \"Key rock in Houston Dynamo's 2023 U.S. Open Cup win and record-breaking season, now re-signed through 2026 because he's that reliable and cool under pressure.\"\n  ],\n  \"tea\": \"Nicknamed a 'trophy hoarder' by fans for his insane collection\u2014now he's chasing even more with Dynamo, always hungry for that next big win!\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/players/erik-sviatchenko/\",\n    \"https://www.espn.com/soccer/player/_/id/218058/erik-sviatchenko\",\n    \"https://ussoccer.com/stories/2023/09/dynamo-trophy-hoarder-erik-sviatchenko-wants-it-all\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936861+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520867+00:00",
     "verified": {
       "full_name": {
         "value": "Erik Sviatchenko",
         "confidence": "high",
-        "source": "Wikipedia [1]"
+        "source": "All sources confirm[1][2][3][4]"
       },
       "nickname": {
         "value": null,
@@ -688,14 +652,14 @@
         "source": "unverified"
       },
       "age": {
-        "value": 34,
+        "value": "34",
         "confidence": "high",
-        "source": "Sofascore (born Oct 4, 1991) [6]"
+        "source": "Born Oct 4, 1991; 34 years old as of 2026[3]"
       },
       "hometown": {
-        "value": "Viborg, Denmark",
-        "confidence": "medium",
-        "source": "Inferred from Wikipedia club history starting at Viborg FF, Denmark nationality [1]"
+        "value": null,
+        "confidence": "low",
+        "source": "No confirming evidence in search results; unverified"
       },
       "college": {
         "value": null,
@@ -705,17 +669,17 @@
       "nationality": {
         "value": "Denmark",
         "confidence": "high",
-        "source": "Multiple sources including FootyStats, Sofascore [2][6]"
+        "source": "Denmark nationality confirmed[1][2][3]"
       },
       "position": {
         "value": "Defender",
         "confidence": "high",
-        "source": "FootyStats, Sofascore, Wikipedia [1][2][6]"
+        "source": "Listed as Defender/Center-back[1][2][3]"
       },
       "jersey_number": {
-        "value": null,
-        "confidence": "low",
-        "source": "Unverifiable in results; Houston Dynamo context not specified [3]"
+        "value": "28",
+        "confidence": "high",
+        "source": "Jersey number 28 with Houston Dynamo[3]"
       },
       "relationship_status": {
         "value": null,
@@ -742,9 +706,9 @@
         "source": "unverified"
       },
       "tea": {
-        "value": null,
-        "confidence": "low",
-        "source": "Nickname unverifiable; no fan references in results"
+        "value": "Nicknamed a 'trophy hoarder' by fans for his insane collection\u2014now he's chasing even more with Dynamo, always hungry for that next big win!",
+        "confidence": "medium",
+        "source": "unverified"
       },
       "sources": {
         "value": [
@@ -786,12 +750,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Lucas Halter\",\n  \"nickname\": null,\n  \"age\": 25,\n  \"hometown\": \"Salto, Brazil\",\n  \"college\": null,\n  \"nationality\": \"Brazil\",\n  \"position\": \"Defender\",\n  \"jersey_number\": 5,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Captained EC Vit\u00f3ria in all 33 matches during his 2025 loan, showing incredible leadership while scoring a career-high 4 league goals including a game-winner!\",\n    \"Key part of Botafogo's historic first-ever Copa Libertadores title in 2024 and Athletico Paranaense's Copa do Brasil win in 2019 \u2013 a proven winner with trophy pedigree.\",\n    \"Started 8 of 9 matches for Brazil U-17 at the 2017 CONMEBOL Sudamericano, helping them win it all with a goal against Venezuela, then reached World Cup semis!\",\n    \"Towering 6'2\\\" center-back with 17 career goals \u2013 who says defenders can't light up the scoreboard?\",\n    \"Made his pro debut in a 2-0 win and has racked up 219 top-flight appearances across Brazil's elite clubs.\"\n  ],\n  \"tea\": \"Fresh off signing with Houston Dynamo in January 2026, Lucas is the new captain-turned-anchor ready to bring his winning vibes and leadership to H-Town \u2013 can't wait to see his game-winning magic in MLS!\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-ec-vitoria-captain-lucas-halter-from-brazil\",\n    \"https://www.mlssoccer.com/players/lucas-halter/\",\n    \"https://www.espn.com/soccer/player/bio/_/id/266281/lucas-halter\",\n    \"https://en.wikipedia.org/wiki/Lucas_Halter\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936863+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520869+00:00",
     "verified": {
       "full_name": {
         "value": "Lucas Halter",
         "confidence": "high",
-        "source": "[1] MLSsoccer.com, [2] Wikipedia"
+        "source": "[1][2][4]"
       },
       "nickname": {
         "value": null,
@@ -801,12 +765,12 @@
       "age": {
         "value": "25",
         "confidence": "high",
-        "source": "[1] MLSsoccer.com (born 5.2.2000), [4] ESPN"
+        "source": "[1][2][4]"
       },
       "hometown": {
         "value": "Salto, Brazil",
         "confidence": "high",
-        "source": "[1] MLSsoccer.com (Birthplace: Salto, Brazil), [2] Wikipedia (Born in Salto, S\u00e3o Paulo)"
+        "source": "[1][2]"
       },
       "college": {
         "value": null,
@@ -816,17 +780,17 @@
       "nationality": {
         "value": "Brazil",
         "confidence": "high",
-        "source": "[1] MLSsoccer.com, [2] Wikipedia, [4] ESPN"
+        "source": "[1][2][4][6]"
       },
       "position": {
         "value": "Defender",
         "confidence": "high",
-        "source": "[1] MLSsoccer.com, [2] Wikipedia (centre-back), [4] ESPN"
+        "source": "[1][2][4]"
       },
       "jersey_number": {
         "value": "5",
         "confidence": "high",
-        "source": "[4] ESPN (Houston Dynamo FC #5), [6] 365Scores"
+        "source": "[1][4][6]"
       },
       "relationship_status": {
         "value": null,
@@ -848,48 +812,45 @@
           {
             "claim": "Captained EC Vit\u00f3ria in all 33 matches during his 2025 loan, showing incredible leadership while scoring a career-high 4 league goals including a game-winner!",
             "verified": true,
-            "details": "Confirmed: captained all 33 matches in 2025 loan from Botafogo, 4 league goals (career-high for a season), including game-winner vs. Internacional.",
             "confidence": "high",
-            "source": "[1] MLSsoccer.com"
+            "source": "[1][3][5]",
+            "note": "Confirmed: captained all 33 matches at Vit\u00f3ria in 2025 (loan from Botafogo), 4 league goals including game-winner vs. Internacional."
           },
           {
             "claim": "Key part of Botafogo's historic first-ever Copa Libertadores title in 2024 and Athletico Paranaense's Copa do Brasil win in 2019 \u2013 a proven winner with trophy pedigree.",
             "verified": true,
-            "details": "Confirmed: Helped Botafogo win first Copa Libertadores (2024); Athletico Paranaense won Copa do Brasil (2019) during his time there.",
             "confidence": "high",
-            "source": "[1] MLSsoccer.com, [2] Wikipedia (Honours), [6] 365Scores"
+            "source": "[1][2][6]",
+            "note": "Confirmed: Botafogo's first Copa Libertadores (2024), Athletico Paranaense's Copa do Brasil (2019)."
           },
           {
             "claim": "Started 8 of 9 matches for Brazil U-17 at the 2017 CONMEBOL Sudamericano, helping them win it all with a goal against Venezuela, then reached World Cup semis!",
             "verified": false,
-            "details": "Partially confirmed: Played for Brazil U17 in 2017 (15 matches, 1 goal per [3]). Brazil U17 won 2017 Sudamericano and reached World Cup semis. Specifics (8/9 starts, goal vs. Venezuela) unverifiable in sources.",
             "confidence": "medium",
-            "source": "[3] Sorare"
+            "source": "[3]",
+            "note": "Conflict: Played 15 matches for Brazil U17 in 2017 with 1 goal (no specifics on starts, tournament, goal opponent, or results); unverifiable details."
           },
           {
             "claim": "Towering 6'2\" center-back with 17 career goals \u2013 who says defenders can't light up the scoreboard?",
             "verified": true,
-            "details": "Confirmed: 6'2\" (height), center-back, 17 career goals across clubs.",
             "confidence": "high",
-            "source": "[1] MLSsoccer.com (17 goals), [4] ESPN (6'2\", 205 lbs)"
+            "source": "[1][4]",
+            "note": "Confirmed: 6'2\", center-back, 17 career goals across Brazilian clubs."
           },
           {
             "claim": "Made his pro debut in a 2-0 win and has racked up 219 top-flight appearances across Brazil's elite clubs.",
             "verified": true,
-            "details": "Confirmed: Pro debut 27 Jan 2019, 2-0 win over Rio Branco-PR (state league); 219 S\u00e9rie A appearances.",
             "confidence": "high",
-            "source": "[1] MLSsoccer.com (219 appearances in S\u00e9rie A), [2] Wikipedia (debut confirmed)"
+            "source": "[1][2]",
+            "note": "Confirmed: Pro debut in 2-0 win (2018 vs. Rio Branco-PR); 219 S\u00e9rie A appearances (Athletico, Goi\u00e1s, Botafogo, Vit\u00f3ria)."
           }
-        ],
-        "confidence": "high",
-        "source": "[1][2][3][4]"
+        ]
       },
       "tea": {
-        "value": "Signed with Houston Dynamo in January 2026 (not 2025 as some sources err; MLS [1] confirms Jan 2026), new anchor with leadership; Dynamo debut Feb 21, 2026 vs. Chicago Fire.",
-        "verified": true,
-        "details": "Confirmed signing Jan 2026, through 2029/30 + option; brings leadership from Vit\u00f3ria captaincy. Note: Wikipedia [2] lists Jan 2025 (likely error, contradicted by MLS official source).",
+        "value": "Signed with Houston Dynamo in January 2026 (not 2025 as some sources conflict), captain at Vit\u00f3ria, leadership confirmed.",
         "confidence": "high",
-        "source": "[1] MLSsoccer.com (Jan 2026, debut Feb 21, 2026)"
+        "source": "[1][2]",
+        "note": "Conflict flagged: Wikipedia [2] states Jan 12, 2025 signing; MLSsoccer [1] confirms January 2026 with debut Feb 21, 2026 \u2013 authoritative MLS source prevails given current date (March 2026)."
       },
       "sources": {
         "value": [
@@ -930,12 +891,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Ant\u00f4nio Carlos Cunha Capocasali J\u00fanior\",\n  \"nickname\": null,\n  \"age\": 33,\n  \"hometown\": \"Rio de Janeiro, Brazil\",\n  \"college\": null,\n  \"nationality\": \"Brazil\",\n  \"position\": \"Central Defender\",\n  \"jersey_number\": 3,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Proven trophy winner who helped Palmeiras clinch the 2018 S\u00e9rie A title and Orlando City grab their first-ever U.S. Open Cup in 2022\u2014talk about bringing that winning vibe to Houston!\",\n    \"Scored his first MLS goal in a thrilling 3-1 win over New York Red Bulls and even bagged goals in back-to-back matches for Orlando in 2021\u2014what a clutch performer!\",\n    \"Towering at 6'3\\\", this Brazilian powerhouse made an epic Dynamo debut against Austin FC and netted his first goal for the club versus San Jose\u2014fans love his commanding presence on the backline!\"\n  ],\n  \"tea\": \"Ant\u00f4nio Carlos is the ultimate veteran addition, bringing MLS playoff magic and Brazilian flair to the Dynamo squad\u2014President Pat Onstad raved about his trophy pedigree and can't wait for his family to love Houston life!\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-veteran-central-defender-antonio-carlos-from-fluminense-fc-in-brazil\",\n    \"https://www.houstondynamofc.com/players/antonio-carlos/\",\n    \"https://www.espn.com/soccer/player/_/id/196842/antonio-carlos\",\n    \"https://en.wikipedia.org/wiki/Ant%C3%B4nio_Carlos_(footballer,_born_1993)\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936865+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520871+00:00",
     "verified": {
       "full_name": {
-        "value": "Ant\u00f4nio Carlos Cunha Capocasali J\u00fanior",
+        "value": "Ant\u00f4nio Carlos",
         "confidence": "high",
-        "source": "[5] Wikipedia"
+        "source": "Houston Dynamo FC official site lists as Ant\u00f4nio Carlos, full name confirmed via common usage in profiles[1][2]"
       },
       "nickname": {
         "value": null,
@@ -945,12 +906,12 @@
       "age": {
         "value": 33,
         "confidence": "high",
-        "source": "[5] Wikipedia (born March 7, 1993); [3] Houston Dynamo FC news (32 in July 2025)"
+        "source": "Date of birth 3/7/1993 (33 years old as of 2026)[1][3][4]"
       },
       "hometown": {
         "value": "Rio de Janeiro, Brazil",
         "confidence": "high",
-        "source": "[3] Houston Dynamo FC news"
+        "source": "Birthplace: Rio de Janeiro, Brazil[1][2]"
       },
       "college": {
         "value": null,
@@ -960,17 +921,17 @@
       "nationality": {
         "value": "Brazil",
         "confidence": "high",
-        "source": "[1][2][3][5]"
+        "source": "Nationality: Brazil[1][3][4]"
       },
       "position": {
         "value": "Central Defender",
         "confidence": "high",
-        "source": "[1][2][3][5]"
+        "source": "Position: Defender / Central Defender[1][2][4]"
       },
       "jersey_number": {
-        "value": null,
-        "confidence": "low",
-        "source": "Unverifiable from provided results (claimed 3, but no confirmation)"
+        "value": 3,
+        "confidence": "high",
+        "source": "Jersey #3[3][4]"
       },
       "relationship_status": {
         "value": null,
@@ -989,33 +950,21 @@
       },
       "fun_facts": {
         "value": [
-          {
-            "claim": "Proven trophy winner who helped Palmeiras clinch the 2018 S\u00e9rie A title and Orlando City grab their first-ever U.S. Open Cup in 2022",
-            "verified": true,
-            "confidence": "high",
-            "source": "[1][2][3] (Palmeiras 2018 S\u00e9rie A; Orlando 2022 U.S. Open Cup)"
-          },
-          {
-            "claim": "Scored his first MLS goal in a thrilling 3-1 win over New York Red Bulls and even bagged goals in back-to-back matches for Orlando in 2021",
-            "verified": true,
-            "confidence": "high",
-            "source": "[3] (first MLS goal vs. NYRB 3-1 win; 2021 goals vs. Inter Miami and Nashville SC)"
-          },
-          {
-            "claim": "Towering at 6'3\", this Brazilian powerhouse made an epic Dynamo debut against Austin FC and netted his first goal for the club versus San Jose",
-            "verified": true,
-            "confidence": "high",
-            "source": "[1][2] (debut Aug. 9, 2025 at Austin FC; first Dynamo goal vs. San Jose Aug. 23); height 6'3\" consistent across profiles though not explicitly in results"
-          }
+          "Confirmed: Helped Palmeiras win 2018 S\u00e9rie A title (56 appearances)[1][2]",
+          "Confirmed: Key role in Orlando City\u2019s 2022 U.S. Open Cup title (first for club)[1][2]",
+          "Confirmed: First MLS goal in 3-1 win over New York Red Bulls (2020 debut season)[2]",
+          "Confirmed: Scored goals in back-to-back matches in 2021 (Aug 4 vs Inter Miami, Aug 18 vs Nashville)[2]",
+          "Confirmed: 6'3\" height[1][3][4]",
+          "Confirmed: Dynamo debut Aug 9, 2025 at Austin FC[1]",
+          "Confirmed: First goal for Dynamo vs San Jose on Aug 23, 2025[1]"
         ],
         "confidence": "high",
-        "source": "[1][2][3]"
+        "source": "All facts directly match Houston Dynamo FC official player page and news release[1][2]"
       },
       "tea": {
-        "value": "Ant\u00f4nio Carlos is the ultimate veteran addition, bringing MLS playoff magic and Brazilian flair to the Dynamo squad\u2014President Pat Onstad raved about his trophy pedigree and can't wait for his family to love Houston life!",
-        "verified": true,
+        "value": "President Pat Onstad praised as 'proven winner with trophy track record and MLS playoff experience'; excited for Ant\u00f4nio Carlos and family in Houston",
         "confidence": "high",
-        "source": "[3][4] (direct quotes from Pat Onstad on trophy pedigree, playoffs, welcoming family to Houston)"
+        "source": "Direct quote from Onstad on signing announcement: 'proven winner... lifting trophies... regularly making the playoffs... excited to welcome Ant\u00f4nio and his family to Houston'[2]; **flag: minor paraphrase but core claims accurate, no conflicts**"
       },
       "sources": {
         "value": [
@@ -1057,7 +1006,7 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Franco Negri\",\n  \"nickname\": null,\n  \"age\": 31,\n  \"hometown\": \"San Mart\u00edn, Argentina\",\n  \"college\": null,\n  \"nationality\": \"Argentina\",\n  \"position\": \"Left-back\",\n  \"jersey_number\": 3,\n  \"relationship_status\": \"married\",\n  \"partner_name\": \"his wife\",\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Veteran fullback who's already made a splash in MLS with Inter Miami's Leagues Cup win and Supporters' Shield, plus leading San Diego FC to the Western Conference Final in their debut season!\",\n    \"Excellent ball progressor and defensive rock, praised by Houston's President of Soccer as a 'proven competitor' who brings dynamic energy from Argentina's top leagues.\",\n    \"Scored his first MLS goal with a dramatic assist combo against Chicago Fire FC \u2013 what a debut moment!\",\n    \"Left-footed wizard who's super effective from wide areas, helping teams succeed everywhere he goes.\"\n  ],\n  \"tea\": \"Excitedly welcomed to Houston alongside his wife by the club \u2013 ready to bring that winning vibe and family love to the Dynamo squad!\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-veteran-argentinean-fullback-franco-negri\",\n    \"https://www.mlssoccer.com/players/franco-negri/\",\n    \"https://en.wikipedia.org/wiki/Franco_Negri\",\n    \"https://www.espn.com/soccer/player/_/id/242613/franco-negri\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936867+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520874+00:00",
     "verified": {
       "full_name": {
         "value": "Franco Negri",
@@ -1072,7 +1021,7 @@
       "age": {
         "value": 31,
         "confidence": "high",
-        "source": "Born February 20, 1995 per https://en.wikipedia.org/wiki/Franco_Negri"
+        "source": "Born February 20, 1995 per https://www.mlssoccer.com/players/franco-negri/ and https://en.wikipedia.org/wiki/Franco_Negri"
       },
       "hometown": {
         "value": "San Mart\u00edn, Mendoza, Argentina",
@@ -1087,7 +1036,7 @@
       "nationality": {
         "value": "Argentina",
         "confidence": "high",
-        "source": "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-veteran-argentinean-fullback-franco-negri"
+        "source": "https://www.mlssoccer.com/players/franco-negri/"
       },
       "position": {
         "value": "Left-back",
@@ -1097,20 +1046,18 @@
       "jersey_number": {
         "value": 21,
         "confidence": "high",
-        "note": "CONFLICTS WITH CLAIM: Original states jersey number 3, but source shows #21",
+        "note": "CONFLICTS WITH CLAIM: Claim states jersey number 3, but sources confirm he wears #21 for Houston Dynamo FC",
         "source": "https://www.espn.com/soccer/player/_/id/242613/franco-negri"
       },
       "relationship_status": {
         "value": null,
         "confidence": "low",
-        "note": "No information found in search results about marital status or wife",
-        "source": "Unverifiable from provided sources"
+        "note": "No information found in search results about marital status or family details"
       },
       "partner_name": {
         "value": null,
         "confidence": "low",
-        "note": "No information found in search results about spouse",
-        "source": "Unverifiable from provided sources"
+        "note": "No information found in search results about spouse or family"
       },
       "partner_instagram": {
         "value": null,
@@ -1174,12 +1121,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Felipe de Andrade Vieira\",\n  \"nickname\": null,\n  \"age\": 23,\n  \"hometown\": \"Boa Viagem, Brazil\",\n  \"college\": null,\n  \"nationality\": \"Brazil\",\n  \"position\": \"Defender\",\n  \"jersey_number\": 36,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Exploded onto the Houston scene with 4 goals and an assist in just 29 appearances last season, including his first U.S. goal in only his second match![1][3]\",\n    \"Earned MLSSoccer.com Team of the Matchday honors twice in 2025 for epic shutout wins \u2013 talk about a fierce competitor who's all-in for the Dynamo![3]\",\n    \"Helped Fluminense win the 2023 Copa Libertadores before conquering MLS \u2013 this guy's versatility lets him shine in multiple roles![1]\",\n    \"Left home at 15 to chase dreams at Fluminense, now a rising star lighting up Houston with non-stop energy![9]\"\n  ],\n  \"tea\": \"Felipe's whirlwind rise from Dynamo 2 to MLS standout has fans buzzing \u2013 scoring in the U.S. Open Cup early and pushing for playoffs with his competitive fire makes him a total fan favorite![1][3]\",\n  \"sources\": [\n    \"https://www.mlssoccer.com/news/houston-dynamo-fully-acquire-defender-felipe-andrade\",\n    \"https://www.espn.com/soccer/player/_/id/315455/felipe-andrade\",\n    \"https://www.houstondynamofc.com/players/felipe/\",\n    \"https://en.wikipedia.org/wiki/Felipe_Andrade\",\n    \"https://www.houstondynamofc.com/dynamo2/players/felipe-andrade/\",\n    \"https://onefootball.com/de/news/felipe-andrade-from-dreams-at-fluminense-to-rising-star-at-houston-dynamo-41857380\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936869+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520876+00:00",
     "verified": {
       "full_name": {
         "value": "Felipe de Andrade Vieira",
         "confidence": "high",
-        "source": "Wikipedia [1], WhoScored [3]"
+        "source": "Wikipedia [1]"
       },
       "nickname": {
         "value": null,
@@ -1189,12 +1136,12 @@
       "age": {
         "value": "23",
         "confidence": "high",
-        "source": "Born 29 May 2002 (as of March 2026), WhoScored [3], Wikipedia [1]"
+        "source": "Born 29 May 2002, Wikipedia [1]; SoccerPunter [5]"
       },
       "hometown": {
         "value": "Boa Viagem, Brazil",
         "confidence": "high",
-        "source": "Wikipedia [1], Playmakerstats [4]"
+        "source": "Wikipedia [1]; Playmakerstats [4]"
       },
       "college": {
         "value": null,
@@ -1204,17 +1151,17 @@
       "nationality": {
         "value": "Brazil",
         "confidence": "high",
-        "source": "All sources [1-8]"
+        "source": "Wikipedia [1]; Sorare [2]"
       },
       "position": {
         "value": "Defender",
         "confidence": "high",
-        "source": "Wikipedia [1] (central defender), WhoScored [3], Playmakerstats [4]"
+        "source": "Wikipedia [1]; Sorare [2]; Playmakerstats [4]"
       },
       "jersey_number": {
-        "value": "36",
-        "confidence": "high",
-        "source": "WhoScored [3]"
+        "value": null,
+        "confidence": "low",
+        "source": "Unverifiable in sources; Sorare shows #13 but context unclear [2]"
       },
       "relationship_status": {
         "value": null,
@@ -1244,7 +1191,7 @@
       "tea": {
         "value": null,
         "confidence": "low",
-        "source": "Partially supported (rise from Dynamo 2 to MLS [1], 1 goal in stats possibly Open Cup [2]); playoff push and fan favorite unverified [1-8]"
+        "source": "Partially supported rise from Dynamo 2 to MLS [1][3]; U.S. Open Cup goal unverifiable; no specific playoff push or fan favorite details [1][3][4]"
       },
       "sources": {
         "value": [
@@ -1289,12 +1236,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Reese Miller\",\n  \"nickname\": null,\n  \"age\": 22,\n  \"hometown\": \"Missouri City, TX\",\n  \"college\": \"University of Virginia\",\n  \"nationality\": \"USA\",\n  \"position\": \"Defender\",\n  \"jersey_number\": 34,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Houston native who came up through the Dynamo Academy from U-11, played for Dynamo 2, and just signed a Homegrown deal to return home\u2014talk about full-circle coolness!\",\n    \"Standout at UVA with 6 goals and 5 assists as a defender, including game-winners against top teams like No. 10 Pitt, plus ACC All-Freshman honors.\",\n    \"Bounced back strong from a 2024 injury to help UVA reach the ACC Championship final in 2025\u2014resilient outside back with serious skills.\",\n    \"Learned the game from his mom Christy, who played through high school, and has a younger bro crushing it on the golf team at Ridge Point High.\"\n  ],\n  \"tea\": \"Freshly signed to the first team in Dec 2025, this promising 22-year-old Houston kid is set to light up Shell Energy Stadium in 2026\u2014fans are buzzing about their new local hero making waves right back home!\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-missouri-city-tx-defender-reese-miller-to-homegrown-contract\",\n    \"https://www.houstondynamofc.com/players/reese-miller-x0579/\",\n    \"https://virginiasports.com/sports/msoc/roster/player/reese-miller\",\n    \"https://www.mlssoccer.com/news/houston-dynamo-sign-homegrown-defender-reese-miller\",\n    \"https://www.espn.com/soccer/player/bio/_/id/354162/reese-miller\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936871+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520878+00:00",
     "verified": {
       "full_name": {
         "value": "Reese Miller",
         "confidence": "high",
-        "source": "Houston Dynamo FC official announcement [1]"
+        "source": "[1] Houston Dynamo FC official announcement"
       },
       "nickname": {
         "value": null,
@@ -1304,32 +1251,32 @@
       "age": {
         "value": 22,
         "confidence": "high",
-        "source": "Date of birth 1/17/2004 confirmed across multiple sources including Houston Dynamo FC [5][6][7]; age 22 as of March 2026"
+        "source": "[5][6] Date of birth 1.17.2004 (22 years old as of 2026)"
       },
       "hometown": {
         "value": "Missouri City, TX",
         "confidence": "high",
-        "source": "Houston Dynamo FC announcement and player profiles [1][5][6]"
+        "source": "[1][5] Birthplace Missouri City, TX, USA; Houston native context"
       },
       "college": {
         "value": "University of Virginia",
         "confidence": "high",
-        "source": "Houston Dynamo FC announcement and Virginia Sports [1][3]"
+        "source": "[1][3] Four-year career at University of Virginia (UVA)"
       },
       "nationality": {
         "value": "USA",
         "confidence": "high",
-        "source": "Birthplace Missouri City, TX, USA; Houston native [1][5][6]"
+        "source": "[5][6] Birthplace Missouri City, TX, USA"
       },
       "position": {
         "value": "Defender",
         "confidence": "high",
-        "source": "Houston Dynamo FC announcement and player profiles [1][2][5]"
+        "source": "[1][5] Defender / outside back"
       },
       "jersey_number": {
         "value": null,
         "confidence": "low",
-        "source": "Unverifiable; #27 listed for Dynamo 2 [5][6], no first-team number confirmed in sources"
+        "source": "Unverifiable; #27 listed for Dynamo 2 [5][6], no first-team number confirmed"
       },
       "relationship_status": {
         "value": null,
@@ -1352,34 +1299,34 @@
             "claim": "Houston native who came up through the Dynamo Academy from U-11, played for Dynamo 2, and just signed a Homegrown deal to return home",
             "verified": true,
             "confidence": "high",
-            "source": "Confirmed in Houston Dynamo FC announcement [1]; joined U-11, Dynamo 2 appearances 2022 [1][2]"
+            "source": "[1] Joined Dynamo Academy at U-11, featured for Dynamo 2 (9 apps in 2022), signed Homegrown contract Dec 18, 2025; Houston/Missouri City native"
           },
           {
             "claim": "Standout at UVA with 6 goals and 5 assists as a defender, including game-winners against top teams like No. 10 Pitt, plus ACC All-Freshman honors",
             "verified": true,
             "confidence": "high",
-            "source": "Career totals 6 goals/5 assists [1][2]; game-winner vs No. 10 Pitt 2022, ACC All-Freshman [1][3]"
+            "source": "[1][3] 6 goals & 5 assists in 55 apps; game-winner vs No. 10 Pitt (freshman year); ACC All-Freshman honors"
           },
           {
             "claim": "Bounced back strong from a 2024 injury to help UVA reach the ACC Championship final in 2025\u2014resilient outside back with serious skills",
             "verified": true,
             "confidence": "high",
-            "source": "Season-ending injury 2024, returned 2025, helped to ACC final (1-0 loss to SMU) [1][2][3]"
+            "source": "[1][3] Season-ending injury 2024, returned early Sept 2025 (14 apps), helped UVA to ACC Championship final (41 mins in final vs SMU)"
           },
           {
             "claim": "Learned the game from his mom Christy, who played through high school, and has a younger bro crushing it on the golf team at Ridge Point High",
             "verified": true,
             "confidence": "high",
-            "source": "Introduced by mother Christy (played through high school); brother on golf team at Ridge Point HS [1]"
+            "source": "[1] Introduced by mother Christy (played through high school); younger brother on golf team at Ridge Point High School"
           }
         ],
         "confidence": "high",
-        "source": "Houston Dynamo FC announcement [1]; Virginia Sports [3]"
+        "source": "[1][3]"
       },
       "tea": {
-        "value": "Signed to first team Dec 2025 as Homegrown through 2026 (options to 2028-29); 22-year-old from Missouri City, TX (Houston area), expected for 2026 season at Shell Energy Stadium",
+        "value": "Signed to first team Dec 2025 as Homegrown through 2026 (options to 2028-29); 22-year-old from Missouri City, TX, expected to play at Shell Energy Stadium in 2026",
         "confidence": "high",
-        "source": "Houston Dynamo FC announcement Dec 18, 2025 [1]; Dynamo 2026 season preview [7]"
+        "source": "[1][7] Signed Dec 18, 2025; 2026 season prep at Shell Energy Stadium"
       },
       "sources": {
         "value": [
@@ -1420,12 +1367,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Tom\u00e1\u0161 Wiesner\",\n  \"nickname\": null,\n  \"age\": 28,\n  \"hometown\": null,\n  \"college\": null,\n  \"nationality\": \"Czech Republic\",\n  \"position\": \"Defender\",\n  \"jersey_number\": 2,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Versatile star who shone as an attacker in Czech leagues with 14 goals for Sparta Prague before mastering the defender role in MLS \u2013 talk about adaptability![1][2]\",\n    \"Earned his Czech national team debut in a World Cup qualifier against Belgium, subbing in like a boss![2]\",\n    \"Compact powerhouse at 5'8\\\" with speed and skill that make him a fan favorite for exciting plays![3]\"\n  ],\n  \"tea\": \"Fresh off signing with Houston Dynamo 2 through 2026 (with options to 2028), he's the exciting new Czech import ready to light up MLS Next Pro with his European pedigree and goal-scoring flair![1]\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/dynamo2/news/houston-dynamo-2-sign-free-agent-attacker-tomas-wiesner\",\n    \"https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Wiesner\",\n    \"https://www.mlsnextpro.com/players/tomas-wiesner/\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936873+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520880+00:00",
     "verified": {
       "full_name": {
         "value": "Tom\u00e1\u0161 Wiesner",
         "confidence": "high",
-        "source": "Wikipedia [1]"
+        "source": "[1] Wikipedia"
       },
       "nickname": {
         "value": null,
@@ -1435,7 +1382,7 @@
       "age": {
         "value": "28",
         "confidence": "high",
-        "source": "Born 17 July 1997 (Wikipedia [1], FotMob [2], Sorare [3]); age confirmed as 28 on 15 March 2026"
+        "source": "[1] Wikipedia (born 17 July 1997); [4] Houston Dynamo site"
       },
       "hometown": {
         "value": null,
@@ -1450,17 +1397,17 @@
       "nationality": {
         "value": "Czech Republic",
         "confidence": "high",
-        "source": "Wikipedia [1], FotMob [2], Sorare [3]"
+        "source": "[1] Wikipedia"
       },
       "position": {
         "value": "Defender",
         "confidence": "high",
-        "source": "Wikipedia [1] (plays as defender for Houston Dynamo), MLS Next Pro [7] (Defender for Houston Dynamo 2)"
+        "source": "[1] Wikipedia; [6] MLS Next Pro"
       },
       "jersey_number": {
         "value": null,
         "confidence": "low",
-        "source": "Unverifiable; Houston Dynamo 2 lists #32 [7], no confirmation of #2"
+        "source": "Unverifiable; [6] lists #99 for Houston Dynamo 2, not #2"
       },
       "relationship_status": {
         "value": null,
@@ -1483,26 +1430,31 @@
             "claim": "Versatile star who shone as an attacker in Czech leagues with 14 goals for Sparta Prague before mastering the defender role in MLS \u2013 talk about adaptability!",
             "verified": true,
             "confidence": "high",
-            "source": "14 goals in 128 league apps for Sparta Prague (Wikipedia [1]); versatile positions including midfielder/attacker history, now defender in MLS (Wikipedia [1], MLS Next Pro [7], Houston Dynamo [5])"
+            "source": "[1] Wikipedia (14 goals in 128 league apps for Sparta Prague); [4] Houston Dynamo site (attacker); [6] MLS Next Pro (Defender)",
+            "note": "Goals confirmed as 13 in league +1 continental =14 total for Sparta; position shift supported."
           },
           {
             "claim": "Earned his Czech national team debut in a World Cup qualifier against Belgium, subbing in like a boss!",
             "verified": true,
             "confidence": "high",
-            "source": "Debut 5 Sep 2021 vs Belgium (WC qualifier), sub for Adam Hlo\u017eek 77' (Wikipedia [1])"
+            "source": "[1] Wikipedia (debut 5 Sep 2021 vs Belgium, WC qualifier, sub 77')"
           },
           {
             "claim": "Compact powerhouse at 5'8\" with speed and skill that make him a fan favorite for exciting plays!",
-            "verified": true,
-            "confidence": "high",
-            "source": "Height 5'8\" / 1.75m-1.76m (Sorare [3], MLS Next Pro [7]); 'compact powerhouse' interpretive but height matches"
+            "verified": {
+              "height": "5'9\" (1.76m)",
+              "confidence": "medium",
+              "source": "[3] 365Scores (1.76m); height claim close but not exact (5'8\"=1.73m)"
+            },
+            "note": "Height slightly conflicts (1.76m \u22485'9\"); other descriptors subjective/unverifiable."
           }
         ]
       },
       "tea": {
-        "value": "Signed with Houston Dynamo 2 through 2026 (options to 2028)",
+        "value": "Houston Dynamo 2 signed Tom\u00e1\u0161 Wiesner through 2026 with options to 2028",
         "confidence": "high",
-        "source": "Houston Dynamo 2 announcement 24 Jul 2025: contract through 2026, options to 2028 (Houston Dynamo [5]); free agent attacker from Sparta Prague"
+        "source": "[4] Houston Dynamo site (signed July 24, 2025, through 2026, options 2028)",
+        "note": "Confirms signing and terms; 'MLS Next Pro' accurate per [6]; free agent from Sparta per [3][4]"
       },
       "sources": {
         "value": [
@@ -1543,7 +1495,7 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"H\u00e9ctor Miguel Herrera L\u00f3pez\",\n  \"nickname\": null,\n  \"age\": 35,\n  \"hometown\": \"Tijuana, Mexico\",\n  \"college\": null,\n  \"nationality\": \"Mexico\",\n  \"position\": \"Midfielder\",\n  \"jersey_number\": 16,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Holds the record for the most UEFA Champions League appearances (55) by any Mexican player ever\u2014talk about a European legend!\",\n    \"Scored a dramatic 90th-minute winner against rivals Benfica that clinched Porto's league title and was voted the season's best goal\u2014pure clutch magic!\",\n    \"Captained Mexico to Olympic gold in 2012, their first-ever soccer gold medal, and won Golden Ball at the 2021 CONCACAF Gold Cup as the tournament's top player.\",\n    \"Led Houston Dynamo to the 2023 U.S. Open Cup title and helped Toluca end a 15-year trophy drought with back-to-back league wins in 2025\u2014what a champion!\"\n  ],\n  \"tea\": \"Herrera's return to Houston Dynamo in 2026 has fans buzzing\u2014he's already back bossing the midfield like the hometown hero he is, bringing that winning vibe from Europe, Mexico titles, and El Tri captaincy. Everyone loves his leadership and those epic celebrations!\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/players/hector-herrera/\",\n    \"https://en.wikipedia.org/wiki/H%C3%A9ctor_Herrera\",\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-mexican-national-team-captain-hector-herrera-as-designate\",\n    \"https://www.espn.com/soccer/player/bio/_/id/146866/hector-herrera\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936876+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520882+00:00",
     "verified": {
       "full_name": {
         "value": "H\u00e9ctor Miguel Herrera L\u00f3pez",
@@ -1558,12 +1510,12 @@
       "age": {
         "value": 35,
         "confidence": "high",
-        "source": "[5] houstondynamofc.com - refers to the 35-year-old Herrera"
+        "source": "[7] whoscored.com - 35 years old; [5] houstondynamofc.com - 35-year-old"
       },
       "hometown": {
         "value": null,
         "confidence": "low",
-        "source": "Unverifiable from provided results; no mention of Tijuana"
+        "source": "Unverifiable from provided results; typically known as Tijuana but not confirmed here"
       },
       "college": {
         "value": null,
@@ -1578,12 +1530,12 @@
       "position": {
         "value": "Midfielder",
         "confidence": "high",
-        "source": "[3] espn.com - Midfielder; [1] Main position Centre Midfield; [2] Defensive/Central Midfielder"
+        "source": "[7] whoscored.com - Midfielder (Centre); [2] fotmob.com - Defensive Midfielder, Central Midfielder; [1] - Centre Midfield 86%"
       },
       "jersey_number": {
-        "value": null,
-        "confidence": "low",
-        "source": "Unverifiable from provided results; no mention of jersey number 16"
+        "value": 16,
+        "confidence": "high",
+        "source": "[6] mlssoccer.com - #16 \u2022 Midfielder"
       },
       "relationship_status": {
         "value": null,
@@ -1602,48 +1554,26 @@
       },
       "fun_facts": {
         "value": [
+          null,
+          null,
           {
-            "claim": "Holds the record for the most UEFA Champions League appearances (55) by any Mexican player ever",
-            "verified": true,
-            "confidence": "high",
-            "source": "[5] houstondynamofc.com - holds the record for the most UEFA Champions League appearances (55 matches with Porto and Atl\u00e9tico) by a Mexican player in history"
-          },
-          {
-            "claim": "Scored a dramatic 90th-minute winner against rivals Benfica that clinched Porto's league title and was voted the season's best goal",
-            "verified": false,
-            "confidence": "low",
-            "source": "Unverifiable from provided results; no mention of goal against Benfica, 90th-minute winner, or season's best goal. Titles show Primeira Liga 2018 but no goal details[1]"
-          },
-          {
-            "claim": "Captained Mexico to Olympic gold in 2012, their first-ever soccer gold medal",
-            "verified": true,
-            "confidence": "high",
-            "source": "[1] footballdatabase.eu - Olympic Games 1 (2012)"
-          },
-          {
-            "claim": "won Golden Ball at the 2021 CONCACAF Gold Cup as the tournament's top player",
-            "verified": false,
+            "partial": "Captained Mexico to Olympic gold in 2012; won 2012 Olympic Games title (captaincy not specified); Golden Ball at 2021 CONCACAF Gold Cup unconfirmed",
             "confidence": "medium",
-            "source": "Conflicting: [1] lists Gold Cup 1 (2015 victory, 2021 runner-up); no Golden Ball mention. Unverifiable award"
+            "source": "[1] - Olympic Games 2012 victory listed; Gold Cup 2015 victory listed, runner-up 2021 (no Golden Ball mention)"
           },
           {
-            "claim": "Led Houston Dynamo to the 2023 U.S. Open Cup title",
-            "verified": true,
-            "confidence": "high",
-            "source": "[1] US Open Cup 1 (2023); [5] led the Dynamo to the 2023 U.S. Open Cup title"
-          },
-          {
-            "claim": "helped Toluca end a 15-year trophy drought with back-to-back league wins in 2025",
-            "verified": false,
-            "confidence": "low",
-            "source": "No Liga MX titles listed for 2025[1]; stats show Toluca play in 2025/2026 Liga MX Apertura/Clausura but no titles confirmed[2][3]"
+            "partial": "Led Houston Dynamo to 2023 U.S. Open Cup title confirmed; Toluca 2025 titles unconfirmed (played Liga MX Apertura 2025/2026 for TOL per [4], no titles listed)",
+            "confidence": "medium",
+            "source": "[1] - US Open Cup 2023; [5] - led Dynamo to 2023 U.S. Open Cup title"
           }
-        ]
+        ],
+        "confidence": "medium",
+        "source": "[1] Player's titles section"
       },
       "tea": {
         "value": null,
         "confidence": "low",
-        "source": "Partially conflicting: Herrera with Houston Dynamo in 2026 (1 match, 14-15 minutes)[1][2][6], but also Liga MX Apertura 2025/2026 with TOL (290 minutes, 1 goal)[2][3]. No evidence of 'return to Houston in 2026'; appears active with Toluca in 2025/26 season as of current date"
+        "source": "Unverifiable speculative claim; [5] confirms return to Houston Dynamo (2022-24 prior, returns noted), current 2026 MLS stats show limited play [2], no 2026 return details conflicting but active with Houston per [7]"
       },
       "sources": {
         "value": [
@@ -1687,12 +1617,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Jos\u00e9 Artur de Lima Junior\",\n  \"nickname\": null,\n  \"age\": 30,\n  \"hometown\": \"Brumado, Brazil\",\n  \"college\": null,\n  \"nationality\": \"Brazil\",\n  \"position\": \"Midfielder\",\n  \"jersey_number\": 6,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Pivotal leader for Houston Dynamo, starting every match across all competitions in 2024 and helping win the 2023 U.S. Open Cup\u2014talk about clutch!\",\n    \"MLS Cup champion with Columbus Crew in 2020, bringing that winning vibe to H-Town with his aggressive ball-winning style and smooth distribution.\",\n    \"Brumado native who rose from S\u00e3o Paulo's youth ranks to MLS stardom\u2014now leads Dynamo in starts and minutes, a true engine in the midfield.\"\n  ],\n  \"tea\": \"Artur's been a rock for the Dynamo, hitting milestones like 250 matches in 2025 and scoring his first goal for the team in 2023\u2014fans love his non-stop energy and key role in deep playoff runs!\",\n  \"sources\": [\n    \"https://www.mlssoccer.com/players/artur/\",\n    \"https://www.besoccer.com/player/artur-326885\",\n    \"https://www.fotmob.com/players/750922/artur\",\n    \"https://www.bayoucitysoccer.net/dynamo/meet-the-new-guys-artur\",\n    \"https://www.houstondynamofc.com/dynamo2/players/artur/\",\n    \"https://www.espn.com/soccer/player/_/id/236342/artur\",\n    \"https://www.houstondynamofc.com/players/artur/\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936878+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520885+00:00",
     "verified": {
       "full_name": {
         "value": "Jos\u00e9 Artur de Lima Junior",
         "confidence": "high",
-        "source": "[2][3][5][6]"
+        "source": "[1] https://www.bayoucitysoccer.net/dynamo/meet-the-new-guys-artur, [2] https://en.wikipedia.org/wiki/Artur_(footballer,_born_1996)"
       },
       "nickname": {
         "value": null,
@@ -1702,12 +1632,12 @@
       "age": {
         "value": 30,
         "confidence": "high",
-        "source": "[2][3][5][6] - Born 11 March 1996"
+        "source": "[5] https://www.mlssoccer.com/players/artur/ (born 3.11.1996, age 30 as of March 2026)"
       },
       "hometown": {
         "value": "Brumado, Brazil",
         "confidence": "high",
-        "source": "[1][4][5][6]"
+        "source": "[1] https://www.bayoucitysoccer.net/dynamo/meet-the-new-guys-artur, [4] https://www.houstondynamofc.com/players/artur/, [5] https://www.mlssoccer.com/players/artur/"
       },
       "college": {
         "value": null,
@@ -1717,17 +1647,17 @@
       "nationality": {
         "value": "Brazil",
         "confidence": "high",
-        "source": "[2][3][5]"
+        "source": "[2] https://en.wikipedia.org/wiki/Artur_(footballer,_born_1996), [3] https://www.thesportsdb.com/player/34164705-Artur"
       },
       "position": {
         "value": "Midfielder",
         "confidence": "high",
-        "source": "[2][5]"
+        "source": "[2] https://en.wikipedia.org/wiki/Artur_(footballer,_born_1996), [4] https://www.houstondynamofc.com/players/artur/, [6] https://www.houstondynamofc.com/dynamo2/players/artur/"
       },
       "jersey_number": {
-        "value": null,
-        "confidence": "low",
-        "source": "Not mentioned in search results"
+        "value": 6,
+        "confidence": "high",
+        "source": "[6] https://www.houstondynamofc.com/dynamo2/players/artur/ (#6 \u2022 Midfielder)"
       },
       "relationship_status": {
         "value": null,
@@ -1746,17 +1676,17 @@
       },
       "fun_facts": {
         "value": [
-          "Pivotal leader for Houston Dynamo, starting every match across all competitions in 2024 and helping win the 2023 U.S. Open Cup\u2014talk about clutch!",
-          "MLS Cup champion with Columbus Crew in 2020, bringing that winning vibe to H-Town with his aggressive ball-winning style and smooth distribution.",
-          "Brumado native who rose from S\u00e3o Paulo's youth ranks to MLS stardom\u2014now leads Dynamo in starts and minutes, a true engine in the midfield."
+          "Pivotal leader for Houston Dynamo, **featured in every match across all competitions in 2024** and helping win the 2023 U.S. Open Cup (confirmed, but 'starting every match' unverifiable from sources)[4][5]",
+          "MLS Cup champion with Columbus Crew in 2020 (confirmed)[1][2]",
+          "Brumado native who rose from **Bahia, Juventus-SC, and** S\u00e3o Paulo's youth ranks to MLS stardom (confirmed, youth path corrected from claim), now leads Dynamo in starts and minutes (confirmed for 2024)[1][2][4]"
         ],
-        "confidence": "medium",
-        "source": "unverified"
+        "confidence": "high",
+        "source": "[1] https://www.bayoucitysoccer.net/dynamo/meet-the-new-guys-artur, [2] https://en.wikipedia.org/wiki/Artur_(footballer,_born_1996), [4] https://www.houstondynamofc.com/players/artur/, [5] https://www.mlssoccer.com/players/artur/"
       },
       "tea": {
-        "value": "Artur's been a rock for the Dynamo, hitting milestones like 250 matches in 2025 and scoring his first goal for the team in 2023\u2014fans love his non-stop energy and key role in deep playoff runs!",
-        "confidence": "medium",
-        "source": "unverified"
+        "value": null,
+        "confidence": "low",
+        "source": "Unverifiable; no evidence of 250 matches in 2025, first Dynamo goal in 2023 not confirmed in sources (sources note 2025 goal but not timing)[4]"
       },
       "sources": {
         "value": [
@@ -1801,12 +1731,12 @@
       ],
       "_raw_response": "```json\n{\n  \"full_name\": \"Diadie Samass\u00e9kou\",\n  \"nickname\": null,\n  \"age\": 30,\n  \"hometown\": \"Bamako, Mali\",\n  \"college\": null,\n  \"nationality\": \"Mali\",\n  \"position\": \"Defensive Midfielder\",\n  \"jersey_number\": 18,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Won three Austrian Bundesliga championships with Red Bull Salzburg (2017, 2018, 2019)\",\n    \"Played in the 2018 UEFA Europa League Final with Red Bull Salzburg after their historic run to the semi-finals\",\n    \"Made his first Bundesliga goal in November 2021 against RB Leipzig, marking his offensive evolution\",\n    \"Represents Mali internationally with 39 caps and 1 goal for his national team\"\n  ],\n  \"tea\": \"Samass\u00e9kou has had an impressive European journey, starting from Red Bull Salzburg's farm team and rising to become a key midfielder in the Austrian Bundesliga before making the move to German football with TSG Hoffenheim. His 2022-23 loan spell at Olympiacos in Greece showed his versatility across different leagues. Now bringing that continental experience to MLS with Houston Dynamo after signing in August 2025.\",\n  \"sources\": [\n    \"https://en.wikipedia.org/wiki/Diadie_Samass\u00e9kou\",\n    \"https://www.footmercato.net/joueur/diadie-samassekou/\",\n    \"https://africafoot.com/diadie-samassekou-parcours-couts-des-transferts-remuneration-et-plus/\",\n    \"https://tribuna.com/fr/persons/diadie-samassekou/\"\n  ]\n}\n```\n\n**Data Limitations:** The search results do not contain information about nickname, relationship status, partner details, Instagram handles, or personal social media presence. Information about his personal life beyond professional football statistics was not available in the provided sources. To obtain complete personal information, you would need to access his official social media accounts or conduct additional research through team media guides and player interviews."
     },
-    "_cached_at": "2026-03-15T21:49:40.936880+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520887+00:00",
     "verified": {
       "full_name": {
         "value": "Diadi\u00e9 Samass\u00e9kou",
         "confidence": "high",
-        "source": "Wikipedia [1]; Houston Dynamo FC [3]"
+        "source": "Wikipedia [1]; Houston Dynamo [2]"
       },
       "nickname": {
         "value": null,
@@ -1814,14 +1744,14 @@
         "source": "unverified"
       },
       "age": {
-        "value": "30",
+        "value": 30,
         "confidence": "high",
-        "source": "MLSsoccer.com [7] (born 11 January 1996); Houston Dynamo FC [3] (29-year-old as of signing, aligns with 2025 age 29 turning 30)"
+        "source": "Born 11 January 1996; current date March 2026 (365scores [4]; MLSsoccer [6])"
       },
       "hometown": {
         "value": "Bamako, Mali",
         "confidence": "high",
-        "source": "MLSsoccer.com [7]; Wikipedia [1]"
+        "source": "MLSsoccer [6]; worldfootball.net [5]"
       },
       "college": {
         "value": null,
@@ -1831,17 +1761,17 @@
       "nationality": {
         "value": "Mali",
         "confidence": "high",
-        "source": "Wikipedia [1]; Houston Dynamo FC [3]"
+        "source": "Wikipedia [1]; Houston Dynamo [2]"
       },
       "position": {
         "value": "Defensive Midfielder",
         "confidence": "high",
-        "source": "Houston Dynamo FC [3]; Breaking The Lines [2]"
+        "source": "Houston Dynamo [2]; MLSsoccer [6]"
       },
       "jersey_number": {
-        "value": null,
-        "confidence": "low",
-        "source": "No confirming evidence in sources"
+        "value": 18,
+        "confidence": "medium",
+        "source": "365scores [4]"
       },
       "relationship_status": {
         "value": null,
@@ -1864,32 +1794,34 @@
             "claim": "Won three Austrian Bundesliga championships with Red Bull Salzburg (2017, 2018, 2019)",
             "verified": true,
             "confidence": "high",
-            "source": "Wikipedia [1] (2016\u201317, 2017\u201318, 2018\u201319); Houston Dynamo FC [3]; Breaking The Lines [2]"
+            "source": "Wikipedia honours: 2016\u201317, 2017\u201318, 2018\u201319 [1]; Houston Dynamo [2]; 365scores [4]"
           },
           {
             "claim": "Played in the 2018 UEFA Europa League Final with Red Bull Salzburg after their historic run to the semi-finals",
             "verified": false,
             "confidence": "high",
-            "source": "Wikipedia [1] (played semi-finals vs Marseille, lost aggregate, did not reach final); Houston Dynamo FC [3] (reached semis, missed final)"
+            "source": "Played semi-final vs Marseille (lost aggregate), did not reach final (Wikipedia [1]; Houston Dynamo [2]). Conflict: Team reached semi-finals, not final.",
+            "note": "Salzburg lost semi-final to Marseille, who advanced to final."
           },
           {
             "claim": "Made his first Bundesliga goal in November 2021 against RB Leipzig, marking his offensive evolution",
             "verified": null,
-            "confidence": "medium",
-            "source": "Wikipedia [1] (2 goals in 2021-22 Hoffenheim, no specific match details); unconfirmed in sources"
+            "confidence": "low",
+            "source": "Hoffenheim 2021-22: 2 goals (no match details) [1]; no confirmation of first goal specifics or opponent."
           },
           {
             "claim": "Represents Mali internationally with 39 caps and 1 goal for his national team",
             "verified": true,
             "confidence": "high",
-            "source": "Wikipedia [1] (39 caps, 1 goal)"
+            "source": "Wikipedia: 39 caps, 1 goal [1]. Note: Houston Dynamo reports 42 matches [2]; 365scores reports 31 [4] \u2013 Wikipedia most detailed."
           }
         ]
       },
       "tea": {
-        "value": "Samass\u00e9kou started at Red Bull Salzburg's farm team FC Liefering, rose to key role at Salzburg winning titles, moved to Hoffenheim in 2019, loaned to Olympiacos (2022-23) and C\u00e1diz (2023-24). No confirmation of Houston Dynamo signing in August 2025.",
-        "confidence": "medium",
-        "source": "Wikipedia [1] (club history confirmed except Houston); Houston Dynamo FC [3] (recent Hoffenheim, no signing mentioned)"
+        "value": "Samass\u00e9kou started at Red Bull Salzburg farm team FC Liefering (2015), rose to key role at Salzburg, moved to Hoffenheim (2019), loan to Olympiacos (2022-23), loan to C\u00e1diz (2024), signed with Houston Dynamo (Aug 2025).",
+        "confidence": "high",
+        "source": "Wikipedia career [1]; Houston Dynamo [2]; 365scores transfers [4]",
+        "note": "Mostly accurate; C\u00e1diz loan was 2023-24 (not 2024 start), back to Hoffenheim mid-2024 before Dynamo signing. No 2022-23 Olympiacos as 'loan spell showing versatility' contradiction \u2013 confirmed loan."
       },
       "sources": {
         "value": [
@@ -1932,7 +1864,7 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Duane Octavius Holmes\",\n  \"nickname\": null,\n  \"age\": 31,\n  \"hometown\": \"Columbus, Georgia\",\n  \"college\": null,\n  \"nationality\": \"USA\",\n  \"position\": \"Midfielder\",\n  \"jersey_number\": 14,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Born in Georgia but raised in England, Duane brings that cool transatlantic flair to the pitch, blending US grit with English Championship savvy!\",\n    \"Earned USMNT caps in 2019 and was selected for the Gold Cup roster\u2014talk about repping the stars and stripes on the international stage!\",\n    \"Helped Derby County reach the 2019 EFL play-off final, nearly punching a ticket to the Premier League\u2014just one goal shy!\",\n    \"Started his pro journey in Huddersfield's academy from U-9s, debuting at 18 with assists right out of the gate\u2014pure talent from the youth ranks!\",\n    \"Scored his first Dynamo goal in a thrilling 3-2 road win over St. Louis CITY SC in 2025, making Houston fans cheer extra loud!\"\n  ],\n  \"tea\": \"Duane's Dynamo president Pat Onstad called him a versatile star with 'valuable experience'\u2014and he's already settling in with his family in Houston, ready to light up MLS with his ball progression magic!\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/players/duane-holmes/\",\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-u-s-national-team-midfielder-duane-holmes\",\n    \"https://en.wikipedia.org/wiki/Duane_Holmes\",\n    \"https://www.espn.com/soccer/player/_/id/182070/duane-holmes\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936882+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520889+00:00",
     "verified": {
       "full_name": {
         "value": "Duane Octavius Holmes",
@@ -1945,14 +1877,14 @@
         "source": "unverified"
       },
       "age": {
-        "value": "31",
+        "value": 31,
         "confidence": "high",
         "source": "[4] FotMob, [7] American Soccer Now, [8] ESPN (born 1994, current date 2026)"
       },
       "hometown": {
         "value": "Columbus, Georgia",
         "confidence": "high",
-        "source": "[1] Houston Dynamo FC, [5] US Soccer"
+        "source": "[1] Houston Dynamo FC, [5] US Soccer, [7] American Soccer Now"
       },
       "college": {
         "value": null,
@@ -1967,12 +1899,12 @@
       "position": {
         "value": "Midfielder",
         "confidence": "high",
-        "source": "[1] Houston Dynamo FC, [3] Wikipedia, [4] FotMob"
+        "source": "[1] Houston Dynamo FC, [3] Wikipedia, [5] US Soccer"
       },
       "jersey_number": {
         "value": null,
         "confidence": "low",
-        "source": "No confirmation in sources; [5] lists USMNT #20 (outdated club)"
+        "source": "No confirmation in search results; [5] lists USMNT number 20, not club-specific 14"
       },
       "relationship_status": {
         "value": null,
@@ -1995,38 +1927,38 @@
             "claim": "Born in Georgia but raised in England, Duane brings that cool transatlantic flair to the pitch, blending US grit with English Championship savvy!",
             "verified": true,
             "confidence": "high",
-            "source": "[1] Houston Dynamo FC: 'born in Columbus, Georgia and raised in England'; extensive Championship experience"
+            "source": "[1] Houston Dynamo FC: 'born in Columbus, Georgia and raised in England'; extensive Championship experience confirmed"
           },
           {
             "claim": "Earned USMNT caps in 2019 and was selected for the Gold Cup roster\u2014talk about repping the stars and stripes on the international stage!",
             "verified": true,
             "confidence": "high",
-            "source": "[1] Houston Dynamo FC: two caps in 2019 (Jamaica, Venezuela), named to 2019 Gold Cup roster but withdrew due to injury"
+            "source": "[1] Houston Dynamo FC: earned two caps in 2019 (Jamaica, Venezuela), named to 2019 Gold Cup roster but withdrew due to injury; [2] Leagues Cup confirms"
           },
           {
             "claim": "Helped Derby County reach the 2019 EFL play-off final, nearly punching a ticket to the Premier League\u2014just one goal shy!",
             "verified": true,
             "confidence": "high",
-            "source": "[1] Houston Dynamo FC, [2] LeaguesCup: helped Derby to 2019 play-off final, lost to Aston Villa"
+            "source": "[1] Houston Dynamo FC, [2] Leagues Cup: helped Derby to 2019 EFL Championship play-off final, 'one goal short' vs. Aston Villa"
           },
           {
             "claim": "Started his pro journey in Huddersfield's academy from U-9s, debuting at 18 with assists right out of the gate\u2014pure talent from the youth ranks!",
             "verified": true,
             "confidence": "high",
-            "source": "[1] Houston Dynamo FC: began in Huddersfield Academy from U-9, pro debut Sept 2013 (age 18), 3 assists in first senior season"
+            "source": "[1] Houston Dynamo FC: began in Huddersfield Academy from U-9s, pro debut September 2013 (age 18), 3 assists in first senior season"
           },
           {
             "claim": "Scored his first Dynamo goal in a thrilling 3-2 road win over St. Louis CITY SC in 2025, making Houston fans cheer extra loud!",
             "verified": true,
             "confidence": "high",
-            "source": "[2] LeaguesCup: scored first Dynamo goal in 3-2 road win over St. Louis CITY SC in 2025"
+            "source": "[2] Leagues Cup: scored first Dynamo goal in 3-2 road win over St. Louis CITY SC in 2025"
           }
         ]
       },
       "tea": {
-        "value": "Partial match; sources confirm versatile experience but no direct quote from Pat Onstad or family settling details",
+        "value": "Partial match: Houston Dynamo president not directly quoted as 'versatile star with valuable experience'; site notes 'extensive experience'. Signed March 2025, settling in Houston confirmed indirectly.",
         "confidence": "medium",
-        "source": "[1] Houston Dynamo FC describes 'extensive experience in English Football Leagues'; no Onstad quote or family info found. Conflict: No exact quote match."
+        "source": "[1] Houston Dynamo FC announcement (no exact Onstad quote found, but describes experience; family/settling not detailed)"
       },
       "sources": {
         "value": [
@@ -2068,12 +2000,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Agust\u00edn Bouzat\",\n  \"nickname\": null,\n  \"age\": 31,\n  \"hometown\": \"Bahia Blanca, Argentina\",\n  \"college\": null,\n  \"nationality\": \"Argentina\",\n  \"position\": \"Midfielder\",\n  \"jersey_number\": 22,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Captained CA V\u00e9lez Sarsfield to a historic treble in 2024, lifting Primera Divisi\u00f3n, Supercopa Argentina, and Supercopa Internacional \u2013 a true winner's mentality!\",\n    \"Fresh off leading Colo-Colo to Chile's Primera Divisi\u00f3n title in 2022 and Copa Chile in 2023, bringing that trophy-winning vibe to Houston.\",\n    \"Scored on his professional debut for Defensa y Justicia \u2013 talk about starting with a bang!\",\n    \"Made his Dynamo debut on Feb. 21, 2026, against Chicago Fire FC, ready to elevate the squad as a relentless leader.\"\n  ],\n  \"tea\": \"Agust\u00edn's epic journey from Bah\u00eda Blanca roots to captaining powerhouses across South America has fans buzzing \u2013 now he's bringing his championship swagger to MLS, and the Dynamo fam can't wait to see him shine! Super wholesome shoutout from the club welcoming him and his family to Houston.\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-ca-velez-sarsfield-captain-agustin-bouzat-from-argentina\",\n    \"https://es.mlssoccer.com/jugadores/agustin-bouzat/\",\n    \"https://en.wikipedia.org/wiki/Agust%C3%ADn_Bouzat\",\n    \"https://www.fotmob.com/es/players/723682/agustin-bouzat\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936884+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520891+00:00",
     "verified": {
       "full_name": {
         "value": "Agust\u00edn Bouzat",
         "confidence": "high",
-        "source": "[1] MLSsoccer.com, [2] Wikipedia"
+        "source": "Wikipedia [1]; Houston Dynamo [2]"
       },
       "nickname": {
         "value": null,
@@ -2081,14 +2013,14 @@
         "source": "unverified"
       },
       "age": {
-        "value": 31,
+        "value": "31",
         "confidence": "high",
-        "source": "[1] MLSsoccer.com (DOB 3.28.1994), [3] ESPN"
+        "source": "Born March 28, 1994 (31 as of March 2026); Houston Dynamo [2]; Wikipedia [1]"
       },
       "hometown": {
         "value": "Bah\u00eda Blanca, Argentina",
         "confidence": "high",
-        "source": "[1] MLSsoccer.com, [7] Soccerzz.com"
+        "source": "Houston Dynamo [2]; Wikipedia [1]; Soccerzz [7]"
       },
       "college": {
         "value": null,
@@ -2098,17 +2030,17 @@
       "nationality": {
         "value": "Argentina",
         "confidence": "high",
-        "source": "[1] MLSsoccer.com, [3] ESPN"
+        "source": "Houston Dynamo [2]; FotMob [3]; Wikipedia [1]"
       },
       "position": {
         "value": "Midfielder",
         "confidence": "high",
-        "source": "[1] MLSsoccer.com, [2] Wikipedia, [3] ESPN"
+        "source": "Wikipedia [1]; FotMob [3] (defensive midfielder); 365Scores [4] (left midfield); ESPN [6]"
       },
       "jersey_number": {
         "value": null,
         "confidence": "low",
-        "source": "Unverifiable; [3] ESPN lists #30, original claim #22 unconfirmed"
+        "source": "Unverifiable; Houston Dynamo lists #30 [6], not 22 confirmed"
       },
       "relationship_status": {
         "value": null,
@@ -2131,32 +2063,32 @@
             "claim": "Captained CA V\u00e9lez Sarsfield to a historic treble in 2024, lifting Primera Divisi\u00f3n, Supercopa Argentina, and Supercopa Internacional",
             "verified": true,
             "confidence": "high",
-            "source": "[1] MLSsoccer.com (confirms captained to three major trophies in 2024: Primera Divisi\u00f3n, Supercopa Argentina, Supercopa Internacional), [5] 365scores.com (lists these trophies)"
+            "source": "Houston Dynamo [2]; 365Scores [4] lists Liga Profesional 2024, Super Cup (2), Super Copa International (1) for V\u00e9lez"
           },
           {
             "claim": "Fresh off leading Colo-Colo to Chile's Primera Divisi\u00f3n title in 2022 and Copa Chile in 2023",
-            "verified": false,
+            "verified": true,
             "confidence": "high",
-            "source": "[2] Wikipedia (loan to Colo-Colo in 2022, no titles listed), [5] 365scores.com (Chilean Cup (1) confirmed, but no Primera Divisi\u00f3n title; conflict flagged)"
+            "source": "Houston Dynamo [2] (2022 Primera Divisi\u00f3n, 2023 Copa Chile); 365Scores [4] (First Division 1, Chilean Cup 1)"
           },
           {
             "claim": "Scored on his professional debut for Defensa y Justicia",
             "verified": true,
             "confidence": "high",
-            "source": "[2] Wikipedia (scored on pro debut in 2-2 draw with Uni\u00f3n Santa Fe on Feb 7, 2016)"
+            "source": "Wikipedia [1]; Houston Dynamo [2] (scored in 2-2 draw vs Uni\u00f3n Santa Fe, Feb 2016)"
           },
           {
             "claim": "Made his Dynamo debut on Feb. 21, 2026, against Chicago Fire FC",
-            "verified": null,
-            "confidence": "low",
-            "source": "Unverifiable in results; joined Jan 2026 [1][2], no debut details provided (potential future event as of Mar 15, 2026)"
+            "verified": false,
+            "confidence": "high",
+            "source": "Joined Houston Dynamo Jan 13, 2026 [1]; no evidence of Feb 21, 2026 debut vs Chicago Fire (MLS season typically starts later; conflicts with claim - future event as of search, no confirmation)"
           }
         ]
       },
       "tea": {
         "value": null,
         "confidence": "low",
-        "source": "Promotional narrative; core facts (Bah\u00eda Blanca roots, V\u00e9lez/Colo-Colo career, Dynamo move) align [1][2], but no specific 'wholesome shoutout' or fan buzz confirmed; jersey #22 conflicts with [3] #30"
+        "source": "Promotional narrative; core facts align (journey from Bah\u00eda Blanca, V\u00e9lez/Colo-Colo trophies, Dynamo signing [2]), but 'Dynamo debut Feb 21, 2026' conflicts as unconfirmed/false; wholesome welcome confirmed via Houston Dynamo statement [2]"
       },
       "sources": {
         "value": [
@@ -2200,12 +2132,12 @@
       ],
       "_raw_response": "```json\n{\n  \"full_name\": \"Matthew Arana\",\n  \"nickname\": null,\n  \"age\": 15,\n  \"hometown\": \"Rosharon, TX\",\n  \"college\": null,\n  \"nationality\": \"Mexico\",\n  \"position\": \"Midfielder\",\n  \"jersey_number\": 17,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Signed as the youngest first-team player in Houston Dynamo FC history at just 15 years old \u2013 a total prodigy making waves in MLS!\",\n    \"Started playing soccer at age 4 alongside his older brother Miguel, who's now a kicker for Texas Southern Tigers football \u2013 family full of athletes!\",\n    \"Led Mexico's U-15 national team to the Concacaf Championship title \u2013 international star in the making!\",\n    \"Rocketed through Dynamo Academy since age 11, scoring penalties in MLS NEXT Cup and grabbing his first pro assist with Dynamo 2\",\n    \"Already debuted in MLS coming off the bench \u2013 living the dream while staying humble and hungry for more minutes!\"\n  ],\n  \"tea\": \"This super-talented teen is bonding big-time with veteran star H\u00e9ctor Herrera, soaking up wisdom from the pros while lighting up preseason with wins like the inaugural Torneo de Tejas. Fans are buzzing about his bright future in his hometown club \u2013 the youth movement is here and Matthew's leading the charge with a smile!\",\n  \"sources\": [\n    \"https://www.click2houston.com/news/local/2026/03/12/houston-dynamo-sign-15-year-old-matthew-arana-as-youngest-first-team-player-in-club-history/\",\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-houston-native-midfielder-matthew-arana-as-homegrown-player\",\n    \"https://www.espn.com/soccer/player/_/id/419255/matthew-arana\",\n    \"https://www.mlssoccer.com/news/houston-dynamo-sign-homegrown-midfielder-matthew-arana\",\n    \"https://www.houstondynamofc.com/dynamo2/players/matthew-arana\"\n  ]\n}\n```"
     },
-    "_cached_at": "2026-03-15T21:49:40.936885+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520893+00:00",
     "verified": {
       "full_name": {
         "value": "Matthew Arana",
         "confidence": "high",
-        "source": "Multiple sources including Houston Dynamo announcement[1]"
+        "source": "Multiple sources including Houston Dynamo announcement [1], ESPN [2]"
       },
       "nickname": {
         "value": null,
@@ -2215,12 +2147,12 @@
       "age": {
         "value": "15",
         "confidence": "high",
-        "source": "Born August 28, 2010; confirmed 15 at signing in Feb/Mar 2026[1][2]"
+        "source": "Born August 28, 2010; confirmed 15 at signing in Feb 2026 [1][2][3]"
       },
       "hometown": {
-        "value": "Rosharon, TX",
+        "value": "Rosharon, TX (Houston area native)",
         "confidence": "high",
-        "source": "Described as Rosharon native[3]"
+        "source": "Rosharon native, Houston native [1][3]"
       },
       "college": {
         "value": null,
@@ -2228,19 +2160,19 @@
         "source": "unverified"
       },
       "nationality": {
-        "value": "Mexico",
+        "value": "Mexico (FIFA nationality Mexico/USA)",
         "confidence": "high",
-        "source": "FIFA nationality Mexico; represented Mexico U-15[1][2]"
+        "source": "Mexico nationality, represented Mexico U-15 [1][2][3]"
       },
       "position": {
         "value": "Midfielder",
         "confidence": "high",
-        "source": "Consistently listed as midfielder[1][2][3]"
+        "source": "Midfielder [1][2][3]"
       },
       "jersey_number": {
-        "value": "22",
-        "confidence": "high",
-        "source": "ESPN and Goal.com list #22[2][4]; conflicts with query claim of 17"
+        "value": "22 (recent MLS appearance; original claim #17 unverifiable)",
+        "confidence": "medium",
+        "source": "ESPN #22, Goal.com #22; #17 not mentioned [2][4]; flag: conflicts with claim of 17"
       },
       "relationship_status": {
         "value": null,
@@ -2258,45 +2190,14 @@
         "source": "unverified"
       },
       "fun_facts": {
-        "value": [
-          {
-            "claim": "Signed as the youngest first-team player in Houston Dynamo FC history at just 15 years old \u2013 a total prodigy making waves in MLS!",
-            "verified": true,
-            "confidence": "high",
-            "source": "Youngest first team signing at 15 years, 5 months, 24 days[1][3]"
-          },
-          {
-            "claim": "Started playing soccer at age 4 alongside his older brother Miguel, who's now a kicker for Texas Southern Tigers football \u2013 family full of athletes!",
-            "verified": true,
-            "confidence": "high",
-            "source": "Began at age 4 with brother Miguel Arana III, kicker for Texas Southern[1][3]"
-          },
-          {
-            "claim": "Led Mexico's U-15 national team to the Concacaf Championship title \u2013 international star in the making!",
-            "verified": true,
-            "confidence": "high",
-            "source": "Represented Mexico U-15, led to U-15 Concacaf Championship title in August (prior year)[1]; note: recent mention as U-16[3]"
-          },
-          {
-            "claim": "Rocketed through Dynamo Academy since age 11, scoring penalties in MLS NEXT Cup and grabbing his first pro assist with Dynamo 2",
-            "verified": true,
-            "confidence": "high",
-            "source": "Joined 2021 at age 11; scored penalty in MLS NEXT Cup (U-18); 1 assist with Dynamo 2[1]"
-          },
-          {
-            "claim": "Already debuted in MLS coming off the bench \u2013 living the dream while staying humble and hungry for more minutes!",
-            "verified": true,
-            "confidence": "high",
-            "source": "MLS debut as sub vs LAFC on 2/28 (home opener)[2][3]"
-          }
-        ],
+        "value": "All facts verified with minor clarifications",
         "confidence": "high",
-        "source": "Houston Dynamo announcement and media reports[1][2][3]"
+        "source": "Dynamo announcement [1], Click2Houston [3]"
       },
       "tea": {
-        "value": "Bonding with H\u00e9ctor Herrera, impactful in preseason (Torneo de Tejas win), fans excited about youth movement",
+        "value": "Bonding with H\u00e9ctor Herrera, learning from veterans; lit up preseason (Torneo de Tejas); fans buzzing about youth movement",
         "confidence": "high",
-        "source": "Bond with Herrera mentioned; preseason Torneo de Tejas win, one of 7 academy call-ups[1][3]"
+        "source": "Bond with Herrera; preseason impact; youth movement [1][3]"
       },
       "sources": {
         "value": [
@@ -2341,7 +2242,7 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Mateusz Piotr Bogusz\",\n  \"nickname\": null,\n  \"age\": 24,\n  \"hometown\": \"Ruda \u015al\u0105ska, Poland\",\n  \"college\": null,\n  \"nationality\": \"Poland\",\n  \"position\": \"Attacking Midfielder / Forward\",\n  \"jersey_number\": 19,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Exploded onto the MLS scene with LAFC in 2024, smashing a career-high 20 goals including his first pro hat-trick and earning MLS Player of the Month in June!\",\n    \"Key hero in LAFC's historic first U.S. Open Cup win and deep runs to finals\u2014now bringing that dynamic energy to Houston Dynamo as a Designated Player through 2028!\",\n    \"Polish international star with recent World Cup qualifying caps\u2014started his career as a teenage sensation wearing the iconic #10 for Ruch Chorz\u00f3w!\",\n    \"Versatile wizard who can dazzle as a false 9, #10, or deep midfielder with killer technical skills and an eye for goal.\"\n  ],\n  \"tea\": \"Fresh off helping Cruz Azul conquer the 2025 Concacaf Champions Cup and hit Liga MX semis, Mateusz is the exciting new Dynamo addition fans are buzzing about\u2014can't wait for his Houston magic!\",\n  \"sources\": [\n    \"https://en.wikipedia.org/wiki/Mateusz_Bogusz\",\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-dynamic-polish-international-attacker-mateusz-bogusz-as-a-designated-player\",\n    \"https://www.houstondynamofc.com/players/mateusz-bogusz/\",\n    \"https://www.mlssoccer.com/players/mateusz-bogusz/\",\n    \"https://pl.wikipedia.org/wiki/Mateusz_Bogusz\",\n    \"https://www.fotmob.com/pl/players/954194/mateusz-bogusz\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936887+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520895+00:00",
     "verified": {
       "full_name": {
         "value": "Mateusz Piotr Bogusz",
@@ -2409,9 +2310,9 @@
         "source": "unverified"
       },
       "tea": {
-        "value": "Fresh off helping Cruz Azul conquer the **2025 Concacaf Champions Cup** and hit Liga MX semis, Mateusz is the exciting new Dynamo addition fans are buzzing about\u2014can't wait for his Houston magic! (Confirmed)",
+        "value": "Joined Houston Dynamo from Cruz Azul in Jan 2026 after helping win 2025 Concacaf Champions Cup and Liga MX semis",
         "confidence": "high",
-        "source": "[2] MLSsoccer.com (Cruz Azul 2025 Concacaf Champions Cup win, Liga MX semis, joined Dynamo January 2026)"
+        "source": "[2] MLSsoccer.com (39 apps, 3G+7A; won 2025 Concacaf Champions Cup, semis Apertura/Clausura)"
       },
       "sources": {
         "value": [
@@ -2459,12 +2360,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Guilherme Augusto Vieira dos Santos\",\n  \"nickname\": null,\n  \"age\": 30,\n  \"hometown\": \"S\u00e3o Paulo, Brazil\",\n  \"college\": null,\n  \"nationality\": \"Brazil\",\n  \"position\": \"Left Winger\",\n  \"jersey_number\": 20,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Scored a heroic brace in his MLS debut for Houston Dynamo, leading a thrilling 2-1 comeback win over Chicago Fire FC \u2013 instant star power!\",\n    \"Captained legendary Santos FC (Pel\u00e9 and Neymar's club!) through epic promotion and relegation battles, with clutch assists in the final games to save the day.\",\n    \"Earned public shoutout from superstar Neymar on social media before his Dynamo move \u2013 that's some serious Brazilian soccer royalty vibes!\",\n    \"Top scorer in Fortaleza's 2023 Copa Sudamericana final run and winner of Gr\u00eamio's 2016 Copa do Brasil \u2013 loves the big stages.\",\n    \"Thrived under pressure with historic clubs, winning Saudi King's Cup and multiple Brazilian promotions \u2013 the ultimate clutch performer who shines when it counts.\"\n  ],\n  \"tea\": \"Already a fan sensation after that debut brace, and Neymar's heartfelt goodbye post has everyone buzzing about his star quality in Houston \u2013 this guy's got that magnetic leadership fans adore!\",\n  \"sources\": [\n    \"https://www.mlssoccer.com/news/guilherme-makes-heroic-houston-dynamo-debut\",\n    \"https://www.houstondynamofc.com/players/guilherme/\",\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-santos-fc-captain-guilherme-from-brazil\",\n    \"https://en.wikipedia.org/wiki/Guilherme_(footballer,_born_1995)\",\n    \"https://www.bayoucitysoccer.net/dynamo/meet-the-new-guys-guilherme\",\n    \"https://www.espn.com/soccer/player/_/id/233578/guilherme-augusto\",\n    \"https://www.fotmob.com/players/763151\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936889+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520897+00:00",
     "verified": {
       "full_name": {
         "value": "Guilherme Augusto Vieira dos Santos",
         "confidence": "high",
-        "source": "Wikipedia [1]; BeSoccer [2]; AS [3]"
+        "source": "Wikipedia [1], BeSoccer [2], AS [3]"
       },
       "nickname": {
         "value": null,
@@ -2472,14 +2373,14 @@
         "source": "unverified"
       },
       "age": {
-        "value": "30",
+        "value": 30,
         "confidence": "high",
-        "source": "Born 13 April 1995 (age 30 as of March 2026) - Wikipedia [1]; WhoScored [4]; AS [3]"
+        "source": "Born 13 April 1995 (age 30 as of 2026), Wikipedia [1], WhoScored [4]"
       },
       "hometown": {
         "value": null,
         "confidence": "low",
-        "source": "No confirming evidence in sources; birthplace not specified"
+        "source": "Unverifiable; no specific hometown mentioned, possibly S\u00e3o Paulo but not confirmed [1]"
       },
       "college": {
         "value": null,
@@ -2489,17 +2390,17 @@
       "nationality": {
         "value": "Brazil",
         "confidence": "high",
-        "source": "Wikipedia [1]; SoccerPunter [5]; ESPN [7]"
+        "source": "Wikipedia [1], SoccerPunter [5]"
       },
       "position": {
         "value": "Left Winger",
         "confidence": "high",
-        "source": "Wikipedia [1]; BeSoccer [2] (87% left winger); WhoScored [4] (Attacking Midfielder Left)"
+        "source": "Wikipedia [1], BeSoccer [2], WhoScored [4]"
       },
       "jersey_number": {
-        "value": "20",
+        "value": 20,
         "confidence": "medium",
-        "source": "WhoScored [4] (Houston Dynamo FC shirt number 20); conflicting with Santos #11 in some data"
+        "source": "Houston Dynamo shirt number 20, WhoScored [4]; conflicts with Santos #11 [4]"
       },
       "relationship_status": {
         "value": null,
@@ -2517,40 +2418,28 @@
         "source": "unverified"
       },
       "fun_facts": {
-        "value": {
-          "0": {
-            "value": null,
-            "confidence": "low",
-            "source": "No evidence of MLS debut brace for Houston Dynamo vs Chicago Fire; AS [3] shows 2 goals in 2 MLS matches 2026-2027 but no debut details or opponent"
-          },
-          "1": {
-            "value": "Partially confirmed: Played for Santos FC in S\u00e9rie B 2024, top scorer with 13 goals aiding promotion; no captaincy evidence",
-            "confidence": "medium",
-            "source": "Wikipedia [1] (Santos 2024: top scorer 13 goals, promotion to top tier); no captain mention"
-          },
-          "2": {
-            "value": null,
-            "confidence": "low",
-            "source": "No evidence of Neymar shoutout found in sources"
-          },
-          "3": {
-            "value": "Partially confirmed: Top scorer for Fortaleza in 2023 Copa Sudamericana (lost final); Gr\u00eamio 2016 Copa do Brasil win confirmed but not as top scorer",
+        "value": [
+          null,
+          null,
+          null,
+          {
+            "value": "Top scorer for Fortaleza in 2023 Copa Sudamericana (final run, lost to LDU Quito); Gr\u00eamio 2016 Copa do Brasil winner",
             "confidence": "high",
-            "source": "Wikipedia [1] (Fortaleza top goalscorer 2023 Copa Sudamericana; Gr\u00eamio Copa do Brasil 2016); AS [3] (9 goals Fortaleza 2023-2024)"
+            "source": "Wikipedia [1]; note: top scorer confirmed, but not specified as overall top scorer in final run"
           },
-          "4": {
-            "value": "Partially confirmed: King's Cup with Al-Faisaly 2020-21; multiple Brazilian promotions (e.g., Sport Recife 2019 top scorer); no other 'historic clubs' or multiple promotions specified beyond known career",
-            "confidence": "medium",
-            "source": "Wikipedia [1] (Al-Faisaly implied via honours; Sport Recife 2019 top scorer 17 goals promotion); Honours [1] (King's Cup 2020-21)"
+          {
+            "value": "Won Saudi King's Cup with Al-Faisaly 2020-21; S\u00e9rie B promotion with Santos 2024; S\u00e9rie B top scorer 2019 with Sport Recife",
+            "confidence": "high",
+            "source": "Wikipedia [1], AS [3]"
           }
-        },
-        "confidence": "medium",
-        "source": "Multiple sources [1][2][3]"
+        ],
+        "confidence": "mixed",
+        "source": "Wikipedia [1], BeSoccer [2], AS [3]"
       },
       "tea": {
         "value": null,
         "confidence": "low",
-        "source": "No evidence of Neymar 'goodbye post' or specific fan sensation beyond debut performance; speculative"
+        "source": "Unverifiable; no evidence of Neymar shoutout or specific fan sensation tied to these events"
       },
       "sources": {
         "value": [
@@ -2597,12 +2486,12 @@
       ],
       "_raw_response": "```json\n{\n  \"full_name\": \"Ezequiel Ponce Mart\u00ednez\",\n  \"nickname\": null,\n  \"age\": 28,\n  \"hometown\": \"Rosario, Argentina\",\n  \"college\": null,\n  \"nationality\": \"Argentine\",\n  \"position\": \"Forward\",\n  \"jersey_number\": 10,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Joined Houston Dynamo FC in June 2024 as the largest transfer fee in club history\",\n    \"Scored 10 goals in 32 appearances during the 2025 season, including a two-goal performance in a 4-3 victory over San Diego FC on July 5, 2025\",\n    \"Has played in six top-flight leagues across South America and Europe (Argentina, Italy, Spain, France, Greece, and Russia)\",\n    \"Career total of 284 matches with 79 goals across all clubs before joining Houston\",\n    \"Set a personal seasonal goal record of 18 goals while at AEK Athens in 2018-19, the club's highest goalscorer that season since Ismael Blanco's 24 goals in 2008-09\",\n    \"Made his Dynamo debut on July 27, 2024, against Vancouver Whitecaps FC\"\n  ],\n  \"tea\": \"Ponce has been instrumental in Houston's recent playoff success\u2014he helped the Dynamo qualify for the MLS Cup Playoffs in consecutive years for the first time since 2013 during his debut season in 2024. His combination of European and South American experience makes him a unique attacking weapon for the club. He's under contract through 2027 with club options extending through 2028, signaling the Dynamo's long-term commitment to him.\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/players/ezequiel-ponce/\",\n    \"https://en.wikipedia.org/wiki/Ezequiel-Ponce\",\n    \"https://www.fotmob.com/players/493216/ezequiel-ponce\",\n    \"https://www.espn.com/soccer/player/_/id/194553/ezequiel-ponce\"\n  ]\n}\n```\n\n**Note:** Personal relationship information (partner name, relationship status, Instagram handles) is not available in the search results provided[1][2][3][4]. Additionally, no nickname, college information, or verified personal social media details were found in the available sources. The \"tea\" section focuses on his professional achievements and exciting storylines within his soccer career, which are the most verifiable and relevant aspects of his public profile."
     },
-    "_cached_at": "2026-03-15T21:49:40.936891+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520899+00:00",
     "verified": {
       "full_name": {
         "value": "Ezequiel Ponce Mart\u00ednez",
         "confidence": "high",
-        "source": "https://en.wikipedia.org/wiki/Ezequiel_Ponce"
+        "source": "[5] Wikipedia; [1] Houston Dynamo FC official site"
       },
       "nickname": {
         "value": null,
@@ -2610,14 +2499,14 @@
         "source": "unverified"
       },
       "age": {
-        "value": 28,
+        "value": "28",
         "confidence": "high",
-        "source": "Born March 29, 1997 per Wikipedia; current date is March 15, 2026, making him 28 years old"
+        "source": "Born March 29, 1997 (age 28 as of March 15, 2026); confirmed in [1][2][3][4]"
       },
       "hometown": {
         "value": "Rosario, Argentina",
         "confidence": "high",
-        "source": "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-forward-ezequiel-ponce-from-aek-athens-on-club-record-transfer-fee"
+        "source": "[1][2]"
       },
       "college": {
         "value": null,
@@ -2627,17 +2516,17 @@
       "nationality": {
         "value": "Argentine",
         "confidence": "high",
-        "source": "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-forward-ezequiel-ponce-from-aek-athens-on-club-record-transfer-fee"
+        "source": "[1][2][3][5]"
       },
       "position": {
         "value": "Forward",
         "confidence": "high",
-        "source": "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-forward-ezequiel-ponce-from-aek-athens-on-club-record-transfer-fee"
+        "source": "[1][2][3][5]"
       },
       "jersey_number": {
         "value": null,
         "confidence": "low",
-        "source": "Not mentioned in any search results"
+        "source": "Unverifiable in search results; no mention of #10"
       },
       "relationship_status": {
         "value": null,
@@ -2656,20 +2545,48 @@
       },
       "fun_facts": {
         "value": [
-          "Joined Houston Dynamo FC in June 2024 as the largest transfer fee in club history",
-          "Scored 10 goals in 32 appearances during the 2025 season, including a two-goal performance in a 4-3 victory over San Diego FC on July 5, 2025",
-          "Has played in six top-flight leagues across South America and Europe (Argentina, Italy, Spain, France, Greece, and Russia)",
-          "Career total of 284 matches with 79 goals across all clubs before joining Houston",
-          "Set a personal seasonal goal record of 18 goals while at AEK Athens in 2018-19, the club's highest goalscorer that season since Ismael Blanco's 24 goals in 2008-09",
-          "Made his Dynamo debut on July 27, 2024, against Vancouver Whitecaps FC"
-        ],
-        "confidence": "medium",
-        "source": "unverified"
+          {
+            "claim": "Joined Houston Dynamo FC in June 2024 as the largest transfer fee in club history",
+            "verified": true,
+            "confidence": "high",
+            "source": "[1][2][5]"
+          },
+          {
+            "claim": "Scored 10 goals in 32 appearances during the 2025 season, including a two-goal performance in a 4-3 victory over San Diego FC on July 5, 2025",
+            "verified": true,
+            "confidence": "high",
+            "source": "[2] MLSsoccer.com"
+          },
+          {
+            "claim": "Has played in six top-flight leagues across South America and Europe (Argentina, Italy, Spain, France, Greece, and Russia)",
+            "verified": true,
+            "confidence": "high",
+            "source": "[1][2]"
+          },
+          {
+            "claim": "Career total of 284 matches with 79 goals across all clubs before joining Houston",
+            "verified": false,
+            "confidence": "medium",
+            "source": "Pre-Houston: 247 matches, 65 goals per [1][2]; conflicts with claim (higher numbers unverifiable)"
+          },
+          {
+            "claim": "Set a personal seasonal goal record of 18 goals while at AEK Athens in 2018-19, the club's highest goalscorer that season since Ismael Blanco's 24 goals in 2008-09",
+            "verified": true,
+            "confidence": "high",
+            "source": "[1] (21 goals in 2018-19 all comps, context matches); [5] (18 goals cited, highest since Blanco)"
+          },
+          {
+            "claim": "Made his Dynamo debut on July 27, 2024, against Vancouver Whitecaps FC",
+            "verified": true,
+            "confidence": "high",
+            "source": "[2]"
+          }
+        ]
       },
       "tea": {
-        "value": "Ponce has been instrumental in Houston's recent playoff success\u2014he helped the Dynamo qualify for the MLS Cup Playoffs in consecutive years for the first time since 2013 during his debut season in 2024. His combination of European and South American experience makes him a unique attacking weapon for the club. He's under contract through 2027 with club options extending through 2028, signaling the Dynamo's long-term commitment to him.",
-        "confidence": "medium",
-        "source": "unverified"
+        "value": "Partially verified: Instrumental in 2024 playoff qualification (first consecutive since 2013), 5 goals in 10 regular season matches[2]; contract through 2027 with options to 2028[1][2]; experience confirmed[1][2]. No direct confirmation of 'unique attacking weapon' phrasing.",
+        "confidence": "high",
+        "source": "[1][2]"
       },
       "sources": {
         "value": [
@@ -2712,12 +2629,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Jack Ryan McGlynn\",\n  \"nickname\": null,\n  \"age\": 22,\n  \"hometown\": \"Middle Village, New York\",\n  \"college\": null,\n  \"nationality\": \"USA\",\n  \"position\": \"Midfielder\",\n  \"jersey_number\": 8,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Exploded onto the scene with Houston Dynamo in 2025, scoring six goals and eight assists while earning four MLSSoccer.com Team of the Matchday nods\u2014including a brace against rivals Austin FC![2]\",\n    \"USMNT star who notched his senior debut goal and assist in a 3-1 win over Venezuela, then played every minute of the 2025 Gold Cup run to the Final at Houston's own NRG Stadium![2][3]\",\n    \"Left-footed wizard traded for a historic $2.1M\u2014the first cash-for-player deal for an MLS Homegrown talent\u2014now locked in with Dynamo through 2028![1][3]\",\n    \"Olympic standout, assisting in the Group Stage finale for the U.S. Men's Soccer Team en route to the Quarterfinals in Paris![3]\"\n  ],\n  \"tea\": \"Fans are buzzing over his stunning screamers, like the opener against LAFC and Texas Derby golazos\u2014pure fireworks! Named to Team of the Matchday after bossing the pitch in Dynamo's 2026 opener win over Chicago Fire. This guy's living the dream in H-Town![2][4]\",\n  \"sources\": [\n    \"https://www.fotmob.com/players/1171013/jack-mcglynn\",\n    \"https://www.houstondynamofc.com/players/jack-mcglynn/\",\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-midfielder-jack-mcglynn-confirmed-as-member-of-usmnt-s-2025-gold-cup-roster\",\n    \"https://www.espn.com/soccer/player/_/id/303512/jack-mcglynn\",\n    \"https://en.wikipedia.org/wiki/Jack_McGlynn\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936893+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520902+00:00",
     "verified": {
       "full_name": {
         "value": "Jack McGlynn",
         "confidence": "high",
-        "source": "[1][2][3][4][5]"
+        "source": "[1][2][3][4][5][7]"
       },
       "nickname": {
         "value": null,
@@ -2725,14 +2642,14 @@
         "source": "unverified"
       },
       "age": {
-        "value": 22,
-        "confidence": "high",
-        "source": "[2] (context implies age 22 as of late 2025/early 2026)"
+        "value": null,
+        "confidence": "low",
+        "source": "No birthdate in results; age unverifiable"
       },
       "hometown": {
         "value": null,
         "confidence": "low",
-        "source": "No confirming evidence in search results"
+        "source": "No hometown data in results"
       },
       "college": {
         "value": null,
@@ -2742,17 +2659,17 @@
       "nationality": {
         "value": "USA",
         "confidence": "high",
-        "source": "[3][4]"
+        "source": "USMNT appearances implied by international matches vs Japan/South Korea [2]"
       },
       "position": {
         "value": "Midfielder",
         "confidence": "high",
-        "source": "[1][3][4][5]"
+        "source": "[2][4][7]"
       },
       "jersey_number": {
-        "value": 8,
+        "value": "8",
         "confidence": "high",
-        "source": "[4][6][7]"
+        "source": "[4]"
       },
       "relationship_status": {
         "value": null,
@@ -2780,9 +2697,9 @@
         "source": "unverified"
       },
       "tea": {
-        "value": "Named to Team of the Matchday after 2-1 win over Chicago Fire in 2026 opener (1 assist); goal vs Colorado Rapids and assist vs Portland in 2025 confirmed; no specific confirmation for 'opener against LAFC', Texas Derby golazos, or brace vs Austin (but brace confirmed separately)",
+        "value": "Partial: 1 assist in Feb 22 2026 win vs Chicago Fire (2-1); March 1 2026 loss vs LAFC (0-2, no goal noted); no Texas Derby golazos or Team of the Matchday confirmation",
         "confidence": "medium",
-        "source": "[1][4][5]"
+        "source": "[2]; conflicts: no goal vs LAFC"
       },
       "sources": {
         "value": [
@@ -2826,7 +2743,7 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Nelson Giovany Qui\u00f1\u00f3nes Iturre\",\n  \"nickname\": null,\n  \"age\": 23,\n  \"hometown\": \"Tumaco, Colombia\",\n  \"college\": null,\n  \"nationality\": \"Colombia\",\n  \"position\": \"Forward\",\n  \"jersey_number\": 7,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Exploded onto the MLS scene in 2023 with 4 goals and 2 assists, helping Houston snag their second U.S. Open Cup title and reach the Western Conference Final\u2014named Dynamo Young Player of the Year!\",\n    \"Bounced back strong in 2025 with his league debut after overcoming a tough knee injury, showing that resilient spirit we love.\",\n    \"Colombian gem who started shining at Once Caldas as a teen, scoring on debut season and now repping Houston with speed and flair.\",\n    \"Right-footed dynamo at 5'9\\\", drawing penalties in big moments like the Open Cup final thriller against Inter Miami.\"\n  ],\n  \"tea\": \"The speedy winger's electric 2023 run turned him into a fan favorite\u2014imagine the vibes when he bagged his first MLS goal just days after his Open Cup strike! Can't wait for more highlight-reel magic in 2026.\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/players/nelson-quinones/\",\n    \"https://www.mlssoccer.com/players/nelson-quinones/\",\n    \"https://en.wikipedia.org/wiki/Nelson_Qui%C3%B1%C3%B3nes\",\n    \"https://www.fotmob.com/players/1311908/nelson-quinones\",\n    \"https://www.365scores.com/en-us/football/player/nelson-quinones-100920\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936894+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520904+00:00",
     "verified": {
       "full_name": {
         "value": "Nelson Giovany Qui\u00f1\u00f3nes Iturre",
@@ -2839,14 +2756,14 @@
         "source": "unverified"
       },
       "age": {
-        "value": 23,
+        "value": "23",
         "confidence": "high",
         "source": "[1] Houston Dynamo FC official site (DOB 8.20.2002)"
       },
       "hometown": {
         "value": null,
         "confidence": "low",
-        "source": "Unverifiable from search results; no mention of Tumaco"
+        "source": "Unverifiable in search results; no mention of Tumaco"
       },
       "college": {
         "value": null,
@@ -2866,7 +2783,7 @@
       "jersey_number": {
         "value": null,
         "confidence": "low",
-        "source": "Unverifiable from search results; no mention of jersey number 7"
+        "source": "Unverifiable; no jersey number mentioned in results"
       },
       "relationship_status": {
         "value": null,
@@ -2888,31 +2805,37 @@
           {
             "claim": "Exploded onto the MLS scene in 2023 with 4 goals and 2 assists, helping Houston snag their second U.S. Open Cup title and reach the Western Conference Final\u2014named Dynamo Young Player of the Year!",
             "verified": true,
-            "details": "Confirmed: 4 goals and 2 assists in 2023 regular season (28 apps); key in U.S. Open Cup win (drew PK in final vs Inter Miami) and Western Conference Final; named Dynamo Young Player of the Year.[1][2][3]"
+            "confidence": "high",
+            "source": "[1][2][3] Confirmed: 4 goals, 2 assists in 2023 MLS regular season; key in Open Cup win and WCF; named Young Player of the Year"
           },
           {
             "claim": "Bounced back strong in 2025 with his league debut after overcoming a tough knee injury, showing that resilient spirit we love.",
             "verified": true,
-            "details": "Confirmed: Made 2025 league debut after major knee injury in 2024 preseason; played minutes in 2025 matches.[1][2][5]"
+            "confidence": "high",
+            "source": "[1][2][5] Confirmed: 2025 league debut after major knee injury in 2024 preseason; played minutes in 2025 matches"
           },
           {
             "claim": "Colombian gem who started shining at Once Caldas as a teen, scoring on debut season and now repping Houston with speed and flair.",
             "verified": true,
-            "details": "Confirmed: Debuted for Once Caldas at 18 (2021), scored 1 goal + 1 assist in debut season; joined Houston in 2022.[1][3]"
+            "confidence": "high",
+            "source": "[3] Confirmed: Debut at 18 with Once Caldas in 2021, scored 1 goal that season; now with Houston"
           },
           {
             "claim": "Right-footed dynamo at 5'9\", drawing penalties in big moments like the Open Cup final thriller against Inter Miami.",
-            "verified": "partial",
-            "details": "Confirmed: Right-footed[4]; drew foul/PK in Open Cup final vs Inter Miami[3]. Height 5'9\" unverifiable; no sources specify."
+            "verified": {
+              "right-footed": true,
+              "height": null,
+              "penalty": true
+            },
+            "confidence": "medium",
+            "source": "[4] FotMob (right-footed); [3] Confirmed drew foul for PK in Open Cup final vs Inter Miami; height unverifiable"
           }
-        ],
-        "confidence": "high",
-        "source": "[1][2][3][4]"
+        ]
       },
       "tea": {
-        "value": "First MLS goal 4 days after Open Cup goal confirmed (Open Cup vs Chicago June 6, 2023; MLS vs LAFC June 10, 2023); fan favorite status subjective but aligns with 2023 impact.[3] Future 2026 speculative.",
-        "confidence": "medium",
-        "source": "[3] Wikipedia"
+        "value": "Partially verified: First MLS goal 4 days after Open Cup goal (June 6 vs Chicago Open Cup, June 10 vs LAFC MLS); fan favorite in 2023; contract through 2026[1][3]",
+        "confidence": "high",
+        "source": "[3] Wikipedia (goal timeline confirmed)"
       },
       "sources": {
         "value": [
@@ -2957,12 +2880,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Ond\u0159ej Lingr\",\n  \"nickname\": null,\n  \"age\": 27,\n  \"hometown\": \"Hav\u00ed\u0159ov, Czech Republic\",\n  \"college\": null,\n  \"nationality\": \"Czech\",\n  \"position\": \"Attacking Midfielder\",\n  \"jersey_number\": 9,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Scored an epic 96th-minute equalizer on his Houston Dynamo debut against Colorado Rapids \u2013 pure clutch magic!\",\n    \"Trophy magnet: Won Czech league & cups with Slavia Prague, plus KNVB Cup and Dutch Super Cup with Feyenoord.\",\n    \"Starred for Czech national team with 22 caps \u2013 representing his country like a boss.\",\n    \"MLS Team of the Matchday honoree THREE times already \u2013 lighting up Houston!\",\n    \"Right-footed wizard at 175cm, 70kg \u2013 proves skill beats size every time.\"\n  ],\n  \"tea\": \"Fans adore his dramatic debut drama goal and his seamless jump from European silverware to MLS heroics \u2013 the Czech import who's already a Dynamo darling with those clutch moments and big smiles on the pitch!\",\n  \"sources\": [\n    \"https://en.wikipedia.org/wiki/Ond%C5%99ej_Lingr\",\n    \"https://cs.wikipedia.org/wiki/Ond%C5%99ej_Lingr\",\n    \"https://www.houstondynamofc.com/players/ondrej-lingr/\",\n    \"http://top11.cz/ondrej-lingr/\",\n    \"https://www.mlssoccer.com/players/ondrej-lingr/\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936896+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520906+00:00",
     "verified": {
       "full_name": {
         "value": "Ond\u0159ej Lingr",
         "confidence": "high",
-        "source": "Wikipedia [1], MLSsoccer.com [3]"
+        "source": "Wikipedia, MLSsoccer.com, Houston Dynamo FC official website"
       },
       "nickname": {
         "value": null,
@@ -2970,14 +2893,14 @@
         "source": "unverified"
       },
       "age": {
-        "value": "27",
+        "value": 27,
         "confidence": "high",
-        "source": "Born October 7, 1998; age 27 as of March 2026 - Wikipedia [1], Soccerbase [2], MLSsoccer.com [3]"
+        "source": "Born October 7, 1998 (per Wikipedia[1], MLSsoccer.com[2], WhoScored[8])"
       },
       "hometown": {
         "value": "Hav\u00ed\u0159ov, Czech Republic",
         "confidence": "high",
-        "source": "Wikipedia [1], Soccerbase [2], MLSsoccer.com [3]"
+        "source": "MLSsoccer.com[2]"
       },
       "college": {
         "value": null,
@@ -2987,17 +2910,17 @@
       "nationality": {
         "value": "Czech",
         "confidence": "high",
-        "source": "Wikipedia [1], Soccerbase [2], MLSsoccer.com [3]"
+        "source": "Wikipedia[1], MLSsoccer.com[2]"
       },
       "position": {
         "value": "Attacking Midfielder",
         "confidence": "high",
-        "source": "Wikipedia [1], MLSsoccer.com [3], Houston Dynamo [4][5], ESPN [6]"
+        "source": "Wikipedia[1], MLSsoccer.com[2], Houston Dynamo FC[3][4]"
       },
       "jersey_number": {
-        "value": "9",
+        "value": 9,
         "confidence": "high",
-        "source": "ESPN [6]"
+        "source": "ESPN[6], Houston Dynamo FC[4]"
       },
       "relationship_status": {
         "value": null,
@@ -3016,43 +2939,19 @@
       },
       "fun_facts": {
         "value": [
-          {
-            "claim": "Scored an epic 96th-minute equalizer on his Houston Dynamo debut against Colorado Rapids \u2013 pure clutch magic!",
-            "verified": true,
-            "details": "Scored first goal in 96th minute as substitute on April 19, 2025 against Colorado Rapids[1]"
-          },
-          {
-            "claim": "Trophy magnet: Won Czech league & cups with Slavia Prague, plus KNVB Cup and Dutch Super Cup with Feyenoord.",
-            "verified": true,
-            "details": "Czech First League 2020\u201321, Czech Cup 2020\u201321 & 2022\u201323 with Slavia; KNVB Cup 2023\u201324, Johan Cruyff Shield 2024 with Feyenoord[1][3][4]. Note: Czech First League listed as 2020-21 or 2021, but confirmed win[1][3]"
-          },
-          {
-            "claim": "Starred for Czech national team with 22 caps \u2013 representing his country like a boss.",
-            "verified": false,
-            "details": "Unverifiable from sources; no cap count provided in results. Sources mention 'Czech Republic National Team attacker'[4] but no specific number[1-9]"
-          },
-          {
-            "claim": "MLS Team of the Matchday honoree THREE times already \u2013 lighting up Houston!",
-            "verified": false,
-            "details": "Unverifiable; no mentions of MLS Team of the Matchday awards in sources[1-9]"
-          },
-          {
-            "claim": "Right-footed wizard at 175cm, 70kg \u2013 proves skill beats size every time.",
-            "verified": {
-              "right-footed": true,
-              "height": "175cm (5'9\")",
-              "weight": "70kg (154 lbs / 152 lbs)"
-            },
-            "details": "Right-footed[8]; height 5'9\"[3][6], weight 154 lbs[3] or 152 lbs[6], approx 70kg. No conflicts[1-9]"
-          }
+          "Scored an epic 96th-minute equalizer on his Houston Dynamo debut against Colorado Rapids \u2013 pure clutch magic!",
+          "Trophy magnet: Won Czech league & cups with Slavia Prague, plus KNVB Cup and Dutch Super Cup with Feyenoord.",
+          "Starred for Czech national team with 22 caps \u2013 representing his country like a boss.",
+          "MLS Team of the Matchday honoree THREE times already \u2013 lighting up Houston!",
+          "Right-footed wizard at 175cm, 70kg \u2013 proves skill beats size every time."
         ],
         "confidence": "medium",
-        "source": "Wikipedia [1], MLSsoccer.com [3], FotMob [8], ESPN [6]"
+        "source": "unverified"
       },
       "tea": {
-        "value": null,
-        "confidence": "low",
-        "source": "Subjective summary; fan appeal inferred from debut goal[1] and trophies[1][3][4], but no direct evidence for phrasing"
+        "value": "Fans adore his dramatic debut drama goal and his seamless jump from European silverware to MLS heroics \u2013 the Czech import who's already a Dynamo darling with those clutch moments and big smiles on the pitch!",
+        "confidence": "medium",
+        "source": "unverified"
       },
       "sources": {
         "value": [
@@ -3094,12 +2993,12 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Lawrence Ennali\",\n  \"nickname\": null,\n  \"age\": 24,\n  \"hometown\": \"Berlin, Germany\",\n  \"college\": null,\n  \"nationality\": \"Germany\",\n  \"position\": \"Winger\",\n  \"jersey_number\": 11,\n  \"relationship_status\": null,\n  \"partner_name\": null,\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Explosive speed demon who chased down a clearance from his own half to score a screamer in a thrilling 4-3 win over San Diego FC on July Fourth weekend!\",\n    \"Bounced back from a tough ACL injury in just seven months to make 18 appearances, score a goal, and rack up four assists in 2025 \u2013 earning a finalist nod for MLS Comeback Player of the Year!\",\n    \"Star of the inspiring Apple TV feature 'The Return \u2013 Lawrence Ennali,' showcasing his grit and creativity after joining Houston as the biggest U22 Initiative signing ever!\"\n  ],\n  \"tea\": \"This Berlin speedster's epic comeback story lit up Apple TV, and fans love his burst of energy lighting up the Dynamo attack \u2013 a true fan-favorite winger who's all heart and hustle!\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/players/lawrence-ennali/\",\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-forward-lawrence-ennali-named-finalist-for-2025-mls-comeback-player-of-the-year\",\n    \"https://en.wikipedia.org/wiki/Lawrence_Ennali\",\n    \"https://www.fotmob.com/players/1274604/lawrence-ennali\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936898+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520908+00:00",
     "verified": {
       "full_name": {
         "value": "Lawrence Ennali",
         "confidence": "high",
-        "source": "https://www.houstondynamofc.com/players/lawrence-ennali/ [1]"
+        "source": "[1] Houston Dynamo FC official player page"
       },
       "nickname": {
         "value": null,
@@ -3107,14 +3006,14 @@
         "source": "unverified"
       },
       "age": {
-        "value": "24",
+        "value": 24,
         "confidence": "high",
-        "source": "https://www.houstondynamofc.com/players/lawrence-ennali/ [1]; born March 7, 2002 [3]"
+        "source": "[1] Date of Birth 3.7.2002 (24); [5] 24-year-old"
       },
       "hometown": {
         "value": "Berlin, Germany",
         "confidence": "high",
-        "source": "https://www.houstondynamofc.com/news/houston-dynamo-fc-forward-lawrence-ennali-named-finalist-for-2025-mls-comeback-player-of-the-year [2]"
+        "source": "[2] Berlin native"
       },
       "college": {
         "value": null,
@@ -3124,17 +3023,17 @@
       "nationality": {
         "value": "Germany",
         "confidence": "high",
-        "source": "https://www.houstondynamofc.com/players/lawrence-ennali/ [1]; https://en.wikipedia.org/wiki/Lawrence_Ennali [3]"
+        "source": "[1] German winger; [3] German professional footballer"
       },
       "position": {
-        "value": "Winger / Forward",
+        "value": "Winger",
         "confidence": "high",
-        "source": "https://www.houstondynamofc.com/players/lawrence-ennali/ [1]; https://en.wikipedia.org/wiki/Lawrence_Ennali [3]"
+        "source": "[1] German winger; [3] plays as a winger; [5] left winger"
       },
       "jersey_number": {
-        "value": "11",
+        "value": 11,
         "confidence": "high",
-        "source": "https://www.mlssoccer.com/players/lawrence-ennali/stats/ [6]"
+        "source": "[6] #11 \u2022 Forward"
       },
       "relationship_status": {
         "value": null,
@@ -3153,17 +3052,29 @@
       },
       "fun_facts": {
         "value": [
-          "Confirmed: Explosive speed demon who chased down a clearance from his own half to score a screamer in a thrilling 4-3 win over San Diego FC on July Fourth weekend! [exact match]",
-          "Confirmed: Bounced back from a tough ACL injury in just seven months to make 18 appearances, score a goal, and rack up four assists in 2025 \u2013 earning a finalist nod for MLS Comeback Player of the Year! [exact match, though Wikipedia shows 13 MLS apps [3]; FotMob confirms 18 matches, 1G/4A [5]]",
-          "Confirmed: Star of the inspiring Apple TV feature 'The Return \u2013 Lawrence Ennali,' showcasing his grit and creativity after joining Houston as the biggest U22 Initiative signing ever! [exact match]"
+          {
+            "claim": "Explosive speed demon who chased down a clearance from his own half to score a screamer in a thrilling 4-3 win over San Diego FC on July Fourth weekend!",
+            "verified": true,
+            "details": "Confirmed: Scored in 4-3 victory over San Diego FC on July Fourth Weekend by chasing down a clearance from Houston\u2019s own half.[2]"
+          },
+          {
+            "claim": "Bounced back from a tough ACL injury in just seven months to make 18 appearances, score a goal, and rack up four assists in 2025 \u2013 earning a finalist nod for MLS Comeback Player of the Year!",
+            "verified": true,
+            "details": "Confirmed: Returned exactly seven months after ACL injury; 18 appearances, 1 goal, 4 assists in 2025; finalist for 2025 MLS Comeback Player of the Year.[1][2][5]"
+          },
+          {
+            "claim": "Star of the inspiring Apple TV feature 'The Return \u2013 Lawrence Ennali,' showcasing his grit and creativity after joining Houston as the biggest U22 Initiative signing ever!",
+            "verified": true,
+            "details": "Confirmed: Apple TV feature \u2018The Return \u2013 Lawrence Ennali\u2019; largest U22 Initiative signing in club history.[1][2][4]"
+          }
         ],
         "confidence": "high",
-        "source": "https://www.houstondynamofc.com/news/houston-dynamo-fc-forward-lawrence-ennali-named-finalist-for-2025-mls-comeback-player-of-the-year [2]; https://www.houstondynamofc.com/players/lawrence-ennali/ [1]"
+        "source": "[1][2][4][5]"
       },
       "tea": {
-        "value": "Promotional summary confirmed via official sources describing his comeback, speed, creativity, and fan appeal.",
+        "value": "Subjective summary consistent with verified facts (Berlin speedster, comeback on Apple TV, energetic winger for Dynamo).",
         "confidence": "high",
-        "source": "https://www.houstondynamofc.com/news/houston-dynamo-fc-forward-lawrence-ennali-named-finalist-for-2025-mls-comeback-player-of-the-year [2]"
+        "source": "[1][2]"
       },
       "sources": {
         "value": [
@@ -3206,57 +3117,57 @@
       ],
       "_raw_response": "{\n  \"full_name\": \"Nicholas Markanich\",\n  \"nickname\": \"Nick\",\n  \"age\": 26,\n  \"hometown\": \"Bourbonnais, IL\",\n  \"college\": \"Northern Illinois University\",\n  \"nationality\": \"USA\",\n  \"position\": \"Forward\",\n  \"jersey_number\": 7,\n  \"relationship_status\": \"married\",\n  \"partner_name\": \"null\",\n  \"partner_instagram\": null,\n  \"fun_facts\": [\n    \"Shattered USL Championship records with 28 regular-season goals and 30 total goals in 2024, earning Player of the Year and Golden Boot while topping scorers across all U.S. leagues ahead of Messi and Suarez!\",\n    \"Formed the unstoppable 'M&M Boys' striker duo with teammate MD Myers at Charleston Battery, lighting up the league with goals and assists.\",\n    \"NCAA scoring leader in 2021 with 16 goals at Northern Illinois, stacking MAC Player of the Year awards like a boss.\",\n    \"Scored a wild four-goal game (including a first-half hat trick) against Las Vegas Lights in 2024 \u2013 pure clinical finishing magic!\",\n    \"6'2\\\" goal machine with sharp instincts, now bringing his fire to Houston Dynamo on loan through 2026!\"\n  ],\n  \"tea\": \"The Dynamo couldn't wait to welcome Nick *and his wife* to Houston \u2013 a wholesome new chapter for this record-breaking superstar as he brings his lethal scoring touch to MLS! Fans are buzzing about his epic move from Spain back home.\",\n  \"sources\": [\n    \"https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-former-usl-championship-player-of-the-year-nicholas-markanich-on-loan\",\n    \"https://en.wikipedia.org/wiki/Nick_Markanich\",\n    \"https://www.houstondynamofc.com/players/nicholas-markanich-x1547/\",\n    \"https://www.houstondynamofc.com/players/nick-markanich/index\"\n  ]\n}"
     },
-    "_cached_at": "2026-03-15T21:49:40.936900+00:00",
+    "_cached_at": "2026-03-15T21:59:34.520910+00:00",
     "verified": {
       "full_name": {
-        "value": "Nicholas Bungal Markanich",
+        "value": "Nicholas Markanich",
         "confidence": "high",
-        "source": "Wikipedia"
+        "source": "Wikipedia [1], MLSsoccer.com [2]"
       },
       "nickname": {
         "value": "Nick",
         "confidence": "high",
-        "source": "Wikipedia, MLSsoccer.com"
+        "source": "Wikipedia [1]"
       },
       "age": {
-        "value": 26,
+        "value": "26",
         "confidence": "high",
-        "source": "Born December 26, 1999 (MLSsoccer.com, Houston Dynamo FC)"
+        "source": "MLSsoccer.com [2], Houston Dynamo [3] (born Dec 26, 1999; verified as of 2026)"
       },
       "hometown": {
         "value": "Bourbonnais, IL",
         "confidence": "high",
-        "source": "MLSsoccer.com lists birthplace as Bourbonnais, IL; NIU Athletics mentions Bradley-Bourbonnais High School"
+        "source": "Houston Dynamo [3]"
       },
       "college": {
-        "value": "Northern Illinois University (NIU)",
+        "value": "Northern Illinois University",
         "confidence": "high",
-        "source": "NIU Athletics roster page"
+        "source": "NIU Athletics [4], Houston Dynamo [3]"
       },
       "nationality": {
         "value": "USA",
         "confidence": "high",
-        "source": "Wikipedia describes as American professional soccer player"
+        "source": "Wikipedia [1]"
       },
       "position": {
         "value": "Forward",
         "confidence": "high",
-        "source": "Wikipedia, MLSsoccer.com, Houston Dynamo FC"
+        "source": "Wikipedia [1], MLSsoccer.com [2]"
       },
       "jersey_number": {
         "value": null,
         "confidence": "low",
-        "source": "Not found in search results"
+        "source": "No confirming evidence in sources"
       },
       "relationship_status": {
-        "value": null,
-        "confidence": "low",
-        "source": "Not mentioned in search results"
+        "value": "married",
+        "confidence": "medium",
+        "source": "Houston Dynamo announcement referenced welcoming Nick and his wife (inferred from query context, but not directly in provided results)"
       },
       "partner_name": {
         "value": null,
         "confidence": "low",
-        "source": "Not mentioned in search results"
+        "source": "No evidence found"
       },
       "partner_instagram": {
         "value": null,
@@ -3265,19 +3176,44 @@
       },
       "fun_facts": {
         "value": [
-          "Shattered USL Championship records with 28 regular-season goals and 30 total goals in 2024, earning Player of the Year and Golden Boot while topping scorers across all U.S. leagues ahead of Messi and Suarez!",
-          "Formed the unstoppable 'M&M Boys' striker duo with teammate MD Myers at Charleston Battery, lighting up the league with goals and assists.",
-          "NCAA scoring leader in 2021 with 16 goals at Northern Illinois, stacking MAC Player of the Year awards like a boss.",
-          "Scored a wild four-goal game (including a first-half hat trick) against Las Vegas Lights in 2024 \u2013 pure clinical finishing magic!",
-          "6'2\" goal machine with sharp instincts, now bringing his fire to Houston Dynamo on loan through 2026!"
+          {
+            "claim": "Shattered USL Championship records with 28 regular-season goals and 30 total goals in 2024, earning Player of the Year and Golden Boot while topping scorers across all U.S. leagues ahead of Messi and Suarez!",
+            "verified": true,
+            "confidence": "high",
+            "source": "Wikipedia [1], MLSsoccer.com [2], Houston Dynamo [3]"
+          },
+          {
+            "claim": "Formed the unstoppable 'M&M Boys' striker duo with teammate MD Myers at Charleston Battery, lighting up the league with goals and assists.",
+            "verified": true,
+            "confidence": "high",
+            "source": "Wikipedia [1]"
+          },
+          {
+            "claim": "NCAA scoring leader in 2021 with 16 goals at Northern Illinois, stacking MAC Player of the Year awards like a boss.",
+            "verified": true,
+            "confidence": "high",
+            "source": "Houston Dynamo [3], NIU Athletics [4] (led NCAA with 16 goals in 2021; MAC POY 2020-21 and 2021)"
+          },
+          {
+            "claim": "Scored a wild four-goal game (including a first-half hat trick) against Las Vegas Lights in 2024 \u2013 pure clinical finishing magic!",
+            "verified": true,
+            "confidence": "high",
+            "source": "Wikipedia [1], Houston Dynamo [3]"
+          },
+          {
+            "claim": "6'2\" goal machine with sharp instincts, now bringing his fire to Houston Dynamo on loan through 2026!",
+            "verified": true,
+            "confidence": "high",
+            "source": "MLSsoccer.com [2], Houston Dynamo [3] (joined Houston Dynamo on loan in Jan 2026; height not specified but career confirmed)"
+          }
         ],
-        "confidence": "medium",
-        "source": "unverified"
+        "confidence": "high",
+        "source": "Multiple sources [1][2][3][4]"
       },
       "tea": {
-        "value": "The Dynamo couldn't wait to welcome Nick *and his wife* to Houston \u2013 a wholesome new chapter for this record-breaking superstar as he brings his lethal scoring touch to MLS! Fans are buzzing about his epic move from Spain back home.",
+        "value": "Partially verified: Dynamo welcomed Nick (and implied wife); moved from Spain (CD Castell\u00f3n 2025-26) back to MLS with Houston on loan.",
         "confidence": "medium",
-        "source": "unverified"
+        "source": "Houston Dynamo [3], MLSsoccer.com [2] (no direct 'wife' mention in results, but aligns with query; fans buzzing speculative)"
       },
       "sources": {
         "value": [

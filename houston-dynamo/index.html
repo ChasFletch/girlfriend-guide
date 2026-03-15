@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Girlfriend Guide — Dynamo vs Portland | Rodeo Night</title>
+<title>Girlfriend Guide — Dynamo vs Seattle Sounders | April 4, 2026</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
 
@@ -22,7 +22,6 @@
     --accent-gold: #ffd700;
     --longhorn-orange: #bf5700;
     --ig-gradient: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-    --tiktok-gradient: linear-gradient(135deg, #00f2ea, #ff0050);
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -35,9 +34,8 @@
     overflow-x: hidden;
   }
 
-  /* HERO */
   .hero {
-    background: linear-gradient(135deg, var(--dynamo-black) 0%, #2a0a1a 50%, var(--dynamo-black) 100%);
+    background: linear-gradient(135deg, var(--dynamo-black) 0%, #1a0d00 40%, #0f0f1a 100%);
     text-align: center;
     padding: 60px 20px 40px;
     position: relative;
@@ -46,11 +44,9 @@
   .hero::before {
     content: '';
     position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle at 50% 50%, rgba(242,167,195,0.08) 0%, transparent 50%);
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
+    background: radial-gradient(circle at 50% 50%, rgba(246,139,31,0.07) 0%, transparent 50%);
     animation: pulse 4s ease-in-out infinite;
   }
   @keyframes pulse {
@@ -78,7 +74,7 @@
     margin-bottom: 12px;
     position: relative;
   }
-  .hero h1 span { color: var(--accent-pink); }
+  .hero h1 span { color: var(--dynamo-orange); }
   .hero .subtitle {
     font-size: 1.05rem;
     color: var(--text-secondary);
@@ -93,7 +89,6 @@
     position: relative;
   }
 
-  /* SECTION HEADERS */
   .section-header {
     text-align: center;
     padding: 50px 20px 20px;
@@ -104,12 +99,8 @@
     margin-bottom: 6px;
   }
   .section-header h2 span { color: var(--accent-pink); }
-  .section-header p {
-    color: var(--text-secondary);
-    font-size: 0.9rem;
-  }
+  .section-header p { color: var(--text-secondary); font-size: 0.9rem; }
 
-  /* CARD GRID */
   .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -119,7 +110,6 @@
     padding: 10px 20px 40px;
   }
 
-  /* PLAYER CARD */
   .player-card {
     background: var(--card-bg);
     border-radius: 16px;
@@ -130,24 +120,6 @@
   .player-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 40px rgba(242,167,195,0.15);
-  }
-  .player-card.suspended {
-    opacity: 0.55;
-    border: 1px solid rgba(255,80,80,0.25);
-  }
-  .player-card.suspended .card-header::after {
-    content: 'SUSPENDED';
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    background: rgba(255,60,60,0.2);
-    color: #ff6b6b;
-    font-size: 0.65rem;
-    font-weight: 800;
-    letter-spacing: 1.5px;
-    padding: 3px 10px;
-    border-radius: 10px;
-    border: 1px solid rgba(255,60,60,0.3);
   }
   .player-card.featured {
     border: 1px solid rgba(242,167,195,0.35);
@@ -173,19 +145,17 @@
     border: 3px solid var(--accent-pink);
     background: var(--dynamo-dark);
     position: relative;
-    overflow: hidden;
+    overflow: visible;
   }
-  .player-avatar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+  .player-avatar .avatar-emoji {
+    font-size: 32px;
+    line-height: 1;
   }
   .flag-badge {
     position: absolute;
     bottom: -2px;
     right: -2px;
-    font-size: 16px;
+    font-size: 15px;
     background: var(--dynamo-dark);
     border-radius: 50%;
     width: 24px;
@@ -204,10 +174,11 @@
   .card-header-text .player-meta {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 6px;
     margin-top: 4px;
     font-size: 0.8rem;
     color: var(--text-secondary);
+    align-items: center;
   }
   .tag {
     display: inline-block;
@@ -220,10 +191,11 @@
   .tag-new { background: rgba(78,205,196,0.15); color: var(--accent-teal); }
   .tag-core { background: rgba(242,167,195,0.15); color: var(--accent-pink); }
   .tag-dp { background: rgba(255,215,0,0.15); color: var(--accent-gold); }
-  .tag-suspended { background: rgba(255,80,80,0.15); color: #ff6b6b; }
-  .tag-returning { background: rgba(78,205,196,0.15); color: var(--accent-teal); }
-  .tag-homegrown { background: rgba(191,87,0,0.15); color: var(--longhorn-orange); }
+  .tag-homegrown { background: rgba(191,87,0,0.18); color: #e07020; }
   .tag-hot { background: rgba(255,107,157,0.2); color: var(--accent-hot-pink); }
+  .tag-rising { background: rgba(78,205,196,0.15); color: var(--accent-teal); }
+  .tag-veteran { background: rgba(255,215,0,0.12); color: var(--accent-gold); }
+  .tag-loan { background: rgba(255,180,100,0.15); color: #ffb464; }
 
   .card-body { padding: 16px 20px; }
   .the-tea {
@@ -232,6 +204,59 @@
     line-height: 1.65;
   }
   .the-tea strong { color: var(--text-primary); }
+
+  .fun-facts {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .fun-facts-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--dynamo-orange);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 7px;
+  }
+  .fun-facts ul {
+    list-style: none;
+    padding: 0;
+  }
+  .fun-facts ul li {
+    font-size: 0.83rem;
+    color: var(--text-secondary);
+    padding: 3px 0 3px 16px;
+    position: relative;
+    line-height: 1.5;
+  }
+  .fun-facts ul li::before {
+    content: '✦';
+    position: absolute;
+    left: 0;
+    color: var(--dynamo-orange);
+    font-size: 0.65rem;
+    top: 5px;
+  }
+  .fun-facts ul li strong { color: var(--text-primary); }
+
+  .couple-callout {
+    background: linear-gradient(135deg, rgba(242,167,195,0.1), rgba(255,107,157,0.08));
+    border: 1px solid rgba(242,167,195,0.18);
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin: 12px 0 4px;
+    font-size: 0.82rem;
+  }
+  .couple-callout .couple-label {
+    font-weight: 700;
+    color: var(--accent-hot-pink);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+  }
+  .couple-callout p { color: var(--text-secondary); line-height: 1.55; }
+  .couple-callout p strong { color: var(--text-primary); }
 
   .card-links {
     display: flex;
@@ -251,71 +276,36 @@
     transition: opacity 0.2s;
   }
   .social-link:hover { opacity: 0.85; }
-  .ig-player {
-    background: var(--ig-gradient);
-    color: #fff;
-  }
+  .ig-player { background: var(--ig-gradient); color: #fff; }
   .ig-partner {
     background: rgba(255,107,157,0.15);
     color: var(--accent-hot-pink);
     border: 1px solid rgba(255,107,157,0.3);
   }
-  .tiktok {
-    background: rgba(0,0,0,0.4);
-    color: #fff;
-    border: 1px solid rgba(255,255,255,0.15);
-  }
-  .tiktok::before {
-    content: '♪';
-    font-size: 12px;
-  }
-  .social-icon {
-    width: 14px;
-    height: 14px;
-  }
+  .social-icon { width: 14px; height: 14px; }
 
-  /* COUPLE SPOTLIGHT */
-  .couple-callout {
-    background: linear-gradient(135deg, rgba(242,167,195,0.1), rgba(255,107,157,0.08));
-    border: 1px solid rgba(242,167,195,0.18);
-    border-radius: 12px;
-    padding: 12px 16px;
-    margin: 10px 0 4px;
-    font-size: 0.82rem;
-  }
-  .couple-callout .couple-label {
-    font-weight: 700;
-    color: var(--accent-hot-pink);
-    font-size: 0.72rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 4px;
-  }
-
-  /* OPPONENT SECTION */
-  .opponent-section {
-    background: linear-gradient(135deg, rgba(0,73,43,0.06), rgba(0,0,0,0));
-    border-top: 1px solid rgba(0,73,43,0.15);
-    border-bottom: 1px solid rgba(0,73,43,0.15);
-  }
-  .opponent-section .section-header h2 span { color: #4a9; }
-  .opponent-section .player-card { border-color: rgba(0,73,43,0.2); }
-  .opponent-section .player-avatar { border-color: #4a9; }
-  .opponent-section .player-card:hover { box-shadow: 0 12px 40px rgba(0,115,67,0.12); }
-
-  /* RODEO STRIP */
-  .rodeo-strip {
-    background: linear-gradient(90deg, var(--dynamo-black), rgba(191,87,0,0.12), var(--dynamo-black));
+  .divider-strip {
+    background: linear-gradient(90deg, var(--dynamo-black), rgba(246,139,31,0.1), var(--dynamo-black));
     text-align: center;
     padding: 14px 20px;
     font-size: 0.82rem;
     color: var(--text-secondary);
-    border-top: 1px solid rgba(191,87,0,0.15);
-    border-bottom: 1px solid rgba(191,87,0,0.15);
+    border-top: 1px solid rgba(246,139,31,0.12);
+    border-bottom: 1px solid rgba(246,139,31,0.12);
   }
-  .rodeo-strip strong { color: var(--longhorn-orange); }
+  .divider-strip strong { color: var(--dynamo-orange); }
 
-  /* FOOTER */
+  .number-badge {
+    display: inline-block;
+    background: rgba(246,139,31,0.15);
+    color: var(--dynamo-orange);
+    font-weight: 800;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    padding: 1px 7px;
+    margin-right: 2px;
+  }
+
   .page-footer {
     text-align: center;
     padding: 40px 20px 60px;
@@ -323,11 +313,8 @@
     font-size: 0.8rem;
   }
   .page-footer .hearts { font-size: 1.4rem; margin-bottom: 8px; }
+  .page-footer a { color: var(--accent-pink); text-decoration: none; }
 
-  /* SVG icon reuse */
-  .ig-svg { display: inline-block; width: 14px; height: 14px; vertical-align: middle; }
-
-  /* MOBILE */
   @media (max-width: 420px) {
     .card-grid { grid-template-columns: 1fr; padding: 10px 12px 40px; }
     .hero { padding: 40px 16px 30px; }
@@ -337,29 +324,181 @@
 </head>
 <body>
 
-<!-- SVG DEFS (reusable IG icon) -->
 <svg style="display:none">
   <symbol id="ig" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></symbol>
 </svg>
 
-<!-- ========== HERO ========== -->
+<!-- ===== HERO ===== -->
 <div class="hero">
-  <div class="hero-badge">🎀 Rodeo Night 2026 🤠</div>
-  <h1>The Girlfriend Guide to the <span>Dynamo</span></h1>
-  <p class="subtitle">Who they are, where they're from, who they're with — and all the tea worth spilling from Row 1. 🫖✨</p>
-  <p class="matchday">March 14 &bull; vs Portland Timbers &bull; 7:30 PM &bull; Shell Energy Stadium</p>
-  <p style="position:relative; margin-top:10px; font-size:0.82rem; color:var(--text-secondary);">Rodeo Night. Everything you need to know before kickoff. 🤠⚽</p>
+  <div class="hero-badge">🧡 Houston Dynamo FC 🧡</div>
+  <h1>The Girlfriend Guide to<br>the <span>Dynamo</span></h1>
+  <p class="subtitle">Who they are, where they're from, who they love — and every drop of tea worth knowing before kickoff. 🫖✨</p>
+  <p class="matchday">April 4, 2026 &bull; vs Seattle Sounders FC &bull; Shell Energy Stadium</p>
+  <p style="position:relative;margin-top:10px;font-size:0.82rem;color:var(--text-secondary);">Everything you need to survive — and enjoy — 90 minutes of soccer. ⚽🧡</p>
 </div>
 
-<!-- RODEO STRIP -->
-<div class="rodeo-strip">
-  🤠 It's <strong>Rodeo Night</strong> at Shell Energy &bull; Houston Livestock Show & Rodeo is across town at NRG &bull; Boots optional, vibes mandatory 🐴
+<div class="divider-strip">
+  🧡 Welcome to <strong>Shell Energy Stadium</strong> &bull; Home of Houston Dynamo FC &bull; Tonight's opponent: the <strong>Seattle Sounders FC</strong> &bull; Let's get into it 🫖
 </div>
 
-<!-- ========== THE YOUNG ONES ========== -->
+<!-- ===== BIG NAMES ===== -->
 <div class="section-header">
-  <h2>The <span>Young Ones</span> 🎀</h2>
-  <p>The ones just getting started. Baby roster energy. 👶</p>
+  <h2>The <span>Big Names</span> ⭐</h2>
+  <p>The ones your partner probably already has a jersey for. Start here.</p>
+</div>
+
+<div class="card-grid">
+
+  <!-- EZEQUIEL PONCE -->
+  <div class="player-card featured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇦🇷</span>
+        <span class="flag-badge">🇦🇷</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Ezequiel Ponce</h3>
+        <div class="player-meta">
+          <span><span class="number-badge">#10</span> Forward &bull; Age 28</span>
+          <span><span class="tag tag-dp">DESIGNATED PLAYER</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🌟 The man wearing <strong>#10</strong> — that's the prestige number, by the way. From <strong>Rosario, Argentina</strong> (same city as Messi, no big deal). Joined Houston in June 2024 as the <strong>largest transfer fee in club history</strong>, which means the front office really, really wanted him. He's played in <strong>six different top-flight leagues</strong> across South America and Europe — Argentina, Italy, Spain, France, Greece, and Russia — before landing here. Scored <strong>10 goals in 32 appearances</strong> in 2025, including a two-goal game in a wild 4–3 win over San Diego. He set a personal record of <strong>18 goals in a single season</strong> at AEK Athens back in 2018–19. He is the guy right now.</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Made his Dynamo debut on <strong>July 27, 2024</strong>, against Vancouver Whitecaps FC — and hasn't looked back since.</li>
+          <li>Helped Houston reach the <strong>2024 playoffs</strong> — the first consecutive playoff appearances since 2013.</li>
+          <li>Contract runs through <strong>2027</strong> with options to 2028, so he's here for a while. 🙌</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- HÉCTOR HERRERA -->
+  <div class="player-card featured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇲🇽</span>
+        <span class="flag-badge">🇲🇽</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Héctor Herrera</h3>
+        <div class="player-meta">
+          <span><span class="number-badge">#16</span> Midfielder &bull; Age 35</span>
+          <span><span class="tag tag-veteran">LEGEND</span> <span class="tag tag-core">EX-CAPTAIN</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇲🇽 One of the most decorated Mexican footballers of his generation. Played at <strong>Porto</strong> and <strong>Atlético de Madrid</strong> in Europe before coming to Houston. Helped lead the Dynamo to the <strong>2023 U.S. Open Cup title</strong> — the club's second ever. Also won <strong>Olympic gold with Mexico in 2012</strong>. Returned to Houston in 2026 after a stint with Toluca in Liga MX. At 35, he's the veteran presence in the midfield — and reportedly the player young Matthew Arana is bonding with most. Full-circle, beautiful stuff. 🥹</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Part of Mexico's <strong>2012 Olympic gold medal</strong> team — yes, actual gold.</li>
+          <li>Plays central midfield like he's been doing it for 20 years — because he basically has.</li>
+          <li>Per team sources, <strong>Matthew Arana (age 15!) is learning from him</strong> every day in training. 🤍</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- MATEUSZ BOGUSZ -->
+  <div class="player-card featured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇵🇱</span>
+        <span class="flag-badge">🇵🇱</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Mateusz Bogusz</h3>
+        <div class="player-meta">
+          <span><span class="number-badge">#19</span> Forward &bull; Age 24</span>
+          <span><span class="tag tag-dp">DESIGNATED PLAYER</span> <span class="tag tag-hot">NEW IN 2026</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇵🇱 The new designated player everyone is buzzing about. Signed from Cruz Azul in January 2026, and he came in HOT — with résumé receipts. At LAFC in 2024 he scored a <strong>career-high 20 goals</strong>, notched his <strong>first professional hat-trick</strong>, and won <strong>MLS Player of the Month in June</strong>. He also helped win the 2025 Concacaf Champions Cup with Cruz Azul. He's a Polish international, grew up in Ruda Śląska, and plays as a versatile attacking midfielder or forward — the kind of player who shows up in highlights whether he's scoring, creating, or dribbling through three defenders. Locked in with Houston <strong>through 2028</strong>.</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Wore the iconic <strong>#10 for Ruch Chorzów</strong> as a teenage sensation in Poland — the pressure jersey and he owned it.</li>
+          <li>Polish international with <strong>World Cup qualifying caps</strong> to his name. 🌍</li>
+          <li>Can play as a false 9, #10, or deep midfielder — coaches love a player who doesn't need a specific label.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- JACK McGLYNN -->
+  <div class="player-card featured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇺🇸</span>
+        <span class="flag-badge">🇺🇸</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Jack McGlynn</h3>
+        <div class="player-meta">
+          <span><span class="number-badge">#8</span> Midfielder &bull; Age 22</span>
+          <span><span class="tag tag-core">USMNT</span> <span class="tag tag-hot">FAN FAVORITE</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇺🇸 Left-footed creative midfielder and full USMNT regular. In 2025 he scored <strong>six goals and eight assists</strong> for Houston — including a brace against rivals Austin FC. Earned <strong>four MLSSoccer.com Team of the Matchday nods</strong> in a single season. At 22 years old. He also represented the US at the <strong>2024 Paris Olympics</strong> and scored his <strong>USMNT senior debut goal</strong> in a 3–1 win over Venezuela. Was traded to Houston in a <strong>historic $2.1M deal</strong> — the first time an MLS Homegrown player was traded for straight cash. He's a big deal and he knows it, but still seems lovely about it.</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Played in the <strong>2025 CONCACAF Gold Cup Final</strong> — held right here at NRG Stadium in Houston. Home crowd energy for a finals run. 🏆</li>
+          <li>Assisted at the <strong>Paris Olympics</strong> as the US Men reached the quarterfinals. 🥐</li>
+          <li>Locked in with Dynamo <strong>through 2028</strong>. He's not going anywhere. ✅</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- JONATHAN BOND -->
+  <div class="player-card featured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <span class="avatar-emoji">🧤</span>
+        <span class="flag-badge">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Jonathan Bond</h3>
+        <div class="player-meta">
+          <span><span class="number-badge">#31</span> Goalkeeper &bull; Age 32</span>
+          <span><span class="tag tag-new">NEW IN 2025</span> <span class="tag tag-core">STARTING GK</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🏴󠁧󠁢󠁥󠁮󠁧󠁿 The big man in goal — and we do mean big. <strong>6'5"</strong> of pure shot-stopping presence from <strong>Hemel Hempstead, England</strong>. He had a brilliant debut season with Houston in 2025, reportedly racking up <strong>seven clean sheets and 70 saves</strong>. Before Houston, he won <strong>LA Galaxy's Goalkeeper of the Year</strong> in 2022 with eight clean sheets and played every single MLS minute that season — the kind of reliability you want between the posts. He came up through <strong>Watford's academy</strong> and was part of their promotion to the Premier League. Had youth caps for both Wales and England. The man has range.</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Made a <strong>match-defining save</strong> in the 2–0 Texas Derby win over FC Dallas in 2025. Big moments, big man. 🧱</li>
+          <li>Started his pro journey at Watford — one of English football's most charismatic clubs — and debuted in the Championship.</li>
+          <li>Represented England youth under <strong>Gareth Southgate</strong>, including in a 9–0 win. That scoreline lives rent-free in his memory. 😂</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ===== RISING STARS ===== -->
+<div class="divider-strip">
+  ⬆️ Now meeting the <strong>Rising Stars</strong> — the ones to watch before they're everywhere 👀
+</div>
+
+<div class="section-header">
+  <h2>The <span>Rising Stars</span> 🚀</h2>
+  <p>These are the guys your partner will be saying "I told you so" about in two years.</p>
 </div>
 
 <div class="card-grid">
@@ -367,738 +506,427 @@
   <!-- MATTHEW ARANA -->
   <div class="player-card featured">
     <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/kb7fvh5wvwcfydv7y6tt.png" alt="Matthew Arana"><span class="flag-badge">&#127482;&#127480;</span></div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">⚡</span>
+        <span class="flag-badge">🇲🇽</span>
+      </div>
       <div class="card-header-text">
         <h3>Matthew Arana</h3>
         <div class="player-meta">
-          <span>Midfielder &bull; #22 &bull; <strong>15 yrs</strong></span>
-          <span><span class="tag tag-homegrown">HOMEGROWN</span> <span class="tag tag-hot">YOUNGER THAN YOU</span></span>
+          <span><span class="number-badge">#17</span> Midfielder &bull; Age <strong>15</strong></span>
+          <span><span class="tag tag-homegrown">HOMEGROWN</span> <span class="tag tag-hot">YOUNGEST EVER</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇺🇸 <strong>Fifteen years old.</strong> Houston native. Signed a Homegrown contract in February 2026 and already made his <strong>first-team MLS debut this month</strong>. While you're finishing senior year, this kid is playing professional soccer. No pressure. 😭🔥 Single (he's 15, so — yeah).</p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/thematthewarana" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @thematthewarana
-      </a>
-    </div>
-  </div>
-
-  <!-- JACK McGLYNN -->
-  <div class="player-card featured">
-    <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/p9esvh2jbv8bldpcndfx.png" alt="Jack McGlynn"><span class="flag-badge">&#127482;&#127480;</span></div>
-      <div class="card-header-text">
-        <h3>Jack McGlynn</h3>
-        <div class="player-meta">
-          <span>Midfielder &bull; #8 &bull; 22 yrs</span>
-          <span><span class="tag tag-core">USMNT</span></span>
-        </div>
+      <p class="the-tea">⚡ Fifteen. Years. Old. Let that sink in. <strong>Matthew Arana</strong> from <strong>Rosharon, TX</strong> signed a Homegrown contract in February 2026 and became the <strong>youngest first-team player in club history</strong>. He's already made his MLS debut. He grew up in Houston, came through the Dynamo Academy, and reportedly bonded with <strong>Héctor Herrera</strong> — who won Olympic gold before Matthew was born — during the Torneo de Tejas preseason. The youth movement is very, very real. Single (he's fifteen, so — yes, we checked).</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Represents <strong>Mexico at the youth international level</strong> — U-15 caps already on his résumé. At 15.</li>
+          <li>Made a serious impression in <strong>preseason</strong> before the coaching staff pulled the trigger on a first-team deal.</li>
+          <li>Per team sources, the veterans in the locker room have completely embraced him. 🤍</li>
+        </ul>
       </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">🇺🇸☘️ From <strong>Queens, New York</strong> — Irish-American. Was at Philadelphia since he was 16, then got traded to Houston and <strong>nobody from the club even told him</strong> — his dad called while he was with his girlfriend to break the news. 📞😳 Brother <strong>Conor</strong> also plays pro. USMNT regular at 22. 🌟</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        Has a <strong>girlfriend</strong> (mentioned on the US Soccer podcast) but keeps her name completely private. The mystery continues. 🤫
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/jackmcglynn7" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @jackmcglynn7
-      </a>
     </div>
   </div>
 
   <!-- LAWRENCE ENNALI -->
   <div class="player-card featured">
     <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/vbfrkzanmsbmdux17ove.png" alt="Lawrence Ennali"><span class="flag-badge">&#127465;&#127466;</span></div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">💨</span>
+        <span class="flag-badge">🇩🇪</span>
+      </div>
       <div class="card-header-text">
         <h3>Lawrence Ennali</h3>
         <div class="player-meta">
-          <span>Forward &bull; #11 &bull; 23 yrs</span>
-          <span><span class="tag tag-hot">BREAKOUT SZN</span></span>
+          <span><span class="number-badge">#11</span> Forward &bull; Age 24</span>
+          <span><span class="tag tag-hot">COMEBACK SZN</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇩🇪 Born in <strong>Berlin</strong>. IG bio says "HTX/BLN." Played alongside <strong>Lukas Podolski</strong> in Poland. Tore his knee scoring his first MLS goal in 2024 — came back and is now the <strong>fastest player in all of MLS</strong> and tied 2nd in one-on-ones won. The glow-up is real. 📈🔥</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person — follow her immediately</div>
-        <strong>Preslee Clark</strong> — girlfriend. She's a <strong>luxury makeup & hairstylist</strong> based in Houston. Her work account @presleeclarkartistry is on both IG and TikTok. 💄✨ 4.5K followers.
+      <p class="the-tea">🇩🇪 Born in <strong>Berlin</strong>, plays like he has something to prove every single time — because he literally did. Tore his ACL in 2024 and came back in <strong>exactly seven months</strong>, faster and more electric than before. Finished 2025 with 18 appearances, a goal, four assists, and a <strong>finalist nod for MLS Comeback Player of the Year</strong>. Oh, and he scored a screamer in a <strong>4–3 win over San Diego FC</strong> on July 4th weekend by chasing down a clearance from Houston's own half. Just pure pace and belief. He's the <strong>largest U22 Initiative signing in club history</strong>, and Apple TV even did a feature on his comeback story — "The Return – Lawrence Ennali." Love that for him. 🎬</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Reportedly one of the <strong>fastest players in all of MLS</strong> since his return. The ACL apparently made him faster. 😳</li>
+          <li>Came up through German football before landing in MLS — and Houston is very lucky he did.</li>
+          <li>Apple TV feature on his comeback is genuinely worth watching if you have 20 minutes. 📺</li>
+        </ul>
       </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/ennalilawrence" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @ennalilawrence
-      </a>
-      <a href="https://instagram.com/presleeclark" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Preslee @presleeclark
-      </a>
-      <a href="https://tiktok.com/@presleeclarkartistry" target="_blank" class="social-link tiktok">
-        Preslee @presleeclarkartistry
-      </a>
     </div>
   </div>
 
-  <!-- MATEUSZ BOGUSZ -->
-  <div class="player-card featured">
-    <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/eftbqo2ay7yudlvxmxe2.png" alt="Mateusz Bogusz"><span class="flag-badge">&#127477;&#127473;</span></div>
-      <div class="card-header-text">
-        <h3>Mateusz Bogusz</h3>
-        <div class="player-meta">
-          <span>Forward/Midfielder &bull; #19 &bull; 24 yrs</span>
-          <span><span class="tag tag-dp">DESIGNATED PLAYER</span> <span class="tag tag-hot">BABY WATCH</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">🇵🇱 Polish international from Ruda Śląska. <strong>LAFC → Cruz Azul → Houston</strong>. Won CONCACAF Champions League in Mexico. Proposed on Mykonos. 💍🇬🇷 One of the biggest transfers in club history.</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person — the baby tea</div>
-        <strong>Wiktoria Wychowska</strong> — wife. Runs <strong>@no13.pilates</strong> (24K followers). Posted "She's on her way" on Jan 7 with a due date of 02.2026. Last pregnant photo was March 3. <strong>The baby girl has probably been born but they haven't announced yet.</strong> 👶🎀 Watch his stories tonight — could be a reveal.
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/x_bogus" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @x_bogus
-      </a>
-      <a href="https://instagram.com/wiktoria.wychowska" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Wiktoria @wiktoria.wychowska
-      </a>
-      <a href="https://tiktok.com/@wiktoria.wychowska" target="_blank" class="social-link tiktok">
-        Wiktoria on TikTok
-      </a>
-    </div>
-  </div>
-
-  <!-- LOGAN ERB -->
+  <!-- NELSON QUIÑÓNES -->
   <div class="player-card">
     <div class="card-header">
-      <div class="player-avatar">⚽</div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇨🇴</span>
+        <span class="flag-badge">🇨🇴</span>
+      </div>
       <div class="card-header-text">
-        <h3>Logan Erb</h3>
+        <h3>Nelson Quiñónes</h3>
         <div class="player-meta">
-          <span>Goalkeeper &bull; #35</span>
-          <span><span class="tag tag-homegrown">HOMEGROWN</span></span>
+          <span><span class="number-badge">#21</span> Forward &bull; Age 23</span>
+          <span><span class="tag tag-rising">COMEBACK KID</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇺🇸 From <strong>Humble, TX</strong>. Homegrown player — came up through the Dynamo academy. Signed his first contract in December 2025. Local kid living the dream. 🏡➡️⚽</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Morgan Beverly</strong> — girlfriend.
+      <p class="the-tea">🇨🇴 Colombian winger with <strong>serious speed and flair</strong>. Burst onto the scene in 2023 with <strong>4 goals and 2 assists</strong>, helped Houston win the U.S. Open Cup, reach the Western Conference Final, and was named <strong>Dynamo Young Player of the Year</strong>. Then suffered a major knee injury in 2024 preseason — and came back fighting in 2025. His 2026 return has fans genuinely excited. Fun fact: he drew the foul for the penalty kick in the Open Cup final against Inter Miami. Started his career at Once Caldas in Colombia as a teenager, scored on debut, and now he's repping Houston with that same fearless energy.</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Won the <strong>U.S. Open Cup in 2023</strong> — Houston's second ever — and was a key piece of that run.</li>
+          <li>Made his debut in <strong>Colombian top-flight football at 18</strong> with Once Caldas. Teenager debut goals hit different.</li>
+          <li>Has that ability to draw fouls at key moments — composure under pressure is his thing. 🎯</li>
+        </ul>
       </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/logan__erb" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @logan__erb
-      </a>
-      <a href="https://instagram.com/mbeverly3" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Morgan @mbeverly3
-      </a>
-    </div>
-  </div>
-
-  <!-- REESE MILLER -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/jet0uo7r4mxlkggrjvej.png" alt="Reese Miller"><span class="flag-badge">&#127482;&#127480;</span></div>
-      <div class="card-header-text">
-        <h3>Reese Miller</h3>
-        <div class="player-meta">
-          <span>Defender &bull; #27</span>
-          <span><span class="tag tag-homegrown">HOMEGROWN</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">🇺🇸 From <strong>Missouri City, TX</strong>. Another Houston-area Homegrown kid. Came up through the academy and earned his spot. Texas raised. 🤘</p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/reesemillerr" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @reesemillerr
-      </a>
-    </div>
-  </div>
-
-</div>
-
-<!-- ========== THE BIG NAMES ========== -->
-<div class="section-header">
-  <h2>The <span>Big Names</span> 💰</h2>
-  <p>The DPs and the stars — the ones making the big money and the big plays.</p>
-</div>
-
-<div class="card-grid">
-
-  <!-- EZEQUIEL PONCE -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/bqpdhq0fesibfzu6huxq.png" alt="Ezequiel Ponce"><span class="flag-badge">&#127462;&#127479;</span></div>
-      <div class="card-header-text">
-        <h3>Ezequiel Ponce</h3>
-        <div class="player-meta">
-          <span>Forward &bull; #10 &bull; 28 yrs</span>
-          <span><span class="tag tag-dp">DESIGNATED PLAYER</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">🇦🇷 The goal machine. Four continents — <strong>Roma, Granada, Spartak Moscow, AEK Athens</strong> — before becoming Houston's most expensive signing ever. 💰 Tonight could be his <strong>50th Dynamo appearance</strong>. ✈️🌏</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Martina Ponce Soto-Aguilar</strong> — wife, Chilean roots. Two kids: <strong>Leon</strong> and <strong>Rebeca</strong>. Was posting from Viña del Mar, Chile in Feb. 5.1K followers. This family has moved across the world multiple times.
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/ezequielp9" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @ezequielp9
-      </a>
-      <a href="https://instagram.com/maartinaponce" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Martina @maartinaponce
-      </a>
-    </div>
-  </div>
-
-  <!-- GUILHERME -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/i4vlrgcc3289nmwdzv1i.png" alt="Guilherme"><span class="flag-badge">&#127463;&#127479;</span></div>
-      <div class="card-header-text">
-        <h3>Guilherme</h3>
-        <div class="player-meta">
-          <span>Forward &bull; #20 &bull; 30 yrs</span>
-          <span><span class="tag tag-dp">DESIGNATED PLAYER</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">🇧🇷 From <strong>São Paulo</strong>. Captained <strong>Santos FC</strong> — Pelé's club — alongside Neymar. Played in Saudi Arabia and UAE. Already has <strong>2 goals this season</strong>. <strong>443K Instagram followers</strong> — biggest social presence on the whole squad by far. 📱👑</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 Family</div>
-        Married with two kids: <strong>Tainá</strong> and <strong>Guilherme Jr.</strong> Wife keeps a completely private profile — name unknown.
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/guilherme11" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @guilherme11 (443K)
-      </a>
-    </div>
-  </div>
-
-  <!-- HÉCTOR HERRERA -->
-  <div class="player-card featured">
-    <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/lhj5me76wrhniijx04fp.png" alt="Héctor Herrera"><span class="flag-badge">&#127474;&#127485;</span></div>
-      <div class="card-header-text">
-        <h3>Héctor Herrera</h3>
-        <div class="player-meta">
-          <span>Midfielder &bull; #16 &bull; 36 yrs</span>
-          <span><span class="tag tag-hot">THE TEA IS HOT</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">🇲🇽 Mexican international legend. Played for <strong>Porto and Atlético Madrid</strong>. Two-time MLS All-Star. <strong>1M+ Instagram followers.</strong> But here's the real story: he <strong>publicly confirmed his divorce</strong> from Shantal Mayo in 2025 and <strong>took the blame</strong>. His ex-wife @shanmayo has 129K followers. They have two kids — Valentina and David. The comments on both their pages are… a lot. 🍿👀</p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/h.herrera16" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @h.herrera16 (1M+)
-      </a>
-      <a href="https://tiktok.com/@hherrera16" target="_blank" class="social-link tiktok">
-        @hherrera16
-      </a>
-      <a href="https://instagram.com/shanmayo" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Ex: Shantal @shanmayo (129K)
-      </a>
     </div>
   </div>
 
   <!-- ONDŘEJ LINGR -->
   <div class="player-card">
     <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/spspxzb4vac3ygssamew.png" alt="Ondřej Lingr"><span class="flag-badge">&#127464;&#127487;</span></div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇨🇿</span>
+        <span class="flag-badge">🇨🇿</span>
+      </div>
       <div class="card-header-text">
         <h3>Ondřej Lingr</h3>
         <div class="player-meta">
-          <span>Midfielder &bull; #9</span>
+          <span><span class="number-badge">#9</span> Forward &bull; Age 27</span>
+          <span><span class="tag tag-new">NEW-ISH</span> <span class="tag tag-hot">CLUTCH KING</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇨🇿 Czech midfielder. Quiet, consistent, does his job. His wife <strong>Lucie</strong> is active on IG.</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Lucie Lingr</strong> — wife.
+      <p class="the-tea">🇨🇿 From <strong>Havířov, Czech Republic</strong>. Scored a <strong>96th-minute equalizer on his Houston debut</strong> against Colorado Rapids. A 96th-minute goal. On debut. He arrived with genuine European silverware — won Czech league titles and cups with <strong>Slavia Prague</strong>, plus the KNVB Cup and Dutch Super Cup with <strong>Feyenoord</strong>. He's a full Czech international with 22 caps. Per team sources, fans are already calling him a Dynamo darling because of those big moments and consistent energy on the pitch. The dramatic debut will be talked about for years.</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Already earned <strong>MLS Team of the Matchday honors three times</strong> since joining Houston. The consistency is real. ✅</li>
+          <li>Won silverware in <strong>two different countries</strong> — Czech Republic and the Netherlands — before arriving in MLS.</li>
+          <li>22 Czech national team caps. International pedigree that MLS doesn't always get. 🌍</li>
+        </ul>
       </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/ondylingr" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @ondylingr
-      </a>
-      <a href="https://instagram.com/lucielingr" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Lucie @lucielingr
-      </a>
     </div>
   </div>
 
-</div>
-
-<!-- ========== THE REST OF THE SQUAD ========== -->
-<div class="section-header">
-  <h2>The Rest of the <span>Squad</span></h2>
-  <p>The full roster — defenders, keepers, the guys who do the dirty work.</p>
-</div>
-
-<div class="card-grid">
-
-  <!-- DUANE HOLMES -->
+  <!-- FELIPE ANDRADE -->
   <div class="player-card">
     <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/hktuius5qbxmtvm3uat4.png" alt="Duane Holmes"><span class="flag-badge">&#127468;&#127463;</span></div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇧🇷</span>
+        <span class="flag-badge">🇧🇷</span>
+      </div>
       <div class="card-header-text">
-        <h3>Duane Holmes</h3>
+        <h3>Felipe Andrade</h3>
         <div class="player-meta">
-          <span>Midfielder &bull; #14 &bull; 31 yrs</span>
+          <span><span class="number-badge">#36</span> Defender &bull; Age 23</span>
+          <span><span class="tag tag-rising">RISING STAR</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇺🇸🏴󠁧󠁢󠁥󠁮󠁧󠁿 Born in <strong>Columbus, GA</strong>, moved to <strong>England</strong> at age 2. Lost his best friend <strong>Jordan Sinnott</strong> to a violent attack in 2020. 🕊️ Credits his wife for getting him through. He's a massive Call of Duty guy — has joked about being in "borderline divorce" territory when new releases drop. 🎮😂</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Brooke Holmes</strong> — wife (married June 2022 💒). Also runs <strong>@brookesavannahmua</strong> (makeup artist account). Brother-in-law <strong>Jack Marriott</strong> is a pro footballer too.
+      <p class="the-tea">🇧🇷 From <strong>Boa Viagem, Brazil</strong>. Left home at 15 to chase his dream at <strong>Fluminense</strong> — one of Brazil's biggest clubs — and was part of their <strong>2023 Copa Libertadores winning squad</strong>. Came to Houston through Dynamo 2 and earned his full first-team spot the right way. In 2025 he made 29 appearances, chipped in 4 goals and an assist, and earned <strong>two MLSSoccer.com Team of the Matchday nods</strong>. He plays primarily as a defender but contributes at both ends — proof that the Brazilian footballing philosophy (everyone attacks, everyone defends) is alive and well.</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Was part of <strong>Fluminense's 2023 Copa Libertadores title</strong> — South America's biggest club trophy. 🏆</li>
+          <li>Scored in only his <strong>second match</strong> for Houston in MLS. First impressions count.</li>
+          <li>Left home at <strong>15 years old</strong> to join Fluminense's academy. The dedication behind the story is everything. 💪</li>
+        </ul>
       </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/duaneholmes" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @duaneholmes
-      </a>
-      <a href="https://instagram.com/brookesavannah2" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Brooke @brookesavannah2
-      </a>
     </div>
   </div>
 
-  <!-- ERIK SVIATCHENKO -->
+  <!-- BLAKE GILLINGHAM -->
   <div class="player-card">
     <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/p5dtxsywjowvbotyggjx.png" alt="Erik Sviatchenko"><span class="flag-badge">&#127465;&#127472;</span></div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">🧤</span>
+        <span class="flag-badge">🇺🇸</span>
+      </div>
       <div class="card-header-text">
-        <h3>Erik Sviatchenko</h3>
+        <h3>Blake Gillingham</h3>
         <div class="player-meta">
-          <span>Defender &bull; #4</span>
+          <span><span class="number-badge">#26</span> Goalkeeper &bull; Age 23</span>
+          <span><span class="tag tag-rising">RISING GK</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇩🇰 Danish defender. Played for <strong>Celtic</strong> in Scotland. Been with his wife <strong>Anne</strong> for <strong>19 years</strong>, married 7+. Daughter <strong>Clara</strong> just turned 7 on March 6. Family-first guy. 🏡❤️</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Anne Sviatchenko</strong> — wife. Very active on IG with family posts.
+      <p class="the-tea">🇺🇸 Goalkeeper from <strong>Creighton University</strong> who impressed enough in preseason to earn a professional contract. Made his Dynamo debut against the <strong>Seattle Sounders</strong> (tonight's opponents!) — a scoreless draw on March 22, 2025 — and made a career-high <strong>7 saves</strong> in that first start. Became the <strong>second-youngest goalkeeper ever to start for Houston</strong>. The athlete family is remarkable: mom Tiffiny was an <strong>All-American tennis player at UC Berkeley</strong>, dad Chuck played football at Stanford, brother Brandon captained soccer at Santa Clara, and sister Brittany played volleyball there. Pure sports DNA. 🧬</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Started all 18 matches at Creighton in 2024, played every single minute, earned <strong>two Big East Goalkeeper of the Week honors</strong>.</li>
+          <li><strong>Switched from field player to goalkeeper at age 15</strong> — and clearly made the right call. 😄</li>
+          <li>His favorite book is <em>Man's Search for Meaning</em> by Viktor Frankl. There is depth behind the gloves. 📚</li>
+        </ul>
       </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/eriksviat" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @eriksviat
-      </a>
-      <a href="https://instagram.com/annesviat" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Anne @annesviat
-      </a>
-    </div>
-  </div>
-
-  <!-- LUCAS HALTER -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/ypmjwzspge5ugnq1wvrp.png" alt="Lucas Halter"><span class="flag-badge">&#127463;&#127479;</span></div>
-      <div class="card-header-text">
-        <h3>Lucas Halter</h3>
-        <div class="player-meta">
-          <span>Defender &bull; #5 &bull; 25 yrs</span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">🇧🇷 Won the <strong>Copa Libertadores</strong> and Brazilian league in the same year with <strong>Botafogo</strong>. 🏆🏆 Very private — Brazilian TikTok hints at a girlfriend named <strong>Raianne</strong>, but nothing confirmed. The mystery man. 🤫</p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/lucas_halter" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @lucas_halter
-      </a>
     </div>
   </div>
 
   <!-- NICK MARKANICH -->
   <div class="player-card">
     <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/pqwvvhpmkaiw22xhqtt2.png" alt="Nick Markanich"><span class="flag-badge">&#127482;&#127480;</span></div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇺🇸</span>
+        <span class="flag-badge">🇺🇸</span>
+      </div>
       <div class="card-header-text">
         <h3>Nick Markanich</h3>
         <div class="player-meta">
-          <span>Forward &bull; #17 &bull; 26 yrs</span>
+          <span><span class="number-badge">#7</span> Forward &bull; Age 26</span>
+          <span><span class="tag tag-loan">ON LOAN</span> <span class="tag tag-hot">GOLDEN BOOT 2024</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇺🇸🇵🇭 Small-town kid from <strong>Bourbonnais, Illinois</strong>. Got cut by Cincinnati, rebuilt in the USL, won <strong>Player of the Year</strong>, went to Spain. Dual <strong>US-Filipino</strong> citizenship. <strong>Twin brother Anthony</strong> plays for Minnesota United. 👯‍♂️ Recently married — wife's name still unknown. 🕵️</p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/nickmarkanich" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @nickmarkanich
-      </a>
+      <p class="the-tea">🇺🇸 From <strong>Bourbonnais, Illinois</strong> — went to <strong>Northern Illinois University</strong> where he led the entire NCAA with <strong>16 goals in 2021</strong> and stacked MAC Player of the Year awards. Then in 2024 at USL's Charleston Battery he absolutely <em>demolished</em> the league: <strong>28 regular-season goals, 30 total goals</strong>, winning the USL Championship <strong>Player of the Year AND Golden Boot</strong> — topping scoring charts across all U.S. leagues, including ahead of certain famous South Americans. Joined Houston on loan in January 2026 and per team sources, the club welcomed him and his <strong>wife</strong> warmly to Houston. A scorer who knows where the goal is. 🎯</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Scored <strong>four goals in one game</strong> — including a first-half hat-trick — against Las Vegas Lights in 2024. Just casually. 🎩</li>
+          <li>Formed the <strong>"M&M Boys"</strong> scoring duo with teammate MD Myers at Charleston Battery. A nickname that could only happen in the US. 🍬</li>
+          <li>Came to Houston via a stint with <strong>CD Castellón in Spain</strong> — properly international résumé for a kid from Illinois. 🌍</li>
+        </ul>
+      </div>
+      <div class="couple-callout">
+        <div class="couple-label">💍 Married</div>
+        <p>Per team sources, Nick arrived in Houston with his <strong>wife</strong>. The club reportedly gave them a warm welcome to H-Town. 🧡</p>
+      </div>
     </div>
   </div>
 
-  <!-- FRANCO NEGRI -->
+  <!-- LOGAN ERB -->
   <div class="player-card">
     <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/jb6iukxtbiajkj7gh6st.png" alt="Franco Negri"><span class="flag-badge">&#127462;&#127479;</span></div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">🧤</span>
+        <span class="flag-badge">🇺🇸</span>
+      </div>
       <div class="card-header-text">
-        <h3>Franco Negri</h3>
+        <h3>Logan Erb</h3>
         <div class="player-meta">
-          <span>Defender &bull; #21 &bull; 30 yrs</span>
+          <span><span class="number-badge">#40</span> Goalkeeper &bull; Age 22</span>
+          <span><span class="tag tag-homegrown">HOMEGROWN</span> <span class="tag tag-hot">LOCAL KID</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇦🇷 Was at <strong>Inter Miami</strong> when Messi arrived — tore his ACL right before and missed the whole Messi era. 😭 Seven clubs, two continents. Married, wife keeps it private.</p>
+      <p class="the-tea">🇺🇸 Born and raised in <strong>Humble, TX</strong> — about 20 miles northeast of downtown Houston. Joined the <strong>Dynamo Academy at age 13</strong>, made his professional debut at 18 with a clean sheet, went to college at San Diego State and then NC State, led NC State to the <strong>2025 NCAA Championship final</strong> with a record-breaking <strong>12 shutouts</strong> and won <strong>ACC Goalkeeper of the Year</strong>, then came home to sign a Homegrown contract. The full circle Houston story. His family — parents Trina and Fred, a mom who played softball and a dad who follows football, baseball AND soccer — are probably the happiest people in Humble right now.</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>At SDSU, he helped the Aztecs be the <strong>last team in the nation to concede their first goal</strong> of the season. Elite stone wall energy. 🧱</li>
+          <li>Ranked as the <strong>#12 goalkeeper prospect in the nation</strong> by Top Drawer Soccer coming out of high school.</li>
+          <li>Signed as a <strong>Homegrown Player through 2026</strong> with options — a Houston Academy-to-first-team story that the club loves. 🏠</li>
+        </ul>
+      </div>
     </div>
-    <div class="card-links">
-      <a href="https://instagram.com/franco_negri3" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @franco_negri3
-      </a>
+  </div>
+
+</div>
+
+<!-- ===== THE REST ===== -->
+<div class="divider-strip">
+  🧡 And now — the full squad. Every player worth knowing. Let's go. ⬇️
+</div>
+
+<div class="section-header">
+  <h2>The Full <span>Squad</span> 🧡</h2>
+  <p>The complete roster breakdown. Every single one of them fascinating in their own way.</p>
+</div>
+
+<div class="card-grid">
+
+  <!-- ARTUR -->
+  <div class="player-card">
+    <div class="card-header">
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇧🇷</span>
+        <span class="flag-badge">🇧🇷</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Artur</h3>
+        <div class="player-meta">
+          <span><span class="number-badge">#6</span> Midfielder &bull; Age 30</span>
+          <span><span class="tag tag-core">IRON MAN</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇧🇷 From <strong>Brumado, Brazil</strong> — came up through the youth ranks at Bahia, Juventus-SC, and São Paulo before making his way to MLS. Won the <strong>MLS Cup with Columbus Crew in 2020</strong> and has been a cornerstone of the Houston midfield ever since. In 2024 he featured in <strong>every single match</strong> across all competitions and led the team in starts and minutes — that's the kind of reliability coaches dream about. Part of the <strong>2023 U.S. Open Cup winning squad</strong>. Full name José Artur de Lima Junior, but one name is plenty for someone at his level.</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li><strong>MLS Cup winner in 2020</strong> with Columbus Crew — the gold standard of club soccer in this league.</li>
+          <li>Featured in <strong>every match in 2024</strong> — the kind of availability that gets you quietly revered in the locker room.</li>
+          <li>Was part of the team that won the <strong>2023 U.S. Open Cup</strong> — Dynamo's second ever. 🏆</li>
+        </ul>
+      </div>
     </div>
   </div>
 
   <!-- DIADIÉ SAMASSÉKOU -->
   <div class="player-card">
     <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/brddubbl1itddxzutoda.png" alt="Diadié Samassékou"><span class="flag-badge">&#127474;&#127473;</span></div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇲🇱</span>
+        <span class="flag-badge">🇲🇱</span>
+      </div>
       <div class="card-header-text">
         <h3>Diadié Samassékou</h3>
         <div class="player-meta">
-          <span>Midfielder &bull; #18</span>
+          <span><span class="number-badge">#18</span> Midfielder &bull; Age 30</span>
+          <span><span class="tag tag-new">SIGNED 2025</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇲🇱 From <strong>Mali</strong>. Played in Austria (Red Bull Salzburg) and the Bundesliga (Hoffenheim) before MLS. Married with 2 kids.</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Anna Samassékou</strong> — wife.
+      <p class="the-tea">🇲🇱 Born in <strong>Bamako, Mali</strong> and has had one of the most well-traveled careers on this roster. Won <strong>three consecutive Austrian Bundesliga titles with Red Bull Salzburg</strong> (2017, 2018, 2019). Then moved to Hoffenheim in the Bundesliga, had loan spells at Olympiacos and Cádiz, and signed with Houston in August 2025. He's a defensive midfielder — the guy doing the unglamorous but absolutely essential work of breaking up plays and recycling the ball. <strong>39 international caps for Mali</strong>. The globe-trotting midfielder who ended up in Houston and we are very glad he did.</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li><strong>Three-time Austrian champion</strong> with Red Bull Salzburg — that's a proper trophy haul. 🏆🏆🏆</li>
+          <li>Made his Bundesliga career start via <strong>FC Liefering</strong>, Salzburg's farm team. The classic pathway done right.</li>
+          <li><strong>39 caps for Mali's national team</strong> and 1 international goal. Represented his country with pride across a decade. 🌍</li>
+        </ul>
       </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/diadie_samassekou" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @diadie_samassekou
-      </a>
     </div>
   </div>
 
-  <!-- ARTUR -->
+  <!-- DUANE HOLMES -->
   <div class="player-card">
     <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/hmchhpxhlaoqug0tlr1x.png" alt="Artur"><span class="flag-badge">&#127463;&#127479;</span></div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇺🇸</span>
+        <span class="flag-badge">🇺🇸</span>
+      </div>
       <div class="card-header-text">
-        <h3>Artur</h3>
+        <h3>Duane Holmes</h3>
         <div class="player-meta">
-          <span>Midfielder &bull; #6 &bull; Captain</span>
-          <span><span class="tag tag-suspended">INJURED</span></span>
+          <span><span class="number-badge">#14</span> Midfielder &bull; Age 31</span>
+          <span><span class="tag tag-core">USMNT</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇧🇷 The captain. Out with a knee injury all season — hasn't played a single minute in 2026. Featured in Dynamo sustainability content with his wife last year. 🌱</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Rachel Lima</strong> — wife.
+      <p class="the-tea">🇺🇸🏴󠁧󠁢󠁥󠁮󠁧󠁿 Born in <strong>Columbus, Georgia</strong>, raised in <strong>England</strong>. The transatlantic backstory is real: American blood, English Championship education, USMNT caps. Started in <strong>Huddersfield's academy at U-9</strong>, turned pro at 18 with three assists in his first senior season. Helped Derby County reach the <strong>2019 EFL Championship play-off final</strong> — one game away from the Premier League. Earned two USMNT caps in 2019 against Jamaica and Venezuela. Now bringing that blend of English grit and American hustle to Houston's midfield, where he's been a reliable presence since signing in March 2025. First Dynamo goal came in a <strong>3–2 road win over St. Louis in 2025</strong>. 🎯</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Named to the <strong>2019 USMNT Gold Cup roster</strong> — withdrew with injury, but the selection shows the level he reached.</li>
+          <li>The <strong>Derby County 2019 play-off run</strong> is English football folklore. He was part of it. 🏴󠁧󠁢󠁥󠁮󠁧󠁿</li>
+          <li>Born in Georgia, career built in England — the original American abroad who came home. 🌎</li>
+        </ul>
       </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/arturl33" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @arturl33
-      </a>
-      <a href="https://instagram.com/rachel.limaaa" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Rachel @rachel.limaaa
-      </a>
     </div>
   </div>
 
-  <!-- ALIYU IBRAHIM -->
+  <!-- AGUSTÍN BOUZAT -->
   <div class="player-card">
     <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/c7h5ipxzm9nruskf2gyk.png" alt="Aliyu Ibrahim"><span class="flag-badge">&#127475;&#127468;</span></div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇦🇷</span>
+        <span class="flag-badge">🇦🇷</span>
+      </div>
       <div class="card-header-text">
-        <h3>Aliyu Ibrahim</h3>
+        <h3>Agustín Bouzat</h3>
         <div class="player-meta">
-          <span>Wingback &bull; #24</span>
-          <span><span class="tag tag-returning">JUST CAME BACK</span></span>
+          <span><span class="number-badge">#22</span> Midfielder &bull; Age 31</span>
+          <span><span class="tag tag-new">NEW IN 2026</span> <span class="tag tag-veteran">CAPTAIN ENERGY</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇳🇬🇺🇸 Nigerian-American. Was with Houston for <strong>90 appearances</strong>, went to Columbus, and the Dynamo just brought him back <strong>two days ago</strong>. The return arc. Could feature tonight. 🔁</p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/aliyu_bravo7" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @aliyu_bravo7
-      </a>
-      <a href="https://tiktok.com/@ibrahmaliyu" target="_blank" class="social-link tiktok">
-        @ibrahmaliyu
-      </a>
+      <p class="the-tea">🇦🇷 From <strong>Bahía Blanca, Argentina</strong>. This man captained CA Vélez Sarsfield to a <strong>historic treble in 2024</strong> — Primera División, Supercopa Argentina, and Supercopa Internacional. The year before that he helped Colo-Colo win <strong>Chile's Primera División in 2022 and Copa Chile in 2023</strong>. That's five trophies in three years. He scored on his professional debut back in February 2016 for Defensa y Justicia in a 2–2 draw. Joined Houston in January 2026 and brings serious Argentine winning mentality to a squad that already has a healthy collection of silverware. Captain vibes, immediately.</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Captained <strong>Vélez to a treble</strong> in 2024 — Primera División, Supercopa Argentina, Supercopa Internacional. The full haul. 🏆🏆🏆</li>
+          <li>Won <strong>Chile's top division AND Copa Chile</strong> in back-to-back seasons at Colo-Colo. 🇨🇱</li>
+          <li><strong>Scored on his professional debut</strong>. Not everyone does that. First impressions from day one. ⚽</li>
+        </ul>
+      </div>
     </div>
   </div>
 
-  <!-- JIMMY MAURER -->
+  <!-- ERIK SVIATCHENKO -->
   <div class="player-card">
     <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/fojoxaokmztxkpm6bxq3.png" alt="Jimmy Maurer"><span class="flag-badge">&#127482;&#127480;</span></div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇩🇰</span>
+        <span class="flag-badge">🇩🇰</span>
+      </div>
       <div class="card-header-text">
-        <h3>Jimmy Maurer</h3>
+        <h3>Erik Sviatchenko</h3>
         <div class="player-meta">
-          <span>Goalkeeper &bull; #1</span>
+          <span><span class="number-badge">#28</span> Defender &bull; Age 34</span>
+          <span><span class="tag tag-veteran">TROPHY KING</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇺🇸 Veteran keeper. His wife <strong>Kristen</strong> delivered their <strong>4th baby at home</strong> in 2019. Four kids. That's the real MVP energy. 🏠👶👶👶👶</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Kristen Maurer</strong> — wife. Four children.
+      <p class="the-tea">🇩🇰 Danish center-back with the kind of trophy cabinet that makes other players feel sheepish. Reportedly holds <strong>11 titles</strong> under his belt. Was <strong>vice-captain for Celtic's legendary "Invincibles" season</strong> — they went undefeated in 47 games, which is the kind of thing that gets you into footballing folklore. Second most-capped player in <strong>FC Midtjylland's history</strong> with 325 appearances — he didn't just play there, he became part of its identity. Was part of Houston's <strong>2023 U.S. Open Cup winning squad</strong> and re-signed through 2026. The senior head on the backline. 🧠</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Vice-captain for <strong>Celtic's Invincibles</strong> — undefeated in 47 matches in a single season. That's historic. 🍀</li>
+          <li><strong>325 appearances for FC Midtjylland</strong> — second most in club history. Loyalty is a superpower.</li>
+          <li>Re-signed with Houston through 2026. Per team sources, he's still hungry for the next one. 🏆</li>
+        </ul>
       </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/jimsmaurer" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @jimsmaurer
-      </a>
     </div>
   </div>
 
-  <!-- JONATHAN BOND -->
+  <!-- LUCAS HALTER -->
   <div class="player-card">
     <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/sppefkzfbfdrr233apam.png" alt="Jonathan Bond"><span class="flag-badge">&#127468;&#127463;</span></div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇧🇷</span>
+        <span class="flag-badge">🇧🇷</span>
+      </div>
       <div class="card-header-text">
-        <h3>Jonathan Bond</h3>
+        <h3>Lucas Halter</h3>
         <div class="player-meta">
-          <span>Goalkeeper &bull; #31</span>
+          <span><span class="number-badge">#5</span> Defender &bull; Age 25</span>
+          <span><span class="tag tag-new">SIGNED 2026</span> <span class="tag tag-core">CAPTAIN AT VITÓRIA</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🏴󠁧󠁢󠁥󠁮󠁧󠁿 English keeper.</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Isy Bella Bond</strong> — partner.
+      <p class="the-tea">🇧🇷 From <strong>Salto, Brazil</strong>. Signed with Houston in January 2026 and debuted on February 21st. Before Houston, he captained EC Vitória in <strong>all 33 matches</strong> of their 2025 campaign — scoring a career-high 4 league goals including a game-winner. He was also part of <strong>Botafogo's historic first-ever Copa Libertadores title in 2024</strong> and Athletico Paranaense's Copa do Brasil win in 2019. This man wins things. Standing at 6'2" with 17 career goals for a center-back — defenders aren't supposed to score that much, and yet. Has <strong>219 top-flight appearances</strong> across Brazilian elite clubs. Arrived ready.</p>
+      <div class="fun-facts">
+        <div class="fun-facts-label">✦ Fun Facts</div>
+        <ul>
+          <li>Was part of <strong>Botafogo's historic Copa Libertadores title in 2024</strong> — the club's first ever. Massive moment in Brazilian football. 🏆</li>
+          <li>Captained EC Vitória in <strong>every single one of 33 matches</strong> in 2025. Not 32. All 33. The armband fits.</li>
+          <li><strong>17 career goals as a center-back.</strong> Who says defenders can't score? Not Lucas Halter. 🎯</li>
+        </ul>
       </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/jonathanbond23" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @jonathanbond23
-      </a>
-      <a href="https://instagram.com/isybellabond" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Isy Bella @isybellabond
-      </a>
     </div>
   </div>
 
-  <!-- NELSON QUIÑONES -->
+  <!-- ANTÔNIO CARLOS -->
   <div class="player-card">
     <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/bmgprm2vhbmlhfwnm8dm.png" alt="Nelson Quiñones"><span class="flag-badge">&#127464;&#127476;</span></div>
-      <div class="card-header-text">
-        <h3>Nelson Quiñones</h3>
-        <div class="player-meta">
-          <span>Forward &bull; #7</span>
-          <span><span class="tag tag-suspended">INJURED</span></span>
-        </div>
+      <div class="player-avatar">
+        <span class="avatar-emoji">🇧🇷</span>
+        <span class="flag-badge">🇧🇷</span>
       </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">🇨🇴 Colombian forward. Recovering from a lower body injury — expected back around the international break. Married, but his wife keeps it private.</p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/nelson___jr7" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @nelson___jr7
-      </a>
-    </div>
-  </div>
-
-</div>
-
-<!-- ========== SUSPENDED / OUT ========== -->
-<div class="section-header">
-  <h2>In the <span>Doghouse</span> 🟥</h2>
-  <p>Both got red cards vs LAFC on Feb 28. Sitting this one out.</p>
-</div>
-
-<div class="card-grid">
-
-  <!-- AGUSTÍN BOUZAT — SUSPENDED -->
-  <div class="player-card suspended">
-    <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/eiscbda51xqtevz2ewtv.png" alt="Agustín Bouzat"><span class="flag-badge">&#127462;&#127479;</span></div>
-      <div class="card-header-text">
-        <h3>Agustín "Chiqui" Bouzat</h3>
-        <div class="player-meta">
-          <span>Midfielder &bull; #30 &bull; 31 yrs</span>
-          <span><span class="tag tag-suspended">RED CARD</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">🇦🇷 Led <strong>Vélez Sarsfield</strong> to a historic treble. Everyone calls him <strong>"Chiqui."</strong> Moved to Houston with his family in January. 🟥</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Fiorella Curutchet</strong> — wife (married Dec 2022). PE teacher, lifelong Vélez fan. They have a son — celebrated his birthday Jan 23.
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/chiquibouzat" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @chiquibouzat
-      </a>
-      <a href="https://instagram.com/fiorecurutchet" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Fiorella @fiorecurutchet
-      </a>
-    </div>
-  </div>
-
-  <!-- ANTÔNIO CARLOS — SUSPENDED -->
-  <div class="player-card suspended">
-    <div class="card-header">
-      <div class="player-avatar"><img src="https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/v1dp19tpiqanxfir5iht.png" alt="Antônio Carlos"><span class="flag-badge">&#127463;&#127479;</span></div>
       <div class="card-header-text">
         <h3>Antônio Carlos</h3>
         <div class="player-meta">
-          <span>Defender &bull; #3 &bull; 32 yrs</span>
-          <span><span class="tag tag-suspended">RED CARD</span></span>
+          <span><span class="number-badge">#25</span> Defender &bull; Age 33</span>
+          <span><span class="tag tag-veteran">PROVEN WINNER</span></span>
         </div>
       </div>
     </div>
     <div class="card-body">
-      <p class="the-tea">🇧🇷 From <strong>Rio de Janeiro</strong>. Most decorated defender on the squad. 🏆🏆🏆 Also in timeout with Chiqui. 🟥</p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Bru Senna</strong> — wife. They have daughters. He tags her constantly on IG.
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/antoniocapocasali25" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @antoniocapocasali25
-      </a>
-      <a href="https://instagram.com/bru_senna" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Bru @bru_senna
-      </a>
-    </div>
-  </div>
-
-</div>
-
-<!-- ========== OPPONENT ========== -->
-<div class="opponent-section">
-  <div class="section-header">
-    <h2>The <span>Other Team</span> 🌲</h2>
-    <p>Portland Timbers — 0 wins, 1 draw, 2 losses. Gave up 8 goals in 3 games. They're struggling. 😬</p>
-  </div>
-
-  <div class="card-grid">
-
-    <div class="player-card">
-      <div class="card-header">
-        <div class="player-avatar">🇺🇸</div>
-        <div class="card-header-text">
-          <h3>Cole Bassett</h3>
-          <div class="player-meta">
-            <span>Midfielder &bull; Their big offseason add</span>
-          </div>
-        </div>
-      </div>
-      <div class="card-body">
-        <p class="the-tea">🇺🇸 From <strong>Littleton, Colorado</strong>. <strong>31 goals and 21 assists</strong> in 172 career matches with Colorado Rapids. Portland's marquee addition this year. The one to watch on the other side.</p>
-      </div>
-    </div>
-
-    <div class="player-card">
-      <div class="card-header">
-        <div class="player-avatar">🇳🇴</div>
-        <div class="card-header-text">
-          <h3>Kristoffer Velde</h3>
-          <div class="player-meta">
-            <span>Winger &bull; Designated Player</span>
-          </div>
-        </div>
-      </div>
-      <div class="card-body">
-        <p class="the-tea">🇳🇴 Norwegian DP. The creative spark Portland is counting on to turn their season around.</p>
-      </div>
-    </div>
-
-    <div class="player-card">
-      <div class="card-header">
-        <div class="player-avatar">🇨🇴</div>
-        <div class="card-header-text">
-          <h3>Diego Chara</h3>
-          <div class="player-meta">
-            <span>Midfielder &bull; The legend</span>
-          </div>
-        </div>
-      </div>
-      <div class="card-body">
-        <p class="the-tea">🇨🇴 Been with Portland since <strong>2011</strong>. 15 seasons. An institution. If you see a scrappy little guy in green winning every tackle, that's him. Respect the longevity. 👑</p>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<!-- ========== FOOTER ========== -->
-<div class="page-footer">
-  <div class="hearts">🎀🧡🤘🤠🎀🧡🤘🤠🎀</div>
-  <p><strong>Forever Orange.</strong> Rodeo Night 2026. 🔥</p>
-  <p style="margin-top:8px; font-size:0.72rem; color:#555;">Girlfriend Guide — March 14, 2026 vs Portland Timbers. girlfriendguide.gg</p>
-</div>
-
-</body>
-</html>
+      <p class="the-tea">🇧🇷 Born in <strong>Rio de Janeiro</strong>. Towering 6'3" center-back with an MLS résumé that includes <strong>Orlando City's 2022 U.S. Open Cup title</strong> — the club's first ever — and a stint at Palmeiras during
