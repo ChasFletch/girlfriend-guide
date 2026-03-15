@@ -83,12 +83,23 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", f
     if corrections_path.exists():
         print(f"   📝 Applied community corrections from {corrections_path}")
 
-    # --- Step 4: Generate Caricatures ---
-    print(f"\n🎨 Step 4/6: Generating caricatures via Gemini...")
-    caricature_dir = build_dir / "caricatures"
-    players = await generate_all_caricatures(players, team_config, caricature_dir, fresh)
-    with_caricatures = sum(1 for p in players if p.get("caricature_path"))
-    print(f"   ✅ Generated {with_caricatures}/{len(players)} caricatures")
+    # --- Step 4: Generate Caricatures (only for players without headshots) ---
+    players_needing_caricature = [p for p in players if not p.get("headshot_b64")]
+    if players_needing_caricature:
+        print(f"\n🎨 Step 4/6: Generating caricatures for {len(players_needing_caricature)} players without headshots...")
+        caricature_dir = build_dir / "caricatures"
+        players_needing_caricature = await generate_all_caricatures(
+            players_needing_caricature, team_config, caricature_dir, fresh
+        )
+        # Merge caricature data back into main players list
+        caricature_map = {p["name"]: p for p in players_needing_caricature}
+        for p in players:
+            if p["name"] in caricature_map:
+                p.update(caricature_map[p["name"]])
+        with_caricatures = sum(1 for p in players if p.get("caricature_path"))
+        print(f"   ✅ Generated {with_caricatures}/{len(players_needing_caricature)} caricatures")
+    else:
+        print(f"\n🎨 Step 4/6: All players have headshots — skipping caricatures")
 
     # --- Step 5: Assemble Guide ---
     print(f"\n📝 Step 5/6: Assembling guide via Claude...")
