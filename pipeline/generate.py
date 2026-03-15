@@ -61,7 +61,8 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", f
     # --- Step 2: Download Headshots ---
     print(f"\n📸 Step 2/6: Downloading headshots...")
     headshot_dir = build_dir / "headshots"
-    players = await download_headshots(players, headshot_dir)
+    img_dir = team_dir / "img"
+    players = await download_headshots(players, headshot_dir, img_dir)
     with_headshots = sum(1 for p in players if p.get("headshot_path"))
     print(f"   ✅ Downloaded {with_headshots}/{len(players)} headshots")
 
@@ -84,12 +85,12 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", f
         print(f"   📝 Applied community corrections from {corrections_path}")
 
     # --- Step 4: Generate Caricatures (only for players without headshots) ---
-    players_needing_caricature = [p for p in players if not p.get("headshot_b64")]
+    players_needing_caricature = [p for p in players if not p.get("img_filename")]
     if players_needing_caricature:
         print(f"\n🎨 Step 4/6: Generating caricatures for {len(players_needing_caricature)} players without headshots...")
         caricature_dir = build_dir / "caricatures"
         players_needing_caricature = await generate_all_caricatures(
-            players_needing_caricature, team_config, caricature_dir, fresh
+            players_needing_caricature, team_config, caricature_dir, img_dir, fresh
         )
         # Merge caricature data back into main players list
         caricature_map = {p["name"]: p for p in players_needing_caricature}

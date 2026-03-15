@@ -3,7 +3,6 @@ Caricature generator — uses Google Gemini 2.5 Flash Image API
 to transform player headshots into cartoon caricatures.
 """
 import asyncio
-import base64
 from pathlib import Path
 from google import genai
 from google.genai import types
@@ -21,28 +20,40 @@ def _get_client():
     return _client
 
 
-async def generate_caricature(player: dict, team_config: dict, output_dir: Path, fresh: bool = False) -> dict:
+async def generate_caricature(
+    player: dict, team_config: dict, output_dir: Path, img_dir: Path | None = None, fresh: bool = False
+) -> dict:
     """
     Generate a caricature from a player's headshot photo.
-    Updates the player dict with 'caricature_path' and 'caricature_b64'.
-    Reuses existing caricature if already generated (unless fresh=True).
+    Saves to img_dir (for deployment) and output_dir (build cache).
     """
     output_dir.mkdir(parents=True, exist_ok=True)
+    if img_dir:
+        img_dir.mkdir(parents=True, exist_ok=True)
 
-    # Check for cached caricature
     slug = _slugify(player["name"])
-    cached_path = output_dir / f"{slug}-caricature.png"
+    caricature_filename = f"{slug}-caricature.png"
+
+    # Check for cached caricature in deploy dir
+    deploy_path = img_dir / caricature_filename if img_dir else None
+    cached_path = output_dir / caricature_filename
+
+    if not fresh and deploy_path and deploy_path.exists() and deploy_path.stat().st_size > 0:
+        player["caricature_path"] = str(deploy_path)
+        player["img_filename"] = caricature_filename
+        return player
+
     if not fresh and cached_path.exists() and cached_path.stat().st_size > 0:
-        cached_bytes = cached_path.read_bytes()
         player["caricature_path"] = str(cached_path)
-        player["caricature_b64"] = base64.b64encode(cached_bytes).decode("utf-8")
+        player["img_filename"] = caricature_filename
+        if img_dir:
+            (img_dir / caricature_filename).write_bytes(cached_path.read_bytes())
         return player
 
     headshot_path = player.get("headshot_path")
 
     if not headshot_path or not Path(headshot_path).exists():
         player["caricature_path"] = None
-        player["caricature_b64"] = None
         return player
 
     # Read the headshot image
@@ -62,21 +73,20 @@ async def generate_caricature(player: dict, team_config: dict, output_dir: Path,
         )
 
         if response:
-            # Save the caricature
-            slug = _slugify(player["name"])
-            out_path = output_dir / f"{slug}-caricature.png"
-            out_path.write_bytes(response)
+            # Save to build cache
+            cached_path.write_bytes(response)
+            player["caricature_path"] = str(cached_path)
+            player["img_filename"] = caricature_filename
 
-            player["caricature_path"] = str(out_path)
-            player["caricature_b64"] = base64.b64encode(response).decode("utf-8")
+            # Also save to deploy img directory
+            if img_dir:
+                (img_dir / caricature_filename).write_bytes(response)
         else:
             player["caricature_path"] = None
-            player["caricature_b64"] = None
 
     except Exception as e:
         print(f"  ⚠ Caricature failed for {player['name']}: {e}")
         player["caricature_path"] = None
-        player["caricature_b64"] = None
 
     return player
 
@@ -106,7 +116,7 @@ def _generate_image(image_bytes: bytes, prompt: str) -> bytes | None:
 
 
 async def generate_all_caricatures(
-    players: list[dict], team_config: dict, output_dir: Path, fresh: bool = False
+    players: list[dict], team_config: dict, output_dir: Path, img_dir: Path | None = None, fresh: bool = False
 ) -> list[dict]:
     """
     Generate caricatures for all players.
@@ -117,7 +127,7 @@ async def generate_all_caricatures(
 
     async def _throttled(player):
         async with semaphore:
-            return await generate_caricature(player, team_config, output_dir, fresh)
+            return await generate_caricature(player, team_config, output_dir, img_dir, fresh)
 
     tasks = [_throttled(p) for p in players]
     results = await asyncio.gather(*tasks)

@@ -207,8 +207,8 @@ matches the template's structure and CSS EXACTLY.
    about career statistics, transfer history, or match performance.
 
 ## CARD STRUCTURE (follow the template exactly):
-- Player avatar: use the real headshot photo (headshot_url) when available. Only use
-  caricature images as a fallback for players who don't have a headshot.
+- Player avatar: use the `img_src` field as the `src` attribute (e.g. `src="img/player-name.png"`).
+  If `img_src` is null, use `caricature_src` as a fallback. NEVER use external URLs for images.
 - Name, position, number, age
 - Flag emoji for nationality
 - "the-tea" paragraph — SHORT, personality-focused, emoji-heavy

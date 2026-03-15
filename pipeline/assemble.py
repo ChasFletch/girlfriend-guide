@@ -78,11 +78,8 @@ async def assemble_guide(
             "Refusing to overwrite existing guide."
         )
 
-    # Inject caricature images as base64 data URIs
-    html_content = _inject_caricatures(html_content, players)
-
-    # Inject headshot images as base64 data URIs (MLS hotlink protection blocks external URLs)
-    html_content = _inject_headshots(html_content, players)
+    # Replace image references with local paths (img/ directory)
+    html_content = _rewrite_image_paths(html_content, players)
 
     # Write output
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -93,18 +90,16 @@ async def assemble_guide(
 
 def _prepare_player_data(players: list[dict]) -> list[dict]:
     """Strip large binary fields, keep what Claude needs for writing."""
-    # Fields to always exclude (binary data, internal fields)
-    _exclude = {"caricature_b64", "headshot_b64", "caricature_path", "headshot_path"}
-
     cleaned = []
     for p in players:
         entry = {
             "name": p["name"],
             "jersey_number": p.get("jersey_number"),
             "position": p.get("position"),
-            "has_caricature": p.get("caricature_b64") is not None,
-            "has_headshot": p.get("headshot_b64") is not None,
-            "headshot_url": p.get("headshot_url"),
+            "has_caricature": p.get("caricature_path") is not None,
+            "has_headshot": p.get("img_filename") is not None or p.get("headshot_path") is not None,
+            "img_src": f"img/{p['img_filename']}" if p.get("img_filename") else None,
+            "caricature_src": f"img/{_slugify(p['name'])}-caricature.png" if p.get("caricature_path") else None,
         }
 
         # Pass through social/relationship fields from roster override
@@ -145,50 +140,34 @@ def _extract_html(text: str) -> str:
     return text
 
 
-def _inject_caricatures(html: str, players: list[dict]) -> str:
+def _rewrite_image_paths(html: str, players: list[dict]) -> str:
     """
-    Replace caricature placeholder references with base64 data URIs.
-    Claude will reference images like: src="caricature-hector-herrera.png"
-    We replace those with inline base64.
-    """
-    for player in players:
-        b64 = player.get("caricature_b64")
-        if not b64:
-            continue
-
-        slug = _slugify(player["name"])
-        data_uri = f"data:image/png;base64,{b64}"
-
-        # Replace various possible reference patterns
-        for pattern in [
-            f'src="{slug}-caricature.png"',
-            f"src='{slug}-caricature.png'",
-            f'src="caricature-{slug}.png"',
-            f"src='caricature-{slug}.png'",
-            f'src="{slug}.png"',
-        ]:
-            if pattern in html:
-                html = html.replace(pattern, f'src="{data_uri}"')
-
-    return html
-
-
-def _inject_headshots(html: str, players: list[dict]) -> str:
-    """
-    Replace external MLS headshot URLs with base64 data URIs.
-    MLS CDN blocks hotlinking, so we embed the downloaded images directly.
+    Replace any external headshot URLs or placeholder references with
+    local img/ paths. Claude should already use img_src from the data,
+    but this catches any stragglers.
     """
     for player in players:
-        b64 = player.get("headshot_b64")
+        img_filename = player.get("img_filename")
         headshot_url = player.get("headshot_url")
-        if not b64 or not headshot_url:
-            continue
 
-        data_uri = f"data:image/png;base64,{b64}"
+        # Replace external MLS URLs with local paths
+        if img_filename and headshot_url and headshot_url in html:
+            html = html.replace(headshot_url, f"img/{img_filename}")
 
-        # Replace the exact external URL wherever it appears
-        if headshot_url in html:
-            html = html.replace(headshot_url, data_uri)
+        # Replace caricature placeholders with local paths
+        slug = _slugify(player["name"])
+        caricature_path = player.get("caricature_path")
+        if caricature_path:
+            local_caricature = f"img/{slug}-caricature.png"
+            for pattern in [
+                f'src="{slug}-caricature.png"',
+                f"src='{slug}-caricature.png'",
+                f'src="caricature-{slug}.png"',
+                f"src='caricature-{slug}.png'",
+                f'src="{slug}.png"',
+            ]:
+                if pattern in html:
+                    html = html.replace(pattern, f'src="{local_caricature}"')
 
     return html
 
