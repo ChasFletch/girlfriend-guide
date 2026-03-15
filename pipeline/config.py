@@ -107,6 +107,20 @@ VERIFY_PROMPT = """Verify these claims about soccer player {player_name}:
 
 {claims_json}
 
+CRITICAL VERIFICATION PRIORITIES (check these FIRST and HARDEST):
+1. **Partner/spouse name** — Search "{player_name} wife", "{player_name} girlfriend", and CHECK
+   the player's own Instagram tagged photos/follows. A wrong partner name is worse than no name.
+2. **Partner Instagram handle** — Visit the handle if provided. Does the account exist? Does it
+   belong to someone connected to this player? If the handle looks wrong, search harder or set null.
+3. **Player Instagram handle** — Confirm the account exists and matches this player.
+4. **Relationship status** — Confirm married/dating/single matches reality.
+
+VERIFICATION RULES:
+- If you cannot find a second source confirming a partner name or handle, set confidence to "low".
+- If the partner Instagram handle doesn't clearly belong to this player's partner, set it to null.
+- Prefer data from the player's own social media over third-party sources.
+- Do NOT guess or assume — if unverifiable, set to null rather than passing through bad data.
+
 For each claim, search for confirming or contradicting evidence.
 Return JSON:
 {{
