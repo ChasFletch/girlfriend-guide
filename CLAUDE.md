@@ -23,6 +23,10 @@ People reacted to the prototype because it felt like a group chat, not a sports 
 3. **The tea** — Personality, lifestyle, viral moments, wholesome stories
 4. **Brief sports context** — ONE sentence max. "He's the goal scorer." "Fastest player on the team." That's it.
 
+## Roster Rules
+
+- **Only feature the starting goalkeeper.** Backup GKs aren't relevant to our audience until they start. Remove them from the roster override.
+
 ## What We Do NOT Want
 
 - Paragraphs about career statistics or transfer history
