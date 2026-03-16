@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+
+<!-- Perplexity Computer Attribution — SEO Meta Tags -->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Girlfriend Guide — Dynamo vs Seattle | April 4, 2026</title>
+<title>Girlfriend Guide — Houston Dynamo FC</title>
+<meta name="description" content="The matchday guide for people who got dragged to the game. Coming soon: April 4 vs Seattle Sounders.">
+<meta property="og:title" content="The Girlfriend Guide to the Dynamo">
+<meta property="og:description" content="Who they are, where they're from, who they're with — and all the tea worth spilling.">
+<meta property="og:type" content="website">
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
 
   :root {
     --dynamo-orange: #F68B1F;
@@ -20,9 +41,6 @@
     --accent-blush: #ffd6e7;
     --accent-teal: #4ecdc4;
     --accent-gold: #ffd700;
-    --longhorn-orange: #bf5700;
-    --ig-gradient: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-    --tiktok-gradient: linear-gradient(135deg, #00f2ea, #ff0050);
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -46,10 +64,8 @@
   .hero::before {
     content: '';
     position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
+    top: -50%; left: -50%;
+    width: 200%; height: 200%;
     background: radial-gradient(circle at 50% 50%, rgba(242,167,195,0.08) 0%, transparent 50%);
     animation: pulse 4s ease-in-out infinite;
   }
@@ -92,1054 +108,384 @@
     font-weight: 600;
     position: relative;
   }
-
-  /* SECTION HEADERS */
-  .section-header {
-    text-align: center;
-    padding: 50px 20px 20px;
-  }
-  .section-header h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.8rem;
-    margin-bottom: 6px;
-  }
-  .section-header h2 span { color: var(--accent-pink); }
-  .section-header p {
+  .hero .tagline {
+    font-size: 0.85rem;
     color: var(--text-secondary);
-    font-size: 0.9rem;
+    position: relative;
+    margin-top: 4px;
   }
 
-  /* CARD GRID */
-  .card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-    gap: 20px;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 10px 20px 40px;
+  /* COMING SOON BADGE */
+  .coming-soon-section {
+    text-align: center;
+    padding: 40px 20px 20px;
+  }
+  .coming-soon-pill {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--accent-hot-pink), var(--dynamo-orange));
+    color: #fff;
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 28px;
+    border-radius: 24px;
+    animation: glow 2s ease-in-out infinite;
+  }
+  @keyframes glow {
+    0%, 100% { box-shadow: 0 0 20px rgba(255, 107, 157, 0.3); }
+    50% { box-shadow: 0 0 40px rgba(255, 107, 157, 0.6); }
+  }
+  .coming-soon-text {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    max-width: 480px;
+    margin: 16px auto 0;
+    line-height: 1.7;
   }
 
-  /* PLAYER CARD */
-  .player-card {
+  /* LAST MATCH RECAP */
+  .recap-section {
+    max-width: 680px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  .recap-card {
     background: var(--card-bg);
     border-radius: 16px;
-    overflow: hidden;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    border: 1px solid rgba(242,167,195,0.12);
-  }
-  .player-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 40px rgba(242,167,195,0.15);
-  }
-  .player-card.featured {
-    border: 1px solid rgba(242,167,195,0.35);
-    background: linear-gradient(135deg, var(--card-bg), rgba(242,167,195,0.05));
-  }
-
-  .card-header {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    padding: 20px 20px 0;
-    position: relative;
-  }
-  .player-avatar {
-    width: 68px;
-    height: 68px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    flex-shrink: 0;
-    border: 3px solid var(--accent-pink);
-    background: var(--dynamo-dark);
+    padding: 32px;
+    border: 1px solid rgba(255,255,255,0.06);
     position: relative;
     overflow: hidden;
   }
-  .player-avatar img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-  .flag-badge {
+  .recap-card::before {
+    content: '';
     position: absolute;
-    bottom: -2px;
-    right: -2px;
-    font-size: 16px;
-    background: var(--dynamo-dark);
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent-hot-pink), var(--dynamo-orange), var(--accent-gold));
+  }
+  .recap-label {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent-hot-pink);
+    margin-bottom: 12px;
+  }
+  .recap-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.4rem, 4vw, 1.8rem);
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 8px;
+  }
+  .recap-headline span { color: var(--dynamo-orange); }
+  .recap-score {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid var(--card-bg);
-    z-index: 2;
-  }
-  .card-header-text h3 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    line-height: 1.2;
-  }
-  .card-header-text .player-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 4px;
-    font-size: 0.8rem;
-    color: var(--text-secondary);
-  }
-  .tag {
-    display: inline-block;
-    padding: 2px 8px;
-    border-radius: 10px;
-    font-size: 0.72rem;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-  }
-  .tag-new { background: rgba(78,205,196,0.15); color: var(--accent-teal); }
-  .tag-core { background: rgba(242,167,195,0.15); color: var(--accent-pink); }
-  .tag-dp { background: rgba(255,215,0,0.15); color: var(--accent-gold); }
-  .tag-returning { background: rgba(78,205,196,0.15); color: var(--accent-teal); }
-  .tag-homegrown { background: rgba(191,87,0,0.15); color: var(--longhorn-orange); }
-  .tag-hot { background: rgba(255,107,157,0.2); color: var(--accent-hot-pink); }
-
-  .card-body { padding: 16px 20px; }
-  .the-tea {
-    font-size: 0.88rem;
-    color: var(--text-secondary);
-    line-height: 1.65;
-  }
-  .the-tea strong { color: var(--text-primary); }
-
-  .card-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    padding: 0 20px 20px;
-  }
-  .social-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 0.78rem;
-    font-weight: 600;
-    text-decoration: none;
-    transition: opacity 0.2s;
-  }
-  .social-link:hover { opacity: 0.85; }
-  .ig-player {
-    background: var(--ig-gradient);
-    color: #fff;
-  }
-  .ig-partner {
-    background: rgba(255,107,157,0.15);
-    color: var(--accent-hot-pink);
-    border: 1px solid rgba(255,107,157,0.3);
-  }
-  .tiktok {
-    background: rgba(0,0,0,0.4);
-    color: #fff;
-    border: 1px solid rgba(255,255,255,0.15);
-  }
-  .tiktok::before {
-    content: '♪';
-    font-size: 12px;
-    margin-right: 2px;
-  }
-  .social-icon {
-    width: 14px;
-    height: 14px;
-  }
-
-  /* COUPLE SPOTLIGHT */
-  .couple-callout {
-    background: linear-gradient(135deg, rgba(242,167,195,0.1), rgba(255,107,157,0.08));
-    border: 1px solid rgba(242,167,195,0.18);
+    gap: 20px;
+    margin: 20px 0;
+    padding: 16px;
+    background: rgba(0,0,0,0.3);
     border-radius: 12px;
-    padding: 12px 16px;
-    margin: 10px 0 4px;
-    font-size: 0.82rem;
   }
-  .couple-callout .couple-label {
+  .recap-team {
+    text-align: center;
+    flex: 1;
+  }
+  .recap-team-name {
     font-weight: 700;
-    color: var(--accent-hot-pink);
-    font-size: 0.72rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    font-size: 0.95rem;
     margin-bottom: 4px;
   }
-
-  /* OPPONENT SECTION */
-  .opponent-section {
-    background: linear-gradient(135deg, rgba(0,73,43,0.06), rgba(0,0,0,0));
-    border-top: 1px solid rgba(0,73,43,0.15);
-    border-bottom: 1px solid rgba(0,73,43,0.15);
+  .recap-team-name.home { color: var(--dynamo-orange); }
+  .recap-team-sub {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
   }
-  .opponent-section .section-header h2 span { color: #4ecdc4; }
-  .opponent-section .player-card { border-color: rgba(0,73,43,0.2); }
-  .opponent-section .player-avatar { border-color: #4ecdc4; }
-  .opponent-section .player-card:hover { box-shadow: 0 12px 40px rgba(0,115,67,0.12); }
+  .recap-vs {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--text-primary);
+    letter-spacing: -2px;
+  }
+  .recap-body {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.75;
+    margin-top: 16px;
+  }
+  .recap-body strong { color: var(--text-primary); }
+  .recap-body .hot { color: var(--accent-hot-pink); font-weight: 600; }
+  .recap-body .gold { color: var(--accent-gold); font-weight: 600; }
+  .recap-body .orange { color: var(--dynamo-orange); font-weight: 600; }
+  .recap-stat {
+    display: inline-block;
+    background: rgba(246, 139, 31, 0.12);
+    color: var(--dynamo-orange);
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 2px 2px;
+  }
+
+  /* PREVIEW TEASERS */
+  .teasers-section {
+    max-width: 680px;
+    margin: 20px auto 40px;
+    padding: 0 20px;
+  }
+  .teasers-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .teasers-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    margin-bottom: 4px;
+  }
+  .teasers-header h2 span { color: var(--accent-pink); }
+  .teasers-header p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+  }
+  .teaser-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(255,255,255,0.05);
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  .teaser-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255, 107, 157, 0.2);
+  }
+  .teaser-emoji {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .teaser-content h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .teaser-content p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+  .teaser-tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-top: 6px;
+  }
+  .tag-tea { background: rgba(255, 107, 157, 0.15); color: var(--accent-hot-pink); }
+  .tag-baby { background: rgba(242, 167, 195, 0.15); color: var(--accent-pink); }
+  .tag-hot { background: rgba(246, 139, 31, 0.15); color: var(--dynamo-orange); }
+  .tag-new { background: rgba(78, 205, 196, 0.15); color: var(--accent-teal); }
+
+  /* NEXT GAME CTA */
+  .next-game {
+    text-align: center;
+    padding: 40px 20px 20px;
+  }
+  .next-game-card {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(246,139,31,0.1), rgba(255,107,157,0.1));
+    border: 1px solid rgba(246,139,31,0.2);
+    border-radius: 16px;
+    padding: 28px 40px;
+    max-width: 400px;
+  }
+  .next-game-label {
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent-hot-pink);
+    margin-bottom: 8px;
+  }
+  .next-game-matchup {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .next-game-matchup span { color: var(--dynamo-orange); }
+  .next-game-details {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 4px;
+  }
+  .next-game-note {
+    font-size: 0.8rem;
+    color: var(--accent-pink);
+    font-style: italic;
+    margin-top: 8px;
+  }
 
   /* FOOTER */
-  .page-footer {
+  footer {
     text-align: center;
-    padding: 40px 20px 60px;
-    color: var(--text-secondary);
+    padding: 40px 20px;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    margin-top: 20px;
+  }
+  footer .brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  footer .brand span { color: var(--accent-pink); }
+  footer .tagline {
     font-size: 0.8rem;
-  }
-  .page-footer .hearts { font-size: 1.4rem; margin-bottom: 8px; }
-
-  /* SVG icon reuse */
-  .ig-svg { display: inline-block; width: 14px; height: 14px; vertical-align: middle; }
-
-  /* SPOTLIGHT LABEL */
-  .spotlight-strip {
-    background: linear-gradient(90deg, var(--dynamo-black), rgba(242,167,195,0.08), var(--dynamo-black));
-    text-align: center;
-    padding: 14px 20px;
-    font-size: 0.82rem;
     color: var(--text-secondary);
-    border-top: 1px solid rgba(242,167,195,0.1);
-    border-bottom: 1px solid rgba(242,167,195,0.1);
+    margin-bottom: 12px;
   }
-  .spotlight-strip strong { color: var(--accent-pink); }
+  footer a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.75rem;
+  }
+  footer a:hover { color: var(--accent-pink); }
 
   /* MOBILE */
-  @media (max-width: 420px) {
-    .card-grid { grid-template-columns: 1fr; padding: 10px 12px 40px; }
-    .hero { padding: 40px 16px 30px; }
-    .hero h1 { font-size: 1.8rem; }
+  @media (max-width: 600px) {
+    .recap-card { padding: 24px 20px; }
+    .recap-score { gap: 12px; padding: 12px; }
+    .recap-vs { font-size: 1.6rem; }
+    .teaser-card { padding: 16px; }
+    .next-game-card { padding: 24px 28px; }
   }
 </style>
 </head>
 <body>
 
-<!-- SVG DEFS (reusable IG icon) -->
-<svg style="display:none">
-  <symbol id="ig" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></symbol>
-</svg>
-
-<!-- ========== HERO ========== -->
-<div class="hero">
-  <div class="hero-badge">🎀 Houston Dynamo FC · April 4, 2026 ⚽</div>
+<section class="hero">
+  <div class="hero-badge">💅 Houston Dynamo FC · 2026 Season 💅</div>
   <h1>The Girlfriend Guide to the <span>Dynamo</span></h1>
-  <p class="subtitle">Who they are, where they're from, who they're with — and all the tea worth spilling. 🫖✨</p>
-  <p class="matchday">April 4, 2026 &bull; vs Seattle Sounders FC &bull; Shell Energy Stadium</p>
-  <p style="position:relative; margin-top:10px; font-size:0.82rem; color:var(--text-secondary);">Everything you need to know before kickoff. No soccer knowledge required. 💅⚽</p>
-</div>
+  <div class="subtitle">Who they are, where they're from, who they're with — and all the tea worth spilling. ☕ ✨</div>
+  <div class="tagline">Everything you need to know before kickoff. No soccer knowledge required. 💅 ⚽</div>
+</section>
 
-<!-- SPOTLIGHT STRIP -->
-<div class="spotlight-strip">
-  🎀 Start here → We picked the <strong>3 most interesting players</strong> to hook you in. You can scroll the rest after. Promise it's worth it.
-</div>
+<section class="coming-soon-section">
+  <div class="coming-soon-pill">✨ Full Guide Drops Before Next Home Game ✨</div>
+  <p class="coming-soon-text">We're refreshing the roster, verifying the tea, and making sure nobody's wife gets mixed up with somebody else's wife. Again. The full guide returns for April 4.</p>
+</section>
 
-<!-- ========== SPOTLIGHTS ========== -->
-<div class="section-header">
-  <h2>✨ <span>Start Here</span> — The Spotlights</h2>
-  <p>The three you absolutely need to know walking in tonight. Biggest tea, biggest names, biggest vibes.</p>
-</div>
+<!-- LAST MATCH RECAP -->
+<section class="recap-section">
+  <div class="recap-card">
+    <div class="recap-label">📺 Last Saturday at Shell Energy Stadium</div>
+    <div class="recap-headline">Bogusz scores in the <span>105th minute</span> to win it</div>
 
-<div class="card-grid">
-
-  <!-- SPOTLIGHT 1: HÉCTOR HERRERA -->
-  <div class="player-card featured">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/hector-herrera.png" alt="Héctor Herrera">
-        <span class="flag-badge">🇲🇽</span>
+    <div class="recap-score">
+      <div class="recap-team">
+        <div class="recap-team-name home">Houston Dynamo</div>
+        <div class="recap-team-sub">2-0-1 · 6 pts</div>
       </div>
-      <div class="card-header-text">
-        <h3>Héctor Herrera</h3>
-        <div class="player-meta">
-          <span>Midfielder · #16 · 35 yrs</span>
-          <span><span class="tag tag-hot">🍵 THE TEA IS SCALDING</span></span>
-        </div>
+      <div class="recap-vs">3 – 2</div>
+      <div class="recap-team">
+        <div class="recap-team-name">Portland Timbers</div>
+        <div class="recap-team-sub">1-0-3 · 3 pts</div>
       </div>
     </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇲🇽 He's the most famous player on this team and has <strong>over 1 million Instagram followers</strong> — more than most players in MLS. Played for <strong>Porto</strong> and <strong>Atlético Madrid</strong> in Europe. Mexican national team legend. Two-time MLS All-Star. The résumé is insane. 👑<br><br>
-        But here's the real tea: in 2025, <strong>Héctor publicly confirmed his separation from his longtime partner Shan Mayo</strong> — and in a rare move, he <strong>took responsibility for the split</strong>. Out loud. On the internet. 😭 They have two kids together — <strong>Valentina</strong> and <strong>David</strong>. His ex Shan has 129K followers of her own. The comments section on both their pages? <em>Chaotic.</em> 🍿👀<br><br>
-        He came back to Houston in January 2026 after a stint at Toluca. The man returned. 🔁🏠
-      </p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person (Ex-Era)</div>
-        <strong>Shan Mayo</strong> — former partner, 129K IG followers, very much still active online. Two kids: <strong>Valentina</strong> and <strong>David</strong>. The situation is… public. Follow @shanmayo for the other side of the story. 👀
-      </div>
+
+    <div class="recap-body">
+      If you left early, you missed <em>everything</em>. Portland took the lead right before halftime. Houston clawed back with goals from <strong>Guilherme</strong> and <strong>Felipe Andrade</strong> (a gorgeous long-range strike). Portland equalized. Then came <span class="hot">15 minutes of stoppage time</span>.<br><br>
+
+      In the <span class="gold">105th minute</span> — yes, you read that right — <strong>Mateusz Bogusz</strong> collected a ball from <strong>Jack McGlynn</strong> and calmly slotted it home. His first Dynamo goal. The <span class="recap-stat">2nd latest winning goal in MLS history</span>. 18,026 people lost their minds.<br><br>
+
+      Both of Houston's new Designated Players (<span class="orange">Bogusz</span> and <span class="orange">Guilherme</span>) scored. <span class="recap-stat">1 goal + 1 assist each</span>. The expensive signings are starting to look worth it.<br><br>
+
+      Oh, and <strong>Bogusz's wife Wiktoria</strong>? She was probably watching from the stands while very pregnant (baby girl due any day now). We'll have updates. 👀
     </div>
-    <div class="card-links">
-      <a href="https://instagram.com/h.herrera16" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @h.herrera16 (1M+)
-      </a>
-      <a href="https://instagram.com/shanmayo" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Ex-Shan @shanmayo (129K)
-      </a>
+  </div>
+</section>
+
+<!-- PREVIEW TEASERS -->
+<section class="teasers-section">
+  <div class="teasers-header">
+    <h2>What's Coming in the <span>Full Guide</span></h2>
+    <p>A few things we're keeping warm for you</p>
+  </div>
+
+  <div class="teaser-card">
+    <div class="teaser-emoji">👶</div>
+    <div class="teaser-content">
+      <h3>Bogusz Baby Watch</h3>
+      <p>Wiktoria posted "She's on her way 💝" back in January. The due date was February. It's now mid-March. Either this baby is extremely fashionably late or they're keeping the announcement private. We're watching.</p>
+      <span class="teaser-tag tag-baby">Baby watch</span>
     </div>
   </div>
 
-  <!-- SPOTLIGHT 2: MATEUSZ BOGUSZ -->
-  <div class="player-card featured">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/mateusz-bogusz.png" alt="Mateusz Bogusz">
-        <span class="flag-badge">🇵🇱</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Mateusz Bogusz</h3>
-        <div class="player-meta">
-          <span>Forward · #19 · 24 yrs</span>
-          <span><span class="tag tag-dp">DESIGNATED PLAYER</span> <span class="tag tag-hot">🎀 BABY WATCH</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇵🇱 Polish international. One of Houston's biggest-ever signings. He went <strong>LAFC → Cruz Azul (Mexico) → Houston</strong> and won a CONCACAF Champions League trophy along the way. 🏆✈️<br><br>
-        But forget the trophies — here's the REAL story: <strong>he proposed to Wiktoria in Mykonos</strong> 💍🇬🇷 and they got married. She runs a <strong>pilates studio account</strong> with 24K followers (@no13.pilates). In January 2026, she posted "She's on her way" with a due date of <strong>February 2026</strong>. Her last pregnancy post was March 3rd. 👶🎀<br><br>
-        <strong>The baby girl may already be here and they just haven't announced publicly yet.</strong> Keep an eye on his stories tonight. This could be the reveal game. 😭🎀
-      </p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person — the cutest WAG on the roster</div>
-        <strong>Wiktoria Wychowska</strong> — wife. Pilates instructor, 24K followers on @no13.pilates. Polish. Moved to Houston for love and launched her fitness brand here. 💪✨ A baby girl may have just arrived — watch this space!
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/x_bogus" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @x_bogus
-      </a>
-      <a href="https://instagram.com/wiktoria.wychowska" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Wiktoria @wiktoria.wychowska
-      </a>
+  <div class="teaser-card">
+    <div class="teaser-emoji">💔</div>
+    <div class="teaser-content">
+      <h3>Herrera's Divorce Era</h3>
+      <p>The team's most famous player split from his longtime partner Shantal Mayo in 2025. He's got 1M+ Instagram followers and he's single. Just putting that out there.</p>
+      <span class="teaser-tag tag-tea">The tea is hot</span>
     </div>
   </div>
 
-  <!-- SPOTLIGHT 3: LAWRENCE ENNALI -->
-  <div class="player-card featured">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/lawrence-ennali.png" alt="Lawrence Ennali">
-        <span class="flag-badge">🇩🇪</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Lawrence Ennali</h3>
-        <div class="player-meta">
-          <span>Forward · #11 · 23 yrs</span>
-          <span><span class="tag tag-hot">💄 FOLLOW HIS GIRLFRIEND</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇩🇪 Born in <strong>Berlin</strong>, IG bio says "HTX/BLN" — living that international life. 🌍 He's the <strong>fastest player in all of MLS</strong> right now. Like, officially clocked. 💨<br><br>
-        The comeback story is unreal: he scored his <strong>first ever MLS goal</strong>… and then tore his ACL in the same game. 😭 Came back from that, worked his way back up, and is now one of the most dangerous attackers in the league. Glow-up arc complete. 📈🔥<br><br>
-        Oh, and his girlfriend? <strong>She is the reason to follow him on Instagram.</strong> Preslee is a <strong>luxury makeup & hairstylist</strong> based right here in Houston. Her artistry account is absolutely stunning — 4.5K followers and growing fast. 💄✨
-      </p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person — follow her NOW</div>
-        <strong>Preslee Clark</strong> — girlfriend, luxury makeup artist & hairstylist 💄. Her work is stunning. @presleeclark on IG, and her artistry account <strong>@presleeclarkartistry</strong> is on both IG and TikTok. Treat yourself. 🎨
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/ennalilawrence" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @ennalilawrence
-      </a>
-      <a href="https://instagram.com/presleeclark" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Preslee @presleeclark
-      </a>
-      <a href="https://instagram.com/presleeclarkartistry" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Preslee's Art @presleeclarkartistry
-      </a>
-      <a href="https://tiktok.com/@presleeclarkartistry" target="_blank" class="social-link tiktok">
-        Preslee @presleeclarkartistry
-      </a>
+  <div class="teaser-card">
+    <div class="teaser-emoji">💍</div>
+    <div class="teaser-content">
+      <h3>WAG Power Rankings</h3>
+      <p>From Wiktoria's Pilates empire to Preslee Clark's luxury makeup artistry to the Lingrs' disgustingly cute couple content — we ranked them all and we're not sorry.</p>
+      <span class="teaser-tag tag-hot">Can't miss</span>
     </div>
   </div>
 
-</div>
-<!-- end spotlights -->
-
-<!-- ========== THE ONES YOU'LL DEFINITELY NOTICE ========== -->
-<div class="section-header">
-  <h2>The Ones You'll <span>Definitely Notice</span> 👀</h2>
-  <p>Big personalities, big names, big social followings. These are the guys everyone's watching.</p>
-</div>
-
-<div class="card-grid">
-
-  <!-- EZEQUIEL PONCE -->
-  <div class="player-card featured">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/ezequiel-ponce.png" alt="Ezequiel Ponce">
-        <span class="flag-badge">🇦🇷</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Ezequiel Ponce</h3>
-        <div class="player-meta">
-          <span>Forward · #10 · 28 yrs</span>
-          <span><span class="tag tag-dp">DESIGNATED PLAYER</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇦🇷 From <strong>Rosario, Argentina</strong> — same city as Messi, just saying. 👀 Wore the <strong>#10 shirt</strong> at Roma. Has played on four continents — Roma, Granada, Spartak Moscow, AEK Athens before Houston. Houston's most expensive signing ever. 💰✈️ The goal machine in orange. 🔥
-      </p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Martina Madeo</strong> — wife. They have kids and have moved across the world together multiple times. This family does NOT stay in one place. 🌍💕
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/ezequielp9" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @ezequielp9
-      </a>
-      <a href="https://instagram.com/martu.madeop" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Martina @martu.madeop
-      </a>
+  <div class="teaser-card">
+    <div class="teaser-emoji">⚔️</div>
+    <div class="teaser-content">
+      <h3>Know the Enemy: Seattle Sounders</h3>
+      <p>We scouted their roster for the hottest players, the most stalkable socials, and any drama worth knowing about. Spoiler: there's always drama.</p>
+      <span class="teaser-tag tag-new">Opponent intel</span>
     </div>
   </div>
 
-  <!-- ARTUR -->
-  <div class="player-card featured">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/artur.png" alt="Artur">
-        <span class="flag-badge">🇧🇷</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Artur</h3>
-        <div class="player-meta">
-          <span>Midfielder · #6</span>
-          <span><span class="tag tag-core">CAPTAIN ENERGY</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇧🇷 Brazilian midfielder who goes by just the one name — very Brazilian of him. 😌 Midfield engine. Does all the work nobody notices until he's not there. Consistent, reliable, the backbone of this team's shape. 💪
-      </p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Rachel Lima</strong> — wife. 💕
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/arturl33" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @arturl33
-      </a>
-      <a href="https://instagram.com/rachel.limaaa" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Rachel @rachel.limaaa
-      </a>
+  <div class="teaser-card">
+    <div class="teaser-emoji">🇵🇱🇧🇷🇲🇽</div>
+    <div class="teaser-content">
+      <h3>25 Players, 12+ Countries, Infinite Tea</h3>
+      <p>Every player on the roster — who they are, where they're from, who they're dating (or divorced from), and what their Instagram says about them. The full guide covers all of it.</p>
+      <span class="teaser-tag tag-hot">Full roster</span>
     </div>
   </div>
+</section>
 
-  <!-- AGUSTÍN BOUZAT -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/agustín-bouzat.png" alt="Agustín Bouzat">
-        <span class="flag-badge">🇦🇷</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Agustín Bouzat</h3>
-        <div class="player-meta">
-          <span>Midfielder · #22 · 31 yrs</span>
-          <span><span class="tag tag-core">CHIQUI</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇦🇷 Argentine midfielder. His Instagram handle is literally <strong>@chiquibouzat</strong> (which means "little Bouzat" — precious 😭). Box-to-box energy, great technical ability. Came up through Vélez Sarsfield in Argentina. 🧉⚽
-      </p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Fiorella Curutchet</strong> — wife (married December 2022 💒). 🎀
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/chiquibouzat" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @chiquibouzat
-      </a>
-      <a href="https://instagram.com/fiorecurutchet" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Fiorella @fiorecurutchet
-      </a>
-    </div>
+<!-- NEXT GAME -->
+<section class="next-game">
+  <div class="next-game-card">
+    <div class="next-game-label">📍 Next Home Game</div>
+    <div class="next-game-matchup"><span>Dynamo</span> vs Seattle Sounders</div>
+    <div class="next-game-details">Saturday, April 4 · 7:30 PM · Shell Energy Stadium</div>
+    <div class="next-game-note">Full guide drops before kickoff ✨</div>
   </div>
+</section>
 
-  <!-- NELSON QUIÑÓNES -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/nelson-quiñónes.png" alt="Nelson Quiñónes">
-        <span class="flag-badge">🇨🇴</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Nelson Quiñónes</h3>
-        <div class="player-meta">
-          <span>Winger · #21 · 23 yrs</span>
-          <span><span class="tag tag-hot">FAST 💨</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇨🇴 Colombian winger. 23 years old and already making defenders look silly. One of the speediest guys on the pitch — blink and he's gone. 💨 Colombian football has a certain flair and Nelson has it in abundance. 🌟
-      </p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/nelson___jr7" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @nelson___jr7
-      </a>
-    </div>
-  </div>
-
-  <!-- ONDŘEJ LINGR -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/ondřej-lingr.png" alt="Ondřej Lingr">
-        <span class="flag-badge">🇨🇿</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Ondřej Lingr</h3>
-        <div class="player-meta">
-          <span>Forward · #9 · 27 yrs</span>
-          <span><span class="tag tag-new">CZECH REPUBLIC 🇨🇿</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇨🇿 Czech international from Havířov. Technically gifted attacking midfielder who can play as a #9. One of the classiest feet on the squad. 🎯 He and Héctor Herrera basically form the creative brain of this team. 🧠⚽
-      </p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Lucie Lingr</strong> — wife. Active on Instagram. 💕
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/ondylingr" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @ondylingr
-      </a>
-      <a href="https://instagram.com/lucielingr" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Lucie @lucielingr
-      </a>
-    </div>
-  </div>
-
-  <!-- GUILHERME -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/guilherme.png" alt="Guilherme">
-        <span class="flag-badge">🇧🇷</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Guilherme</h3>
-        <div class="player-meta">
-          <span>Forward · #20 · 34 yrs</span>
-          <span><span class="tag tag-dp">DESIGNATED PLAYER</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇧🇷 Goes by one name. Very DP of him. 😌 Brazilian forward who lights up the left side — electric dribbler and loves cutting in to shoot. Experienced, creative, fun to watch. Just give him the ball near the box and see what happens. 🔥
-      </p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/guilherme11" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @guilherme11
-      </a>
-    </div>
-  </div>
-
-</div>
-<!-- end definitely notice -->
-
-<!-- ========== THE FAMILY MEN ========== -->
-<div class="section-header">
-  <h2>The <span>Family Men</span> 👨‍👩‍👧‍👦</h2>
-  <p>Married, adorable, and definitely posting their kids on IG. The WAGs you need to follow.</p>
-</div>
-
-<div class="card-grid">
-
-  <!-- DUANE HOLMES -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/duane-holmes.png" alt="Duane Holmes">
-        <span class="flag-badge">🇺🇸</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Duane Holmes</h3>
-        <div class="player-meta">
-          <span>Midfielder · #14 · 31 yrs</span>
-          <span><span class="tag tag-core">GAMER 🎮</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇺🇸 Born in Columbus, GA, raised in England — so he's got that American-British hybrid energy. 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Fun fact: he's a <strong>massive Call of Duty fan</strong> and has joked that new game releases put him in "borderline divorce territory" 😂🎮. His wife Brooke is a makeup artist — the couple goals are real. ❤️
-      </p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Brooke Holmes</strong> — wife (married June 2022 💒). She's a <strong>makeup artist</strong> — check her work out! Her brother-in-law <strong>Jack Marriott</strong> is also a professional footballer. 💄⚽
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/duaneholmes" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @duaneholmes
-      </a>
-      <a href="https://instagram.com/brookesavannah2" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Brooke @brookesavannah2
-      </a>
-    </div>
-  </div>
-
-  <!-- ERIK SVIATCHENKO -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/erik-sviatchenko.png" alt="Erik Sviatchenko">
-        <span class="flag-badge">🇩🇰</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Erik Sviatchenko</h3>
-        <div class="player-meta">
-          <span>Defender · #28 · 34 yrs</span>
-          <span><span class="tag tag-core">OG 💪</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇩🇰 Danish defender, steady as a rock at the back. Played for <strong>Celtic FC</strong> in Scotland before Houston. But the real flex? He and his wife Anne have been <strong>together for 19+ years</strong>. In this economy. In FOOTBALL. 😭❤️ Total family man.
-      </p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Anne Sviatchenko</strong> — wife. 19+ years together, married 7+. Very active on IG with family posts. 💕
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/eriksviat" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @eriksviat
-      </a>
-      <a href="https://instagram.com/annesviat" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Anne @annesviat
-      </a>
-    </div>
-  </div>
-
-  <!-- ANTÔNIO CARLOS -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/antônio-carlos.png" alt="Antônio Carlos">
-        <span class="flag-badge">🇧🇷</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Antônio Carlos</h3>
-        <div class="player-meta">
-          <span>Defender · #25</span>
-          <span><span class="tag tag-core">TOWERING 🏔️</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇧🇷 Big Brazilian center-back. Physically imposing, aerially dominant. One of those defenders who looks like he was literally built to play the position. 💪 His partner Bru is adorable on IG. 💕
-      </p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Bru Senna</strong> — partner. 💕
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/antoniocapocasali25" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @antoniocapocasali25
-      </a>
-      <a href="https://instagram.com/bru_senna" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Bru @bru_senna
-      </a>
-    </div>
-  </div>
-
-  <!-- JONATHAN BOND -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/jonathan-bond.png" alt="Jonathan Bond">
-        <span class="flag-badge">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Jonathan Bond</h3>
-        <div class="player-meta">
-          <span>Goalkeeper · #31 · 32 yrs</span>
-          <span><span class="tag tag-new">ENGLISH 🏴󠁧󠁢󠁥󠁮󠁧󠁿</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🏴󠁧󠁢󠁥󠁮󠁧󠁿 English goalkeeper signed as injury cover — but he's here and he's holding it down between the sticks. 🥅 The unsung hero who nobody talks about until something goes wrong (and then suddenly everyone's a goalkeeper expert 😂).
-      </p>
-      <div class="couple-callout">
-        <div class="couple-label">🎀 His Person</div>
-        <strong>Isy Bella Bond</strong> — partner. 💕
-      </div>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/jonathanbond23" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @jonathanbond23
-      </a>
-      <a href="https://instagram.com/isybellabond" target="_blank" class="social-link ig-partner">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        Isy @isybellabond
-      </a>
-    </div>
-  </div>
-
-</div>
-<!-- end family men -->
-
-<!-- ========== THE YOUNG ONES ========== -->
-<div class="section-header">
-  <h2>The <span>Young Ones</span> 🌱</h2>
-  <p>Baby roster energy. These guys are just getting started — and they're already here.</p>
-</div>
-
-<div class="card-grid">
-
-  <!-- MATTHEW ARANA -->
-  <div class="player-card featured">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/matthew-arana.png" alt="Matthew Arana">
-        <span class="flag-badge">🇺🇸</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Matthew Arana</h3>
-        <div class="player-meta">
-          <span>Midfielder · #17 · <strong>15 yrs</strong></span>
-          <span><span class="tag tag-homegrown">HOMEGROWN</span> <span class="tag tag-hot">YOUNGER THAN YOU</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇺🇸 <strong>FIFTEEN. YEARS. OLD.</strong> 😭🔥 Houston native (Rosharon, TX). Signed a Homegrown contract in 2026 — the youngest first-team signing in Dynamo history. He is literally in high school age and already playing professional MLS soccer. Wild. While you're thinking about weekend plans, this kid is living his actual dream. 🏡➡️⚽<br><br>
-        Also represents Mexico at youth level (U-15/U-16) despite being Houston-born. Dual nationality vibes. 🇲🇽🇺🇸
-      </p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/thematthewarana" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @thematthewarana
-      </a>
-    </div>
-  </div>
-
-  <!-- REESE MILLER -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/reese-miller.png" alt="Reese Miller">
-        <span class="flag-badge">🇺🇸</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Reese Miller</h3>
-        <div class="player-meta">
-          <span>Defender · #34 · 22 yrs</span>
-          <span><span class="tag tag-homegrown">HOMEGROWN</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇺🇸 From <strong>Missouri City, TX</strong> — grew up literally just outside Houston. His mom <strong>Christy</strong> played soccer through high school and introduced him to the game. ❤️ Came up through local Houston youth clubs, starred at UVA in college, then came <strong>right back home</strong> on a Homegrown deal. Full circle. 🤘🏡
-      </p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/reesemillerr" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @reesemillerr
-      </a>
-    </div>
-  </div>
-
-  <!-- ALIYU IBRAHIM -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/aliyu-ibrahim.png" alt="Aliyu Ibrahim">
-        <span class="flag-badge">🇳🇬</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Aliyu Ibrahim</h3>
-        <div class="player-meta">
-          <span>Forward/Winger · #27 · 24 yrs</span>
-          <span><span class="tag tag-new">KANO TO HOUSTON 🌍</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇳🇬 From <strong>Kano, Nigeria</strong> to Houston, Texas. 24 years old and absolutely electric on the wing — covers the ground like it's nothing, attacks space on both sides. The kind of player you don't fully appreciate until you watch defenders trying to keep up with him. 💨⚡
-      </p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/aliyu_bravo7" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @aliyu_bravo7
-      </a>
-    </div>
-  </div>
-
-  <!-- JACK McGLYNN -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/jack-mcglynn.png" alt="Jack McGlynn">
-        <span class="flag-badge">🇺🇸</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Jack McGlynn</h3>
-        <div class="player-meta">
-          <span>Forward · #8 · 22 yrs</span>
-          <span><span class="tag tag-core">USMNT ⭐</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇺🇸☘️ From <strong>Queens, New York</strong> — Irish-American energy. Was at Philadelphia Union since he was 16, became a USMNT regular… and then the Dynamo traded for him. 🔄 Pro move: nobody told him directly. <strong>His dad called while he was with his girlfriend to break the news.</strong> 📞😳 Brother <strong>Conor</strong> also plays pro. Living proof the whole family has the gene. 🧬⚽
-      </p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/jackmcglynn7" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @jackmcglynn7
-      </a>
-    </div>
-  </div>
-
-  <!-- NICK MARKANICH -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/nick-markanich.png" alt="Nick Markanich">
-        <span class="flag-badge">🇺🇸</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Nick Markanich</h3>
-        <div class="player-meta">
-          <span>Forward · #7 · 26 yrs</span>
-          <span><span class="tag tag-new">FROM ILLINOIS 🌽</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇺🇸 From <strong>Bourbonnais, Illinois</strong> — yes that's a real place. 😂 Played at Northern Illinois University before going pro. Was record-breaking at Charleston Battery before Houston came calling. Lives for the moment. Loves a big celebration. Forward energy all the way. 🔥⚽
-      </p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/nickmarkanich" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @nickmarkanich
-      </a>
-    </div>
-  </div>
-
-</div>
-<!-- end young ones -->
-
-<!-- ========== INTERNATIONAL FLAVOR ========== -->
-<div class="section-header">
-  <h2><span>International Flavor</span> 🌍</h2>
-  <p>From Argentina to Czech Republic to Mali — this roster has been EVERYWHERE. Passport heavy. ✈️</p>
-</div>
-
-<div class="card-grid">
-
-  <!-- DIADIÉ SAMASSÉKOU -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/diadie-samassekou.png" alt="Diadié Samassékou">
-        <span class="flag-badge">🇲🇱</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Diadié Samassékou</h3>
-        <div class="player-meta">
-          <span>Midfielder · #18 · 30 yrs</span>
-          <span><span class="tag tag-core">BAMAKO TO HTX 🌍</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇲🇱 From <strong>Bamako, Mali</strong>. That's West Africa → Houston, Texas. 🌍✈️ Defensive midfielder who wins the ball back quietly and makes everyone around him look better. One of those players who never gets enough credit. 💪 The engine room.
-      </p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/diadie_samassekou" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @diadie_samassekou
-      </a>
-    </div>
-  </div>
-
-  <!-- FRANCO NEGRI -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/franco-negri.png" alt="Franco Negri">
-        <span class="flag-badge">🇦🇷</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Franco Negri</h3>
-        <div class="player-meta">
-          <span>Defender · #3 · 31 yrs</span>
-          <span><span class="tag tag-core">MENDOZA 🍷</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇦🇷 From <strong>San Martín, Mendoza, Argentina</strong> — that's wine country, FYI. 🍷 Left-back who loves getting forward and joining attacks. Argentine defenders have a reputation for being tough as nails, and Franco fits that mold perfectly. 💪
-      </p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/franco_negri3" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @franco_negri3
-      </a>
-    </div>
-  </div>
-
-  <!-- LUCAS HALTER -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <img src="img/lucas-halter.png" alt="Lucas Halter">
-        <span class="flag-badge">🇩🇪</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Lucas Halter</h3>
-        <div class="player-meta">
-          <span>Defender · #5</span>
-          <span><span class="tag tag-new">GERMAN 🇩🇪</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇩🇪 German center-back. Tall, composed, excellent in the air. German defenders have a certain reputation for being absolutely immovable and Lucas is very much that guy. 🧱 Solid as a wall at the back. 💪
-      </p>
-    </div>
-    <div class="card-links">
-      <a href="https://instagram.com/lucas_halter" target="_blank" class="social-link ig-player">
-        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
-        @lucas_halter
-      </a>
-    </div>
-  </div>
-
-  <!-- TOMAS WIESNER -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <span style="font-size:28px;">⚽</span>
-        <span class="flag-badge">🇨🇿</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Tomáš Wiesner</h3>
-        <div class="player-meta">
-          <span>Defender · #2 · 28 yrs</span>
-          <span><span class="tag tag-new">CZECH REPUBLIC 🇨🇿</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇨🇿 Czech defender who joined Houston in July 2025. Versatile, can play right back or in the midfield. Quietly getting his footing in MLS after moving from European football. 🌍 The quiet professional type. 🤐💪
-      </p>
-    </div>
-    <div class="card-links">
-      <!-- No confirmed Instagram handle in player data -->
-    </div>
-  </div>
-
-  <!-- FELIPE ANDRADE -->
-  <div class="player-card">
-    <div class="card-header">
-      <div class="player-avatar">
-        <span style="font-size:28px;">⚽</span>
-        <span class="flag-badge">🇧🇷</span>
-      </div>
-      <div class="card-header-text">
-        <h3>Felipe Andrade</h3>
-        <div class="player-meta">
-          <span>Defender · #36</span>
-          <span><span class="tag tag-new">BRAZILIAN 🇧🇷</span></span>
-        </div>
-      </div>
-    </div>
-    <div class="card-body">
-      <p class="the-tea">
-        🇧🇷 Brazilian defender flying a bit under the radar. Depth piece who brings that Brazilian technical quality to the backline. Young, still making his name. The journey is just beginning. 🌱⚽
-      </p>
-    </div>
-    <div class="card-links">
-      <!-- No Instagram handle in player data -->
-    </div>
-  </div>
-
-</div>
-<!-- end international flavor -->
-
-<!-- ========== FOOTER ========== -->
-<div class="page-footer">
-  <div class="hearts">🎀🧡🖤</div>
-  <p>Made with love for everyone who got dragged to the game and ended up having the best night. 💕</p>
-  <p style="margin-top:6px; color: var(--accent-pink);">Houston Dynamo FC · vs Seattle Sounders FC · April 4, 2026 · Shell Energy Stadium ⚽</p>
-  <p style="margin-top:10px; font-size:0.75rem; opacity:0.6;">This guide is for fun! All social links are public profiles. Go Dynamo! 🧡🖤</p>
-</div>
+<footer>
+  <div class="brand">Girlfriend <span>Guide</span></div>
+  <div class="tagline">Matchday guides for people who got dragged to the game on a date</div>
+  <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
+</footer>
 
 </body>
 </html>
