@@ -131,23 +131,27 @@ Shared database. Perplexity Computer adds new opponent players; Claude's pipelin
 
 ## Proposed Weekly Workflow
 
-### Monday (automated via Perplexity Computer recurring task)
-1. Check upcoming home games for all 3 Texas teams this week
-2. For each team with a home game:
+### Friday 8am PT (automated via Perplexity Computer recurring task)
+1. Check if Houston Dynamo has a home game within the next 8 days
+2. If yes:
    - Verify roster against official MLS page + injury reports
    - Scan all player/WAG profiles for hot content since last scan
    - Research 3 opponent players (check opponents.json first, skip known players)
    - Write `research-data.json` and `weekly-hot-content.json`
    - Commit to repo
+   - Notify Charles with a summary
+3. If no home game, skip silently
 
-### Monday-Wednesday (automated via GitHub Actions, Claude's pipeline)
+### Friday afternoon/evening (automated via GitHub Actions — NEEDS SCHEDULE CHANGE from Monday 9am CT)
 1. Read `research-data.json` instead of calling Sonar
 2. Read `weekly-hot-content.json` for fresh material
 3. Assemble guide via Claude
 4. Generate caricatures if needed
 5. Commit and deploy to Netlify
 
-### Match Day (manual, Charles posts to Facebook groups)
+**NOTE:** The GitHub Actions cron in `.github/workflows/generate-guide.yml` currently runs Monday at 9am CT (`0 14 * * 1`). It should be changed to Friday afternoon CT (e.g. `0 22 * * 5` = Friday 5pm CT) so it picks up the fresh research data and the guide is ready for Saturday games.
+
+### Match Day — Saturday (manual, Charles posts to Facebook groups)
 1. Share the link in Houston Dynamo FC Fans / Austin FC / FC Dallas groups
 2. Monitor comments for corrections → add to `corrections.json`
 
