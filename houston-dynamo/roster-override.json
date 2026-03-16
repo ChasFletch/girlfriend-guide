@@ -66,9 +66,11 @@
     "position": "Midfielder",
     "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/lhj5me76wrhniijx04fp.png",
     "player_instagram": "@h.herrera16",
-    "partner_name": "Shan Mayo",
-    "partner_description": "partner",
-    "partner_instagram": "@shanmayo"
+    "player_tiktok": "@hherrera16",
+    "relationship_status": "divorced",
+    "partner_name": null,
+    "partner_description": "Divorced from Shantal Mayo in 2025 (TUDN confirmed). Currently single as far as public sources show.",
+    "partner_instagram": null
   },
   {
     "name": "Artur",
@@ -153,10 +155,7 @@
     "jersey_number": 21,
     "position": "Forward",
     "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/bmgprm2vhbmlhfwnm8dm.png",
-    "player_instagram": "@nelson___jr7",
-    "partner_name": "Fiorella Curutchet",
-    "partner_description": "wife (married Dec 2022)",
-    "partner_instagram": "@fiorecurutchet"
+    "player_instagram": "@nelson___jr7"
   },
   {
     "name": "Ondřej Lingr",
@@ -192,6 +191,6 @@
     "position": "Forward",
     "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/c7h5ipxzm9nruskf2gyk.png",
     "player_instagram": "@aliyu_bravo7",
-    "partner_tiktok": "@ibrahmaliyu"
+    "player_tiktok": "@ibrahmaliyu"
   }
 ]
