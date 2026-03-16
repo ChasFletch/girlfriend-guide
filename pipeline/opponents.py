@@ -68,15 +68,21 @@ async def scout_opponent(opponent_name: str, base_dir: Path) -> list[dict]:
         else:
             candidates = [candidates]
 
-    # Filter: must have both player and partner Instagram
+    # Filter: prefer players with social links, but don't require them
     valid = []
     for c in candidates:
-        if not c.get("player_instagram") or not c.get("partner_instagram"):
-            print(f"   ⚠️  Skipping {c.get('name', '?')} — missing player or partner Instagram")
-            continue
         if c.get("name") in already_scouted:
             continue
         valid.append(c)
+
+    # Sort so players with the most social links come first
+    valid.sort(
+        key=lambda c: (
+            bool(c.get("player_instagram")),
+            bool(c.get("partner_instagram")),
+        ),
+        reverse=True,
+    )
 
     if not valid:
         print(f"   ⚠️  No valid candidates found (need both player + partner Instagram)")

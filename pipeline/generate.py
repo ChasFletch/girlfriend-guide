@@ -102,8 +102,20 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", f
     else:
         print(f"\n🎨 Step 4/6: All players have headshots — skipping caricatures")
 
-    # --- Step 5: Assemble Guide ---
-    print(f"\n📝 Step 5/6: Assembling guide via Claude...")
+    # --- Step 5: Scout Opponent ---
+    print(f"\n🕵️ Step 5/6: Scouting 3 players from {opponent}...")
+    opponent_players = []
+    try:
+        opponent_players = await scout_opponent(opponent, base_dir)
+        if opponent_players:
+            print(f"   ✅ Scouted {len(opponent_players)} opponent players")
+        else:
+            print(f"   ⚠️  No opponent players found")
+    except Exception as e:
+        print(f"   ⚠️  Opponent scouting failed (non-fatal): {e}")
+
+    # --- Step 6: Assemble Guide ---
+    print(f"\n📝 Step 6/6: Assembling guide via Claude...")
     template_path = team_dir / "template.html"
     output_path = team_dir / "index.html"
 
@@ -113,17 +125,9 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", f
         match_info=match_info,
         template_path=template_path,
         output_path=output_path,
+        opponent_players=opponent_players,
     )
     print(f"   ✅ Guide written to {output_path}")
-
-    # --- Step 6: Scout Opponent ---
-    print(f"\n🕵️ Step 6: Scouting 3 players from {opponent}...")
-    try:
-        scouted = await scout_opponent(opponent, base_dir)
-        if scouted:
-            print(f"   ✅ Scouted {len(scouted)} opponent players")
-    except Exception as e:
-        print(f"   ⚠️  Opponent scouting failed (non-fatal): {e}")
 
     # --- Save build artifacts for debugging ---
     artifacts_path = build_dir / "pipeline-output.json"
