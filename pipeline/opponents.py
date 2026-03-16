@@ -39,6 +39,15 @@ async def scout_opponent(opponent_name: str, base_dir: Path) -> list[dict]:
     team_db = db.get(opponent_name, {})
     already_scouted = list(team_db.keys())
 
+    # If we already have 3+ high-quality scouted players, return them directly
+    cached_players = [
+        v for v in team_db.values()
+        if isinstance(v, dict) and v.get("name")
+    ]
+    if len(cached_players) >= 3:
+        print(f"   📦 Using {len(cached_players)} cached opponent players from database")
+        return cached_players[:3]
+
     # Build exclude clause so we don't re-research known players
     exclude_clause = ""
     if already_scouted:
@@ -85,7 +94,7 @@ async def scout_opponent(opponent_name: str, base_dir: Path) -> list[dict]:
     )
 
     if not valid:
-        print(f"   ⚠️  No valid candidates found (need both player + partner Instagram)")
+        print(f"   ⚠️  No valid opponent candidates found")
         return []
 
     print(f"   🔍 Scouting {len(valid)} players: {', '.join(c['name'] for c in valid)}")

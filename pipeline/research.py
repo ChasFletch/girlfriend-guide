@@ -202,8 +202,22 @@ def apply_corrections(players: list[dict], corrections_path: str) -> list[dict]:
 
     for player in players:
         name = player["name"]
+        # Match on exact name OR partial name (e.g. "Ponce" matches "Ezequiel Ponce")
+        matched_key = None
         if name in corrections:
-            for field, value in corrections[name].items():
+            matched_key = name
+        else:
+            for corr_key in corrections:
+                if corr_key.startswith("_"):
+                    continue
+                if corr_key in name or name in corr_key:
+                    matched_key = corr_key
+                    break
+
+        if matched_key:
+            for field, value in corrections[matched_key].items():
+                if field.startswith("_"):
+                    continue
                 if "verified" in player:
                     player["verified"][field] = {
                         "value": value,

@@ -11,6 +11,7 @@ import argparse
 import asyncio
 import json
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 # Add pipeline dir to path for imports
@@ -22,6 +23,81 @@ from research import research_all, verify_all, apply_corrections
 from caricature import generate_all_caricatures
 from assemble import assemble_guide
 from opponents import scout_opponent
+
+RESEARCH_DATA_MAX_AGE_DAYS = 7
+
+
+def _load_research_data(team_dir: Path) -> dict | None:
+    """
+    Load Perplexity Computer's research-data.json if it exists and is fresh.
+    Returns the parsed data dict, or None if missing/stale.
+    """
+    path = team_dir / "research-data.json"
+    if not path.exists():
+        return None
+
+    data = json.loads(path.read_text())
+    generated_at = data.get("_metadata", {}).get("generated_at")
+    if not generated_at:
+        return None
+
+    try:
+        gen_time = datetime.fromisoformat(generated_at)
+        age = datetime.now(timezone.utc) - gen_time.astimezone(timezone.utc)
+        if age.days >= RESEARCH_DATA_MAX_AGE_DAYS:
+            return None
+    except (ValueError, TypeError):
+        return None
+
+    return data
+
+
+def _merge_research_data(players: list[dict], research_data: dict) -> list[dict]:
+    """
+    Merge Perplexity Computer's research into player dicts.
+    Sets both 'research' and 'verified' keys so the assembly step
+    can consume them the same way it consumes Sonar output.
+    """
+    pc_players = research_data.get("players", {})
+
+    for player in players:
+        name = player["name"]
+        if name not in pc_players:
+            continue
+
+        pc = pc_players[name]
+
+        # Copy social/relationship fields directly onto the player dict
+        # (same level as roster-override fields — roster-override wins on conflicts)
+        for key in ("player_instagram", "player_tiktok", "partner_name",
+                     "partner_description", "partner_instagram", "partner_tiktok",
+                     "relationship_status", "kids"):
+            if pc.get(key) and not player.get(key):
+                player[key] = pc[key]
+
+        # Build research dict in the format the assembly step expects
+        research = {k: v for k, v in pc.items() if not k.startswith("_")}
+        player["research"] = research
+
+        # Mark as verified (Perplexity Computer browser-verified this data)
+        player["verified"] = {
+            k: {"value": v, "confidence": pc.get("confidence", "high"), "source": "perplexity_computer"}
+            for k, v in research.items()
+            if k not in ("sources", "confidence", "last_verified")
+        }
+
+    return players
+
+
+def _load_hot_content(team_dir: Path) -> dict | None:
+    """Load weekly-hot-content.json if it exists."""
+    path = team_dir / "weekly-hot-content.json"
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text())
+    except (json.JSONDecodeError, OSError):
+        return None
 
 
 async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", fresh: bool = False):
@@ -67,22 +143,41 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", f
     print(f"   ✅ Downloaded {with_headshots}/{len(players)} headshots")
 
     # --- Step 3: Research + Verify ---
-    research_cache_path = team_dir / "research-cache.json"
-    print(f"\n🔍 Step 3/6: Researching players via Perplexity...")
-    if fresh:
-        print(f"   🔄 Fresh mode — ignoring cache")
-    players = await research_all(players, team_config["name"], research_cache_path, fresh)
-    print(f"   ✅ Research complete for {len(players)} players")
+    # Check for Perplexity Computer's research-data.json first
+    research_data = None if fresh else _load_research_data(team_dir)
+    skip_sonar = False
 
-    print(f"\n🔎 Verifying claims (second pass)...")
-    players = await verify_all(players, research_cache_path, fresh)
-    print(f"   ✅ Verification complete")
+    if research_data:
+        pc_player_count = len(research_data.get("players", {}))
+        gen_at = research_data["_metadata"]["generated_at"]
+        print(f"\n🔍 Step 3/6: Loading research from Perplexity Computer ({pc_player_count} players, generated {gen_at})")
+        players = _merge_research_data(players, research_data)
+        skip_sonar = True
+        print(f"   ✅ Merged Perplexity Computer research — skipping Sonar API")
+    else:
+        research_cache_path = team_dir / "research-cache.json"
+        print(f"\n🔍 Step 3/6: Researching players via Perplexity Sonar (no fresh research-data.json found)...")
+        if fresh:
+            print(f"   🔄 Fresh mode — ignoring cache")
+        players = await research_all(players, team_config["name"], research_cache_path, fresh)
+        print(f"   ✅ Research complete for {len(players)} players")
 
-    # Apply community corrections
+        print(f"\n🔎 Verifying claims (second pass)...")
+        players = await verify_all(players, research_cache_path, fresh)
+        print(f"   ✅ Verification complete")
+
+    # Apply community corrections (always runs, regardless of data source)
     corrections_path = team_dir / "corrections.json"
     players = apply_corrections(players, str(corrections_path))
     if corrections_path.exists():
         print(f"   📝 Applied community corrections from {corrections_path}")
+
+    # Load hot content for assembly
+    hot_content = _load_hot_content(team_dir)
+    if hot_content:
+        match_info["hot_content"] = hot_content
+        hot_count = len(hot_content.get("hot_posts", []))
+        print(f"   🔥 Loaded {hot_count} hot content items for this week")
 
     # --- Step 4: Generate Caricatures (only for players without headshots) ---
     players_needing_caricature = [p for p in players if not p.get("img_filename")]
@@ -126,6 +221,7 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", f
         template_path=template_path,
         output_path=output_path,
         opponent_players=opponent_players,
+        hot_content=hot_content,
     )
     print(f"   ✅ Guide written to {output_path}")
 
