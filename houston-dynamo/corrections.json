@@ -1,7 +1,20 @@
 {
   "_comment": "Community corrections — these override research data with verified info",
   "Ponce": {
-    "partner_name": "Brittany Ulrich",
-    "partner_instagram": "@corrected_handle_here"
+    "_note": "Brittany Ulrich (community member) commented on Facebook that our IG handle for Ponce's wife is wrong. Our research found her partner as Martina Ponce Soto-Aguilar (@maartinaponce) but this needs further verification. Current roster-override has Martina Madeo (@martu.madeop) which may be outdated.",
+    "partner_instagram": "@maartinaponce",
+    "partner_name": "Martina Ponce Soto-Aguilar",
+    "needs_verification": true
+  },
+  "Herrera": {
+    "_note": "Divorced from Shantal Mayo in 2025 per TUDN and Soy Fútbol. Updated in roster-override.json.",
+    "relationship_status": "divorced",
+    "partner_name": null,
+    "partner_instagram": null
+  },
+  "Quiñónes": {
+    "_note": "Had Fiorella Curutchet (Bouzat's wife) copy-pasted as his partner — this was a Sonar hallucination. Cleaned in roster-override.json.",
+    "partner_name": null,
+    "partner_instagram": null
   }
 }
