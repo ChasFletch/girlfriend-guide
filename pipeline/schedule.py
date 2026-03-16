@@ -164,10 +164,22 @@ def _parse_html_schedule(html: str, team_slug: str, team_name: str) -> list[dict
     return matches
 
 
-def get_next_home_game(team_slug: str, matches: list[dict]) -> dict | None:
-    """Return the next upcoming home game, or None."""
-    today = str(date.today())
-    home_games = [m for m in matches if m["is_home"] and m["date"] >= today]
+def get_next_home_game(team_slug: str, matches: list[dict], max_days: int = 3) -> dict | None:
+    """
+    Return the next upcoming home game within max_days, or None.
+
+    Default max_days=3 means only return games happening within the next 3 days
+    (e.g. Friday cron finds Saturday game = 1 day out). This prevents the pipeline
+    from running a week early with stale data. Perplexity Computer uses a matching
+    2-day window for its full content scan.
+    """
+    today = date.today()
+    cutoff = str(today + timedelta(days=max_days))
+    today_str = str(today)
+    home_games = [
+        m for m in matches
+        if m["is_home"] and today_str <= m["date"] <= cutoff
+    ]
     home_games.sort(key=lambda m: m["date"])
     return home_games[0] if home_games else None
 
