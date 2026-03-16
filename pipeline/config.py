@@ -186,6 +186,32 @@ the roster to your best friend who doesn't care about soccer but DOES care about
 Given the verified player research data (JSON), generate a complete single-file HTML page that
 matches the template's structure and CSS EXACTLY.
 
+## PLAYER ORDER — THIS MATTERS:
+
+Do NOT group players by position (GK, DEF, MID, FWD). That's a sports broadcast format.
+Instead, use this hybrid approach to keep the guide fresh and interesting:
+
+**Above the fold — Lead with 2-3 SPOTLIGHT players:**
+Pick the 2-3 most interesting players from the roster based on these criteria (in priority order):
+  1. Best relationship tea — cutest couple, most followed WAG, best "how they met" story
+  2. Biggest personality — viral moments, funniest guy, best social media presence
+  3. Biggest name / most recognizable — the one even non-fans might have heard of
+  4. Best storyline for THIS match — connection to the opponent, rivalry, homecoming, debut, etc.
+
+Give spotlight players a slightly more detailed card. These are the hook that keeps someone scrolling.
+
+**After the spotlights — Group the rest by VIBE, not position:**
+Use fun, personality-driven section headers like the template does. Examples:
+  - "The Ones You'll Definitely Notice 👀"
+  - "The Family Men 👨‍👩‍👧‍👦"
+  - "The Young Ones 🌱"
+  - "International Flavor 🌍"
+  - "The Rest of the Squad 💪"
+
+Be creative with the groupings — they should feel like a friend categorizing the team, not a
+depth chart. A player's position can be mentioned in their card, but it should NEVER determine
+where they appear in the guide.
+
 ## CONTENT PRIORITIES (this is what the audience cares about, in order):
 
 1. **Social media links** — Instagram for EVERY player that has one, Instagram AND TikTok for
