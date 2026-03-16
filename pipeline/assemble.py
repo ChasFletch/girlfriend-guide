@@ -25,6 +25,7 @@ async def assemble_guide(
     template_path: Path,
     output_path: Path,
     opponent_players: list[dict] | None = None,
+    hot_content: dict | None = None,
 ) -> Path:
     """
     Send all player data + caricatures to Claude to assemble the final guide.
@@ -36,6 +37,7 @@ async def assemble_guide(
         template_path: path to an existing guide HTML to use as style reference
         output_path: where to write the generated guide HTML
         opponent_players: optional list of scouted opponent player dicts
+        hot_content: optional weekly hot content from Perplexity Computer
 
     Returns:
         Path to the generated HTML file
@@ -61,6 +63,29 @@ Opponent players to feature (from {match_info['opponent']}):
 {json.dumps(opponent_for_prompt, indent=2)}
 """
 
+    # Prepare hot content section if available
+    hot_content_section = ""
+    if hot_content and hot_content.get("hot_posts"):
+        hot_content_section = f"""
+
+## THIS WEEK'S HOT CONTENT (weave these into the relevant player cards!):
+
+This is fresh tea from this week's social media — use it to make the guide feel current and alive.
+Prioritize these stories; they're why people come back week after week.
+
+{json.dumps(hot_content["hot_posts"], indent=2)}
+"""
+        # Include roster changes (injuries, etc.)
+        roster_changes = hot_content.get("roster_changes", [])
+        if roster_changes:
+            hot_content_section += f"""
+
+## ROSTER CHANGES THIS WEEK:
+{json.dumps(roster_changes, indent=2)}
+
+If a player is flagged as injured/unavailable, either exclude them or add a visual note on their card.
+"""
+
     match_description = f"{match_info.get('theme', '')} vs {match_info['opponent']}".strip()
 
     prompt = ASSEMBLY_PROMPT.format(
@@ -71,6 +96,11 @@ Opponent players to feature (from {match_info['opponent']}):
         template_html=template_html,
         opponent_section=opponent_section,
     )
+
+    # Append hot content after the main prompt (not inside the format string
+    # to avoid issues with curly braces in JSON)
+    if hot_content_section:
+        prompt += hot_content_section
 
     # Call Claude with streaming (required for large max_tokens / long requests)
     client = _get_client()

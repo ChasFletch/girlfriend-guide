@@ -19,9 +19,9 @@ on:
         required: false
         default: ""
 
-  # Automated — runs every Monday to prep for the week's home matches
+  # Automated — runs Friday afternoon to pick up Perplexity Computer's research and prep for Saturday games
   schedule:
-    - cron: '0 14 * * 1'  # Mondays at 9am CT
+    - cron: '0 22 * * 5'  # Fridays at 5pm CT (after PC commits research-data.json at 8am PT)
 
 jobs:
   # Step 1: Check all Texas teams for upcoming home games (scheduled runs only)
