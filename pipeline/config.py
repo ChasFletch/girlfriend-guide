@@ -136,21 +136,24 @@ Return JSON:
 
 Flag anything that conflicts with the original claims."""
 
-OPPONENT_SCOUT_PROMPT = """Find 3 players from {opponent_name} (MLS soccer team) who meet ALL of these criteria:
+OPPONENT_SCOUT_PROMPT = """Find 3 players from {opponent_name} (MLS soccer team) who would be interesting
+to feature in a "Girlfriend Guide" — a fun guide for people who got dragged to the game.
 
-1. The player has an ACTIVE, PUBLIC Instagram account (required — no Instagram = skip this player)
-2. The player has a wife or girlfriend who ALSO has an active, public Instagram account (required)
-3. The player is notable enough that fans would recognize them (starter, fan favorite, star player)
+Pick players who are INTERESTING — biggest names, best personalities, cutest couples, most fun
+social media presence. We care about relationships and personality, NOT career stats.
 
-This is for a "Girlfriend Guide" — a fun guide for people who got dragged to the game. We care about
-social media, relationships, and personality — NOT career stats.
+WHAT MAKES A GOOD PICK (in priority order):
+1. Has a wife/girlfriend with her own social media presence — couple content is gold
+2. Big personality — funny interviews, viral moments, interesting hobbies
+3. Star player / most recognizable name — DPs, national team players, fan favorites
+4. Active social media presence (Instagram, TikTok)
 
 SEARCH STRATEGY:
 - Start with the team's most well-known players (DPs, national team players, fan favorites)
-- For each candidate, search "{player_name} instagram" to confirm they have an active account
-- Then search "{player_name} wife instagram" or "{player_name} girlfriend instagram"
-- ONLY include the player if BOTH the player AND their partner have confirmed Instagram handles
-- If you cannot confirm both handles, skip that player and try the next one
+- For each candidate, search "{player_name} instagram" to find their handle
+- Search "{player_name} wife" or "{player_name} girlfriend" for relationship info
+- Search partner's name + instagram if you find a partner
+- Instagram links are preferred but NOT required — a player can still be featured without one
 
 {exclude_clause}
 
@@ -160,18 +163,18 @@ Return EXACTLY 3 players as a JSON array. For each player return:
     "name": "Full Name",
     "jersey_number": 10,
     "position": "Forward",
-    "player_instagram": "@confirmed_handle",
-    "partner_name": "Partner's Name",
-    "partner_instagram": "@confirmed_handle",
+    "player_instagram": "@handle or null",
+    "partner_name": "Partner's Name or null",
+    "partner_instagram": "@handle or null",
     "one_liner": "One fun sentence about why this player is worth knowing"
   }}
 ]
 
-CRITICAL RULES:
-- Do NOT include a player unless you can confirm BOTH Instagram handles exist
+RULES:
 - Do NOT guess or fabricate Instagram handles — only include handles you found via search
-- If you cannot find 3 players who meet ALL criteria, return fewer. Quality over quantity.
-- Set any field to null if you cannot confirm it — do NOT make up data."""
+- Set any field to null if you cannot confirm it — do NOT make up data
+- Prioritize players with the most linkable social content, but don't skip interesting players
+  just because you can't find a handle."""
 
 CARICATURE_PROMPT = """Transform this soccer player photo into a fun cartoon caricature.
 Exaggerated features, bold outlines, vibrant colors, playful confident expression.
@@ -185,6 +188,32 @@ the roster to your best friend who doesn't care about soccer but DOES care about
 
 Given the verified player research data (JSON), generate a complete single-file HTML page that
 matches the template's structure and CSS EXACTLY.
+
+## PLAYER ORDER — THIS MATTERS:
+
+Do NOT group players by position (GK, DEF, MID, FWD). That's a sports broadcast format.
+Instead, use this hybrid approach to keep the guide fresh and interesting:
+
+**Above the fold — Lead with 2-3 SPOTLIGHT players:**
+Pick the 2-3 most interesting players from the roster based on these criteria (in priority order):
+  1. Best relationship tea — cutest couple, most followed WAG, best "how they met" story
+  2. Biggest personality — viral moments, funniest guy, best social media presence
+  3. Biggest name / most recognizable — the one even non-fans might have heard of
+  4. Best storyline for THIS match — connection to the opponent, rivalry, homecoming, debut, etc.
+
+Give spotlight players a slightly more detailed card. These are the hook that keeps someone scrolling.
+
+**After the spotlights — Group the rest by VIBE, not position:**
+Use fun, personality-driven section headers like the template does. Examples:
+  - "The Ones You'll Definitely Notice 👀"
+  - "The Family Men 👨‍👩‍👧‍👦"
+  - "The Young Ones 🌱"
+  - "International Flavor 🌍"
+  - "The Rest of the Squad 💪"
+
+Be creative with the groupings — they should feel like a friend categorizing the team, not a
+depth chart. A player's position can be mentioned in their card, but it should NEVER determine
+where they appear in the guide.
 
 ## CONTENT PRIORITIES (this is what the audience cares about, in order):
 
@@ -235,6 +264,16 @@ Date: {match_date}
 
 Player data:
 {players_json}
+{opponent_section}
+
+## OPPONENT PLAYERS (if provided above):
+If opponent player data is included, add a section AFTER the main roster called something like:
+"Know the Enemy 👀" or "The Other Side 🔍" — keep the tone fun, not aggressive.
+
+- Use the SAME card structure as the main roster cards
+- These are mini-cards: just name, photo (if available), Instagram link, partner info, and one fun line
+- This section should feel like "here are the cute ones on the other team" not a scouting report
+- If no opponent data is provided, skip this section entirely
 
 Template HTML for reference (match the structure, CSS, and social link patterns EXACTLY):
 {template_html}

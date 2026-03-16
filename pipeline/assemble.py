@@ -24,6 +24,7 @@ async def assemble_guide(
     match_info: dict,
     template_path: Path,
     output_path: Path,
+    opponent_players: list[dict] | None = None,
 ) -> Path:
     """
     Send all player data + caricatures to Claude to assemble the final guide.
@@ -34,6 +35,7 @@ async def assemble_guide(
         match_info: dict with 'opponent', 'date', 'theme' (e.g. "Rodeo Night")
         template_path: path to an existing guide HTML to use as style reference
         output_path: where to write the generated guide HTML
+        opponent_players: optional list of scouted opponent player dicts
 
     Returns:
         Path to the generated HTML file
@@ -49,6 +51,16 @@ async def assemble_guide(
     # Prepare player data for Claude (strip binary data, keep essentials)
     players_for_prompt = _prepare_player_data(players)
 
+    # Prepare opponent data if available
+    opponent_section = ""
+    if opponent_players:
+        opponent_for_prompt = _prepare_player_data(opponent_players)
+        opponent_section = f"""
+
+Opponent players to feature (from {match_info['opponent']}):
+{json.dumps(opponent_for_prompt, indent=2)}
+"""
+
     match_description = f"{match_info.get('theme', '')} vs {match_info['opponent']}".strip()
 
     prompt = ASSEMBLY_PROMPT.format(
@@ -57,6 +69,7 @@ async def assemble_guide(
         match_date=match_info["date"],
         players_json=json.dumps(players_for_prompt, indent=2),
         template_html=template_html,
+        opponent_section=opponent_section,
     )
 
     # Call Claude with streaming (required for large max_tokens / long requests)

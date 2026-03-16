@@ -286,6 +286,15 @@ def _extract_json(text: str) -> dict | None:
         except json.JSONDecodeError:
             pass
 
+    # Try finding first [ to last ] (for JSON arrays)
+    start = text.find("[")
+    end = text.rfind("]")
+    if start != -1 and end != -1:
+        try:
+            return json.loads(text[start : end + 1])
+        except json.JSONDecodeError:
+            pass
+
     # Try finding first { to last }
     start = text.find("{")
     end = text.rfind("}")
