@@ -77,6 +77,7 @@ This is the new primary research file that Perplexity Computer writes and the pi
         "Wiktoria runs a Pilates studio and has 24K IG followers"
       ],
       "tea": "Wiktoria posted 'She's on her way 💝' on Jan 7 with ultrasound photos — baby girl due Feb 2026. Her last post (Mar 3) was captioned '02.2026 💝' still showing a pregnant belly. Baby has likely arrived but they're keeping it private for now. She's a certified Pilates instructor who runs her own studio. The couple moved to Houston from Mexico after his transfer.",
+      "matchday_hook": "His wife Wiktoria just posted the first photo of their newborn daughter — the Inner Circle has been flooding her comments. New dad energy on the pitch?",
       "one_liner_sports": "Houston's most expensive signing ever — the creative spark who makes goals happen.",
       "confidence": "high",
       "last_verified": "2026-03-14",
@@ -89,6 +90,8 @@ This is the new primary research file that Perplexity Computer writes and the pi
   }
 }
 ```
+
+**New field — `matchday_hook`:** A per-player, per-week narrative hook written during Friday full scans. This is the "why should I care about this person TODAY" angle — designed to be dropped directly into the player card as the opening line. Set to `null` if nothing newsworthy happened that week. Only written during full scans (game within 2 days), not light scans.
 
 ### File: `{team}/weekly-hot-content.json`
 
@@ -110,7 +113,7 @@ Written by Perplexity Computer before each home game. Contains the freshest soci
       "description": "Posted first photo with newborn baby girl — 4,200 likes, 180 comments",
       "caption_excerpt": "Welcome to the world, little one 💝",
       "why_its_hot": "Baby announcement — the biggest personal news on the roster this week",
-      "suggested_tea": "The Bogusz baby girl has arrived! Wiktoria finally shared the news this week and the comments section is flooded with Dynamo WAGs congratulating them."
+      "suggested_tea": "The Bogusz baby girl has arrived! Wiktoria finally shared the news this week and the comments section is flooded with the Dynamo Inner Circle congratulating them."
     }
   ],
   "roster_changes": [
@@ -135,7 +138,7 @@ Shared database. Perplexity Computer adds new opponent players; Claude's pipelin
 1. Check if Houston Dynamo has a home game within the next 8 days
 2. If yes:
    - Verify roster against official MLS page + injury reports
-   - Scan all player/WAG profiles for hot content since last scan
+   - Scan all player and partner profiles for hot content since last scan
    - Research 3 opponent players (check opponents.json first, skip known players)
    - Write `research-data.json` and `weekly-hot-content.json`
    - Commit to repo
@@ -221,7 +224,9 @@ These should go into `roster-override.json` and/or `corrections.json`:
 | Wiktoria Wychowska | partner_tiktok | (missing) | @wiktoria.wychowska | Verified TikTok profile |
 | Preslee Clark (Ennali) | partner_tiktok | (missing in some places) | @presleeclarkartistry | Verified TikTok profile |
 
-## Tone Reminder (for Claude's Assembly Prompt)
+## Tone & Brand Reminder (for Claude's Assembly Prompt)
+
+**Brand mantra: "Here for the vibe, not the score."**
 
 The project bible (CLAUDE.md) nails the tone, but here's the key insight from the Facebook reception: **the audience wants to feel like they're in on something**, not like they're reading a sports reference guide. The comments that lit up were:
 - "Dude, my wife LOVED this"
@@ -229,6 +234,12 @@ The project bible (CLAUDE.md) nails the tone, but here's the key insight from th
 - "This is actually really good!"
 
 The guide works when it feels like a group chat, not a database. Fresh weekly content (hot posts, baby announcements, couple milestones) is what keeps people coming back. Static bios get stale after one read.
+
+**Brand updates (March 2026):**
+- Retired "WAG" label everywhere. Partners section is now "The Inner Circle."
+- Partners are framed as independent people first, relationship to player second. Lead with who they ARE.
+- Pink accents stay but as spice, not the main course. Orange/teal/gold carry the visual identity.
+- The nail polish emoji stays but used intentionally for big tea moments, not sprinkled on everything.
 
 ## Questions for Claude
 
