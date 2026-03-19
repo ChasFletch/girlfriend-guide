@@ -22,7 +22,7 @@ Charles and I agreed that **I should handle all player research**, and Claude sh
 ### Perplexity Computer Does:
 1. **Weekly roster verification** — Pull the official MLS roster page, cross-reference with injury reports, flag any changes (trades, injuries, new signings)
 2. **Deep player research** — Multi-pass search for every player: verified Instagram handles, TikTok accounts, relationship status, partner names, partner social handles, fun facts, personality content
-3. **Weekly "hot content" scan** — Browse player and WAG Instagram/TikTok profiles to find the week's best posts, new announcements, fresh tea
+3. **Weekly "hot content" scan** — Browse player and partner Instagram/TikTok profiles to find the week's best posts, new announcements, fresh tea
 4. **Opposition research** — For each upcoming home game, research 3 players from the opposing team (prioritizing players with active social media AND partners with active social media)
 5. **Data output** — Write all findings to structured JSON files in the repo that the pipeline can consume directly
 
