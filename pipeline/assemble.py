@@ -88,6 +88,11 @@ If a player is flagged as injured/unavailable, either exclude them or add a visu
 
     match_description = f"{match_info.get('theme', '')} vs {match_info['opponent']}".strip()
 
+    # Extract matchday hook from hot content (or use fallback instruction)
+    matchday_hook = "(none provided — generate one)"
+    if hot_content and hot_content.get("matchday_hook"):
+        matchday_hook = f'"{hot_content["matchday_hook"]}"'
+
     prompt = ASSEMBLY_PROMPT.format(
         team_name=team_config["name"],
         match_description=match_description,
@@ -95,6 +100,7 @@ If a player is flagged as injured/unavailable, either exclude them or add a visu
         players_json=json.dumps(players_for_prompt, indent=2),
         template_html=template_html,
         opponent_section=opponent_section,
+        matchday_hook=matchday_hook,
     )
 
     # Append hot content after the main prompt (not inside the format string

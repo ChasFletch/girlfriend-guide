@@ -2,17 +2,30 @@
 
 ## What This Is
 
-A fun, sassy cheat-sheet to a soccer team's roster for people who got dragged to the game by their partner. Think of it as the roster explained by your best friend who happens to know all the tea.
+A fun, sassy cheat-sheet to a soccer team's roster for people who are here for the vibe, not the score. Think of it as the roster explained by your best friend who happens to know all the tea.
 
 **This is NOT a sports guide.** It's a social/lifestyle/relationship guide that happens to be about soccer players.
+
+## Brand Positioning
+
+**Brand mantra:** "Here for the vibe, not the score."
+
+The name "Girlfriend" is the *voice* — group chat energy, your girls, insider gossip. It is NOT the audience definition. Our audience is a mindset, not a gender: anyone at the match for reasons beyond the scoreline. Partners, friends who came for the outing, casual fans who care about players as people, die-hard fans who want the gossip layer.
+
+**Five brand commandments (informed by the Sky Sports Halo failure):**
+1. No hierarchical framing — we are not "sports lite," we're a different product
+2. No aesthetic segregation — pink is an accent color, not a theme
+3. Athletes as celebrities — not male athletes repackaged for a female audience
+4. Authentic voice only — the tone comes from real people, not a slang mood board
+5. Never assume the audience isn't already watching
 
 ## The Soul of the Product
 
 People reacted to the prototype because it felt like a group chat, not a sports broadcast. The content that made it viral was:
 
-- **Instagram links for every player and their partner/WAG** — this is the #1 feature
+- **Instagram links for every player and their partner** — this is the #1 feature
 - **Relationship tea** — who's dating who, how they met, cute couple content
-- **Partner/WAG spotlights** — names, descriptions, their own social links
+- **The Inner Circle** — partner spotlights with names, descriptions, their own social links. Partners are featured as independent people (lead with who they ARE, relationship is context not identity)
 - **Personality over stats** — hobbies, viral moments, funny stories
 - **Short, punchy, emoji-heavy writing** — "From Houston. Academy kid. Living the dream. 🏡➡️⚽"
 
@@ -32,7 +45,7 @@ People reacted to the prototype because it felt like a group chat, not a sports 
 - Paragraphs about career statistics or transfer history
 - Sports journalism voice ("He captained EC Vitória in all 33 matches...")
 - Missing social links when we have the data
-- Missing partner/WAG sections when we have the data
+- Missing partner sections when we have the data
 - Formal, dry, stats-heavy player bios
 
 ## Tone Examples
@@ -81,4 +94,4 @@ The pipeline (`pipeline/`) runs via GitHub Actions:
 
 ## Guiding Principle
 
-If a player's girlfriend would screenshot it and send it to her group chat, we're doing it right. If it reads like ESPN, we've failed.
+If someone would screenshot it and send it to their group chat, we're doing it right. If it reads like ESPN, we've failed.
