@@ -91,7 +91,7 @@ IMPORTANT SEARCH STRATEGIES for finding Instagram handles:
 - Check the team's official Instagram tagged/following list
 - Look at the player's profile on transfermarkt.com (often has social links)
 - Search "{player_name} {team_name} wife instagram" or "girlfriend instagram"
-- Check WAG fan accounts and team WAG group photos on Instagram
+- Check partner/fan accounts and team partner group photos on Instagram
 
 TONE RULES:
 - Keep it POSITIVE and FUN. These players will likely see this guide.
@@ -137,13 +137,13 @@ Return JSON:
 Flag anything that conflicts with the original claims."""
 
 OPPONENT_SCOUT_PROMPT = """Find 3 players from {opponent_name} (MLS soccer team) who would be interesting
-to feature in a "Girlfriend Guide" — a fun guide for people who got dragged to the game.
+to feature in a "Girlfriend Guide" — a fun matchday guide for people here for the vibe, not the score.
 
 Pick players who are INTERESTING — biggest names, best personalities, cutest couples, most fun
 social media presence. We care about relationships and personality, NOT career stats.
 
 WHAT MAKES A GOOD PICK (in priority order):
-1. Has a wife/girlfriend with her own social media presence — couple content is gold
+1. Has a partner with their own social media presence — couple content is gold
 2. Big personality — funny interviews, viral moments, interesting hobbies
 3. Star player / most recognizable name — DPs, national team players, fan favorites
 4. Active social media presence (Instagram, TikTok)
@@ -183,7 +183,7 @@ They're wearing a {jersey_colors} soccer jersey with #{jersey_number} on it.
 Clean white background. Sports card portrait style. Upper body only."""
 
 ASSEMBLY_PROMPT = """You are building a "Girlfriend Guide" — a fun, sassy cheat-sheet to a soccer
-team's roster for people who got dragged to the game by their partner. Think of it as explaining
+team's roster. Brand mantra: "Here for the vibe, not the score." Think of it as explaining
 the roster to your best friend who doesn't care about soccer but DOES care about the tea.
 
 Given the verified player research data (JSON), generate a complete single-file HTML page that
@@ -196,7 +196,7 @@ Instead, use this hybrid approach to keep the guide fresh and interesting:
 
 **Above the fold — Lead with 2-3 SPOTLIGHT players:**
 Pick the 2-3 most interesting players from the roster based on these criteria (in priority order):
-  1. Best relationship tea — cutest couple, most followed WAG, best "how they met" story
+  1. Best relationship tea — cutest couple, best "how they met" story, most followed partner
   2. Biggest personality — viral moments, funniest guy, best social media presence
   3. Biggest name / most recognizable — the one even non-fans might have heard of
   4. Best storyline for THIS match — connection to the opponent, rivalry, homecoming, debut, etc.
@@ -218,14 +218,17 @@ where they appear in the guide.
 ## CONTENT PRIORITIES (this is what the audience cares about, in order):
 
 1. **Social media links** — Instagram for EVERY player that has one, Instagram AND TikTok for
-   partners/WAGs. These go in a `<div class="card-links">` section at the bottom of each card.
+   partners. These go in a `<div class="card-links">` section at the bottom of each card.
    Use the exact CSS classes from the template: `ig-player`, `ig-partner`, `tiktok`.
    THIS IS THE MOST IMPORTANT THING. If a player or partner has an Instagram handle in the data,
    it MUST appear as a clickable link.
 
 2. **Relationship info** — Who are they dating/married to? Put this in a `couple-callout` div
-   with the 🎀 ribbon. Include partner's name, brief description, and kids if known.
-   Format: `<div class="couple-callout"><div class="couple-label">🎀 His Person</div>...</div>`
+   labeled "The Inner Circle." Include partner's name, brief description, and kids if known.
+   IMPORTANT: Lead with who the partner IS (their career, platform, identity), then mention the
+   relationship. "Preslee Clark — luxury makeup artist, 4.5K on TikTok. Dating Lawrence." NOT
+   "Lawrence's girlfriend Preslee Clark."
+   Format: `<div class="couple-callout"><div class="couple-label">✦ The Inner Circle</div>...</div>`
 
 3. **The tea** — Personality, lifestyle, how they met their partner, viral moments, funny stories,
    wholesome family content. This is the MAIN text of each card. Keep it short, punchy, and fun.
@@ -246,7 +249,7 @@ where they appear in the guide.
 
 ## TONE:
 - Fun, warm, a little sassy — like a group chat, NOT a sports broadcast
-- Use emojis liberally (🎀 🔥 😭 👀 💕 🇺🇸 etc.)
+- Use emojis liberally (🔥 😭 👀 💕 🇺🇸 🧡 ☕ etc.) — use 💅 sparingly and intentionally
 - Short punchy sentences. "From Houston. Academy kid. Living the dream. 🏡➡️⚽"
 - Keep it POSITIVE — players will see this and hopefully repost it
 - Career stats are BORING for this audience. Personality and relationships are everything.
@@ -257,6 +260,12 @@ where they appear in the guide.
 - Do NOT omit social links that exist in the player data
 - Do NOT skip the couple-callout section for players who have partner info
 - Do NOT write in a formal sports journalism voice
+
+## HEADER / HERO SECTION:
+- Brand tagline (permanent): "Here for the vibe, not the score."
+- Matchday hook (rotating, placed below the tagline): {matchday_hook}
+  If no matchday hook is provided, generate one based on the opponent and hot content.
+  It should feel fresh and timely, like a group chat message. 1-2 sentences max.
 
 Team: {team_name}
 Match: {match_description}
@@ -272,7 +281,7 @@ If opponent player data is included, add a section AFTER the main roster called 
 
 - Use the SAME card structure as the main roster cards
 - These are mini-cards: just name, photo (if available), Instagram link, partner info, and one fun line
-- This section should feel like "here are the cute ones on the other team" not a scouting report
+- This section should feel like "here's who to look for on the other team" not a scouting report
 - If no opponent data is provided, skip this section entirely
 
 Template HTML for reference (match the structure, CSS, and social link patterns EXACTLY):
