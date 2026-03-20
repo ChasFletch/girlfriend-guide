@@ -21,27 +21,54 @@ Charles and I agreed that **I should handle all player research**, and Claude sh
 
 These sites produce high-quality, Dynamo-specific content that we should be reading and citing every week. They're free, independent, and written by people who actually watch the games.
 
-### Bayou City Soccer (bayoucitysoccer.net)
-- **What they are:** The best independent Houston Dynamo coverage. Match previews, recaps, player analysis, injury reports, staff predictions, opponent breakdowns.
+### 🏠 Bayou City Soccer (bayoucitysoccer.net) — PRIMARY SOURCE
+
+Our #1 source for Houston Dynamo coverage. This is THE independent Dynamo blog.
+
+- **Main page:** `bayoucitysoccer.net/dynamo`
 - **Key writer:** Dustyn Richardson
-- **What to pull:** Injury reports, predicted lineups, tactical notes, player form assessments, opponent previews
-- **URL pattern:** `bayoucitysoccer.net/dynamo` (main Dynamo page), individual articles linked from there
-- **Citation format:** Always cite as `[Bayou City Soccer](url)` when using their reporting
+- **Citation format:** Always cite as `[Bayou City Soccer](url)`
 
-### Big D Soccer (bigdsoccer.com)
-- **What they are:** FC Dallas blog that runs a weekly "Opposition Research" series — they interview beat writers from the opposing team's blog before every match. When Houston plays Dallas, they interview Bayou City Soccer. When Houston plays other teams, the opposing team's blog often does a similar feature.
-- **What to pull:** Opposition Research articles (especially when Houston is the subject or opponent), which contain injury reports, projected lineups, key players to watch, and tactical insights from beat writers who actually follow both teams
-- **Frequency:** Weekly, usually published Friday before the match
+**Their recurring content (published every match week):**
+
+| Series | What it is | What we pull from it |
+|--------|-----------|---------------------|
+| **Match Preview** | Full preview: how to watch, availability report, predicted lineup, tactical notes | Injury report, predicted starting XI, formation |
+| **Opposition Preview** (with guest blog) | Q&A with the opposing team's beat writer (e.g., Stumptown Footy for Portland, Big D Soccer for Dallas) | Opponent perspective, key players from someone who watches them daily |
+| **Enemy Scouting Report** | Their own deep-dive on the opponent's roster and form | Opponent analysis, tactical tendencies |
+| **Three Players to Watch** | Curated opponent spotlight | Great for our opponent scouting section — saves us research |
+| **Staff Picks** | Pre-match predictions from their writers | Fun texture, shows local expectations |
+| **Match Recap** | Detailed match write-up | Post-game narrative, key moments |
+| **Player Ratings** | Individual performance grades | Who played well, who didn't — useful for our "on the pitch" notes |
+| **Three Things We Learned** | Post-match analysis | Broader takeaways, form trends |
+| **Dynamo 2sday** | Houston Dynamo 2 coverage | Young player pipeline, future stars |
+| **Spanish-language recaps** | Match coverage in Spanish | Bilingual audience reach |
+
+### Big D Soccer (bigdsoccer.com) — FUTURE: Dallas Page
+
+FC Dallas blog. Most relevant when we eventually build an FC Dallas guide. For now, useful when:
+- Houston plays Dallas (they interview BCS for their "Opposition Research" series)
+- We need the Dallas perspective on a Texas Derby matchup
+- **Weekly "Opposition Research" series:** They interview opposing team bloggers every Friday before matches. Great format.
 - **URL pattern:** `bigdsoccer.com/opposition-research-[team]-with-[blog]/`
-- **Citation format:** Always cite as `[Big D Soccer](url)` when using their content
+- **Citation format:** Always cite as `[Big D Soccer](url)`
 
-### SB Nation / MLS Network of Blogs
-- Big D Soccer and Bayou City Soccer are part of the broader MLS indie blog ecosystem. When researching opponents, look for equivalent independent blogs for that team (e.g., Stumptown Footy for Portland, Angels on Parade for LAFC, Six One Five Soccer for Nashville). These often cross-reference each other through opposition research series.
+### MLS Indie Blog Network
+
+BCS and Big D Soccer are part of a broader ecosystem of independent MLS team blogs. They regularly cross-reference each other. When researching opponents, look for the equivalent blog for that team:
+
+| Team | Blog | Notes |
+|------|------|-------|
+| Portland Timbers | Stumptown Footy | BCS interviewed them for Portland preview |
+| LAFC | Angels on Parade | BCS interviewed them for LAFC preview |
+| Nashville SC | Six One Five Soccer | Big D Soccer interviewed them |
+| FC Dallas | Big D Soccer | Texas Derby counterpart |
+| Seattle Sounders | Sounder at Heart | Next home opponent (Apr 4) — find their blog |
 
 ### How to Use These Sources
-- **Every Friday research scan:** Check Bayou City Soccer for the latest match preview, injury report, and any player features. Check opponent blogs for their perspective.
-- **For injury data:** BCS injury reports are more detailed and current than the official MLS ones — they include context from press conferences.
-- **For opponent scouting:** The opposition research series from team blogs gives you curated "players to watch" from people who follow those teams daily. Much better than our own cold research.
+- **Every Friday research scan:** Start at `bayoucitysoccer.net/dynamo`. Read the match preview, injury report, and any player features. Then check the opponent's indie blog.
+- **For injury data:** BCS injury reports are more detailed and current than the official MLS ones — they include context from Ben Olsen's press conferences.
+- **For opponent scouting:** Use BCS's "Three Players to Watch" and "Enemy Scouting Report" as the primary source. Supplement with the opponent's own blog.
 - **Always cite.** These are independent writers doing real journalism. Credit them in `research-data.json` sources arrays and in `weekly-hot-content.json` entries.
 
 ## The Division of Labor
