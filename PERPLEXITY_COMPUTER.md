@@ -17,6 +17,33 @@ The Sonar API research pass (Steps 3-4 of the pipeline) is producing hallucinate
 
 Charles and I agreed that **I should handle all player research**, and Claude should continue handling **pipeline orchestration, HTML assembly, and deployment**. This document defines the interface between us.
 
+## Key Sources (Must-Check Every Week)
+
+These sites produce high-quality, Dynamo-specific content that we should be reading and citing every week. They're free, independent, and written by people who actually watch the games.
+
+### Bayou City Soccer (bayoucitysoccer.net)
+- **What they are:** The best independent Houston Dynamo coverage. Match previews, recaps, player analysis, injury reports, staff predictions, opponent breakdowns.
+- **Key writer:** Dustyn Richardson
+- **What to pull:** Injury reports, predicted lineups, tactical notes, player form assessments, opponent previews
+- **URL pattern:** `bayoucitysoccer.net/dynamo` (main Dynamo page), individual articles linked from there
+- **Citation format:** Always cite as `[Bayou City Soccer](url)` when using their reporting
+
+### Big D Soccer (bigdsoccer.com)
+- **What they are:** FC Dallas blog that runs a weekly "Opposition Research" series — they interview beat writers from the opposing team's blog before every match. When Houston plays Dallas, they interview Bayou City Soccer. When Houston plays other teams, the opposing team's blog often does a similar feature.
+- **What to pull:** Opposition Research articles (especially when Houston is the subject or opponent), which contain injury reports, projected lineups, key players to watch, and tactical insights from beat writers who actually follow both teams
+- **Frequency:** Weekly, usually published Friday before the match
+- **URL pattern:** `bigdsoccer.com/opposition-research-[team]-with-[blog]/`
+- **Citation format:** Always cite as `[Big D Soccer](url)` when using their content
+
+### SB Nation / MLS Network of Blogs
+- Big D Soccer and Bayou City Soccer are part of the broader MLS indie blog ecosystem. When researching opponents, look for equivalent independent blogs for that team (e.g., Stumptown Footy for Portland, Angels on Parade for LAFC, Six One Five Soccer for Nashville). These often cross-reference each other through opposition research series.
+
+### How to Use These Sources
+- **Every Friday research scan:** Check Bayou City Soccer for the latest match preview, injury report, and any player features. Check opponent blogs for their perspective.
+- **For injury data:** BCS injury reports are more detailed and current than the official MLS ones — they include context from press conferences.
+- **For opponent scouting:** The opposition research series from team blogs gives you curated "players to watch" from people who follow those teams daily. Much better than our own cold research.
+- **Always cite.** These are independent writers doing real journalism. Credit them in `research-data.json` sources arrays and in `weekly-hot-content.json` entries.
+
 ## The Division of Labor
 
 ### Perplexity Computer Does:
