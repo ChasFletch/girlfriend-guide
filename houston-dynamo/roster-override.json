@@ -46,7 +46,8 @@
   {
     "name": "Felipe Andrade",
     "jersey_number": 36,
-    "position": "Defender"
+    "position": "Defender",
+    "player_instagram": "@felipe_andrade15_"
   },
   {
     "name": "Reese Miller",
@@ -70,6 +71,14 @@
     "partner_description": "wife — married Aug/Sep 2025. Wedding photographed by Jordan Imhoff Photography.",
     "partner_instagram": null,
     "notes": "NEW SIGNING — signed March 20, 2026 as free agent. USMNT defender (9 caps, 1 goal — scored in 2021 Gold Cup). Colorado Springs native. Colorado Rapids academy product, played in Belgium (Royal Antwerp) for 3 years. Won Belgian treble in 2023. Contract through 2027. Christian (cross in IG bio). Left-footed left-back. Wore #3 at Colorado but Negri has #3 at Houston — number TBD."
+  },
+  {
+    "name": "Agustin Resch",
+    "jersey_number": null,
+    "position": "Defender",
+    "headshot_url": null,
+    "player_instagram": null,
+    "notes": "NEW SIGNING — promoted from Dynamo 2 on March 20, 2026. 6-foot-6 Argentine CB. Seton Hall University. First Pirate drafted since Sacha Kljestan (2006). BIG EAST Defensive Player of the Year. Contract through 2026 with club options through 2028-29. Already earned first-team minutes vs LAFC and Portland on short-term loans."
   },
   {
     "name": "Héctor Herrera",
@@ -98,7 +107,9 @@
     "jersey_number": 18,
     "position": "Midfielder",
     "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/brddubbl1itddxzutoda.png",
-    "player_instagram": "@diadie_samassekou"
+    "player_instagram": "@diadie_samassekou",
+    "partner_name": "Anna Samassékou",
+    "partner_description": "wife (per Malian football content)"
   },
   {
     "name": "Duane Holmes",
