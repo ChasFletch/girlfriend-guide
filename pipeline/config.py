@@ -54,6 +54,11 @@ RESEARCH_PROMPT = """Research {team_name} soccer player {player_name} (#{jersey_
 THIS IS FOR A "GIRLFRIEND GUIDE" — a fun guide for partners/friends who got dragged to the game.
 The #1 priority is SOCIAL MEDIA HANDLES and RELATIONSHIP INFO, not career stats.
 
+The next match is on {match_date}. Pay special attention to anything that's happened since
+{since_date} — new relationships, engagements, babies, social media moments, charity work,
+endorsements, side projects, viral content, fun fan interactions, or lifestyle updates.
+We care about the VIBES, not the scores. Skip on-field stats and match results.
+
 RESEARCH PRIORITIES (in order of importance):
 1. Instagram handle — search "{player_name} instagram", check the team's tagged photos, player bios
 2. Relationship status & partner/spouse name — search "{player_name} wife", "{player_name} girlfriend"
@@ -83,6 +88,7 @@ Find and return ALL of the following in JSON format:
   "fun_facts": ["personality/lifestyle facts, NOT career stats"],
   "tea": "lighthearted gossip — how they met their partner, viral moments, funny interviews, wholesome family content, unexpected hobbies",
   "one_liner_sports": "ONE sentence max of what they do on the field",
+  "recent_updates": ["anything notable since {since_date} — new posts, life changes, viral moments"],
   "sources": ["url1", "url2"]
 }}
 

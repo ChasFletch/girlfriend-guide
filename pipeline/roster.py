@@ -2,6 +2,7 @@
 Roster scraper — fetches the current roster and player headshot URLs
 from an MLS team's website.
 """
+from __future__ import annotations
 import httpx
 from bs4 import BeautifulSoup
 from pathlib import Path

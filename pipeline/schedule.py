@@ -6,6 +6,7 @@ Uses the public MLS schedule page — no API key needed.
 Only returns home games to save tokens (away games aren't useful
 for a guide aimed at people attending in person).
 """
+from __future__ import annotations
 import asyncio
 import json
 import re

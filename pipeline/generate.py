@@ -7,6 +7,7 @@ Usage:
 
 Or triggered by GitHub Actions with the same arguments.
 """
+from __future__ import annotations
 import argparse
 import asyncio
 import json
@@ -100,7 +101,7 @@ def _load_hot_content(team_dir: Path) -> dict | None:
         return None
 
 
-async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", fresh: bool = False):
+async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", fresh: bool = False, since_date: str = ""):
     """Run the full pipeline for a single team + match."""
     team_config = TEAMS.get(team_slug)
     if not team_config:
@@ -159,7 +160,7 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", f
         print(f"\n🔍 Step 3/6: Researching players via Perplexity Sonar (no fresh research-data.json found)...")
         if fresh:
             print(f"   🔄 Fresh mode — ignoring cache")
-        players = await research_all(players, team_config["name"], research_cache_path, fresh)
+        players = await research_all(players, team_config["name"], research_cache_path, fresh, match_date, since_date)
         print(f"   ✅ Research complete for {len(players)} players")
 
         print(f"\n🔎 Verifying claims (second pass)...")
@@ -180,8 +181,11 @@ async def run(team_slug: str, opponent: str, match_date: str, theme: str = "", f
         print(f"   🔥 Loaded {hot_count} hot content items for this week")
 
     # --- Step 4: Generate Caricatures (only for players without headshots) ---
+    from config import GEMINI_API_KEY
     players_needing_caricature = [p for p in players if not p.get("img_filename")]
-    if players_needing_caricature:
+    if not GEMINI_API_KEY:
+        print(f"\n🎨 Step 4/6: Skipping caricatures (no GEMINI_API_KEY)")
+    elif players_needing_caricature:
         print(f"\n🎨 Step 4/6: Generating caricatures for {len(players_needing_caricature)} players without headshots...")
         caricature_dir = build_dir / "caricatures"
         players_needing_caricature = await generate_all_caricatures(
@@ -251,9 +255,10 @@ def main():
     parser.add_argument("--date", required=True, help="Match date (YYYY-MM-DD)")
     parser.add_argument("--theme", default="", help="Match theme (e.g. 'Rodeo Night')")
     parser.add_argument("--fresh", action="store_true", help="Skip cache and re-research all players")
+    parser.add_argument("--since", default="", help="Date of last home game (YYYY-MM-DD) — research focuses on updates since then")
     args = parser.parse_args()
 
-    asyncio.run(run(args.team, args.opponent, args.date, args.theme, args.fresh))
+    asyncio.run(run(args.team, args.opponent, args.date, args.theme, args.fresh, args.since))
 
 
 if __name__ == "__main__":

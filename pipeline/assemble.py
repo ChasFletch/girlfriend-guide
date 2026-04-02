@@ -2,6 +2,7 @@
 Assembly module — uses Claude API to generate the final HTML guide
 from verified research data, caricature images, and a template.
 """
+from __future__ import annotations
 import json
 from pathlib import Path
 import anthropic

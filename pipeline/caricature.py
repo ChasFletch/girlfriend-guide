@@ -2,6 +2,7 @@
 Caricature generator — uses Google Gemini 2.5 Flash Image API
 to transform player headshots into cartoon caricatures.
 """
+from __future__ import annotations
 import asyncio
 from pathlib import Path
 from google import genai

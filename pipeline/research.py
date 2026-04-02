@@ -2,6 +2,7 @@
 Research module — uses Perplexity Sonar API for player research
 and a second verification pass. Supports caching to avoid redundant API calls.
 """
+from __future__ import annotations
 import json
 import httpx
 from datetime import datetime, timezone
@@ -17,7 +18,7 @@ from config import (
 CACHE_MAX_AGE_DAYS = 7
 
 
-async def research_player(player: dict, team_name: str = "MLS") -> dict:
+async def research_player(player: dict, team_name: str = "MLS", match_date: str = "", since_date: str = "") -> dict:
     """
     First pass: research a player's personal life, relationships, fun facts.
     Returns raw research JSON merged with the original player dict.
@@ -27,6 +28,8 @@ async def research_player(player: dict, team_name: str = "MLS") -> dict:
         player_name=player["name"],
         jersey_number=player.get("jersey_number", "?"),
         position=player.get("position", "Unknown"),
+        match_date=match_date or "upcoming",
+        since_date=since_date or "the last few weeks",
     )
 
     result = await _call_perplexity(prompt)
@@ -105,7 +108,8 @@ def _is_cache_fresh(entry: dict) -> bool:
 
 
 async def research_all(
-    players: list[dict], team_name: str = "MLS", cache_path: Path | None = None, fresh: bool = False
+    players: list[dict], team_name: str = "MLS", cache_path: Path | None = None, fresh: bool = False,
+    match_date: str = "", since_date: str = "",
 ) -> list[dict]:
     """Research all players, using cache when available."""
     import asyncio
@@ -126,7 +130,7 @@ async def research_all(
         print(f"   📦 Loaded {cached_count} players from research cache")
 
     if to_research:
-        tasks = [research_player(p, team_name) for p in to_research]
+        tasks = [research_player(p, team_name, match_date, since_date) for p in to_research]
         await asyncio.gather(*tasks)
 
     # Update cache with all research results
