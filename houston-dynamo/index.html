@@ -1,32 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--
-   ______                            __
-  / ____/___  ____ ___  ____  __  __/ /____  _____
- / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
-/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
-\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
-                    /_/
-        Created with Perplexity Computer
-        https://www.perplexity.ai/computer
--->
-
-<!-- Perplexity Computer Attribution — SEO Meta Tags -->
-<meta name="generator" content="Perplexity Computer">
-<meta name="author" content="Perplexity Computer">
-<meta property="og:see_also" content="https://www.perplexity.ai/computer">
-<link rel="author" href="https://www.perplexity.ai/computer">
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Girlfriend Guide — Houston Dynamo FC</title>
-<meta name="description" content="Here for the vibe, not the score. The matchday guide to the Houston Dynamo — who they are, who they're with, and all the tea.">
-<meta property="og:title" content="The Girlfriend Guide to the Dynamo">
-<meta property="og:description" content="Who they are, where they're from, who they're with — and all the tea worth spilling.">
-<meta property="og:type" content="website">
+<title>Girlfriend Guide — Dynamo vs Seattle | April 4, 2026</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
 
   :root {
     --dynamo-orange: #F68B1F;
@@ -41,6 +20,9 @@
     --accent-blush: #ffd6e7;
     --accent-teal: #4ecdc4;
     --accent-gold: #ffd700;
+    --longhorn-orange: #bf5700;
+    --ig-gradient: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    --tiktok-gradient: linear-gradient(135deg, #00f2ea, #ff0050);
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -64,8 +46,10 @@
   .hero::before {
     content: '';
     position: absolute;
-    top: -50%; left: -50%;
-    width: 200%; height: 200%;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
     background: radial-gradient(circle at 50% 50%, rgba(246,139,31,0.08) 0%, transparent 50%);
     animation: pulse 4s ease-in-out infinite;
   }
@@ -108,384 +92,1106 @@
     font-weight: 600;
     position: relative;
   }
-  .hero .tagline {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
+  .hero .matchday-hook {
     position: relative;
-    margin-top: 4px;
-  }
-
-  /* COMING SOON BADGE */
-  .coming-soon-section {
-    text-align: center;
-    padding: 40px 20px 20px;
-  }
-  .coming-soon-pill {
-    display: inline-block;
-    background: linear-gradient(135deg, var(--accent-hot-pink), var(--dynamo-orange));
-    color: #fff;
-    font-weight: 800;
-    font-size: 13px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 10px 28px;
-    border-radius: 24px;
-    animation: glow 2s ease-in-out infinite;
-  }
-  @keyframes glow {
-    0%, 100% { box-shadow: 0 0 20px rgba(246, 139, 31, 0.3); }
-    50% { box-shadow: 0 0 40px rgba(246, 139, 31, 0.6); }
-  }
-  .coming-soon-text {
+    margin-top: 12px;
+    font-size: 0.88rem;
     color: var(--text-secondary);
-    font-size: 1rem;
-    max-width: 480px;
-    margin: 16px auto 0;
-    line-height: 1.7;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(246,139,31,0.07);
+    border: 1px solid rgba(246,139,31,0.18);
+    border-radius: 12px;
+    padding: 12px 18px;
+    line-height: 1.55;
   }
 
-  /* LAST MATCH RECAP */
-  .recap-section {
-    max-width: 680px;
-    margin: 40px auto;
-    padding: 0 20px;
+  /* SECTION HEADERS */
+  .section-header {
+    text-align: center;
+    padding: 50px 20px 20px;
   }
-  .recap-card {
+  .section-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    margin-bottom: 6px;
+  }
+  .section-header h2 span { color: var(--dynamo-orange); }
+  .section-header p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+  }
+
+  /* CARD GRID */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px 20px 40px;
+  }
+  .card-grid.spotlight-grid {
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  }
+
+  /* PLAYER CARD */
+  .player-card {
     background: var(--card-bg);
     border-radius: 16px;
-    padding: 32px;
-    border: 1px solid rgba(255,255,255,0.06);
-    position: relative;
     overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid rgba(246,139,31,0.12);
   }
-  .recap-card::before {
-    content: '';
+  .player-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(246,139,31,0.12);
+  }
+  .player-card.suspended {
+    opacity: 0.55;
+    border: 1px solid rgba(255,80,80,0.25);
+  }
+  .player-card.suspended .card-header::after {
+    content: 'SUSPENDED';
     position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, var(--accent-hot-pink), var(--dynamo-orange), var(--accent-gold));
-  }
-  .recap-label {
-    display: inline-block;
-    font-size: 10px;
+    top: 12px;
+    right: 12px;
+    background: rgba(255,60,60,0.2);
+    color: #ff6b6b;
+    font-size: 0.65rem;
     font-weight: 800;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--dynamo-orange);
-    margin-bottom: 12px;
+    letter-spacing: 1.5px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,60,60,0.3);
   }
-  .recap-headline {
-    font-family: 'Playfair Display', serif;
-    font-size: clamp(1.4rem, 4vw, 1.8rem);
-    font-weight: 700;
-    line-height: 1.25;
-    margin-bottom: 8px;
+  .player-card.injured {
+    opacity: 0.55;
+    border: 1px solid rgba(255,180,0,0.2);
   }
-  .recap-headline span { color: var(--dynamo-orange); }
-  .recap-score {
+  .player-card.injured .card-header::after {
+    content: 'OUT';
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: rgba(255,180,0,0.15);
+    color: #ffd700;
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,180,0,0.25);
+  }
+  .player-card.questionable .card-header::after {
+    content: 'QUESTIONABLE';
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: rgba(255,140,0,0.15);
+    color: #ffab40;
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,140,0,0.25);
+  }
+  .player-card.featured {
+    border: 1px solid rgba(246,139,31,0.3);
+    background: linear-gradient(135deg, var(--card-bg), rgba(246,139,31,0.05));
+  }
+  .player-card.spotlight {
+    border: 2px solid rgba(246,139,31,0.4);
+    background: linear-gradient(135deg, #1e1e34, rgba(246,139,31,0.07));
+    box-shadow: 0 0 30px rgba(246,139,31,0.08);
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 20px 20px 0;
+    position: relative;
+  }
+  .player-avatar {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    margin: 20px 0;
-    padding: 16px;
-    background: rgba(0,0,0,0.3);
-    border-radius: 12px;
-  }
-  .recap-team {
-    text-align: center;
-    flex: 1;
-  }
-  .recap-team-name {
-    font-weight: 700;
-    font-size: 0.95rem;
-    margin-bottom: 4px;
-  }
-  .recap-team-name.home { color: var(--dynamo-orange); }
-  .recap-team-sub {
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-  }
-  .recap-vs {
-    font-size: 2rem;
-    font-weight: 900;
-    color: var(--text-primary);
-    letter-spacing: -2px;
-  }
-  .recap-body {
-    color: var(--text-secondary);
-    font-size: 0.95rem;
-    line-height: 1.75;
-    margin-top: 16px;
-  }
-  .recap-body strong { color: var(--text-primary); }
-  .recap-body .hot { color: var(--accent-hot-pink); font-weight: 600; }
-  .recap-body .gold { color: var(--accent-gold); font-weight: 600; }
-  .recap-body .orange { color: var(--dynamo-orange); font-weight: 600; }
-  .recap-stat {
-    display: inline-block;
-    background: rgba(246, 139, 31, 0.12);
-    color: var(--dynamo-orange);
-    font-weight: 700;
-    font-size: 0.85rem;
-    padding: 4px 10px;
-    border-radius: 6px;
-    margin: 2px 2px;
-  }
-
-  /* PREVIEW TEASERS */
-  .teasers-section {
-    max-width: 680px;
-    margin: 20px auto 40px;
-    padding: 0 20px;
-  }
-  .teasers-header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .teasers-header h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.4rem;
-    margin-bottom: 4px;
-  }
-  .teasers-header h2 span { color: var(--dynamo-orange); }
-  .teasers-header p {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-  }
-  .teaser-card {
-    background: var(--card-bg);
-    border-radius: 12px;
-    padding: 20px 24px;
-    margin-bottom: 12px;
-    border: 1px solid rgba(255,255,255,0.05);
-    display: flex;
-    align-items: flex-start;
-    gap: 14px;
-    transition: transform 0.2s, border-color 0.2s;
-  }
-  .teaser-card:hover {
-    transform: translateY(-2px);
-    border-color: rgba(246, 139, 31, 0.2);
-  }
-  .teaser-emoji {
-    font-size: 1.5rem;
+    font-size: 28px;
     flex-shrink: 0;
-    margin-top: 2px;
+    border: 3px solid var(--dynamo-orange);
+    background: var(--dynamo-dark);
+    position: relative;
+    overflow: hidden;
   }
-  .teaser-content h3 {
-    font-size: 0.95rem;
-    font-weight: 700;
-    margin-bottom: 4px;
+  .player-card.spotlight .player-avatar {
+    width: 80px;
+    height: 80px;
+    border-width: 3px;
+    border-color: var(--dynamo-orange);
+    box-shadow: 0 0 18px rgba(246,139,31,0.3);
   }
-  .teaser-content p {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    line-height: 1.6;
+  .player-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
   }
-  .teaser-tag {
+  .flag-badge {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    font-size: 16px;
+    background: var(--dynamo-dark);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--card-bg);
+    z-index: 2;
+  }
+  .spotlight-label {
     display: inline-block;
+    background: linear-gradient(135deg, var(--dynamo-orange), #e67e00);
+    color: var(--dynamo-black);
+    font-weight: 900;
     font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding: 2px 8px;
-    border-radius: 4px;
-    margin-top: 6px;
-  }
-  .tag-tea { background: rgba(255, 107, 157, 0.15); color: var(--accent-hot-pink); }
-  .tag-baby { background: rgba(242, 167, 195, 0.15); color: var(--accent-pink); }
-  .tag-hot { background: rgba(246, 139, 31, 0.15); color: var(--dynamo-orange); }
-  .tag-new { background: rgba(78, 205, 196, 0.15); color: var(--accent-teal); }
-
-  /* NEXT GAME CTA */
-  .next-game {
-    text-align: center;
-    padding: 40px 20px 20px;
-  }
-  .next-game-card {
-    display: inline-block;
-    background: linear-gradient(135deg, rgba(246,139,31,0.1), rgba(255,107,157,0.1));
-    border: 1px solid rgba(246,139,31,0.2);
-    border-radius: 16px;
-    padding: 28px 40px;
-    max-width: 400px;
-  }
-  .next-game-label {
-    font-size: 10px;
-    font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: var(--dynamo-orange);
-    margin-bottom: 8px;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-bottom: 6px;
   }
-  .next-game-matchup {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.3rem;
+  .card-header-text h3 {
+    font-size: 1.2rem;
     font-weight: 700;
-    margin-bottom: 4px;
+    line-height: 1.2;
   }
-  .next-game-matchup span { color: var(--dynamo-orange); }
-  .next-game-details {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    margin-bottom: 4px;
+  .player-card.spotlight .card-header-text h3 {
+    font-size: 1.35rem;
   }
-  .next-game-note {
+  .card-header-text .player-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 4px;
     font-size: 0.8rem;
-    color: var(--accent-teal);
-    font-style: italic;
-    margin-top: 8px;
+    color: var(--text-secondary);
   }
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .tag-new { background: rgba(78,205,196,0.15); color: var(--accent-teal); }
+  .tag-core { background: rgba(78,205,196,0.15); color: var(--accent-teal); }
+  .tag-dp { background: rgba(255,215,0,0.15); color: var(--accent-gold); }
+  .tag-suspended { background: rgba(255,80,80,0.15); color: #ff6b6b; }
+  .tag-returning { background: rgba(78,205,196,0.15); color: var(--accent-teal); }
+  .tag-homegrown { background: rgba(191,87,0,0.15); color: var(--longhorn-orange); }
+  .tag-hot { background: rgba(255,107,157,0.2); color: var(--accent-hot-pink); }
+  .tag-usmnt { background: rgba(78,205,196,0.15); color: var(--accent-teal); }
+  .tag-new-signing { background: rgba(255,215,0,0.12); color: var(--accent-gold); }
+  .tag-captain { background: rgba(246,139,31,0.18); color: var(--dynamo-orange); }
+
+  .card-body { padding: 16px 20px; }
+  .the-tea {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.65;
+  }
+  .the-tea strong { color: var(--text-primary); }
+  .player-card.spotlight .the-tea {
+    font-size: 0.92rem;
+  }
+
+  .card-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0 20px 20px;
+  }
+  .social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+  .social-link:hover { opacity: 0.85; }
+  .ig-player {
+    background: var(--ig-gradient);
+    color: #fff;
+  }
+  .ig-partner {
+    background: rgba(78,205,196,0.15);
+    color: var(--accent-teal);
+    border: 1px solid rgba(78,205,196,0.3);
+  }
+  .tiktok {
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.15);
+  }
+  .tiktok::before {
+    content: '♪ ';
+    font-size: 12px;
+  }
+  .social-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* THE INNER CIRCLE — partner spotlight */
+  .couple-callout {
+    background: linear-gradient(135deg, rgba(246,139,31,0.08), rgba(255,215,0,0.06));
+    border: 1px solid rgba(246,139,31,0.18);
+    border-radius: 12px;
+    padding: 12px 16px;
+    margin: 10px 0 4px;
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+  }
+  .couple-callout strong { color: var(--text-primary); }
+  .couple-callout .couple-label {
+    font-weight: 700;
+    color: var(--accent-gold);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+  }
+
+  /* DIVIDER STRIP */
+  .vibe-strip {
+    background: linear-gradient(90deg, var(--dynamo-black), rgba(246,139,31,0.1), var(--dynamo-black));
+    text-align: center;
+    padding: 14px 20px;
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    border-top: 1px solid rgba(246,139,31,0.12);
+    border-bottom: 1px solid rgba(246,139,31,0.12);
+  }
+  .vibe-strip strong { color: var(--dynamo-orange); }
 
   /* FOOTER */
-  footer {
+  .page-footer {
     text-align: center;
-    padding: 40px 20px;
-    border-top: 1px solid rgba(255,255,255,0.05);
-    margin-top: 20px;
-  }
-  footer .brand {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.1rem;
-    font-weight: 700;
-    margin-bottom: 8px;
-  }
-  footer .brand span { color: var(--dynamo-orange); }
-  footer .tagline {
+    padding: 40px 20px 60px;
+    color: var(--text-secondary);
     font-size: 0.8rem;
-    color: var(--text-secondary);
-    margin-bottom: 12px;
   }
-  footer a {
-    color: var(--text-secondary);
-    text-decoration: none;
-    font-size: 0.75rem;
-  }
-  footer a:hover { color: var(--dynamo-orange); }
+  .page-footer .hearts { font-size: 1.4rem; margin-bottom: 8px; }
+
+  /* SVG icon reuse */
+  .ig-svg { display: inline-block; width: 14px; height: 14px; vertical-align: middle; }
 
   /* MOBILE */
-  @media (max-width: 600px) {
-    .recap-card { padding: 24px 20px; }
-    .recap-score { gap: 12px; padding: 12px; }
-    .recap-vs { font-size: 1.6rem; }
-    .teaser-card { padding: 16px; }
-    .next-game-card { padding: 24px 28px; }
+  @media (max-width: 420px) {
+    .card-grid { grid-template-columns: 1fr; padding: 10px 12px 40px; }
+    .hero { padding: 40px 16px 30px; }
+    .hero h1 { font-size: 1.8rem; }
   }
 </style>
 </head>
 <body>
 
-<section class="hero">
-  <div class="hero-badge">✨ Houston Dynamo FC · 2026 Season ✨</div>
-  <h1>The Girlfriend Guide to the <span>Dynamo</span></h1>
-  <div class="subtitle">Who they are, where they're from, who they're with — and all the tea worth spilling. ☕ ✨</div>
-  <div class="tagline">Here for the vibe, not the score. ✨ ⚽</div>
-</section>
+<!-- SVG DEFS (reusable IG icon) -->
+<svg style="display:none">
+  <symbol id="ig" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></symbol>
+</svg>
 
-<section class="coming-soon-section">
-  <div class="coming-soon-pill">✨ Full Guide Drops Before Next Home Game ✨</div>
-  <p class="coming-soon-text">We're refreshing the roster, verifying the tea, and making sure nobody's wife gets mixed up with somebody else's wife. Again. The full guide returns for April 4.</p>
-</section>
+<!-- ========== HERO ========== -->
+<div class="hero">
+  <div class="hero-badge">🧡 Houston Dynamo FC • April 4, 2026 ⚽</div>
+  <h1>The <span>Girlfriend Guide</span><br>to the Dynamo</h1>
+  <p class="subtitle">Here for the vibe, not the score. 🫖✨</p>
+  <p class="matchday">Saturday, April 4 &bull; vs Seattle Sounders FC &bull; Shell Energy Stadium</p>
+  <p class="matchday-hook">Friday night under the lights at Shell Energy! 🔥 Guilherme is on FIRE with 4 goals and 3 assists, Bogusz scored in the 105th minute last week, and Seattle rolls in banged up. The Dynamo are unbeatable at home this season and the vibes? Absolutely immaculate. 🧡</p>
+</div>
 
-<!-- LAST MATCH RECAP -->
-<section class="recap-section">
-  <div class="recap-card">
-    <div class="recap-label">📺 Last Saturday at Shell Energy Stadium</div>
-    <div class="recap-headline">Bogusz scores in the <span>105th minute</span> to win it</div>
+<!-- VIBE STRIP -->
+<div class="vibe-strip">
+  ⚽ Dynamo are <strong>unbeaten at home</strong> this season (2-0) &bull; Guilherme has <strong>4 goals &amp; 3 assists</strong> in just 4 matches &bull; Seattle arrives without 5 key players &bull; Tonight is a <strong>vibe check</strong> 🧡
+</div>
 
-    <div class="recap-score">
-      <div class="recap-team">
-        <div class="recap-team-name home">Houston Dynamo</div>
-        <div class="recap-team-sub">2-0-1 · 6 pts</div>
+<!-- ========== SPOTLIGHT — THE MAIN CHARACTERS ========== -->
+<div class="section-header">
+  <h2>✨ The <span>Main Characters</span> ✨</h2>
+  <p>Start here. These are the ones you need to know before kickoff. 🎬</p>
+</div>
+
+<div class="card-grid spotlight-grid">
+
+  <!-- GUILHERME — SPOTLIGHT -->
+  <div class="player-card spotlight">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/guilherme.png" alt="Guilherme">
+        <span class="flag-badge">🇧🇷</span>
       </div>
-      <div class="recap-vs">3 – 2</div>
-      <div class="recap-team">
-        <div class="recap-team-name">Portland Timbers</div>
-        <div class="recap-team-sub">1-0-3 · 3 pts</div>
+      <div class="card-header-text">
+        <div class="spotlight-label">⭐ Breakout Star</div>
+        <h3>Guilherme</h3>
+        <div class="player-meta">
+          <span>Forward &bull; #20 &bull; 30 yrs</span>
+          <span><span class="tag tag-dp">DESIGNATED PLAYER</span> <span class="tag tag-hot">4G 3A 🔥</span></span>
+        </div>
       </div>
     </div>
-
-    <div class="recap-body">
-      If you left early, you missed <em>everything</em>. Portland took the lead right before halftime. Houston clawed back with goals from <strong>Guilherme</strong> and <strong>Felipe Andrade</strong> (a gorgeous long-range strike). Portland equalized. Then came <span class="hot">15 minutes of stoppage time</span>.<br><br>
-
-      In the <span class="gold">105th minute</span> — yes, you read that right — <strong>Mateusz Bogusz</strong> collected a ball from <strong>Jack McGlynn</strong> and calmly slotted it home. His first Dynamo goal. The <span class="recap-stat">2nd latest winning goal in MLS history</span>. 18,026 people lost their minds.<br><br>
-
-      Both of Houston's new Designated Players (<span class="orange">Bogusz</span> and <span class="orange">Guilherme</span>) scored. <span class="recap-stat">1 goal + 1 assist each</span>. The expensive signings are starting to look worth it.<br><br>
-
-      Oh, and <strong>Bogusz's wife Wiktoria</strong>? She was probably watching from the stands while very pregnant (baby girl due any day now). We'll have updates. 👀
+    <div class="card-body">
+      <p class="the-tea">🇧🇷 This man has been <strong>unreal</strong>. Scored TWO goals on his MLS debut vs Chicago, then just... kept going. 4 goals, 3 assists in 4 matches. He's <strong>leading the entire team</strong> in both. 🔥 He played at <strong>Santos FC — Pelé's club</strong> — alongside Neymar, who apparently texted him after a hat trick saying "you learned that from me." The audacity of Neymar aside, the man is BALLING. He's got a signature celebration called the <strong>Passinho do Beloved</strong> — a dance from his Santos days — and it has been getting regular outings this season. Baby watch is also ON: his wife is expecting their second child, a Houston baby. <strong>The vibes are immaculate.</strong> 🤌</p>
+      <div class="couple-callout">
+        <div class="couple-label">✦ The Inner Circle</div>
+        Wife keeps a private profile — name not confirmed. They have at least one child and a second on the way. Guilherme mentions "family" in interviews constantly but keeps them out of the spotlight entirely. Respect. 💕
+      </div>
     </div>
-  </div>
-</section>
-
-<!-- PREVIEW TEASERS -->
-<section class="teasers-section">
-  <div class="teasers-header">
-    <h2>What's Coming in the <span>Full Guide</span></h2>
-    <p>A few things we're keeping warm for you</p>
-  </div>
-
-  <div class="teaser-card">
-    <div class="teaser-emoji">👶</div>
-    <div class="teaser-content">
-      <h3>Bogusz Baby Watch</h3>
-      <p>Wiktoria posted "She's on her way 💝" back in January. The due date was February. It's now mid-March. Either this baby is extremely fashionably late or they're keeping the announcement private. We're watching.</p>
-      <span class="teaser-tag tag-baby">Baby watch</span>
+    <div class="card-links">
+      <a href="https://www.instagram.com/guilherme11/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @guilherme11
+      </a>
     </div>
   </div>
 
-  <div class="teaser-card">
-    <div class="teaser-emoji">💔</div>
-    <div class="teaser-content">
-      <h3>Herrera's Divorce Era</h3>
-      <p>The team's most famous player split from his longtime partner Shantal Mayo in 2025. He's got 1M+ Instagram followers and he's single. Just putting that out there.</p>
-      <span class="teaser-tag tag-tea">The tea is hot</span>
+  <!-- MATEUSZ BOGUSZ — SPOTLIGHT -->
+  <div class="player-card spotlight">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/mateusz-bogusz.png" alt="Mateusz Bogusz">
+        <span class="flag-badge">🇵🇱</span>
+      </div>
+      <div class="card-header-text">
+        <div class="spotlight-label">⭐ Record Signing</div>
+        <h3>Mateusz Bogusz</h3>
+        <div class="player-meta">
+          <span>Forward &bull; #19 &bull; 24 yrs</span>
+          <span><span class="tag tag-dp">DESIGNATED PLAYER</span> <span class="tag tag-hot">BABY WATCH 🎀</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇵🇱 Houston's <strong>most expensive signing EVER</strong>, came from Cruz Azul in Mexico. Former LAFC fan favorite — scored 18 goals in 2024 and broke hearts leaving. He scored <strong>in the 105th minute</strong> against Portland last week — that's the second latest goal in MLS history. Casually. Polish international, 24 years old, and lives his best life. 💅</p>
+      <div class="couple-callout">
+        <div class="couple-label">✦ The Inner Circle — 🎀 THE BIG TEA</div>
+        <strong>Wiktoria Wychowska</strong> — wife, Pilates instructor, owns her own studio @no13.pilates, <strong>24K IG followers</strong>, splits time between Houston and Katowice, Poland. She posted "She's on her way" in January with a due date of 02.2026. Her last post (March 3) was captioned "02.2026 💝" and still showed a pregnant belly — which means the baby girl has very likely <strong>already arrived</strong> but they're keeping it private. We're manifesting the announcement tonight. 👀🎀
+      </div>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/x_bogus/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @x_bogus
+      </a>
+      <a href="https://www.instagram.com/wiktoria.wychowska/" target="_blank" class="social-link ig-partner">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        Wiktoria @wiktoria.wychowska
+      </a>
+      <a href="https://www.tiktok.com/@wiktoria.wychowska" target="_blank" class="social-link tiktok">
+        Wiktoria @wiktoria.wychowska
+      </a>
     </div>
   </div>
 
-  <div class="teaser-card">
-    <div class="teaser-emoji">💍</div>
-    <div class="teaser-content">
-      <h3>The Inner Circle</h3>
-      <p>From Wiktoria's Pilates empire to Preslee Clark's luxury makeup artistry to the Lingrs' disgustingly cute couple content — meet the people in their orbit.</p>
-      <span class="teaser-tag tag-hot">Can't miss</span>
+  <!-- HÉCTOR HERRERA — SPOTLIGHT -->
+  <div class="player-card spotlight">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/hector-herrera.png" alt="Héctor Herrera">
+        <span class="flag-badge">🇲🇽</span>
+      </div>
+      <div class="card-header-text">
+        <div class="spotlight-label">⭐ The Legend Is Back</div>
+        <h3>Héctor Herrera</h3>
+        <div class="player-meta">
+          <span>Midfielder &bull; #16</span>
+          <span><span class="tag tag-hot">THE TEA ☕</span> <span class="tag tag-returning">RETURNING</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇲🇽 The prodigal son RETURNED. Herrera came back to Houston after a year playing in Mexico with Deportivo Toluca, and he walked back in like he never left. Played for <strong>Porto and Atlético Madrid</strong> before MLS. Captained the Dynamo to the <strong>2023 U.S. Open Cup title</strong>. Two-time MLS All-Star. Mexican international legend. And then — <strong>the real tea</strong> — he publicly confirmed his <strong>divorce from Shantal Mayo in 2025</strong> and took the blame himself. The comments on both their pages are genuinely a lot. His TikTok has been very much a <strong>single king era</strong>. 👀👑 We love to see it.</p>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/h.herrera16/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @h.herrera16
+      </a>
+      <a href="https://www.tiktok.com/@hherrera16" target="_blank" class="social-link tiktok">
+        @hherrera16
+      </a>
     </div>
   </div>
 
-  <div class="teaser-card">
-    <div class="teaser-emoji">⚔️</div>
-    <div class="teaser-content">
-      <h3>Know the Enemy: Seattle Sounders</h3>
-      <p>We scouted their roster for the hottest players, the most stalkable socials, and any drama worth knowing about. Spoiler: there's always drama.</p>
-      <span class="teaser-tag tag-new">Opponent intel</span>
+</div>
+
+<!-- ========== THE ONES YOU'LL DEFINITELY NOTICE ========== -->
+<div class="section-header">
+  <h2>The Ones You'll Definitely <span>Notice</span> 👀</h2>
+  <p>Hot storylines, great tea, and the couple content we're all here for.</p>
+</div>
+
+<div class="card-grid">
+
+  <!-- LAWRENCE ENNALI -->
+  <div class="player-card featured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/lawrence-ennali.png" alt="Lawrence Ennali">
+        <span class="flag-badge">🇩🇪</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Lawrence Ennali</h3>
+        <div class="player-meta">
+          <span>Forward &bull; #11</span>
+          <span><span class="tag tag-hot">CONTENT COUPLE 💕</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇩🇪 Born in Berlin. Scored the go-ahead goal in the wild Texas Derby last week to make it 3-2 Houston (before things got chaotic 😬). German forward with pace — he'll be the one burning down the left side tonight. Fast, direct, and in a relationship with possibly the most aesthetic partner on this whole roster. 🔥</p>
+      <div class="couple-callout">
+        <div class="couple-label">✦ The Inner Circle</div>
+        <strong>Preslee Clark</strong> — luxury makeup &amp; hairstylist based in Houston. Has her own artistry account with content on both IG and TikTok. Dating Lawrence. This is the follow you didn't know you needed. 💄✨
+      </div>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/ennalilawrence/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @ennalilawrence
+      </a>
+      <a href="https://www.instagram.com/presleeclark/" target="_blank" class="social-link ig-partner">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        Preslee @presleeclark
+      </a>
+      <a href="https://www.tiktok.com/@presleeclarkartistry" target="_blank" class="social-link tiktok">
+        Preslee @presleeclarkartistry
+      </a>
     </div>
   </div>
 
-  <div class="teaser-card">
-    <div class="teaser-emoji">🇵🇱🇧🇷🇲🇽</div>
-    <div class="teaser-content">
-      <h3>25 Players, 12+ Countries, Infinite Tea</h3>
-      <p>Every player on the roster — who they are, where they're from, who they're dating (or divorced from), and what their Instagram says about them. The full guide covers all of it.</p>
-      <span class="teaser-tag tag-hot">Full roster</span>
+  <!-- AGUSTÍN BOUZAT -->
+  <div class="player-card featured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/agustín-bouzat.png" alt="Agustín Bouzat">
+        <span class="flag-badge">🇦🇷</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Agustín Bouzat</h3>
+        <div class="player-meta">
+          <span>Midfielder &bull; #22</span>
+          <span><span class="tag tag-hot">CHAOS &amp; BEAUTY ⚡</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇦🇷 The duality of Bouzat is genuinely something. At LAFC earlier this season: <strong>almost scored the goal of the year from near midfield</strong> (hit the crossbar in the 47th minute), then got sent off for fouling Son Heung-Min as last defender. He AND Antônio Carlos both fouled Son Heung-Min and got reds in the same game — Houston finished with <strong>nine men.</strong> He was also fined for not leaving the field fast enough. Iconic behavior. Currently available tonight because he served his ban. 😤</p>
+      <div class="couple-callout">
+        <div class="couple-label">✦ The Inner Circle</div>
+        <strong>Fiorella Curutchet</strong> — wife, married December 2022. Argentine couple energy. 💕
+      </div>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/chiquibouzat/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @chiquibouzat
+      </a>
+      <a href="https://www.instagram.com/fiorecurutchet/" target="_blank" class="social-link ig-partner">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        Fiorella @fiorecurutchet
+      </a>
     </div>
   </div>
-</section>
 
-<!-- NEXT GAME -->
-<section class="next-game">
-  <div class="next-game-card">
-    <div class="next-game-label">📍 Next Home Game</div>
-    <div class="next-game-matchup"><span>Dynamo</span> vs Seattle Sounders</div>
-    <div class="next-game-details">Saturday, April 4 · 7:30 PM · Shell Energy Stadium</div>
-    <div class="next-game-note">Full guide drops before kickoff ✨</div>
+  <!-- ANTÔNIO CARLOS -->
+  <div class="player-card featured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/antônio-carlos.png" alt="Antônio Carlos">
+        <span class="flag-badge">🇧🇷</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Antônio Carlos</h3>
+        <div class="player-meta">
+          <span>Defender &bull; #25</span>
+          <span><span class="tag tag-hot">MAIN CHARACTER 😭</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇧🇷 His introduction to the 2026 season was <strong>fouling SON HEUNG-MIN</strong> and getting a straight red card for it. That's already incredible. But then he got <strong>fined by MLS Disciplinary Committee</strong> for failing to leave the field in a timely manner after the red. The audacity. The drama. The back line of this team is genuinely a soap opera and he is a lead character. Available tonight and ready to hopefully NOT do that. 🙏</p>
+      <div class="couple-callout">
+        <div class="couple-label">✦ The Inner Circle</div>
+        <strong>Bru Senna</strong> — partner, Brazilian. Active on Instagram. 💕
+      </div>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/antoniocapocasali25/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @antoniocapocasali25
+      </a>
+      <a href="https://www.instagram.com/bru_senna/" target="_blank" class="social-link ig-partner">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        Bru @bru_senna
+      </a>
+    </div>
   </div>
-</section>
 
-<footer>
-  <div class="brand">Girlfriend <span>Guide</span></div>
-  <div class="tagline">Here for the vibe, not the score.</div>
-  <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a>
-</footer>
+  <!-- JACK McGLYNN -->
+  <div class="player-card featured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/jack-mcglynn.png" alt="Jack McGlynn">
+        <span class="flag-badge">🇺🇸</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Jack McGlynn</h3>
+        <div class="player-meta">
+          <span>Midfielder &bull; #8</span>
+          <span><span class="tag tag-usmnt">USMNT 35 CAPS</span> <span class="tag tag-hot">WORLD CUP LOCKED IN</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇺🇸 His whole personality right now is the <strong>2026 World Cup</strong>. His phone lock screen is literally just the tournament logo on a black background. That's it. That's the motivation. 35 USMNT caps, Gold Cup finalist, played every minute. He set up Guilherme's first MLS goal vs Chicago with a perfectly weighted through ball — the assist king. <strong>First MLS player bought and sold under the new cash-for-player system.</strong> He's locked all the way in. 🔐⚽</p>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/jackmcglynn7/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @jackmcglynn7
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<!-- ========== THE FAMILY MEN ========== -->
+<div class="section-header">
+  <h2>The <span>Family Men</span> 👨‍👩‍👧‍👦</h2>
+  <p>Married, settled, and absolutely wholesome. The couple content lives here.</p>
+</div>
+
+<div class="card-grid">
+
+  <!-- ONDŘEJ LINGR -->
+  <div class="player-card">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/ondřej-lingr.png" alt="Ondřej Lingr">
+        <span class="flag-badge">🇨🇿</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Ondřej Lingr</h3>
+        <div class="player-meta">
+          <span>Forward &bull; #9</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇨🇿 Czech forward who described himself as "a warrior" in his Houston intro interview — and then backed it up by packing his whole life into boxes, moving wife Lucie and their son to Houston, and calling it an opportunity he <strong>couldn't pass up</strong>. That's commitment energy. 💪 Czech striker who provides a different look up front when called upon. The family relocated everything for this. Respect.</p>
+      <div class="couple-callout">
+        <div class="couple-label">✦ The Inner Circle</div>
+        <strong>Lucie Lingr</strong> — wife. Active on Instagram. They have a son together who made the move to Houston with them. 💕
+      </div>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/ondylingr/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @ondylingr
+      </a>
+      <a href="https://www.instagram.com/lucielingr/" target="_blank" class="social-link ig-partner">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        Lucie @lucielingr
+      </a>
+    </div>
+  </div>
+
+  <!-- DUANE HOLMES -->
+  <div class="player-card">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/duane-holmes.png" alt="Duane Holmes">
+        <span class="flag-badge">🇺🇸</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Duane Holmes</h3>
+        <div class="player-meta">
+          <span>Midfielder &bull; #14</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇺🇸🏴󠁧󠁢󠁥󠁮󠁧󠁿 Born in the US, raised in England — the classic transatlantic experience. Versatile midfielder who can play pretty much anywhere across the middle. The fun fact? He's joking-but-also-maybe-not-joking about being in <strong>"borderline divorce territory"</strong> when a new Call of Duty drops. 🎮😂 The wife and mama holds it down. A whole dad and husband era.</p>
+      <div class="couple-callout">
+        <div class="couple-label">✦ The Inner Circle</div>
+        <strong>Brooke Holmes</strong> — wife (married June 2022 💒). Her IG bio: "Wife + Mama." At least one little one in the picture. The family content is very cute. 🥰
+      </div>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/duaneholmes/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @duaneholmes
+      </a>
+      <a href="https://www.instagram.com/brookesavannah2/" target="_blank" class="social-link ig-partner">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        Brooke @brookesavannah2
+      </a>
+    </div>
+  </div>
+
+  <!-- DIADIÉ SAMASSÉKOU -->
+  <div class="player-card">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/diadie-samassekou.png" alt="Diadié Samassékou">
+        <span class="flag-badge">🇲🇱</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Diadié Samassékou</h3>
+        <div class="player-meta">
+          <span>Midfielder &bull; #18</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇲🇱 Malian international midfielder — the engine room guy who runs all day so everyone else doesn't have to. He and his wife Anna are genuinely couple goals in the West African football community. They've been featured on multiple football couples TikTok accounts. 🥰 Their baby content from a few years back was everything. A quiet, grounded family man who handles his business on the pitch.</p>
+      <div class="couple-callout">
+        <div class="couple-label">✦ The Inner Circle</div>
+        <strong>Anna Samassékou</strong> — wife, known in Malian football circles. At least one child — baby featured in TikTok content from 2023. 💕
+      </div>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/diadie_samassekou/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @diadie_samassekou
+      </a>
+    </div>
+  </div>
+
+  <!-- SAM VINES — NEW SIGNING -->
+  <div class="player-card featured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <span>⚽</span>
+        <span class="flag-badge">🇺🇸</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Sam Vines</h3>
+        <div class="player-meta">
+          <span>Defender &bull; 26 yrs</span>
+          <span><span class="tag tag-new-signing">NEW SIGNING ✨</span> <span class="tag tag-usmnt">USMNT</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇺🇸 Newlywed alert! 🎉 Sam and Andrianna tied the knot in late summer 2025 — wedding was photographed by Jordan Imhoff Photography, which means the photos were <em>stunning</em>. Now they're settling into Houston life together. Colorado Springs native, USMNT defender with 9 caps, and he literally <strong>scored a goal in the 2021 Gold Cup.</strong> Oh and he also won the <strong>Belgian treble</strong> at Royal Antwerp in 2023. Just a casual trophy or two. Signed March 20 on a free transfer. 💍</p>
+      <div class="couple-callout">
+        <div class="couple-label">✦ The Inner Circle</div>
+        <strong>Andrianna Vines</strong> — wife, married Aug/Sep 2025. The Inner Circle needs to find her Instagram and report back immediately. 👀💕
+      </div>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/sammyvines/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @sammyvines
+      </a>
+    </div>
+  </div>
+
+  <!-- ARTUR — OUT -->
+  <div class="player-card injured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/artur.png" alt="Artur">
+        <span class="flag-badge">🇧🇷</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Artur</h3>
+        <div class="player-meta">
+          <span>Midfielder &bull; #6</span>
+          <span><span class="tag tag-suspended">OUT — INJURY</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇧🇷 Brazilian midfielder who controls the tempo when healthy. Sadly, he's <strong>out tonight with a lower body injury</strong> — not playing vs Seattle. While he recovers, his wife Rachel is out here keeping Houston life going. 💪 Follow his return.</p>
+      <div class="couple-callout">
+        <div class="couple-label">✦ The Inner Circle</div>
+        <strong>Rachel Lima</strong> — wife, active on Instagram. Verified through the Dynamo's own sustainability content. 💕
+      </div>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/arturl33/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @arturl33
+      </a>
+      <a href="https://www.instagram.com/rachel.limaaa/" target="_blank" class="social-link ig-partner">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        Rachel @rachel.limaaa
+      </a>
+    </div>
+  </div>
+
+  <!-- JONATHAN BOND -->
+  <div class="player-card">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/jonathan-bond.png" alt="Jonathan Bond">
+        <span class="flag-badge">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Jonathan Bond</h3>
+        <div class="player-meta">
+          <span>Goalkeeper &bull; #31</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🏴󠁧󠁢󠁥󠁮󠁧󠁿 English keeper who has been the <strong>steady hands behind all the chaos</strong> this season. Clean sheet on opening day vs Chicago, then tested in the 7-goal thriller at FC Dallas. When everyone else is getting red cards, Bond is just... saving things. The quiet professional energy. His partner Isy Bella is active on Instagram. 🧤</p>
+      <div class="couple-callout">
+        <div class="couple-label">✦ The Inner Circle</div>
+        <strong>Isy Bella Bond</strong> — partner, active on Instagram. 💕
+      </div>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/jonathanbond23/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @jonathanbond23
+      </a>
+      <a href="https://www.instagram.com/isybellabond/" target="_blank" class="social-link ig-partner">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        Isy Bella @isybellabond
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<!-- ========== THE CHAOS KINGS ========== -->
+<div class="section-header">
+  <h2>The <span>Chaos Kings</span> 🃏</h2>
+  <p>Red cards, suspensions, and storylines nobody could make up. These ones write themselves. 😭</p>
+</div>
+
+<div class="card-grid">
+
+  <!-- ERIK SVIATCHENKO — SUSPENDED -->
+  <div class="player-card suspended">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/erik-sviatchenko.png" alt="Erik Sviatchenko">
+        <span class="flag-badge">🇩🇰</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Erik Sviatchenko</h3>
+        <div class="player-meta">
+          <span>Defender &bull; #28</span>
+          <span><span class="tag tag-captain">CAPTAIN</span> <span class="tag tag-suspended">SUSPENDED TONIGHT</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇩🇰 The <strong>captain</strong> of this team wrote an entire telenovela at FC Dallas last week: scored to make it 3-2 Houston (hero!), then conceded an own goal (villain!), then got a second yellow and was sent off in the 68th minute (chaotic icon!). He is <strong>NOT playing tonight</strong> — serving his suspension. Watching from somewhere that is not this field. Former Celtic player, Danish international. When he's not getting red cards, he's genuinely organizing the whole back line. 😭🏆</p>
+      <div class="couple-callout">
+        <div class="couple-label">✦ The Inner Circle</div>
+        <strong>Anne Sviatchenko</strong> — wife, very active on Instagram with family content. They've been together 19+ years. 💕
+      </div>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/eriksviat/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @eriksviat
+      </a>
+      <a href="https://www.instagram.com/annesviat/" target="_blank" class="social-link ig-partner">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        Anne @annesviat
+      </a>
+    </div>
+  </div>
+
+  <!-- NICK MARKANICH — SUSPENDED -->
+  <div class="player-card suspended">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/nick-markanich.png" alt="Nick Markanich">
+        <span class="flag-badge">🇺🇸</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Nick Markanich</h3>
+        <div class="player-meta">
+          <span>Forward &bull; #7</span>
+          <span><span class="tag tag-suspended">SUSPENDED TONIGHT</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇺🇸 American forward on loan who had a <em>very</em> eventful time at Portland. Got a red card for a <strong>studs-up challenge on the goalkeeper</strong> — caused an actual gash and drew blood on the pitch. Then <strong>refused to leave the field</strong> in a timely manner. Got fined AND received an extra game ban from the Disciplinary Committee. Served match 1 last week vs Dallas. <strong>Serving match 2 tonight vs Seattle.</strong> He will be watching from wherever suspended players watch. 🍿</p>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/nickmarkanich/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @nickmarkanich
+      </a>
+    </div>
+  </div>
+
+  <!-- EZEQUIEL PONCE -->
+  <div class="player-card">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/ezequiel-ponce.png" alt="Ezequiel Ponce">
+        <span class="flag-badge">🇦🇷</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Ezequiel Ponce</h3>
+        <div class="player-meta">
+          <span>Forward &bull; #10</span>
+          <span><span class="tag tag-dp">DESIGNATED PLAYER</span> <span class="tag tag-hot">8 GOALS 🔥</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇦🇷 Wears the prestigious <strong>#10 shirt</strong> and earns it. Eight goals in the 2026 season so far — the Argentine goal machine is having the time of his life. Played at <strong>Roma, Granada, Spartak Moscow, AEK Athens</strong> before becoming Houston's record signing. Four continents worth of career experience walking around in an orange jersey. He just scores goals, consistently, all the time. We love a reliable king. 👑</p>
+      <div class="couple-callout">
+        <div class="couple-label">✦ The Inner Circle</div>
+        <strong>Martina Ponce Soto-Aguilar</strong> — wife, active on Instagram. This family has moved across the world multiple times together. That's love. 💕
+      </div>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/ezequielp9/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @ezequielp9
+      </a>
+      <a href="https://www.instagram.com/maartinaponce/" target="_blank" class="social-link ig-partner">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        Martina @maartinaponce
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<!-- ========== THE YOUNG ONES ========== -->
+<div class="section-header">
+  <h2>The <span>Young Ones</span> 🌱</h2>
+  <p>Baby roster. New faces. The future is literally right here on this pitch.</p>
+</div>
+
+<div class="card-grid">
+
+  <!-- MATTHEW ARANA -->
+  <div class="player-card featured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/matthew-arana.png" alt="Matthew Arana">
+        <span class="flag-badge">🇺🇸</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Matthew Arana</h3>
+        <div class="player-meta">
+          <span>Midfielder &bull; #17 &bull; <strong>15 yrs</strong></span>
+          <span><span class="tag tag-homegrown">HOMEGROWN</span> <span class="tag tag-hot">YOUNGER THAN TIKTOK 😭</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇺🇸 <strong>Fifteen years old.</strong> FIFTEEN. He is literally a sophomore in high school and he has a professional soccer contract. Houston native, came up through the Dynamo Academy, signed as the <strong>youngest first-team signing in franchise history</strong> in 2026. The Academy parents are absolutely losing their minds. While you're figuring out your AP classes, this kid is suiting up against Seattle. No big deal. 😭🔥 (Single — he's 15, so — yeah.)</p>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/thematthewarana/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @thematthewarana
+      </a>
+    </div>
+  </div>
+
+  <!-- AGUSTIN RESCH -->
+  <div class="player-card featured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <span>⚽</span>
+        <span class="flag-badge">🇦🇷</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Agustín Resch</h3>
+        <div class="player-meta">
+          <span>Defender</span>
+          <span><span class="tag tag-new-signing">JUST PROMOTED ✨</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇦🇷 <strong>6 feet 6 inches tall.</strong> That's it, that's the opening. This absolute unit came through the MLS SuperDraft from Seton Hall University — the first Pirate selected since Sacha Kljestan in 2006, which is a real fact that exists. He was BIG EAST Defensive Player of the Year, played so well in his Dynamo 2 loan appearances that they <strong>promoted him to the first team after just three weeks.</strong> Promoted on March 20, 2026. He's from Argentina, went to college in New Jersey, and is now playing professional soccer in Texas. What a journey. 🌍</p>
+    </div>
+    <div class="card-links">
+    </div>
+  </div>
+
+  <!-- FELIPE ANDRADE -->
+  <div class="player-card">
+    <div class="card-header">
+      <div class="player-avatar">
+        <span>⚽</span>
+        <span class="flag-badge">🇧🇷</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Felipe Andrade</h3>
+        <div class="player-meta">
+          <span>Defender &bull; #36</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇧🇷 Brazilian defender who already has his <strong>first Dynamo goal</strong> — scored in the wild 3-2 win over Portland on March 14. The celebration was everything. 🎉 Also has a CONMEBOL Recopa 2024 winner's medal to his name from before coming to Houston. Not bad at all. Brazilian depth signing who has already delivered a moment. 🔥</p>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/felipe_andrade15_/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @felipe_andrade15_
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<!-- ========== INTERNATIONAL FLAVOR ========== -->
+<div class="section-header">
+  <h2><span>International Flavor</span> 🌍</h2>
+  <p>From Buenos Aires to Prague to Lagos — the squad has serious passport stamps.</p>
+</div>
+
+<div class="card-grid">
+
+  <!-- FRANCO NEGRI -->
+  <div class="player-card">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/franco-negri.png" alt="Franco Negri">
+        <span class="flag-badge">🇦🇷</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Franco Negri</h3>
+        <div class="player-meta">
+          <span>Defender &bull; #3</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇦🇷 Argentine defender who wears #3 — which is causing a tiny jersey number drama because new signing Sam Vines wore #3 his entire time at Colorado Rapids. Someone's going to have to blink. 👀 Franco came in to bolster the back line this season and is quietly doing his job. Argentina to Houston pipeline is very active this roster. 💪</p>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/franco_negri3/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @franco_negri3
+      </a>
+    </div>
+  </div>
+
+  <!-- TOMAS WIESNER -->
+  <div class="player-card">
+    <div class="card-header">
+      <div class="player-avatar">
+        <span>⚽</span>
+        <span class="flag-badge">🇨🇿</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Tomáš Wiesner</h3>
+        <div class="player-meta">
+          <span>Defender &bull; #2</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇨🇿 Czech right-back, quiet presence on this roster. Doing his job, running the right flank, keeping things simple. Not on social media publicly yet, which in 2026 is actually kind of a flex. The mystery adds to the allure. 🤷‍♀️ One of the harder guys to find tea on — but he's out there playing games, and that counts for something! ⚽</p>
+    </div>
+    <div class="card-links">
+    </div>
+  </div>
+
+  <!-- ALIYU IBRAHIM — QUESTIONABLE -->
+  <div class="player-card questionable">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/aliyu-ibrahim.png" alt="Aliyu Ibrahim">
+        <span class="flag-badge">🇳🇬</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Aliyu Ibrahim</h3>
+        <div class="player-meta">
+          <span>Forward &bull; #27</span>
+          <span><span class="tag tag-suspended">QUESTIONABLE TONIGHT</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇳🇬 Nigerian forward providing depth in the attack. He's <strong>questionable tonight</strong> with a lower body injury — fingers crossed he suits up because he brings pace off the bench. Has both Instagram AND TikTok presence so the content is there. Check his socials for updates. 🙏</p>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/aliyu_bravo7/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @aliyu_bravo7
+      </a>
+      <a href="https://www.tiktok.com/@ibrahmaliyu" target="_blank" class="social-link tiktok">
+        @ibrahmaliyu
+      </a>
+    </div>
+  </div>
+
+  <!-- LUCAS HALTER — OUT -->
+  <div class="player-card injured">
+    <div class="card-header">
+      <div class="player-avatar">
+        <img src="img/lucas-halter.png" alt="Lucas Halter">
+        <span class="flag-badge">🇧🇷</span>
+      </div>
+      <div class="card-header-text">
+        <h3>Lucas Halter</h3>
+        <div class="player-meta">
+          <span>Defender &bull; #5</span>
+          <span><span class="tag tag-suspended">OUT — INJURY</span></span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="the-tea">🇧🇷 Brazilian center-back signed this offseason to add depth at the back. <strong>Out tonight with a lower body injury</strong> — won't be playing vs Seattle. Wishing him a speedy recovery. 💪 Watch his IG for updates on his return timeline.</p>
+    </div>
+    <div class="card-links">
+      <a href="https://www.instagram.com/lucas_halter/" target="_blank" class="social-link ig-player">
+        <svg class="social-icon" fill="currentColor"><use href="#ig"/></svg>
+        @lucas_halter
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<!-- VIBE STRIP -->
+<div class="vibe-strip">
+  🧡 <strong>Shell Energy Stadium</strong> is UNBEATABLE at home this season &bull; Follow @HoustonDynamo for live updates &bull; Here for the vibe, not the score ☕✨
+</div>
+
+<!-- ========== FOOTER ========== -->
+<div class="page-footer">
+  <div class="hearts">🧡🤍🖤</div>
+  <p><strong>The Girlfriend Guide to the Dynamo</strong></p>
+  <p style="margin-top: 6px;">Houston Dynamo FC &bull; vs Seattle Sounders FC &bull; April 4, 2026</p>
+  <p style="margin-top: 8px; font-style: italic;">"Here for the vibe, not the score." 🫖</p>
+  <p style="margin-top: 12px; color: rgba(176,176,200,0.5); font-size: 0.72rem;">Made with 💕 for the stands, not the stat sheets. Follow at your own risk — you will end up on soccer TikTok.</p>
+</div>
 
 </body>
 </html>

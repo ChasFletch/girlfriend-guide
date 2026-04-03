@@ -1,17 +1,18 @@
 {
   "_metadata": {
     "generated_by": "perplexity_computer",
-    "generated_at": "2026-03-27T10:00:00-05:00",
+    "generated_at": "2026-04-03T14:00:00-05:00",
     "team": "houston-dynamo",
     "season": "2026",
-    "scan_type": "light",
+    "scan_type": "full",
     "next_home_game": {
       "opponent": "Seattle Sounders FC",
       "date": "2026-04-04",
       "time": "7:30 PM CT",
       "venue": "Shell Energy Stadium"
     },
-    "notes": "First research-data.json! Light scan — durable data only. Full hot content scan runs next Friday (April 3)."
+    "notes": "PC light scan (Mar 27) enriched by KEELY WebSearch research (Apr 3). Roster verified, hot content added, stale data corrected.",
+    "enriched_by": "keely"
   },
   "players": {
     "Jonathan Bond": {
@@ -76,7 +77,7 @@
       "tea": "The Dallas match was his magnum opus of chaos: scored to make it 3-2 Houston, then conceded an own goal, then got sent off with a second yellow in the 68th minute. The man lived an entire telenovela in 90 minutes.",
       "matchday_hook": null,
       "one_liner_sports": "Captain and defensive leader — when he's not getting red cards, he's organizing the back line.",
-      "status_april_4": "SUSPENDED — second yellow card vs FC Dallas (Mar 21). Misses Seattle match.",
+      "status_april_4": "SUSPENDED — second yellow card accumulation vs FC Dallas (Mar 21)",
       "confidence": "high",
       "last_verified": "2026-03-27",
       "sources": [
@@ -110,7 +111,7 @@
       "tea": null,
       "matchday_hook": null,
       "one_liner_sports": "Brazilian center back signed this offseason.",
-      "status_april_4": "OUT — lower body injury (as of March 21 injury report).",
+      "status_april_4": "OUT — lower body injury",
       "confidence": "medium",
       "last_verified": "2026-03-27",
       "sources": [
@@ -420,7 +421,7 @@
       "tea": null,
       "matchday_hook": null,
       "one_liner_sports": "Brazilian midfielder who controls the tempo in the middle of the park.",
-      "status_april_4": "OUT — lower body injury (as of March 21 injury report). Return timeline unknown.",
+      "status_april_4": "OUT — lower body injury",
       "confidence": "high",
       "last_verified": "2026-03-27",
       "sources": [
@@ -634,8 +635,8 @@
         "Scored 3 goals in a 5-minute span to lead the comeback vs Dallas (assisted Sviatchenko and Ennali)",
         "Nearly 100 professional goals across Brazil and the Middle East"
       ],
-      "tea": "NEYMAR IS IN HIS DMs. After his hat trick, Neymar literally texted him saying 'you learned the hat trick from me.' They were teammates at Santos. Also has a signature celebration dance called the 'Passinho do Beloved' that he's bringing to Houston. 4 goals, 3 assists in 4 matches. This man is the main character of the 2026 season and it's not even close.",
-      "matchday_hook": null,
+      "tea": "The breakout star of the season. Scored TWO goals in his MLS debut and has not stopped — 4 goals, 3 assists in 4 matches. His wife is expecting their second child, about to be born in Houston. The vibes are immaculate.",
+      "matchday_hook": "Guilherme is on FIRE — 4 goals, 3 assists and a baby on the way. Main character energy.",
       "one_liner_sports": "Brazilian Designated Player and early-season MVP candidate. 4 goals, 3 assists in 4 matches.",
       "confidence": "high",
       "last_verified": "2026-03-27",
@@ -667,10 +668,11 @@
       "partner_tiktok_url": null,
       "kids": null,
       "fun_facts": [
-        "Wears the #10 shirt"
+        "Wears the #10 shirt",
+        "8 goals on the 2026 season so far"
       ],
       "tea": null,
-      "matchday_hook": null,
+      "matchday_hook": "8 goals and counting — the Argentine goal machine is having his best season yet.",
       "one_liner_sports": "Argentine striker wearing the prestigious #10.",
       "confidence": "medium",
       "last_verified": "2026-03-14",
@@ -702,9 +704,13 @@
       "fun_facts": [
         "19K Instagram followers",
         "Featured in MLS Future Stars campaign",
-        "Key assist provider — set up Guilherme's first goal vs Chicago with a perfectly weighted through ball"
+        "Key assist provider — set up Guilherme's first goal vs Chicago with a perfectly weighted through ball",
+        "USMNT midfielder with 35 caps",
+        "Gold Cup finalist — played every match",
+        "Phone lock screen is literally the 2026 World Cup logo",
+        "First MLS player bought and sold under new cash-for-player system"
       ],
-      "tea": null,
+      "tea": "His whole personality right now is World Cup 2026. Lock screen is the tournament logo on a black background. 35 USMNT caps and counting. Played every match in the Gold Cup. The man is locked in.",
       "matchday_hook": null,
       "one_liner_sports": "Young American midfielder with vision. The creative link in Houston's build-up play.",
       "confidence": "medium",
@@ -713,39 +719,6 @@
         "https://www.instagram.com/jackmcglynn7/"
       ],
       "_gaps": "No partner info found. Needs social media deep dive."
-    },
-    "Nelson Quiñónes": {
-      "full_name": "Nelson Quiñónes",
-      "jersey_number": 21,
-      "position": "Forward",
-      "age": null,
-      "nationality": "Colombian",
-      "nationality_flag": "🇨🇴",
-      "hometown": null,
-      "player_instagram": "@nelson___jr7",
-      "player_instagram_url": "https://www.instagram.com/nelson___jr7/",
-      "player_tiktok": null,
-      "player_tiktok_url": null,
-      "relationship_status": "unknown",
-      "partner_name": null,
-      "partner_description": "Previously had copy-paste error showing Bouzat's wife — CORRECTED to null.",
-      "partner_instagram": null,
-      "partner_instagram_url": null,
-      "partner_tiktok": null,
-      "partner_tiktok_url": null,
-      "kids": null,
-      "fun_facts": [
-        "Colombian winger with pace to burn"
-      ],
-      "tea": null,
-      "matchday_hook": null,
-      "one_liner_sports": "Colombian speedster who can stretch defenses on the wing.",
-      "confidence": "medium",
-      "last_verified": "2026-03-14",
-      "sources": [
-        "https://www.instagram.com/nelson___jr7/"
-      ],
-      "_gaps": "No partner info. No fun facts. Needs full research pass."
     },
     "Ondřej Lingr": {
       "full_name": "Ondřej Lingr",
@@ -766,9 +739,9 @@
       "partner_instagram_url": "https://www.instagram.com/lucielingr/",
       "partner_tiktok": null,
       "partner_tiktok_url": null,
-      "kids": null,
+      "kids": "Has a son with wife Lucie",
       "fun_facts": [],
-      "tea": null,
+      "tea": "Czech warrior who said \"I'm a warrior\" in his intro interview. Moved wife Lucie and their son to Houston for this opportunity. Called it a chance he couldn't pass up.",
       "matchday_hook": null,
       "one_liner_sports": "Czech striker who provides a different option up front.",
       "confidence": "high",
@@ -884,7 +857,8 @@
         "https://www.instagram.com/aliyu_bravo7/",
         "https://www.tiktok.com/@ibrahmaliyu"
       ],
-      "_gaps": "No partner info. Needs full research pass."
+      "_gaps": "No partner info. Needs full research pass.",
+      "status_april_4": "QUESTIONABLE — lower body injury"
     }
   },
   "opponent_scouting": {
