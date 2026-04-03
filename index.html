@@ -1,23 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--
-   ______                            __
-  / ____/___  ____ ___  ____  __  __/ /____  _____
- / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
-/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
-\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
-                    /_/
-        Created with Perplexity Computer
-        https://www.perplexity.ai/computer
--->
-<meta name="generator" content="Perplexity Computer">
-<meta name="author" content="Perplexity Computer">
-<meta property="og:see_also" content="https://www.perplexity.ai/computer">
-<link rel="author" href="https://www.perplexity.ai/computer">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Girlfriend Guide — Here for the vibe, not the score</title>
+<meta name="description" content="The matchday guide for people who care about the tea, not the tactics. Player profiles, partner spotlights, Instagram links, and all the vibes.">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -33,38 +20,95 @@
     text-align: center;
     padding: 40px 20px;
   }
+  .keely-avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 3px solid #F68B1F;
+    object-fit: cover;
+    margin-bottom: 16px;
+    box-shadow: 0 0 24px rgba(246, 139, 31, 0.3);
+  }
   h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 700;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
   h1 span { color: #F68B1F; }
-  p { color: #b0b0c8; font-size: 1.1rem; max-width: 500px; margin-bottom: 30px; }
+  .tagline {
+    color: #b0b0c8;
+    font-size: 1.15rem;
+    max-width: 520px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  .byline {
+    color: #F68B1F;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 32px;
+    letter-spacing: 0.5px;
+  }
   .guides { display: flex; flex-direction: column; gap: 16px; }
-  a {
+  .team-link {
     display: inline-block;
-    background: linear-gradient(135deg, #ff6b9d, #F68B1F);
+    background: linear-gradient(135deg, #F68B1F, #ff6b9d);
     color: #fff;
     text-decoration: none;
-    padding: 16px 32px;
-    border-radius: 12px;
+    padding: 18px 36px;
+    border-radius: 14px;
     font-weight: 700;
-    font-size: 1.1rem;
-    transition: transform 0.2s;
+    font-size: 1.15rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 16px rgba(246, 139, 31, 0.25);
   }
-  a:hover { transform: scale(1.05); }
-  .sub { font-size: 0.8rem; color: #555; margin-top: 40px; }
-  .sub a { background: none; padding: 0; font-size: 0.8rem; color: #555; }
-  .sub a:hover { color: #F68B1F; transform: none; }
+  .team-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 24px rgba(246, 139, 31, 0.4);
+  }
+  .team-link .match-info {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 400;
+    opacity: 0.85;
+    margin-top: 4px;
+  }
+  .coming-soon {
+    display: inline-block;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: #666;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 14px;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  .footer {
+    margin-top: 48px;
+    font-size: 0.75rem;
+    color: #444;
+    line-height: 1.6;
+  }
 </style>
 </head>
 <body>
+  <img src="img/keely-avatar.png" alt="Keely" class="keely-avatar">
   <h1>Girlfriend <span>Guide</span></h1>
-  <p>Here for the vibe, not the score. Who they are, where they're from, who they're with — and all the tea worth spilling.</p>
+  <p class="tagline">Here for the vibe, not the score. Who they are, where they're from, who they're with — and all the tea worth spilling. 🫖✨</p>
+  <p class="byline">by Keely ⚽</p>
   <div class="guides">
-    <a href="/houston-dynamo/">Houston Dynamo — Coming Soon for Apr 4 ✨</a>
+    <a href="/houston-dynamo/" class="team-link">
+      🧡 Houston Dynamo FC
+      <span class="match-info">vs Seattle Sounders &bull; Apr 4 &bull; 7:30 PM CT</span>
+    </a>
+    <span class="coming-soon">FC Dallas — coming soon</span>
+    <span class="coming-soon">Austin FC — coming soon</span>
   </div>
-  <p class="sub"><a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer">Created with Perplexity Computer</a></p>
+  <div class="footer">
+    <p>Player data browser-verified &bull; Updated weekly before matchday</p>
+    <p>The matchday guide for people who care about the tea, not the tactics.</p>
+  </div>
 </body>
 </html>
