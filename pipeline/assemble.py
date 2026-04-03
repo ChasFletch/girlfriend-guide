@@ -15,7 +15,10 @@ _async_client = None
 def _get_client():
     global _async_client
     if _async_client is None:
-        _async_client = anthropic.AsyncAnthropic(api_key=ANTHROPIC_API_KEY)
+        _async_client = anthropic.AsyncAnthropic(
+            api_key=ANTHROPIC_API_KEY,
+            timeout=anthropic.Timeout(None, connect=30.0),
+        )
     return _async_client
 
 

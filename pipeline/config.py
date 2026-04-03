@@ -15,7 +15,7 @@ PERPLEXITY_MODEL = "sonar-pro"
 
 GEMINI_MODEL = "gemini-2.5-flash-image"
 
-CLAUDE_MODEL = "claude-sonnet-4-6"
+CLAUDE_MODEL = "claude-opus-4-6"
 
 # --- Team Configs ---
 # Each team the pipeline can generate a guide for.
@@ -272,6 +272,14 @@ where they appear in the guide.
 - Matchday hook (rotating, placed below the tagline): {matchday_hook}
   If no matchday hook is provided, generate one based on the opponent and hot content.
   It should feel fresh and timely, like a group chat message. 1-2 sentences max.
+
+CRITICAL — MATCHDAY HOOK VOICE RULES:
+The matchday hook MUST lead with culture, relationships, and personality — NOT stats, scores,
+or match results. Use the matchday_hook text above as-is or improve it, but NEVER rewrite it
+into sports journalism voice. Lead with tea (baby watch, couple drama, viral moments, player
+personality), then sports context goes in a cheeky aside at most. If the hook mentions goals
+or assists before it mentions people, you've failed. The hook sets the tone for the entire
+guide — it must sound like a group chat, not a pregame show.
 
 Team: {team_name}
 Match: {match_description}

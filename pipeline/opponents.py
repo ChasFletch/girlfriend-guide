@@ -77,9 +77,16 @@ async def scout_opponent(opponent_name: str, base_dir: Path) -> list[dict]:
         else:
             candidates = [candidates]
 
+    # Normalize: Perplexity sometimes returns "player_name" instead of "name"
+    for c in candidates:
+        if "player_name" in c and "name" not in c:
+            c["name"] = c["player_name"]
+
     # Filter: prefer players with social links, but don't require them
     valid = []
     for c in candidates:
+        if not c.get("name"):
+            continue
         if c.get("name") in already_scouted:
             continue
         valid.append(c)
