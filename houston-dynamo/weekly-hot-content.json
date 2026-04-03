@@ -7,7 +7,7 @@
     "match_time": "7:30 PM CT",
     "venue": "Shell Energy Stadium"
   },
-  "matchday_hook": "Friday night under the lights at Shell Energy! The Dynamo are unbeatable at home this season (2-0) and Guilherme is on FIRE with 4 goals and 3 assists. Seattle rolls in banged up with 5 players OUT. This is the vibe check.",
+  "matchday_hook": "Saturday night under the lights at Shell Energy! The Bogusz baby watch continues (Wiktoria's been quiet since March 👀), our captain Sviatchenko is SUSPENDED after his telenovela performance at Dallas, and Guilherme is making Houston babies with that 4-goal, 3-assist start. Seattle rolls in banged up. Oh, and if you're into that kind of thing — the Dynamo are unbeatable at home this season. This is the vibe check.",
   "hot_posts": [
     {
       "player_or_partner": "Wiktoria Wychowska",
@@ -15,7 +15,7 @@
       "handle": "@wiktoria.wychowska",
       "post_date": "2026-03-03",
       "description": "Posted '02.2026' with pregnant belly — baby girl has likely arrived but they're keeping it private",
-      "caption_excerpt": "02.2026 \ud83d\udc9d",
+      "caption_excerpt": "02.2026 💝",
       "why_its_hot": "The Bogusz baby girl was due in February. Wiktoria's last public post was captioned '02.2026' — the Inner Circle is waiting for the official reveal",
       "suggested_tea": "Wiktoria's been quiet since early March, which usually means one thing: new baby mode! The Bogusz baby girl was due in February and the couple has gone private. We're manifesting the announcement any day now."
     },
@@ -40,7 +40,7 @@
       "suggested_tea": "The captain wrote a whole screenplay at FC Dallas: scored to make it 3-2, then an own goal, then a second yellow and walked off. He'll be watching from the couch Friday night. Chaos king energy."
     },
     {
-      "player_or_partner": "Ant\u00f4nio Carlos",
+      "player_or_partner": "Antônio Carlos",
       "platform": "match",
       "handle": "@antoniocapocasali25",
       "post_date": "2026-02-28",
@@ -63,7 +63,7 @@
   "roster_changes": [
     {
       "type": "waived",
-      "player": "Nelson Qui\u00f1\u00f3nes",
+      "player": "Nelson Quiñónes",
       "detail": "WAIVED on March 18, 2026. No longer on the roster. Remove from guide entirely."
     },
     {
@@ -102,19 +102,19 @@
     "form_summary": "Solid defensive run — 3 goals allowed in 6 road games, 1 in last 5. But 5 players OUT with injuries.",
     "players_to_watch": [
       {
-        "name": "Albert Rusn\u00e1k",
+        "name": "Albert Rusnák",
         "jersey_number": 11,
         "position": "Attacking Midfielder",
         "nationality": "Slovak",
-        "nationality_flag": "\ud83c\uddf8\ud83c\uddf0",
+        "nationality_flag": "🇸🇰",
         "player_instagram": "@albertrusnak11",
-        "partner_name": "Tatiana Rusn\u00e1k",
+        "partner_name": "Tatiana Rusnák",
         "partner_description": "Wife, longtime partner. Two daughters including Ariana.",
         "fun_facts": [
           "Designated Player — Seattle's creative engine",
           "Father was also a pro footballer, became Manchester City scout",
           "39 assists in Sounders history — 4th all-time",
-          "IG bio: 'A \u2764\ufe0f T \u2764\ufe0f A \u2764\ufe0f T' — family first"
+          "IG bio: 'A ❤️ T ❤️ A ❤️ T' — family first"
         ],
         "one_liner": "Seattle's creative heartbeat. Controls tempo, breaks defenses with his passing, and his IG bio is all family love.",
         "source": "Bayou City Soccer Three Players to Watch"
@@ -124,7 +124,7 @@
         "jersey_number": null,
         "position": "Midfielder/Forward",
         "nationality": "American",
-        "nationality_flag": "\ud83c\uddfa\ud83c\uddf8",
+        "nationality_flag": "🇺🇸",
         "player_instagram": "@rothr8ck",
         "partner_name": null,
         "partner_description": null,
@@ -142,7 +142,7 @@
         "jersey_number": null,
         "position": "Goalkeeper",
         "nationality": "American",
-        "nationality_flag": "\ud83c\uddfa\ud83c\uddf8",
+        "nationality_flag": "🇺🇸",
         "player_instagram": "@andrewthomas_1",
         "partner_name": null,
         "partner_description": null,
@@ -156,5 +156,31 @@
         "source": "Bayou City Soccer Three Players to Watch"
       }
     ]
-  }
+  },
+  "injury_flags": [
+    {
+      "player": "Erik Sviatchenko",
+      "status": "SUSPENDED",
+      "detail": "Second yellow card vs FC Dallas (Mar 21). Misses Seattle match.",
+      "impact": "Captain out. Back line reshuffled."
+    },
+    {
+      "player": "Nick Markanich",
+      "status": "SUSPENDED",
+      "detail": "Match 2 of 2-game ban for serious foul play vs Portland.",
+      "impact": "Forward depth reduced."
+    },
+    {
+      "player": "Artur",
+      "status": "OUT",
+      "detail": "Lower body injury. Listed on MLS availability report since March 21.",
+      "impact": "Key midfielder missing. Herrera/Samassékou/Bouzat carry the load."
+    },
+    {
+      "player": "Lucas Halter",
+      "status": "OUT",
+      "detail": "Lower body injury. Listed on MLS availability report since March 21.",
+      "impact": "Center back depth thin with both Halter and Sviatchenko out."
+    }
+  ]
 }
