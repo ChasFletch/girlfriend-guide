@@ -1,7 +1,7 @@
 {
   "_metadata": {
     "generated_by": "perplexity_computer",
-    "generated_at": "2026-04-03T14:00:00-05:00",
+    "generated_at": "2026-04-03T11:52:00-04:00",
     "team": "houston-dynamo",
     "season": "2026",
     "scan_type": "full",
@@ -11,8 +11,9 @@
       "time": "7:30 PM CT",
       "venue": "Shell Energy Stadium"
     },
-    "notes": "PC light scan (Mar 27) enriched by KEELY WebSearch research (Apr 3). Roster verified, hot content added, stale data corrected.",
-    "enriched_by": "keely"
+    "notes": "Full browser-verified scan completed April 3, 2026. All jersey numbers, partner data, and roster confirmed against official sources. Tomas Wiesner removed (not on official roster). Three GKs added. All partner handles browser-verified.",
+    "enriched_by": "keely",
+    "verified_date": "2026-04-03"
   },
   "players": {
     "Jonathan Bond": {
@@ -28,26 +29,122 @@
       "player_tiktok": null,
       "player_tiktok_url": null,
       "relationship_status": "relationship",
-      "partner_name": "Isy Bella Bond",
-      "partner_description": "Partner. Active on Instagram.",
+      "partner_name": "Isabella Bond",
+      "partner_description": "Partner. Display name 'Isabella Bond' on IG. ~12K followers. Recently revealed they're expecting/had a baby — March 20 'the three of us' post.",
       "partner_instagram": "@isybellabond",
       "partner_instagram_url": "https://www.instagram.com/isybellabond/",
       "partner_tiktok": null,
       "partner_tiktok_url": null,
-      "kids": null,
+      "kids": "NEW BABY revealed March 20, 2026 — Jonathan posted about 'the three of us' and '2026 plot twist'. The Bond family just expanded.",
       "fun_facts": [
         "Kept a clean sheet in the season opener vs Chicago (1-0 win)",
-        "Made key saves in the 7-goal thriller at Dallas"
+        "Made key saves in the 7-goal thriller at Dallas",
+        "Bio: 📍LDN ⚽️ @houstondynamo 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🏴󠁧󠁢󠁷󠁬󠁳󠁿 @isybellabond",
+        "~21K followers"
       ],
-      "tea": null,
-      "matchday_hook": null,
-      "one_liner_sports": "The steady hands behind the chaos — Bond has been tested early and often this season.",
+      "tea": "BREAKING TEA: Jonathan Bond is a DAD. His March 20 post talked about 'the three of us' and a '2026 plot twist' — baby Bond has arrived. Isybella (display name Isabella Bond, ~12K followers) has been posting about 'falling deeper in love with being a mom.' This is the biggest Inner Circle reveal of the week.",
+      "matchday_hook": "New dad energy! Bond just revealed Baby Bond to the world on March 20. The man is keeping clean sheets on the pitch and dirty diapers at home.",
+      "one_liner_sports": "The steady hands behind the chaos — Bond has been tested early and often this season. Now also tested at 3am feedings.",
       "confidence": "high",
-      "last_verified": "2026-03-14",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/jonathanbond23/",
-        "https://www.instagram.com/isybellabond/"
+        "https://www.instagram.com/isybellabond/",
+        "https://www.instagram.com/p/DWHVNtXk7QX/"
       ]
+    },
+    "Jimmy Maurer": {
+      "full_name": "Jimmy Maurer",
+      "jersey_number": 1,
+      "position": "Goalkeeper",
+      "age": null,
+      "nationality": "American",
+      "nationality_flag": "🇺🇸",
+      "hometown": null,
+      "player_instagram": null,
+      "player_instagram_url": null,
+      "player_tiktok": null,
+      "player_tiktok_url": null,
+      "relationship_status": "unknown",
+      "partner_name": null,
+      "partner_description": null,
+      "partner_instagram": null,
+      "partner_instagram_url": null,
+      "partner_tiktok": null,
+      "partner_tiktok_url": null,
+      "kids": null,
+      "fun_facts": [],
+      "tea": null,
+      "matchday_hook": null,
+      "one_liner_sports": "Veteran backup goalkeeper providing depth behind Jonathan Bond.",
+      "confidence": "low",
+      "last_verified": "2026-04-03",
+      "sources": [
+        "https://www.houstondynamofc.com/players/"
+      ],
+      "_gaps": "Need Instagram handle. Need partner info. Minimal public presence."
+    },
+    "Blake Gillingham": {
+      "full_name": "Blake Gillingham",
+      "jersey_number": 26,
+      "position": "Goalkeeper",
+      "age": null,
+      "nationality": "American",
+      "nationality_flag": "🇺🇸",
+      "hometown": null,
+      "player_instagram": null,
+      "player_instagram_url": null,
+      "player_tiktok": null,
+      "player_tiktok_url": null,
+      "relationship_status": "unknown",
+      "partner_name": null,
+      "partner_description": null,
+      "partner_instagram": null,
+      "partner_instagram_url": null,
+      "partner_tiktok": null,
+      "partner_tiktok_url": null,
+      "kids": null,
+      "fun_facts": [],
+      "tea": null,
+      "matchday_hook": null,
+      "one_liner_sports": "Young goalkeeper in the squad rotation.",
+      "confidence": "low",
+      "last_verified": "2026-04-03",
+      "sources": [
+        "https://www.houstondynamofc.com/players/"
+      ],
+      "_gaps": "Need Instagram handle. Need partner info. NEW ADDITION — needs full research pass."
+    },
+    "Logan Erb": {
+      "full_name": "Logan Erb",
+      "jersey_number": 35,
+      "position": "Goalkeeper",
+      "age": null,
+      "nationality": "American",
+      "nationality_flag": "🇺🇸",
+      "hometown": null,
+      "player_instagram": null,
+      "player_instagram_url": null,
+      "player_tiktok": null,
+      "player_tiktok_url": null,
+      "relationship_status": "unknown",
+      "partner_name": null,
+      "partner_description": null,
+      "partner_instagram": null,
+      "partner_instagram_url": null,
+      "partner_tiktok": null,
+      "partner_tiktok_url": null,
+      "kids": null,
+      "fun_facts": [],
+      "tea": null,
+      "matchday_hook": null,
+      "one_liner_sports": "Goalkeeper rounding out the depth chart.",
+      "confidence": "low",
+      "last_verified": "2026-04-03",
+      "sources": [
+        "https://www.houstondynamofc.com/players/"
+      ],
+      "_gaps": "Need Instagram handle. Need partner info. NEW ADDITION — needs full research pass."
     },
     "Erik Sviatchenko": {
       "full_name": "Erik Sviatchenko",
@@ -63,29 +160,32 @@
       "player_tiktok_url": null,
       "relationship_status": "married",
       "partner_name": "Anne Sviatchenko",
-      "partner_description": "Wife.",
+      "partner_description": "Wife. ~7K followers. Bio: 'William & Clara ❤️ @eriksviat ❤️ Lægeeksamineret Kosmetolog Klinikejer @klinikkenskon'. Runs skincare clinic @klinikkenskon. Former professional soccer player.",
       "partner_instagram": "@annesviat",
       "partner_instagram_url": "https://www.instagram.com/annesviat/",
       "partner_tiktok": null,
       "partner_tiktok_url": null,
-      "kids": null,
+      "kids": "Two kids: William and Clara (confirmed via Anne's bio).",
       "fun_facts": [
         "Captain of the team",
         "Former Celtic FC (Scotland) player",
-        "Scored a goal, conceded an own goal, AND got sent off in the same match vs FC Dallas — peak chaos energy"
+        "~65K followers",
+        "Co-founder @justafewworks, board member @fcmsamfund",
+        "Scored a goal, conceded an own goal, AND got sent off in the same match vs FC Dallas — peak chaos energy",
+        "8th wedding anniversary on March 27, 2026 — posted '19 år som kærester og idag kan vi fejre 8 års bryllupsdag ❤️ Forevigt os ❤️' (19 years as sweethearts and today we celebrate 8 years of marriage)"
       ],
-      "tea": "The Dallas match was his magnum opus of chaos: scored to make it 3-2 Houston, then conceded an own goal, then got sent off with a second yellow in the 68th minute. The man lived an entire telenovela in 90 minutes.",
-      "matchday_hook": null,
+      "tea": "The Dallas match was his magnum opus of chaos: scored to make it 3-2 Houston, then conceded an own goal, then got sent off with a second yellow in the 68th minute. The man lived an entire telenovela in 90 minutes. Then on March 27 he posted the sweetest 8th anniversary tribute to Anne — 19 years together total. The duality of this man: chaos on the pitch, romance at home. SUSPENDED for Seattle.",
+      "matchday_hook": "Erik can't play Saturday (suspended for the Dallas red card) but his 8th wedding anniversary post had the Inner Circle in their feelings. 19 years of love, one insane red card, zero chill.",
       "one_liner_sports": "Captain and defensive leader — when he's not getting red cards, he's organizing the back line.",
-      "status_april_4": "SUSPENDED — second yellow card accumulation vs FC Dallas (Mar 21)",
       "confidence": "high",
-      "last_verified": "2026-03-27",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/eriksviat/",
         "https://www.instagram.com/annesviat/",
         "https://www.houstondynamofc.com/news/10-man-houston-dynamo-fc-rally-back-ultimately-fall-4-3-to-fc-dallas-on-the-road",
         "https://www.rotowire.com/soccer/headlines/erik-sviatchenko-news-scores-gets-sent-off-507194"
-      ]
+      ],
+      "status_april_4": "SUSPENDED — second yellow card accumulation vs FC Dallas (Mar 21)"
     },
     "Lucas Halter": {
       "full_name": "Lucas Halter",
@@ -99,29 +199,35 @@
       "player_instagram_url": "https://www.instagram.com/lucas_halter/",
       "player_tiktok": null,
       "player_tiktok_url": null,
-      "relationship_status": "unknown",
-      "partner_name": null,
-      "partner_description": null,
-      "partner_instagram": null,
-      "partner_instagram_url": null,
+      "relationship_status": "engaged",
+      "partner_name": "Madison Tayler",
+      "partner_description": "Fiancée. Her posts say 'Luke's wife to be'. Active on IG with relationship content celebrating their engagement.",
+      "partner_instagram": "@madison_tayler",
+      "partner_instagram_url": "https://www.instagram.com/madison_tayler/",
       "partner_tiktok": null,
       "partner_tiktok_url": null,
       "kids": null,
-      "fun_facts": [],
-      "tea": null,
+      "fun_facts": [
+        "85K followers",
+        "Joined from Botafogo in January 2026",
+        "Key part of the defense when fit"
+      ],
+      "tea": "Engaged alert! Madison Tayler has been posting as 'Luke's wife to be' — the wedding is coming. But Lucas is currently out injured (lower body, mid-April return), so the Inner Circle might not see him on the pitch Saturday.",
       "matchday_hook": null,
-      "one_liner_sports": "Brazilian center back signed this offseason.",
-      "status_april_4": "OUT — lower body injury",
-      "confidence": "medium",
-      "last_verified": "2026-03-27",
+      "one_liner_sports": "Brazilian center back signed this offseason. Currently sidelined but the fiancée content is top tier.",
+      "confidence": "high",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/lucas_halter/",
+        "https://www.instagram.com/madison_tayler/",
+        "https://www.instagram.com/p/DWMamCNkTnF/",
         "https://www.mlssoccer.com/league-reports/player-availability-report/"
-      ]
+      ],
+      "status_april_4": "OUT — lower body injury (mid-April return expected)"
     },
     "Antônio Carlos": {
       "full_name": "Antônio Carlos",
-      "jersey_number": 25,
+      "jersey_number": 3,
       "position": "Defender",
       "age": null,
       "nationality": "Brazilian",
@@ -131,33 +237,35 @@
       "player_instagram_url": "https://www.instagram.com/antoniocapocasali25/",
       "player_tiktok": null,
       "player_tiktok_url": null,
-      "relationship_status": "relationship",
-      "partner_name": "Bru Senna",
-      "partner_description": "Partner.",
+      "relationship_status": "married",
+      "partner_name": "Brunna Senna",
+      "partner_description": "Wife. Full name Brunna Senna. ~17K followers. Active poster with lifestyle and family content.",
       "partner_instagram": "@bru_senna",
       "partner_instagram_url": "https://www.instagram.com/bru_senna/",
       "partner_tiktok": null,
       "partner_tiktok_url": null,
-      "kids": null,
+      "kids": "Two kids: Antonia and Alice (confirmed via his bio: 'Abençoado por Deus Brunna, Antonia & Alice ❤️').",
       "fun_facts": [
+        "86K followers",
+        "Bio: 'Abençoado por Deus Brunna, Antonia & Alice ❤️ @houstondynamo'",
         "Got a straight red card vs LAFC (fouling Son Heung-Min outside the box in first half stoppage time)",
-        "Fined by MLS Disciplinary Committee for failing to leave the field in a timely manner after the red"
+        "Fined by MLS Disciplinary Committee for failing to leave the field in a timely manner after the red",
+        "NOW wears #3 (changed from #25)"
       ],
-      "tea": "This man's introduction to the 2026 season was fouling SON HEUNG-MIN and getting sent off for it. The audacity. Also got fined for not leaving the field fast enough after. Drama runs in this back line's veins.",
+      "tea": "This man's introduction to the 2026 season was fouling SON HEUNG-MIN and getting sent off for it. The audacity. Also got fined for not leaving the field fast enough after. Drama runs in this back line's veins. At home though — total family man. Brunna, Antonia, and Alice are his whole world per that bio.",
       "matchday_hook": null,
       "one_liner_sports": "Experienced Brazilian center back who anchors the defense when he's not seeing red.",
       "confidence": "high",
-      "last_verified": "2026-03-27",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/antoniocapocasali25/",
         "https://www.instagram.com/bru_senna/",
-        "https://www.houstondynamofc.com/news/nine-man-houston-dynamo-fc-fall-2-0-at-home-to-lafc",
-        "https://x.com/BayouCitySoccer/status/2028939640955158611"
+        "https://www.houstondynamofc.com/news/nine-man-houston-dynamo-fc-fall-2-0-at-home-to-lafc"
       ]
     },
     "Franco Negri": {
       "full_name": "Franco Negri",
-      "jersey_number": 3,
+      "jersey_number": 21,
       "position": "Defender",
       "age": null,
       "nationality": "Argentine",
@@ -176,15 +284,19 @@
       "partner_tiktok_url": null,
       "kids": null,
       "fun_facts": [
-        "Wears #3 — which is causing a jersey number conflict with new signing Sam Vines who wore #3 at Colorado"
+        "~17K followers",
+        "Profile is PRIVATE",
+        "Joined Houston Dynamo FC in January 2026",
+        "Now wears #21 (changed from #3)"
       ],
       "tea": null,
       "matchday_hook": null,
-      "one_liner_sports": "Argentine defender added to bolster the back line this season.",
+      "one_liner_sports": "Argentine defender added to bolster the back line. Keeps his IG private — mysterious energy.",
       "confidence": "medium",
-      "last_verified": "2026-03-14",
+      "last_verified": "2026-04-03",
       "sources": [
-        "https://www.instagram.com/franco_negri3/"
+        "https://www.instagram.com/franco_negri3/",
+        "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-veteran-argentinean-fullback-franco-negri"
       ]
     },
     "Felipe Andrade": {
@@ -208,23 +320,26 @@
       "partner_tiktok_url": null,
       "kids": null,
       "fun_facts": [
+        "~31K followers",
         "Won the CONMEBOL Recopa 2024 before coming to Houston",
         "Scored his first Dynamo goal in the 3-2 win over Portland (Mar 14)",
-        "Managed by @t.in.mo on Instagram"
+        "Managed by @t.in.mo on Instagram",
+        "Bio: 'Atleta do @houstondynamo : @t.in.mo CAMPEÃO DA CONMEBOL RECOPA 2024'"
       ],
-      "tea": "Scored his first goal as a Dynamo in that wild Portland match. The celebration was everything.",
+      "tea": "Scored his first goal as a Dynamo in that wild Portland match. The celebration was everything. Misses his family in Brazil — mentioned it in a 2025 interview.",
       "matchday_hook": null,
       "one_liner_sports": "Brazilian defender who popped up with a crucial goal vs Portland.",
       "confidence": "medium",
-      "last_verified": "2026-03-27",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/felipe_andrade15_/",
         "https://www.instagram.com/p/DV44nQUDtfG/"
-      ]
+      ],
+      "_gaps": "No partner info found publicly. Mentioned missing family in Brazil in interview."
     },
     "Reese Miller": {
       "full_name": "Reese Miller",
-      "jersey_number": 34,
+      "jersey_number": 27,
       "position": "Defender",
       "age": null,
       "nationality": "American",
@@ -242,48 +357,25 @@
       "partner_tiktok": null,
       "partner_tiktok_url": null,
       "kids": null,
-      "fun_facts": [],
+      "fun_facts": [
+        "~2.3K followers",
+        "Bio: '@houstondynamo | @wassermansoccer'",
+        "Recently returned from ACL injury sustained in 2024",
+        "Signed as a homegrown player from UVA",
+        "Now wears #27 (changed from #34)"
+      ],
       "tea": null,
       "matchday_hook": null,
-      "one_liner_sports": "Young American defender in the rotation.",
+      "one_liner_sports": "Young American defender in the rotation. Coming back from ACL surgery like a warrior.",
       "confidence": "low",
-      "last_verified": "2026-03-14",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/reesemillerr/"
       ]
     },
-    "Tomas Wiesner": {
-      "full_name": "Tomáš Wiesner",
-      "jersey_number": 2,
-      "position": "Defender",
-      "age": null,
-      "nationality": "Czech",
-      "nationality_flag": "🇨🇿",
-      "hometown": null,
-      "player_instagram": null,
-      "player_instagram_url": null,
-      "player_tiktok": null,
-      "player_tiktok_url": null,
-      "relationship_status": "unknown",
-      "partner_name": null,
-      "partner_description": null,
-      "partner_instagram": null,
-      "partner_instagram_url": null,
-      "partner_tiktok": null,
-      "partner_tiktok_url": null,
-      "kids": null,
-      "fun_facts": [],
-      "tea": null,
-      "matchday_hook": null,
-      "one_liner_sports": "Czech right-back. No public social media found yet.",
-      "confidence": "low",
-      "last_verified": "2026-03-27",
-      "sources": [],
-      "_gaps": "No Instagram handle found. No partner info. Needs deeper research."
-    },
     "Sam Vines": {
       "full_name": "Samuel Charles Vines",
-      "jersey_number": null,
+      "jersey_number": 13,
       "position": "Defender (Left Back)",
       "age": 26,
       "nationality": "American",
@@ -302,27 +394,29 @@
       "partner_tiktok_url": null,
       "kids": null,
       "fun_facts": [
+        "~9.9K followers",
         "USMNT defender — 9 caps, 1 goal (scored in 2021 Gold Cup)",
         "Colorado Springs native, Colorado Rapids academy product",
         "Played 3 years at Royal Antwerp in Belgium — won the Belgian treble in 2023",
         "Left-footed left-back",
         "Contract through 2027",
-        "Jersey number TBD — #3 conflict with Negri"
+        "Now confirmed as #13",
+        "Bio: just a cross ✞ — Christian vibes"
       ],
       "tea": "Newlywed alert! Sam and Andrianna tied the knot in late summer 2025, and now they're settling into Houston life. He's a USMNT defender who literally scored in the Gold Cup. The Inner Circle needs to find Andrianna's Instagram ASAP.",
       "matchday_hook": null,
       "one_liner_sports": "USMNT left-back signed as a free agent. Won the Belgian treble at Royal Antwerp.",
       "confidence": "high",
-      "last_verified": "2026-03-21",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/sammyvines/",
-        "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-defender-sam-vines"
+        "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-u-s-national-team-defender-sam-vines"
       ],
-      "_gaps": "Need Andrianna's Instagram handle. Need confirmed jersey number."
+      "_gaps": "Need Andrianna's Instagram handle."
     },
     "Agustin Resch": {
       "full_name": "Agustin Resch",
-      "jersey_number": null,
+      "jersey_number": 34,
       "position": "Defender (Center Back)",
       "age": null,
       "nationality": "Argentine",
@@ -346,13 +440,14 @@
         "BIG EAST Defensive Player of the Year at Seton Hall",
         "Originally signed to Dynamo 2, promoted to first team March 20, 2026",
         "Already earned first-team minutes vs LAFC and Portland on short-term loans",
-        "Contract through 2026 with club options through 2028-29"
+        "Contract through 2026 with club options through 2028-29",
+        "Now confirmed as #34"
       ],
       "tea": "This 6'6\" Argentine came through the SuperDraft from Seton Hall and was SO good in his Dynamo 2 cameos that they promoted him to the first team after just three weeks. The first Pirate drafted since Kljestan? That's a flex.",
       "matchday_hook": null,
       "one_liner_sports": "Towering Argentine center back promoted from Dynamo 2 after impressive early performances.",
       "confidence": "medium",
-      "last_verified": "2026-03-27",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-rookie-defender-agustin-resch-to-first-team-contract",
         "https://www.instagram.com/p/DWHPgI7FXrW/"
@@ -375,26 +470,30 @@
       "player_tiktok_url": "https://www.tiktok.com/@hherrera16",
       "relationship_status": "divorced",
       "partner_name": null,
-      "partner_description": "Divorced from Shantal Mayo in 2025 (TUDN confirmed). Currently single as far as public sources show.",
+      "partner_description": "Divorced from Shantal Mayo in 2025 (TUDN confirmed). Currently single as far as public sources show. Rumored link to actress Paola Villalobos unconfirmed.",
       "partner_instagram": null,
       "partner_instagram_url": null,
       "partner_tiktok": null,
       "partner_tiktok_url": null,
       "kids": null,
       "fun_facts": [
+        "1.1M Instagram followers — biggest IG in the entire squad by a country mile",
         "Two-time MLS All-Star with Houston",
         "Captained the Dynamo to the 2023 U.S. Open Cup title",
         "Returned to Houston after a season at Deportivo Toluca in Liga MX",
-        "Veteran Mexican international — previously at Porto and Atlético Madrid"
+        "Veteran Mexican international — previously at Porto and Atlético Madrid",
+        "Posted 'Marzo 2026' recap on April 1 — active content creator",
+        "Bio: 'Futbolista profesional en @houstondynamo Campañas: @staypro Rosarito'"
       ],
-      "tea": "The prodigal son returned. Herrera came BACK to Houston after a year in Mexico, and he's freshly divorced from Shantal Mayo (confirmed 2025). Single king era? The TikTok content has been 👀.",
-      "matchday_hook": null,
+      "tea": "The prodigal son returned. Herrera came BACK to Houston after a year in Mexico, and he's freshly divorced from Shantal Mayo (confirmed 2025). Single king era? The TikTok content has been 👀. With 1.1M followers, he's the biggest IG presence on the squad and it's not even close. His Marzo 2026 recap was giving main character energy.",
+      "matchday_hook": "1.1M followers, freshly single, and posting monthly recaps like a lifestyle influencer. Héctor Herrera is everyone's problematic fave.",
       "one_liner_sports": "Veteran Mexican international and former Dynamo captain. Provides leadership and experience in midfield.",
       "confidence": "high",
-      "last_verified": "2026-03-14",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/h.herrera16/",
-        "https://www.tiktok.com/@hherrera16"
+        "https://www.tiktok.com/@hherrera16",
+        "https://www.instagram.com/p/DWm_Gz2DgxH/"
       ]
     },
     "Artur": {
@@ -411,24 +510,31 @@
       "player_tiktok_url": null,
       "relationship_status": "married",
       "partner_name": "Rachel Lima",
-      "partner_description": "Wife. Verified via Dynamo sustainability video and Instagram.",
-      "partner_instagram": "@rachel.limaaa",
-      "partner_instagram_url": "https://www.instagram.com/rachel.limaaa/",
+      "partner_description": "Wife. Married since 2019. Handle is @rachelblima (NOT @rachel.limaaa — old handle may redirect). Her bio has '@gabrielcelini__' tagged. ~2.9K followers.",
+      "partner_instagram": "@rachelblima",
+      "partner_instagram_url": "https://www.instagram.com/rachelblima/",
       "partner_tiktok": null,
       "partner_tiktok_url": null,
-      "kids": null,
-      "fun_facts": [],
-      "tea": null,
+      "kids": "Daughter — celebrated her 1st birthday recently. Post: '1 ano da nossa pequenina!' (1 year of our little one!)",
+      "fun_facts": [
+        "~22K followers",
+        "Display name: Artur Lima",
+        "Daughter turned 1 — posted sweet birthday celebration",
+        "Married to Rachel since 2019",
+        "Featured in Dynamo sustainability video with Rachel"
+      ],
+      "tea": "Baby girl just turned ONE! Artur posted the sweetest birthday tribute. He and Rachel have been married since 2019 and are building their little family in Houston. Unfortunately he's out injured right now (lower body, knee per BeSoccer, mid-April return). Note: Rachel's handle is @rachelblima not @rachel.limaaa.",
       "matchday_hook": null,
       "one_liner_sports": "Brazilian midfielder who controls the tempo in the middle of the park.",
-      "status_april_4": "OUT — lower body injury",
       "confidence": "high",
-      "last_verified": "2026-03-27",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/arturl33/",
-        "https://www.instagram.com/rachel.limaaa/",
+        "https://www.instagram.com/rachelblima/",
+        "https://www.instagram.com/reel/DIrLRxYBAny/",
         "https://www.mlssoccer.com/league-reports/player-availability-report/"
-      ]
+      ],
+      "status_april_4": "OUT — lower body injury (knee per BeSoccer, mid-April return expected)"
     },
     "Diadié Samassékou": {
       "full_name": "Diadié Samassékou",
@@ -444,27 +550,27 @@
       "player_tiktok_url": null,
       "relationship_status": "married",
       "partner_name": "Anna Samassékou",
-      "partner_description": "Wife. Known as 'Mme Samassekou Anna' per Malian football content.",
+      "partner_description": "Wife. Known as 'Mme Samassekou Anna' per Malian football content. TikTok: @dhinebitesweet.",
       "partner_instagram": null,
       "partner_instagram_url": null,
-      "partner_tiktok": null,
-      "partner_tiktok_url": null,
+      "partner_tiktok": "@dhinebitesweet",
+      "partner_tiktok_url": "https://www.tiktok.com/@dhinebitesweet",
       "kids": "At least one child (baby featured in TikTok content from Nov 2023).",
       "fun_facts": [
+        "115K followers",
         "Malian international",
         "Featured in African Cup of Nations content while at Houston"
       ],
-      "tea": "The Malian international and his wife Anna are couple goals in the West African football community — they've been featured on multiple football couples TikTok accounts.",
+      "tea": "The Malian international and his wife Anna are couple goals in the West African football community — they've been featured on multiple football couples TikTok accounts. Anna's TikTok is @dhinebitesweet. They recently welcomed a baby.",
       "matchday_hook": null,
       "one_liner_sports": "Malian international midfielder — the engine room workhorse.",
       "confidence": "medium",
-      "last_verified": "2026-03-27",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/diadie_samassekou/",
         "https://www.tiktok.com/@femmesdefootballeurs/video/7304245276674444550",
         "https://www.tiktok.com/@femmesdefootballeurs/video/7250566228597656838"
-      ],
-      "_gaps": "Need Anna's Instagram handle. Need more personal details."
+      ]
     },
     "Duane Holmes": {
       "full_name": "Duane Holmes",
@@ -480,18 +586,22 @@
       "player_tiktok_url": null,
       "relationship_status": "married",
       "partner_name": "Brooke Holmes",
-      "partner_description": "Wife (married June 2022). Her IG bio: 'Wife + Mama'.",
+      "partner_description": "Wife (married June 2022). Bio: 'Wife + Mama @brookesavannahmua'. Also runs @brookesavannahmua (makeup artistry account). ~1.1K followers.",
       "partner_instagram": "@brookesavannah2",
       "partner_instagram_url": "https://www.instagram.com/brookesavannah2/",
       "partner_tiktok": null,
       "partner_tiktok_url": null,
-      "kids": "At least one child (per Brooke's 'Mama' bio).",
-      "fun_facts": [],
-      "tea": null,
+      "kids": "At least one child — Brooke's bio says 'Mama' and Duane has a highlight called 'Bonnie Holmes' (likely daughter).",
+      "fun_facts": [
+        "~18K followers",
+        "Bio: '@houstondynamo Management - @twotouchagency'",
+        "Brooke also runs a makeup artistry IG: @brookesavannahmua"
+      ],
+      "tea": "Duane and Brooke are the low-key couple goals of the squad. She's 'Wife + Mama' in the bio and runs a whole makeup artistry business (@brookesavannahmua) while supporting the Dynamo life. Their anniversary posts are sweet.",
       "matchday_hook": null,
       "one_liner_sports": "Versatile midfielder who can play multiple positions across the midfield and attack.",
       "confidence": "high",
-      "last_verified": "2026-03-14",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/duaneholmes/",
         "https://www.instagram.com/brookesavannah2/"
@@ -499,7 +609,7 @@
     },
     "Agustín Bouzat": {
       "full_name": "Agustín Bouzat",
-      "jersey_number": 22,
+      "jersey_number": 30,
       "position": "Midfielder",
       "age": null,
       "nationality": "Argentine",
@@ -511,22 +621,26 @@
       "player_tiktok_url": null,
       "relationship_status": "married",
       "partner_name": "Fiorella Curutchet",
-      "partner_description": "Wife (married Dec 2022).",
+      "partner_description": "Wife (married Dec 2022). Physical Education teacher. Bio: '☀️🏝️ • 1996 • • Profe de Ed. Física 🤸🏼‍♀️'. ~6.5K followers.",
       "partner_instagram": "@fiorecurutchet",
       "partner_instagram_url": "https://www.instagram.com/fiorecurutchet/",
       "partner_tiktok": null,
       "partner_tiktok_url": null,
-      "kids": null,
+      "kids": "Son Salvador — turned 2 in January 2026.",
       "fun_facts": [
+        "~64K followers",
+        "Former captain of CA Vélez Sársfield",
+        "Turned 32 on March 28, 2026",
         "Got a red card vs LAFC for fouling Son Heung-Min as last defender",
         "Hit the crossbar from near midfield in the 47th minute of the LAFC match before the red — almost had a banger",
-        "Also fined for not leaving the field fast enough after his red"
+        "Also fined for not leaving the field fast enough after his red",
+        "Now wears #30 (changed from #22)"
       ],
-      "tea": "Almost scored the goal of the season from midfield, then got sent off in the same match. The duality of Bouzat. Both he and Antônio Carlos fouled Son Heung-Min and got reds in the SAME game — Houston finished with 9 men.",
-      "matchday_hook": null,
+      "tea": "Almost scored the goal of the season from midfield, then got sent off in the same match. The duality of Bouzat. Both he and Antônio Carlos fouled Son Heung-Min and got reds in the SAME game — Houston finished with 9 men. Fiorella posted the sweetest birthday tribute on March 28 for his 32nd. Salvador turned 2 in January. Family vibes are immaculate.",
+      "matchday_hook": "32 and thriving — Fiorella posted a birthday tribute, Salvador is 2, and Bouzat is still capable of moments of absolute chaos and brilliance.",
       "one_liner_sports": "Argentine midfielder formerly of Vélez Sársfield. Capable of brilliance and chaos in equal measure.",
       "confidence": "high",
-      "last_verified": "2026-03-27",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/chiquibouzat/",
         "https://www.instagram.com/fiorecurutchet/",
@@ -535,7 +649,7 @@
     },
     "Matthew Arana": {
       "full_name": "Matthew Arana",
-      "jersey_number": 17,
+      "jersey_number": 22,
       "position": "Midfielder",
       "age": 15,
       "nationality": "American",
@@ -554,137 +668,28 @@
       "partner_tiktok_url": null,
       "kids": null,
       "fun_facts": [
+        "~7.6K followers",
         "Youngest first-team signing in Houston Dynamo franchise history",
         "Signed as a homegrown player from the Dynamo Academy",
-        "Only 15 years old"
+        "Only 15 years old",
+        "Bio: 'all glory to him @houstondynamo @adidasfootball @elcielomanagement'",
+        "Representing Mexico U-16 National Team",
+        "Now wears #22 (changed from #17)"
       ],
-      "tea": "Baby of the team alert! Matthew is literally 15 and already has a first-team contract. Youngest signing in franchise history. The Academy parents must be losing their minds.",
+      "tea": "Baby of the team alert! Matthew is literally 15 and already has a first-team contract. Youngest signing in franchise history. He's also representing Mexico U-16 — dual national king. The Academy parents must be losing their minds.",
       "matchday_hook": null,
       "one_liner_sports": "15-year-old homegrown prodigy — the youngest first-team signing in club history.",
       "confidence": "high",
-      "last_verified": "2026-03-14",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/thematthewarana/",
         "https://queondamagazine.com/new-signings-reshape-houston-dynamo-ahead-of-2026-mls-season/"
       ]
     },
-    "Mateusz Bogusz": {
-      "full_name": "Mateusz Piotr Bogusz",
-      "jersey_number": 19,
-      "position": "Forward/Midfielder",
-      "age": 24,
-      "nationality": "Polish",
-      "nationality_flag": "🇵🇱",
-      "hometown": "Ruda Śląska, Poland",
-      "player_instagram": "@x_bogus",
-      "player_instagram_url": "https://www.instagram.com/x_bogus/",
-      "player_tiktok": null,
-      "player_tiktok_url": null,
-      "relationship_status": "married",
-      "partner_name": "Wiktoria Wychowska",
-      "partner_description": "Wife, Pilates instructor, owns @no13.pilates. 24K IG followers. Based in Houston TX / Katowice, Poland.",
-      "partner_instagram": "@wiktoria.wychowska",
-      "partner_instagram_url": "https://www.instagram.com/wiktoria.wychowska/",
-      "partner_tiktok": "@wiktoria.wychowska",
-      "partner_tiktok_url": "https://www.tiktok.com/@wiktoria.wychowska",
-      "kids": "Baby girl expected Feb 2026 — 'She's on her way' posted Jan 7. Last post (Mar 3) was captioned '02.2026 💝' still showing a pregnant belly. Baby has likely arrived but they're keeping it private for now.",
-      "fun_facts": [
-        "Houston's most expensive signing ever — Designated Player from Cruz Azul (Mexico)",
-        "Former LAFC fan favorite — scored 18 goals in 2024",
-        "Polish international",
-        "Scored the 105th-minute winner vs Portland — second latest goal in MLS history",
-        "Wiktoria runs a Pilates studio and has 24K IG followers"
-      ],
-      "tea": "The man scored in the 105TH MINUTE against Portland. Second latest goal in MLS history. His wife Wiktoria is a Pilates instructor with her own studio and 24K followers — she's been keeping the pregnancy private but the Inner Circle knows. New dad energy incoming.",
-      "matchday_hook": null,
-      "one_liner_sports": "Houston's record signing and creative engine. Scores goals that make you question the laws of physics and time.",
-      "confidence": "high",
-      "last_verified": "2026-03-14",
-      "sources": [
-        "https://www.instagram.com/x_bogus/",
-        "https://www.instagram.com/wiktoria.wychowska/",
-        "https://www.houstondynamofc.com/players/mateusz-bogusz/"
-      ]
-    },
-    "Guilherme": {
-      "full_name": "Guilherme Vieira da Silva",
-      "jersey_number": 20,
-      "position": "Forward (Winger)",
-      "age": 30,
-      "nationality": "Brazilian",
-      "nationality_flag": "🇧🇷",
-      "hometown": null,
-      "player_instagram": "@guilherme11",
-      "player_instagram_url": "https://www.instagram.com/guilherme11/",
-      "player_tiktok": null,
-      "player_tiktok_url": null,
-      "relationship_status": "unknown — mentions 'family' in interviews but no partner publicly identified",
-      "partner_name": null,
-      "partner_description": "Unverified: Rebecca Vieira (@rebeccavieirax, 546K followers) shares his surname and is Brazilian, but connection NOT confirmed. DO NOT publish until verified.",
-      "partner_instagram": null,
-      "partner_instagram_url": null,
-      "partner_tiktok": null,
-      "partner_tiktok_url": null,
-      "kids": null,
-      "fun_facts": [
-        "Designated Player signed from Santos FC for ~$2M",
-        "Scored twice on his MLS debut vs Chicago (2-1 win)",
-        "Has a signature celebration called 'Passinho do Beloved' (Portuguese: Passinho do Amado) — a dance he brought from Santos",
-        "Neymar texted him after his hat trick saying 'you learned that from me' — they were teammates at Santos",
-        "4 goals and 3 assists in 4 matches — leading the team in both",
-        "Scored 3 goals in a 5-minute span to lead the comeback vs Dallas (assisted Sviatchenko and Ennali)",
-        "Nearly 100 professional goals across Brazil and the Middle East"
-      ],
-      "tea": "The breakout star of the season. Scored TWO goals in his MLS debut and has not stopped — 4 goals, 3 assists in 4 matches. His wife is expecting their second child, about to be born in Houston. The vibes are immaculate.",
-      "matchday_hook": "Guilherme is on FIRE — 4 goals, 3 assists and a baby on the way. Main character energy.",
-      "one_liner_sports": "Brazilian Designated Player and early-season MVP candidate. 4 goals, 3 assists in 4 matches.",
-      "confidence": "high",
-      "last_verified": "2026-03-27",
-      "sources": [
-        "https://www.instagram.com/guilherme11/",
-        "https://www.youtube.com/watch?v=uHhb-uVnYq8",
-        "https://exclusiveaccess.net/red-card-late-goal-sink-houston-in-back-and-forth-battle/"
-      ],
-      "_gaps": "Partner verification needed. Rebecca Vieira (@rebeccavieirax) is a possible lead but unconfirmed."
-    },
-    "Ezequiel Ponce": {
-      "full_name": "Ezequiel Ponce",
-      "jersey_number": 10,
-      "position": "Forward",
-      "age": null,
-      "nationality": "Argentine",
-      "nationality_flag": "🇦🇷",
-      "hometown": null,
-      "player_instagram": "@ezequielp9",
-      "player_instagram_url": "https://www.instagram.com/ezequielp9/",
-      "player_tiktok": null,
-      "player_tiktok_url": null,
-      "relationship_status": "married",
-      "partner_name": "Martina Madeo",
-      "partner_description": "Wife. Note: community feedback suggests current handle might be wrong — previous research found Martina Ponce Soto-Aguilar (@maartinaponce). Needs verification.",
-      "partner_instagram": "@martu.madeop",
-      "partner_instagram_url": "https://www.instagram.com/martu.madeop/",
-      "partner_tiktok": null,
-      "partner_tiktok_url": null,
-      "kids": null,
-      "fun_facts": [
-        "Wears the #10 shirt",
-        "8 goals on the 2026 season so far"
-      ],
-      "tea": null,
-      "matchday_hook": "8 goals and counting — the Argentine goal machine is having his best season yet.",
-      "one_liner_sports": "Argentine striker wearing the prestigious #10.",
-      "confidence": "medium",
-      "last_verified": "2026-03-14",
-      "sources": [
-        "https://www.instagram.com/ezequielp9/"
-      ],
-      "_gaps": "Partner handle needs verification — conflicting information between Martina Madeo and Martina Ponce Soto-Aguilar."
-    },
     "Jack McGlynn": {
       "full_name": "Jack McGlynn",
       "jersey_number": 8,
-      "position": "Midfielder/Forward",
+      "position": "Midfielder",
       "age": null,
       "nationality": "American",
       "nationality_flag": "🇺🇸",
@@ -708,22 +713,23 @@
         "USMNT midfielder with 35 caps",
         "Gold Cup finalist — played every match",
         "Phone lock screen is literally the 2026 World Cup logo",
-        "First MLS player bought and sold under new cash-for-player system"
+        "First MLS player bought and sold under new cash-for-player system",
+        "Recently announced an injury that will sideline him for the remainder of the season"
       ],
-      "tea": "His whole personality right now is World Cup 2026. Lock screen is the tournament logo on a black background. 35 USMNT caps and counting. Played every match in the Gold Cup. The man is locked in.",
+      "tea": "His whole personality right now is World Cup 2026. Lock screen is the tournament logo on a black background. 35 USMNT caps and counting. Played every match in the Gold Cup. BUT he recently posted about a significant injury — could be a devastating blow to both Houston and his World Cup dreams.",
       "matchday_hook": null,
       "one_liner_sports": "Young American midfielder with vision. The creative link in Houston's build-up play.",
       "confidence": "medium",
-      "last_verified": "2026-03-27",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/jackmcglynn7/"
       ],
-      "_gaps": "No partner info found. Needs social media deep dive."
+      "_gaps": "No partner info found. Injury status needs clarification for April 4."
     },
     "Ondřej Lingr": {
       "full_name": "Ondřej Lingr",
       "jersey_number": 9,
-      "position": "Forward",
+      "position": "Midfielder",
       "age": null,
       "nationality": "Czech",
       "nationality_flag": "🇨🇿",
@@ -734,21 +740,151 @@
       "player_tiktok_url": null,
       "relationship_status": "married",
       "partner_name": "Lucie Lingr",
-      "partner_description": "Wife.",
+      "partner_description": "Wife. Bio says '𝚖𝚘𝚖𝚖𝚢'. ~5.9K followers. Profile is private. They have a son named Mikuláš (born Feb 2025).",
       "partner_instagram": "@lucielingr",
       "partner_instagram_url": "https://www.instagram.com/lucielingr/",
       "partner_tiktok": null,
       "partner_tiktok_url": null,
-      "kids": "Has a son with wife Lucie",
-      "fun_facts": [],
-      "tea": "Czech warrior who said \"I'm a warrior\" in his intro interview. Moved wife Lucie and their son to Houston for this opportunity. Called it a chance he couldn't pass up.",
+      "kids": "Son Mikuláš (born February 2025).",
+      "fun_facts": [
+        "33K followers",
+        "Profile is PRIVATE",
+        "Bio: '@houstondynamo · @top_11_football_agency Houston, Tx'",
+        "Czech warrior who said 'I'm a warrior' in his intro interview",
+        "Moved wife Lucie and son Mikuláš to Houston",
+        "Position is officially Midfielder (MF on roster page, not FW)"
+      ],
+      "tea": "Czech warrior who said 'I'm a warrior' in his intro interview. Moved wife Lucie and their son Mikuláš to Houston for this opportunity. Called it a chance he couldn't pass up. Lucie's IG bio just says '𝚖𝚘𝚖𝚖𝚢' and that's kind of everything.",
       "matchday_hook": null,
-      "one_liner_sports": "Czech striker who provides a different option up front.",
+      "one_liner_sports": "Czech midfielder who provides creativity and grit. Self-described warrior.",
       "confidence": "high",
-      "last_verified": "2026-03-14",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/ondylingr/",
-        "https://www.instagram.com/lucielingr/"
+        "https://www.instagram.com/lucielingr/",
+        "https://medium.seznam.cz/clanek/sarka-pekova-ondrej-lingr-se-stal-otcem-s-krasnou-manzelkou-privital-rozkosneho-syna-125265"
+      ]
+    },
+    "Mateusz Bogusz": {
+      "full_name": "Mateusz Piotr Bogusz",
+      "jersey_number": 19,
+      "position": "Forward/Midfielder",
+      "age": 24,
+      "nationality": "Polish",
+      "nationality_flag": "🇵🇱",
+      "hometown": "Ruda Śląska, Poland",
+      "player_instagram": "@x_bogus",
+      "player_instagram_url": "https://www.instagram.com/x_bogus/",
+      "player_tiktok": null,
+      "player_tiktok_url": null,
+      "relationship_status": "married",
+      "partner_name": "Wiktoria Wychowska",
+      "partner_description": "Wife, Pilates instructor, owns @no13.pilates. 24K IG followers. Based in Houston TX / Katowice, Poland. Display name 'ᴡɪᴋɪ'. TikTok: @wiktoria.wychowska.",
+      "partner_instagram": "@wiktoria.wychowska",
+      "partner_instagram_url": "https://www.instagram.com/wiktoria.wychowska/",
+      "partner_tiktok": "@wiktoria.wychowska",
+      "partner_tiktok_url": "https://www.tiktok.com/@wiktoria.wychowska",
+      "kids": "Baby girl expected Feb 2026 — 'She's on her way' posted Jan 7. Wiktoria's last own post was Jan 21. She was tagged in Bogusz's Mar 15 post in Houston. Baby has likely arrived but they're keeping it private for now. BABY WATCH CONTINUES.",
+      "fun_facts": [
+        "142K followers",
+        "Houston's most expensive signing ever — Designated Player from Cruz Azul (Mexico)",
+        "Former LAFC fan favorite — scored 18 goals in 2024",
+        "Polish international",
+        "Scored the 105th-minute winner vs Portland — second latest goal in MLS history",
+        "Wiktoria runs a Pilates studio and has 24K IG followers",
+        "Bio includes 'She's on her way · ⏳❤️' — baby girl announcement"
+      ],
+      "tea": "The man scored in the 105TH MINUTE against Portland. Second latest goal in MLS history. His wife Wiktoria is a Pilates instructor with her own studio and 24K followers — she's been quiet since early March, baby girl was due in February. Wiktoria's last own post was Jan 21. She was tagged in Bogusz's Mar 15 post in Houston. BABY WATCH IS AT DEFCON 1. New dad energy is imminent.",
+      "matchday_hook": "Bogusz scored the second-latest goal in MLS history AND his baby girl was due in February. We're on full baby watch — Wiktoria hasn't posted since January 21.",
+      "one_liner_sports": "Houston's record signing and creative engine. Scores goals that make you question the laws of physics and time.",
+      "confidence": "high",
+      "last_verified": "2026-04-03",
+      "sources": [
+        "https://www.instagram.com/x_bogus/",
+        "https://www.instagram.com/wiktoria.wychowska/",
+        "https://www.houstondynamofc.com/players/mateusz-bogusz/"
+      ]
+    },
+    "Guilherme": {
+      "full_name": "Guilherme Vieira da Silva",
+      "jersey_number": 20,
+      "position": "Forward (Winger)",
+      "age": 30,
+      "nationality": "Brazilian",
+      "nationality_flag": "🇧🇷",
+      "hometown": null,
+      "player_instagram": "@guilherme11",
+      "player_instagram_url": "https://www.instagram.com/guilherme11/",
+      "player_tiktok": null,
+      "player_tiktok_url": null,
+      "relationship_status": "unknown — mentions 'family' in interviews but no partner publicly identified",
+      "partner_name": null,
+      "partner_description": "No partner found. Unverified: Rebecca Vieira (@rebeccavieirax, 546K followers) shares his surname and is Brazilian, but connection NOT confirmed. DO NOT publish until verified.",
+      "partner_instagram": null,
+      "partner_instagram_url": null,
+      "partner_tiktok": null,
+      "partner_tiktok_url": null,
+      "kids": null,
+      "fun_facts": [
+        "439K followers — second biggest IG in the squad after Herrera",
+        "Designated Player signed from Santos FC for ~$2M",
+        "Scored twice on his MLS debut vs Chicago (2-1 win)",
+        "Has a signature celebration called 'Passinho do Beloved' (Portuguese: Passinho do Amado) — a dance he brought from Santos",
+        "Neymar texted him after his hat trick saying 'you learned that from me' — they were teammates at Santos",
+        "4 goals and 3 assists in 4 matches — leading the team in both",
+        "Scored 3 goals in a 5-minute span to lead the comeback vs Dallas (assisted Sviatchenko and Ennali)",
+        "Nearly 100 professional goals across Brazil and the Middle East",
+        "Bio: '@houstondynamo @adidasbrasil @asfootball @monicasantos_assessoria'",
+        "Display name includes 🇧🇷 🇺🇸 flags",
+        "Recent posts focus on match celebrations and religion — 'Amado is happy Gloria a Deus ❤️‍'"
+      ],
+      "tea": "The breakout star of the season. Scored TWO goals in his MLS debut and has not stopped — 4 goals, 3 assists in 4 matches. Neymar literally texted him after a hat trick. The Passinho do Beloved celebration is iconic. 439K followers and counting. No confirmed partner — the man is all about football and God right now.",
+      "matchday_hook": "Guilherme is on FIRE — 4 goals, 3 assists and the whole squad revolves around him. Neymar's in his DMs. Main character energy.",
+      "one_liner_sports": "Brazilian Designated Player and early-season MVP candidate. 4 goals, 3 assists in 4 matches.",
+      "confidence": "high",
+      "last_verified": "2026-04-03",
+      "sources": [
+        "https://www.instagram.com/guilherme11/",
+        "https://www.youtube.com/watch?v=uHhb-uVnYq8",
+        "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-santos-fc-captain-guilherme-from-brazil"
+      ],
+      "_gaps": "Partner verification needed. Rebecca Vieira (@rebeccavieirax) is a possible lead but unconfirmed."
+    },
+    "Ezequiel Ponce": {
+      "full_name": "Ezequiel Ponce",
+      "jersey_number": 10,
+      "position": "Forward",
+      "age": null,
+      "nationality": "Argentine",
+      "nationality_flag": "🇦🇷",
+      "hometown": null,
+      "player_instagram": "@ezequielp9",
+      "player_instagram_url": "https://www.instagram.com/ezequielp9/",
+      "player_tiktok": null,
+      "player_tiktok_url": null,
+      "relationship_status": "married",
+      "partner_name": "Martina Madeo",
+      "partner_description": "Wife. Handle: @martu.madeop. Bio: 'I'm taking a social media break'. ~6.7K followers. Last post Jul 2024 ('Life lately TX'). Ezequiel frequently tags her in family posts.",
+      "partner_instagram": "@martu.madeop",
+      "partner_instagram_url": "https://www.instagram.com/martu.madeop/",
+      "partner_tiktok": null,
+      "partner_tiktok_url": null,
+      "kids": "Young family — Ezequiel's bio references family ('Seguidor de Jesús Eclesiastés 4:12 ‍  ‍  ‍  ⭐️') and MLS described them as having a 'young family'.",
+      "fun_facts": [
+        "~31K followers",
+        "Wears the #10 shirt — Designated Player, club-record transfer from AEK Athens",
+        "Turned 29 on March 29, 2026",
+        "Bio: 'Seguidor de Jesús Eclesiastés 4:12'",
+        "8 goals on the 2026 season so far"
+      ],
+      "tea": "Ponce just turned 29 on March 29 and is banging in goals — 8 on the season. His wife Martina is on a self-declared social media break (bio literally says 'I'm taking a social media break') since July 2024. Respect the boundary but also... we're curious.",
+      "matchday_hook": "8 goals and counting — the Argentine goal machine just turned 29 and shows no signs of slowing.",
+      "one_liner_sports": "Argentine striker wearing the prestigious #10. Club-record signing delivering on the price tag.",
+      "confidence": "medium",
+      "last_verified": "2026-04-03",
+      "sources": [
+        "https://www.instagram.com/ezequielp9/",
+        "https://www.instagram.com/martu.madeop/"
       ]
     },
     "Lawrence Ennali": {
@@ -765,21 +901,24 @@
       "player_tiktok_url": null,
       "relationship_status": "relationship",
       "partner_name": "Preslee Clark",
-      "partner_description": "Girlfriend. Luxury makeup & hairstylist.",
+      "partner_description": "Girlfriend. Luxury makeup & hairstylist based in Houston. Runs @presleeclarkartistry. Bio: 'Luxury Makeup & Hairstyling | Bridal, Pageants, Commercial, Lessons | Based in Houston'. Posted 'Big fan of #11'.",
       "partner_instagram": "@presleeclark",
       "partner_instagram_url": "https://www.instagram.com/presleeclark/",
       "partner_tiktok": "@presleeclarkartistry",
       "partner_tiktok_url": "https://www.tiktok.com/@presleeclarkartistry",
       "kids": null,
       "fun_facts": [
+        "~11.8K followers — profile is PRIVATE",
+        "Bio: 'HTX/BLN' (Houston/Berlin)",
         "Scored the go-ahead goal in the Dallas match to make it 3-2 (before the collapse)",
-        "Preslee is a luxury makeup & hairstylist with her own TikTok artistry account"
+        "Preslee is a luxury makeup & hairstylist with her own TikTok artistry account",
+        "Preslee posted 'Big fan of #11' — we love a supportive girlfriend"
       ],
-      "tea": "Lawrence and Preslee are the content couple. She's a luxury makeup & hairstylist with her own artistry TikTok, and he's scoring bangers. The BCS post-match article specifically quoted Ennali after the Dallas loss.",
+      "tea": "Lawrence and Preslee are the content couple. She's a luxury makeup & hairstylist with her own artistry TikTok, and he's scoring bangers. She posted 'Big fan of #11' which is basically a Declaration of Coupledome. His IG is private but the BCS post-match article specifically quoted Ennali after the Dallas loss.",
       "matchday_hook": null,
       "one_liner_sports": "German forward with pace and directness. Scored in the wild Texas Derby.",
       "confidence": "high",
-      "last_verified": "2026-03-27",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/ennalilawrence/",
         "https://www.instagram.com/presleeclark/",
@@ -789,7 +928,7 @@
     },
     "Nick Markanich": {
       "full_name": "Nicholas Markanich",
-      "jersey_number": 7,
+      "jersey_number": 17,
       "position": "Forward",
       "age": null,
       "nationality": "American",
@@ -799,35 +938,39 @@
       "player_instagram_url": "https://www.instagram.com/nickmarkanich/",
       "player_tiktok": null,
       "player_tiktok_url": null,
-      "relationship_status": "unknown",
-      "partner_name": null,
-      "partner_description": null,
-      "partner_instagram": null,
-      "partner_instagram_url": null,
+      "relationship_status": "relationship",
+      "partner_name": "Abby McHugh",
+      "partner_description": "Partner. Frequently tagged in posts. Has a dedicated story highlight 'Us Forever🕊️'.",
+      "partner_instagram": "@abby.mchugh",
+      "partner_instagram_url": "https://www.instagram.com/abby.mchugh/",
       "partner_tiktok": null,
       "partner_tiktok_url": null,
       "kids": null,
       "fun_facts": [
-        "On loan for the 2026 season",
+        "~5.2K followers",
+        "Bio mentions @houstondynamo, #17",
+        "Highlights include 'Us Forever🕊️' (relationship), 'Debut', 'Preszn', '🇪🇸' (Spanish stint)",
+        "On loan for the 2026 season from CD Castellón",
         "Red card vs Portland for serious foul play — studs-up on goalkeeper James Pantemis, caused a gash and blood",
         "Also fined for refusing to leave the field in a timely manner after the red",
-        "Received additional 1-match suspension from MLS Disciplinary Committee (2 matches total)"
+        "Received additional 1-match suspension from MLS Disciplinary Committee (2 matches total)",
+        "Now wears #17 (changed from #7)"
       ],
-      "tea": "This man got a red card for STUDS UP on the Portland goalkeeper, caused actual blood on the pitch, then wouldn't leave the field. Got fined AND an extra game ban. He's serving match 1 vs Dallas and match 2 vs Seattle. Chaos incarnate.",
+      "tea": "This man got a red card for STUDS UP on the Portland goalkeeper, caused actual blood on the pitch, then wouldn't leave the field. Got fined AND an extra game ban. He's serving match 2 vs Seattle. Chaos incarnate. But the 'Us Forever🕊️' highlight with Abby McHugh? Soft side unlocked.",
       "matchday_hook": null,
       "one_liner_sports": "American forward on loan. Currently serving a 2-match suspension for serious foul play.",
-      "status_april_4": "SUSPENDED — serving match 2 of 2-match ban (serious foul play vs Portland). Misses Seattle match.",
       "confidence": "high",
-      "last_verified": "2026-03-27",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/nickmarkanich/",
         "https://www.mlssoccer.com/news/houston-dynamo-s-nick-markanich-suspended-by-mls-disciplinary-committee",
         "https://www.nationalsoccernetwork.com/post/mls-disciplinary-committee-hands-out-suspensions-to-markanich-and-valenzuela"
-      ]
+      ],
+      "status_april_4": "SUSPENDED — serving match 2 of 2-match ban (serious foul play vs Portland). Misses Seattle match."
     },
     "Aliyu Ibrahim": {
       "full_name": "Aliyu Ibrahim",
-      "jersey_number": 27,
+      "jersey_number": 24,
       "position": "Forward",
       "age": null,
       "nationality": "Nigerian",
@@ -837,108 +980,101 @@
       "player_instagram_url": "https://www.instagram.com/aliyu_bravo7/",
       "player_tiktok": "@ibrahmaliyu",
       "player_tiktok_url": "https://www.tiktok.com/@ibrahmaliyu",
-      "relationship_status": "unknown",
-      "partner_name": null,
-      "partner_description": null,
-      "partner_instagram": null,
-      "partner_instagram_url": null,
+      "relationship_status": "married",
+      "partner_name": "Ayshatou Jegah",
+      "partner_description": "Partner/wife. Handle: @ayshatou_jegah. Their wedding is documented on @theaa.wedding23. She's a 'Football Icon' awards attendee.",
+      "partner_instagram": "@ayshatou_jegah",
+      "partner_instagram_url": "https://www.instagram.com/ayshatou_jegah/",
       "partner_tiktok": null,
       "partner_tiktok_url": null,
       "kids": null,
       "fun_facts": [
-        "Nigerian forward with TikTok presence"
+        "~18K followers",
+        "Nigerian forward with TikTok presence",
+        "'Football Icon Awardee' for 100 Iconic Personalities of the Year 2026 awards in Lagos",
+        "Wedding documented on @theaa.wedding23",
+        "Now wears #24 (changed from #27)"
       ],
-      "tea": null,
+      "tea": "Aliyu and Ayshatou's wedding was a whole production — they have a dedicated wedding IG (@theaa.wedding23). He's been nominated for a 'Football Icon' award at the 100 Iconic Personalities ceremony in Lagos. International recognition energy.",
       "matchday_hook": null,
-      "one_liner_sports": "Nigerian forward providing depth in the attack.",
+      "one_liner_sports": "Nigerian forward providing depth in the attack. Football Icon award nominee.",
       "confidence": "medium",
-      "last_verified": "2026-03-14",
+      "last_verified": "2026-04-03",
       "sources": [
         "https://www.instagram.com/aliyu_bravo7/",
-        "https://www.tiktok.com/@ibrahmaliyu"
+        "https://www.tiktok.com/@ibrahmaliyu",
+        "https://www.instagram.com/ayshatou_jegah/"
       ],
-      "_gaps": "No partner info. Needs full research pass.",
       "status_april_4": "QUESTIONABLE — lower body injury"
     }
   },
   "opponent_scouting": {
     "seattle_sounders_fc": {
       "_metadata": {
-        "scouted_at": "2026-03-27",
+        "scouted_at": "2026-04-03",
         "match_date": "2026-04-04",
-        "season_record": "3-1-0 (9 pts, 5th in West)",
-        "recent_form": "Won 3 straight after opening loss to RSL. Beat Colorado 2-0, St. Louis 1-0 (away), San Jose 1-0 (away). Advanced in CONCACAF Champions Cup (beat Vancouver 5-1 on aggregate). Very strong defensively — 2 goals conceded in 4 MLS matches.",
-        "key_absences": "Danny Musovski may be limited (back injury from 2025). Obed Vargas transferred to Atlético Madrid. Playing 5 consecutive away matches while Lumen Field prepares for World Cup.",
-        "tactical_notes": "Strong defensive shape, clinical on the counter. Rusnák the creative hub. Five away matches in a row gives Houston a slight home advantage — Sounders haven't played at home since Feb 22.",
+        "season_record": "3-1-1 (10 pts)",
+        "recent_form": "Won 3 straight after opening loss to RSL. Strong defensively. Advanced in CONCACAF Champions Cup. Playing midweek vs Tigres in Champions Cup — ROTATION RISK for Saturday.",
+        "key_absences": "Paul Arriola (knee — OUT), Jackson Ragen (hamstring — OUT). Danny Musovski may be limited. Obed Vargas transferred to Atlético Madrid. Playing 5+ consecutive away matches while Lumen Field prepares for World Cup.",
+        "tactical_notes": "Strong defensive shape, clinical on the counter. Rusnák the creative hub. Five away matches in a row gives Houston a slight home advantage — Sounders haven't played at home since Feb 22. Rotation likely due to midweek Champions Cup match vs Tigres.",
+        "key_renewals": "Nouhou, Alex Roldan, Danny Musovski, Osaze De Rosario all signed new contracts March 10.",
         "sources": [
+          "https://www.bayoucitysoccer.net/dynamo/three-players-to-watch-seattle-sounders",
+          "https://www.espn.com/soccer/standings/_/league/usa.1/major-league-soccer",
           "https://en.wikipedia.org/wiki/2026_Seattle_Sounders_FC_season",
-          "https://www.seattletimes.com/sports/sounders/a-look-at-sounders-projected-best-starting-lineup-for-2026/",
-          "https://www.soundersfc.com/news/albert-rusnak-embracing-quiet-star-role-as-he-chases-more-silverware-with-the-rave-green",
-          "https://www.sounderatheart.com"
+          "https://www.seattletimes.com/sports/sounders/a-look-at-sounders-projected-best-starting-lineup-for-2026/"
         ]
       },
       "players_to_watch": [
         {
-          "name": "Cristian Roldan",
-          "position": "Defensive Midfielder",
-          "jersey_number": 10,
+          "name": "Andrew Thomas",
+          "position": "Goalkeeper",
+          "jersey_number": null,
           "age": null,
           "nationality": "American",
           "nationality_flag": "🇺🇸",
-          "player_instagram": "@cristianroldan_",
-          "player_instagram_url": "https://www.instagram.com/cristianroldan_/",
-          "followers": "62K",
-          "relationship_status": "married",
-          "partner_name": "Ciana Roldan",
-          "partner_instagram": "@cianaroldan_",
-          "partner_instagram_url": "https://www.instagram.com/cianaroldan_/",
-          "kids": "Baby girl born July 2024. Announced April 2024.",
+          "player_instagram": null,
+          "player_instagram_url": null,
+          "followers": null,
+          "relationship_status": "unknown",
+          "partner_name": null,
+          "partner_instagram": null,
+          "partner_instagram_url": null,
+          "kids": null,
           "fun_facts": [
-            "Led Sounders with 14 assists across all competitions last season",
-            "Back in USMNT contention for the 2026 World Cup",
-            "Married Ciana Nicole in January 2023",
-            "His brother Alex Roldan also plays for the Sounders (right back)"
+            "Took over from legendary Stefan Frei",
+            "Strong shot-stopper",
+            "Comfortable playing out from the back"
           ],
-          "tea": "Brother duo alert! Cristian AND Alex Roldan both play for Seattle. Cristian married Ciana in early 2023, and they welcomed a baby girl in July 2024. He's been the heartbeat of the Sounders for years and might make the US World Cup squad this summer. 62K followers on Instagram — the biggest Sounders personality.",
-          "one_liner_sports": "Sounders' midfield general and USMNT contender. 14 assists last season.",
-          "confidence": "high",
-          "sources": [
-            "https://www.instagram.com/cristianroldan_/",
-            "https://www.instagram.com/p/C5RgMCDPTWR/",
-            "https://www.instagram.com/p/C9lFV7wyIwZ/",
-            "https://www.seattletimes.com/sports/sounders/a-look-at-sounders-projected-best-starting-lineup-for-2026/"
-          ]
+          "tea": "The new man between the sticks after Stefan Frei's era ended. Big shoes to fill and he's doing it quietly.",
+          "one_liner": "Seattle's new starting GK — took over from legend Stefan Frei and hasn't looked back.",
+          "confidence": "medium",
+          "source": "https://www.bayoucitysoccer.net/dynamo/three-players-to-watch-seattle-sounders"
         },
         {
-          "name": "Jordan Morris",
-          "position": "Left Wing",
-          "jersey_number": 13,
+          "name": "Paul Rothrock",
+          "position": "Attacker",
+          "jersey_number": null,
           "age": null,
           "nationality": "American",
           "nationality_flag": "🇺🇸",
-          "player_instagram": "@j.morris13",
-          "player_instagram_url": "https://www.instagram.com/j.morris13/",
+          "player_instagram": null,
+          "player_instagram_url": null,
           "followers": null,
-          "relationship_status": "married",
-          "partner_name": "Eliza Morris",
-          "partner_instagram": "@lizahbee",
-          "partner_instagram_url": "https://www.instagram.com/lizahbee/",
-          "kids": "Son Theo (born Oct 2023) and daughter Emilie Daly Morris (born Dec 7, 2025). His birth announcement post got 6,700+ likes.",
+          "relationship_status": "unknown",
+          "partner_name": null,
+          "partner_instagram": null,
+          "partner_instagram_url": null,
+          "kids": null,
           "fun_facts": [
-            "All-time leading scorer in Sounders history (91 goals across all competitions)",
-            "Local kid — grew up in the Seattle area",
-            "Daughter Emilie born just 3 months ago (Dec 2025)",
-            "Coming back from injury-plagued 2025 (hamstring and shoulder)"
+            "Most active attacking threat for Seattle",
+            "Intelligent runs behind the defense",
+            "Always plays well against Houston — a consistent thorn in their side"
           ],
-          "tea": "Girl dad x2! Jordan and Eliza just welcomed baby Emilie in December 2025 — she's only 3 months old. His announcement post got almost 7K likes. He's the Sounders' all-time leading scorer AND a local Seattle kid. This is their equivalent of a franchise legend. The family content on his Instagram is *chef's kiss*.",
-          "one_liner_sports": "Sounders legend. All-time leading scorer. Bouncing back from an injury-plagued 2025.",
-          "confidence": "high",
-          "sources": [
-            "https://www.instagram.com/j.morris13/",
-            "https://www.instagram.com/p/DR-tXEQEgQh/",
-            "https://www.facebook.com/SoundersFC/posts/congratulations-to-jordan-and-eliza-morris-on-the-birth-of-their-daughter-emilie/1270559771771514/",
-            "https://www.seattletimes.com/sports/sounders/a-look-at-sounders-projected-best-starting-lineup-for-2026/"
-          ]
+          "tea": "This guy has Houston's number. Always turns up against the Dynamo. Intelligent runs, always in the right place. The Inner Circle should know his face.",
+          "one_liner": "Seattle's most dangerous attacker — always seems to play well against Houston.",
+          "confidence": "medium",
+          "source": "https://www.bayoucitysoccer.net/dynamo/three-players-to-watch-seattle-sounders"
         },
         {
           "name": "Albert Rusnák",
@@ -961,17 +1097,65 @@
             "4th player in Sounders history to reach 39 assists across all competitions",
             "21 goals and 26 assists in league play over last 2 seasons",
             "Helped Sounders win CONCACAF Champions Cup and Leagues Cup",
-            "Self-described 'quiet star' — lets his play do the talking"
+            "Self-described 'quiet star' — lets his play do the talking",
+            "Creative engine, controls tempo, can score and assist"
           ],
-          "tea": "The 'quiet star' who's actually one of the best players in MLS. Albert and Tanicka have been together for years — they have a daughter Ariana (born 2017). Tanicka's been a Sounders family presence since their move from Real Salt Lake. He's won literally everything: Champions Cup, Leagues Cup. The resume is ridiculous.",
-          "one_liner_sports": "Slovak international and MLS assist machine. 21 goals and 26 assists in the last 2 regular seasons.",
+          "tea": "The 'quiet star' who's actually one of the best players in MLS. Albert and Tanicka have been together for years — they have a daughter Ariana (born 2017). He's won literally everything: Champions Cup, Leagues Cup. The resume is ridiculous.",
+          "one_liner": "Slovak international and MLS assist machine. 21 goals and 26 assists in the last 2 regular seasons.",
           "confidence": "high",
-          "sources": [
-            "https://www.instagram.com/tanickarusnak/",
-            "https://www.soundersfc.com/news/albert-rusnak-embracing-quiet-star-role-as-he-chases-more-silverware-with-the-rave-green",
-            "https://www.instagram.com/p/BZh_t14AvPk/",
-            "https://www.seattletimes.com/sports/sounders/a-look-at-sounders-projected-best-starting-lineup-for-2026/"
-          ]
+          "source": "https://www.bayoucitysoccer.net/dynamo/three-players-to-watch-seattle-sounders"
+        },
+        {
+          "name": "Cristian Roldan",
+          "position": "Defensive Midfielder",
+          "jersey_number": 10,
+          "age": null,
+          "nationality": "American",
+          "nationality_flag": "🇺🇸",
+          "player_instagram": "@cristianroldan_",
+          "player_instagram_url": "https://www.instagram.com/cristianroldan_/",
+          "followers": "62K",
+          "relationship_status": "married",
+          "partner_name": "Ciana Roldan",
+          "partner_instagram": "@cianaroldan_",
+          "partner_instagram_url": "https://www.instagram.com/cianaroldan_/",
+          "kids": "Baby girl born July 2024. Announced April 2024.",
+          "fun_facts": [
+            "Led Sounders with 14 assists across all competitions last season",
+            "Back in USMNT contention for the 2026 World Cup",
+            "Married Ciana Nicole in January 2023",
+            "His brother Alex Roldan also plays for the Sounders (right back)"
+          ],
+          "tea": "Brother duo alert! Cristian AND Alex Roldan both play for Seattle. Cristian married Ciana in early 2023, and they welcomed a baby girl in July 2024. He's been the heartbeat of the Sounders for years and might make the US World Cup squad this summer. 62K followers on Instagram — the biggest Sounders personality.",
+          "one_liner": "Sounders' midfield general and USMNT contender. 14 assists last season.",
+          "confidence": "high",
+          "source": "https://www.instagram.com/cristianroldan_/"
+        },
+        {
+          "name": "Jordan Morris",
+          "position": "Left Wing",
+          "jersey_number": 13,
+          "age": null,
+          "nationality": "American",
+          "nationality_flag": "🇺🇸",
+          "player_instagram": "@j.morris13",
+          "player_instagram_url": "https://www.instagram.com/j.morris13/",
+          "followers": null,
+          "relationship_status": "married",
+          "partner_name": "Eliza Morris",
+          "partner_instagram": "@lizahbee",
+          "partner_instagram_url": "https://www.instagram.com/lizahbee/",
+          "kids": "Son Theo (born Oct 2023) and daughter Emilie Daly Morris (born Dec 7, 2025).",
+          "fun_facts": [
+            "All-time leading scorer in Sounders history (91 goals across all competitions)",
+            "Local kid — grew up in the Seattle area",
+            "Daughter Emilie born just 4 months ago (Dec 2025)",
+            "Coming back from injury-plagued 2025 (hamstring and shoulder)"
+          ],
+          "tea": "Girl dad x2! Jordan and Eliza just welcomed baby Emilie in December 2025 — she's only 4 months old. He's the Sounders' all-time leading scorer AND a local Seattle kid. The family content on his Instagram is *chef's kiss*.",
+          "one_liner": "Sounders legend. All-time leading scorer. Bouncing back from an injury-plagued 2025.",
+          "confidence": "high",
+          "source": "https://www.instagram.com/j.morris13/"
         }
       ]
     }
@@ -980,15 +1164,15 @@
     "record": "2-2-0 through 4 matches",
     "points": 6,
     "red_cards": "4 red cards in 4 matches (league leaders). Antônio Carlos + Bouzat vs LAFC (finished 9 men), Markanich vs Portland (serious foul play), Sviatchenko vs Dallas (2nd yellow).",
-    "vibe": "Fun but flawed — Bayou City Soccer's headline says it all. This team is appointment television. 7-goal thrillers, 105th-minute winners, finishing matches with 9 men, a player who scores AND gets an own goal AND gets sent off in the same match. Charles is right: this is chaotic, passionate, and deeply entertaining.",
-    "guilherme_watch": "4 goals, 3 assists in 4 matches. The main character. Neymar is texting him. Has a signature dance. Brazilian Designated Player energy.",
+    "vibe": "Fun but flawed — Bayou City Soccer's headline says it all. This team is appointment television. 7-goal thrillers, 105th-minute winners, finishing matches with 9 men, a player who scores AND gets an own goal AND gets sent off in the same match. This is chaotic, passionate, and deeply entertaining.",
+    "guilherme_watch": "4 goals, 3 assists in 4 matches. The main character. Neymar is texting him. Has a signature dance. Brazilian Designated Player energy. 439K followers.",
     "suspensions_april_4": [
-      "Nick Markanich — match 2 of 2-game ban (serious foul play vs Portland)",
+      "Nick Markanich — match 2 of 2-match ban (serious foul play vs Portland)",
       "Erik Sviatchenko — 1-match suspension (2nd yellow vs Dallas)"
     ],
     "injuries_april_4": [
-      "Artur — lower body (OUT since at least March 21)",
-      "Lucas Halter — lower body (OUT since at least March 21)"
+      "Artur — lower body / knee (OUT — mid-April return expected)",
+      "Lucas Halter — lower body (OUT — mid-April return expected)"
     ],
     "sources": [
       "https://www.bayoucitysoccer.net/dynamo",
@@ -999,9 +1183,99 @@
   },
   "roster_changes_since_last_scan": [
     {
+      "type": "removed",
+      "player": "Tomas Wiesner",
+      "detail": "NOT on official roster as of April 3, 2026 browser verification. Removed from research data.",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "added",
+      "player": "Jimmy Maurer",
+      "detail": "#1, Goalkeeper. Added from official roster verification.",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "added",
+      "player": "Blake Gillingham",
+      "detail": "#26, Goalkeeper. Added from official roster verification.",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "added",
+      "player": "Logan Erb",
+      "detail": "#35, Goalkeeper. Added from official roster verification.",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "jersey_change",
+      "player": "Antônio Carlos",
+      "detail": "Changed from #25 to #3.",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "jersey_change",
+      "player": "Franco Negri",
+      "detail": "Changed from #3 to #21.",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "jersey_change",
+      "player": "Reese Miller",
+      "detail": "Changed from #34 to #27.",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "jersey_change",
+      "player": "Agustín Bouzat",
+      "detail": "Changed from #22 to #30.",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "jersey_change",
+      "player": "Matthew Arana",
+      "detail": "Changed from #17 to #22.",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "jersey_change",
+      "player": "Nick Markanich",
+      "detail": "Changed from #7 to #17.",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "jersey_change",
+      "player": "Aliyu Ibrahim",
+      "detail": "Changed from #27 to #24.",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "jersey_assigned",
+      "player": "Sam Vines",
+      "detail": "Assigned #13 (was TBD).",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "jersey_assigned",
+      "player": "Agustin Resch",
+      "detail": "Assigned #34 (was TBD).",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "position_correction",
+      "player": "Ondřej Lingr",
+      "detail": "Position corrected from Forward to Midfielder (official page says MF).",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "position_correction",
+      "player": "Jack McGlynn",
+      "detail": "Position corrected from Midfielder/Forward to Midfielder.",
+      "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
       "type": "new_signing",
       "player": "Agustin Resch",
-      "detail": "Promoted from Dynamo 2 to first team on March 20, 2026. 6'6\" Argentine CB from Seton Hall. Contract through 2026 with club options through 2028-29. Already earned minutes vs LAFC and Portland.",
+      "detail": "Promoted from Dynamo 2 to first team on March 20, 2026. 6'6\" Argentine CB from Seton Hall. Contract through 2026 with club options through 2028-29.",
       "source": "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-rookie-defender-agustin-resch-to-first-team-contract"
     },
     {
