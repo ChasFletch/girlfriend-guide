@@ -1,96 +1,31 @@
 [
   {
-    "name": "Jonathan Bond",
-    "jersey_number": 31,
+    "name": "Jimmy Maurer",
+    "jersey_number": 1,
     "position": "Goalkeeper",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/sppefkzfbfdrr233apam.png",
-    "player_instagram": "@jonathanbond23",
-    "partner_name": "Isy Bella Bond",
-    "partner_description": "partner",
-    "partner_instagram": "@isybellabond"
+    "headshot_url": null,
+    "player_instagram": null,
+    "notes": "Veteran GK. Added to roster from official page verification Apr 3, 2026."
   },
   {
-    "name": "Erik Sviatchenko",
-    "jersey_number": 28,
+    "name": "Antônio Carlos",
+    "jersey_number": 3,
     "position": "Defender",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/p5dtxsywjowvbotyggjx.png",
-    "player_instagram": "@eriksviat",
-    "partner_name": "Anne Sviatchenko",
-    "partner_description": "wife",
-    "partner_instagram": "@annesviat"
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/v1dp19tpiqanxfir5iht.png",
+    "player_instagram": "@antoniocapocasali25",
+    "partner_name": "Brunna Senna",
+    "partner_description": "wife. Two kids: Antonia and Alice.",
+    "partner_instagram": "@bru_senna"
   },
   {
     "name": "Lucas Halter",
     "jersey_number": 5,
     "position": "Defender",
     "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/ypmjwzspge5ugnq1wvrp.png",
-    "player_instagram": "@lucas_halter"
-  },
-  {
-    "name": "Antônio Carlos",
-    "jersey_number": 25,
-    "position": "Defender",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/v1dp19tpiqanxfir5iht.png",
-    "player_instagram": "@antoniocapocasali25",
-    "partner_name": "Bru Senna",
-    "partner_description": "partner",
-    "partner_instagram": "@bru_senna"
-  },
-  {
-    "name": "Franco Negri",
-    "jersey_number": 3,
-    "position": "Defender",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/jb6iukxtbiajkj7gh6st.png",
-    "player_instagram": "@franco_negri3"
-  },
-  {
-    "name": "Felipe Andrade",
-    "jersey_number": 36,
-    "position": "Defender",
-    "player_instagram": "@felipe_andrade15_"
-  },
-  {
-    "name": "Reese Miller",
-    "jersey_number": 34,
-    "position": "Defender",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/jet0uo7r4mxlkggrjvej.png",
-    "player_instagram": "@reesemillerr"
-  },
-  {
-    "name": "Tomas Wiesner",
-    "jersey_number": 2,
-    "position": "Defender"
-  },
-  {
-    "name": "Sam Vines",
-    "jersey_number": null,
-    "position": "Defender",
-    "headshot_url": null,
-    "player_instagram": "@sammyvines",
-    "partner_name": "Andrianna Vines",
-    "partner_description": "wife — married Aug/Sep 2025. Wedding photographed by Jordan Imhoff Photography.",
-    "partner_instagram": null,
-    "notes": "NEW SIGNING — signed March 20, 2026 as free agent. USMNT defender (9 caps, 1 goal — scored in 2021 Gold Cup). Colorado Springs native. Colorado Rapids academy product, played in Belgium (Royal Antwerp) for 3 years. Won Belgian treble in 2023. Contract through 2027. Christian (cross in IG bio). Left-footed left-back. Wore #3 at Colorado but Negri has #3 at Houston — number TBD."
-  },
-  {
-    "name": "Agustin Resch",
-    "jersey_number": null,
-    "position": "Defender",
-    "headshot_url": null,
-    "player_instagram": null,
-    "notes": "NEW SIGNING — promoted from Dynamo 2 on March 20, 2026. 6-foot-6 Argentine CB. Seton Hall University. First Pirate drafted since Sacha Kljestan (2006). BIG EAST Defensive Player of the Year. Contract through 2026 with club options through 2028-29. Already earned first-team minutes vs LAFC and Portland on short-term loans."
-  },
-  {
-    "name": "Héctor Herrera",
-    "jersey_number": 16,
-    "position": "Midfielder",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/lhj5me76wrhniijx04fp.png",
-    "player_instagram": "@h.herrera16",
-    "player_tiktok": "@hherrera16",
-    "relationship_status": "divorced",
-    "partner_name": null,
-    "partner_description": "Divorced from Shantal Mayo in 2025 (TUDN confirmed). Currently single as far as public sources show.",
-    "partner_instagram": null
+    "player_instagram": "@lucas_halter",
+    "partner_name": "Madison Tayler",
+    "partner_description": "fiancée — her posts say 'Luke's wife to be'",
+    "partner_instagram": "@madison_tayler"
   },
   {
     "name": "Artur",
@@ -100,70 +35,7 @@
     "player_instagram": "@arturl33",
     "partner_name": "Rachel Lima",
     "partner_description": "wife",
-    "partner_instagram": "@rachel.limaaa"
-  },
-  {
-    "name": "Diadié Samassékou",
-    "jersey_number": 18,
-    "position": "Midfielder",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/brddubbl1itddxzutoda.png",
-    "player_instagram": "@diadie_samassekou",
-    "partner_name": "Anna Samassékou",
-    "partner_description": "wife (per Malian football content)"
-  },
-  {
-    "name": "Duane Holmes",
-    "jersey_number": 14,
-    "position": "Midfielder",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/hktuius5qbxmtvm3uat4.png",
-    "player_instagram": "@duaneholmes",
-    "partner_name": "Brooke Holmes",
-    "partner_description": "wife (married June 2022)",
-    "partner_instagram": "@brookesavannah2"
-  },
-  {
-    "name": "Agustín Bouzat",
-    "jersey_number": 22,
-    "position": "Midfielder",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/eiscbda51xqtevz2ewtv.png",
-    "player_instagram": "@chiquibouzat",
-    "partner_name": "Fiorella Curutchet",
-    "partner_description": "wife (married Dec 2022)",
-    "partner_instagram": "@fiorecurutchet"
-  },
-  {
-    "name": "Matthew Arana",
-    "jersey_number": 17,
-    "position": "Midfielder",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/kb7fvh5wvwcfydv7y6tt.png",
-    "player_instagram": "@thematthewarana"
-  },
-  {
-    "name": "Mateusz Bogusz",
-    "jersey_number": 19,
-    "position": "Forward",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/eftbqo2ay7yudlvxmxe2.png",
-    "player_instagram": "@x_bogus",
-    "partner_name": "Wiktoria Wychowska",
-    "partner_description": "wife",
-    "partner_instagram": "@wiktoria.wychowska"
-  },
-  {
-    "name": "Guilherme",
-    "jersey_number": 20,
-    "position": "Forward",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/i4vlrgcc3289nmwdzv1i.png",
-    "player_instagram": "@guilherme11"
-  },
-  {
-    "name": "Ezequiel Ponce",
-    "jersey_number": 10,
-    "position": "Forward",
-    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/bqpdhq0fesibfzu6huxq.png",
-    "player_instagram": "@ezequielp9",
-    "partner_name": "Martina Madeo",
-    "partner_description": "wife",
-    "partner_instagram": "@martu.madeop"
+    "partner_instagram": "@rachelblima"
   },
   {
     "name": "Jack McGlynn",
@@ -183,6 +55,16 @@
     "partner_instagram": "@lucielingr"
   },
   {
+    "name": "Ezequiel Ponce",
+    "jersey_number": 10,
+    "position": "Forward",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/bqpdhq0fesibfzu6huxq.png",
+    "player_instagram": "@ezequielp9",
+    "partner_name": "Martina Madeo",
+    "partner_description": "wife",
+    "partner_instagram": "@martu.madeop"
+  },
+  {
     "name": "Lawrence Ennali",
     "jersey_number": 11,
     "position": "Forward",
@@ -194,18 +76,165 @@
     "partner_tiktok": "@presleeclarkartistry"
   },
   {
+    "name": "Sam Vines",
+    "jersey_number": 13,
+    "position": "Defender",
+    "headshot_url": null,
+    "player_instagram": "@sammyvines",
+    "partner_name": "Andrianna Vines",
+    "partner_description": "wife — married Aug/Sep 2025. Wedding photographed by Jordan Imhoff Photography.",
+    "partner_instagram": null,
+    "notes": "NEW SIGNING — signed March 20, 2026 as free agent. USMNT defender (9 caps, 1 goal — scored in 2021 Gold Cup). Colorado Springs native. Colorado Rapids academy product, played in Belgium (Royal Antwerp) for 3 years. Won Belgian treble in 2023. Contract through 2027. Christian (cross in IG bio). Left-footed left-back. Wore #3 at Colorado but Negri has #3 at Houston — number TBD."
+  },
+  {
+    "name": "Duane Holmes",
+    "jersey_number": 14,
+    "position": "Midfielder",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/hktuius5qbxmtvm3uat4.png",
+    "player_instagram": "@duaneholmes",
+    "partner_name": "Brooke Holmes",
+    "partner_description": "wife (married June 2022)",
+    "partner_instagram": "@brookesavannah2"
+  },
+  {
+    "name": "Héctor Herrera",
+    "jersey_number": 16,
+    "position": "Midfielder",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/lhj5me76wrhniijx04fp.png",
+    "player_instagram": "@h.herrera16",
+    "player_tiktok": "@hherrera16",
+    "relationship_status": "divorced",
+    "partner_name": null,
+    "partner_description": "Divorced from Shantal Mayo in 2025 (TUDN confirmed). Currently single as far as public sources show.",
+    "partner_instagram": null
+  },
+  {
     "name": "Nick Markanich",
-    "jersey_number": 7,
+    "jersey_number": 17,
     "position": "Forward",
     "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/pqwvvhpmkaiw22xhqtt2.png",
-    "player_instagram": "@nickmarkanich"
+    "player_instagram": "@nickmarkanich",
+    "partner_name": "Abby McHugh",
+    "partner_description": "partner",
+    "partner_instagram": "@abby.mchugh"
+  },
+  {
+    "name": "Diadié Samassékou",
+    "jersey_number": 18,
+    "position": "Midfielder",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/brddubbl1itddxzutoda.png",
+    "player_instagram": "@diadie_samassekou",
+    "partner_name": "Anna Samassékou",
+    "partner_description": "wife (per Malian football content)"
+  },
+  {
+    "name": "Mateusz Bogusz",
+    "jersey_number": 19,
+    "position": "Forward",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/eftbqo2ay7yudlvxmxe2.png",
+    "player_instagram": "@x_bogus",
+    "partner_name": "Wiktoria Wychowska",
+    "partner_description": "wife",
+    "partner_instagram": "@wiktoria.wychowska"
+  },
+  {
+    "name": "Guilherme",
+    "jersey_number": 20,
+    "position": "Forward",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/i4vlrgcc3289nmwdzv1i.png",
+    "player_instagram": "@guilherme11"
+  },
+  {
+    "name": "Franco Negri",
+    "jersey_number": 21,
+    "position": "Defender",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/jb6iukxtbiajkj7gh6st.png",
+    "player_instagram": "@franco_negri3"
+  },
+  {
+    "name": "Matthew Arana",
+    "jersey_number": 22,
+    "position": "Midfielder",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/kb7fvh5wvwcfydv7y6tt.png",
+    "player_instagram": "@thematthewarana"
   },
   {
     "name": "Aliyu Ibrahim",
-    "jersey_number": 27,
+    "jersey_number": 24,
     "position": "Forward",
     "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/c7h5ipxzm9nruskf2gyk.png",
     "player_instagram": "@aliyu_bravo7",
-    "player_tiktok": "@ibrahmaliyu"
+    "player_tiktok": "@ibrahmaliyu",
+    "partner_name": "Ayshatou Jegah",
+    "partner_description": "partner",
+    "partner_instagram": "@ayshatou_jegah"
+  },
+  {
+    "name": "Blake Gillingham",
+    "jersey_number": 26,
+    "position": "Goalkeeper",
+    "headshot_url": null,
+    "player_instagram": null,
+    "notes": "Added to roster from official page verification Apr 3, 2026."
+  },
+  {
+    "name": "Reese Miller",
+    "jersey_number": 27,
+    "position": "Defender",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/jet0uo7r4mxlkggrjvej.png",
+    "player_instagram": "@reesemillerr"
+  },
+  {
+    "name": "Erik Sviatchenko",
+    "jersey_number": 28,
+    "position": "Defender",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/p5dtxsywjowvbotyggjx.png",
+    "player_instagram": "@eriksviat",
+    "partner_name": "Anne Sviatchenko",
+    "partner_description": "wife",
+    "partner_instagram": "@annesviat"
+  },
+  {
+    "name": "Agustín Bouzat",
+    "jersey_number": 30,
+    "position": "Midfielder",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/eiscbda51xqtevz2ewtv.png",
+    "player_instagram": "@chiquibouzat",
+    "partner_name": "Fiorella Curutchet",
+    "partner_description": "wife (married Dec 2022)",
+    "partner_instagram": "@fiorecurutchet"
+  },
+  {
+    "name": "Jonathan Bond",
+    "jersey_number": 31,
+    "position": "Goalkeeper",
+    "headshot_url": "https://images.mlssoccer.com/image/private/t_thumb_squared/f_png/mls-hou/sppefkzfbfdrr233apam.png",
+    "player_instagram": "@jonathanbond23",
+    "partner_name": "Isy Bella Bond",
+    "partner_description": "partner",
+    "partner_instagram": "@isybellabond",
+    "notes": "NEW BABY — March 20 post about \"the three of us\" and \"2026 plot twist\""
+  },
+  {
+    "name": "Agustin Resch",
+    "jersey_number": 34,
+    "position": "Defender",
+    "headshot_url": null,
+    "player_instagram": null,
+    "notes": "NEW SIGNING — promoted from Dynamo 2 on March 20, 2026. 6-foot-6 Argentine CB. Seton Hall University. First Pirate drafted since Sacha Kljestan (2006). BIG EAST Defensive Player of the Year. Contract through 2026 with club options through 2028-29. Already earned first-team minutes vs LAFC and Portland on short-term loans."
+  },
+  {
+    "name": "Logan Erb",
+    "jersey_number": 35,
+    "position": "Goalkeeper",
+    "headshot_url": null,
+    "player_instagram": null,
+    "notes": "Added to roster from official page verification Apr 3, 2026."
+  },
+  {
+    "name": "Felipe Andrade",
+    "jersey_number": 36,
+    "position": "Defender",
+    "player_instagram": "@felipe_andrade15_"
   }
 ]
