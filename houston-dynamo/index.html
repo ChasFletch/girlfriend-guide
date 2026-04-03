@@ -70,6 +70,37 @@
     margin-bottom: 20px;
     position: relative;
   }
+  .keely-hero-byline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 20px;
+    position: relative;
+  }
+  .keely-hero-byline img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 3px solid var(--dynamo-orange);
+    object-fit: cover;
+    box-shadow: 0 0 20px rgba(246,139,31,0.35), 0 0 40px rgba(246,139,31,0.15);
+  }
+  .keely-hero-byline .byline-text {
+    text-align: left;
+    line-height: 1.4;
+  }
+  .keely-hero-byline .byline-text .byline-label {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  .keely-hero-byline .byline-text .byline-name {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--dynamo-orange);
+  }
   .hero h1 {
     font-family: 'Playfair Display', serif;
     font-size: clamp(2rem, 6vw, 3.5rem);
@@ -321,28 +352,31 @@
   .page-footer .hearts { font-size: 1.4rem; margin-bottom: 8px; }
   .keely-credit {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 12px;
-    margin-top: 20px;
-    padding-top: 16px;
+    gap: 10px;
+    margin-top: 24px;
+    padding-top: 20px;
     border-top: 1px solid rgba(255,255,255,0.08);
   }
   .keely-credit img {
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
     border-radius: 50%;
-    border: 2px solid var(--primary);
+    border: 2px solid var(--dynamo-orange);
     object-fit: cover;
+    box-shadow: 0 0 16px rgba(246,139,31,0.25);
   }
   .keely-credit .credit-text {
-    text-align: left;
-    font-size: 0.75rem;
-    line-height: 1.4;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--text-secondary);
   }
   .keely-credit .credit-text strong {
-    color: var(--primary);
-    font-size: 0.85rem;
+    color: var(--dynamo-orange);
+    font-size: 0.95rem;
+    display: block;
   }
 
   /* SVG icon reuse */
@@ -372,6 +406,13 @@
   <p style="position:relative; margin-top:14px; font-size:0.84rem; color:var(--text-secondary); max-width:580px; margin-left:auto; margin-right:auto; line-height:1.7;">
     Baby Bond just dropped 👶🍼 Bogusz baby watch is at DEFCON 1. Sviatchenko posted a love letter to his wife on their 8th anniversary… then can't even play because of his red card suspension 😭 Guilherme has Neymar in his DMs and 4 goals in 4 games. Seattle's coming to town after a midweek Champions Cup match, so they might be running on fumes. Here for the vibe, not the score — but the vibes are <strong>IMMACULATE</strong> this week. 🧡
   </p>
+  <div class="keely-hero-byline">
+    <img src="img/keely-avatar.png" alt="Keely">
+    <div class="byline-text">
+      <div class="byline-label">Your guide this week</div>
+      <div class="byline-name">Keely ⚽</div>
+    </div>
+  </div>
 </div>
 
 <!-- ========== SPOTLIGHT: THE ONES WITH ALL THE TEA ========== -->
@@ -1278,8 +1319,8 @@
   <div class="keely-credit">
     <img src="img/keely-avatar.png" alt="Keely">
     <div class="credit-text">
-      Written & produced by<br>
       <strong>Keely ⚽</strong>
+      Written & produced with love, chaos, and way too much Instagram stalking.
     </div>
   </div>
 </div>
