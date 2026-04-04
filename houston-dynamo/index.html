@@ -37,7 +37,7 @@
 
   /* HERO */
   .hero {
-    background: linear-gradient(135deg, var(--dynamo-black) 0%, #2a1a0a 50%, var(--dynamo-black) 100%);
+    background: linear-gradient(135deg, var(--dynamo-black) 0%, #1a2233 30%, #1c2a3a 50%, var(--dynamo-black) 100%);
     text-align: center;
     padding: 60px 20px 40px;
     position: relative;
@@ -50,12 +50,66 @@
     left: -50%;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle at 50% 50%, rgba(246,139,31,0.08) 0%, transparent 50%);
+    background: radial-gradient(circle at 50% 50%, rgba(100,140,180,0.08) 0%, transparent 50%);
     animation: pulse 4s ease-in-out infinite;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(to top, rgba(20,30,45,0.6), transparent);
+    pointer-events: none;
   }
   @keyframes pulse {
     0%, 100% { transform: scale(1); opacity: 0.5; }
     50% { transform: scale(1.1); opacity: 1; }
+  }
+
+  /* ☔ RAIN THEME — April 4 wet matchday */
+  @keyframes rain {
+    0% { transform: translateY(-100vh) translateX(0); opacity: 0; }
+    10% { opacity: 0.7; }
+    90% { opacity: 0.5; }
+    100% { transform: translateY(100vh) translateX(-20px); opacity: 0; }
+  }
+  @keyframes lightning {
+    0%, 94%, 100% { opacity: 0; }
+    95% { opacity: 0.15; }
+    96% { opacity: 0; }
+    97% { opacity: 0.1; }
+  }
+  .rain-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    overflow: hidden;
+  }
+  .rain-drop {
+    position: absolute;
+    top: -10%;
+    width: 1.5px;
+    height: 18px;
+    background: linear-gradient(to bottom, transparent, rgba(174,194,224,0.35));
+    border-radius: 0 0 2px 2px;
+    animation: rain linear infinite;
+  }
+  .lightning-flash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    pointer-events: none;
+    z-index: 9998;
+    animation: lightning 12s ease-in-out infinite;
   }
   .hero-badge {
     display: inline-block;
@@ -392,6 +446,13 @@
 </head>
 <body>
 
+<!-- ☔ RAIN EFFECT -->
+<div class="lightning-flash"></div>
+<div class="rain-overlay" id="rain-container"></div>
+<script>
+(function(){var c=document.getElementById('rain-container');for(var i=0;i<80;i++){var d=document.createElement('div');d.className='rain-drop';d.style.left=Math.random()*100+'%';d.style.animationDuration=(0.6+Math.random()*0.4)+'s';d.style.animationDelay=Math.random()*2+'s';d.style.opacity=0.2+Math.random()*0.4;c.appendChild(d);}})();
+</script>
+
 <!-- SVG DEFS (reusable IG icon) -->
 <svg style="display:none">
   <symbol id="ig" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></symbol>
@@ -399,12 +460,12 @@
 
 <!-- ========== HERO ========== -->
 <div class="hero">
-  <div class="hero-badge">⚽ Matchday 2026 🧡</div>
+  <div class="hero-badge">🌧️ Soggy Matchday 2026 ⚽</div>
   <h1>The Girlfriend Guide to the <span>Dynamo</span></h1>
-  <p class="subtitle">Here for the vibe, not the score. 🫖✨</p>
-  <p class="matchday">April 4 &bull; vs Seattle Sounders FC &bull; Shell Energy Stadium</p>
+  <p class="subtitle">Here for the vibe, not the score. 🌧️✨</p>
+  <p class="matchday">April 4 &bull; vs Seattle Sounders FC &bull; Shell Energy Stadium &bull; 🌧️ Rain Expected</p>
   <p style="position:relative; margin-top:14px; font-size:0.84rem; color:var(--text-secondary); max-width:580px; margin-left:auto; margin-right:auto; line-height:1.7;">
-    The Dynamo goalkeeper's wife was on <strong>Beast Games</strong> 🤯 Bogusz baby watch is at DEFCON 1. Sviatchenko posted a love letter to his wife on their 8th anniversary… then can't even play because of his red card suspension 😭 Guilherme has Neymar in his DMs and 4 goals in 4 games. Seattle's coming to town after a midweek Champions Cup match, so they might be running on fumes. Here for the vibe, not the score — but the vibes are <strong>IMMACULATE</strong> this week. 🧡
+    Thunderstorms are rolling into Houston tonight and Shell Energy is about to be a <strong>splash zone</strong> 🌊 Bond's wife was on <strong>Beast Games</strong> 🤯 Bogusz baby watch is at DEFCON 1. Sviatchenko posted the sweetest anniversary tribute to his wife… then can't even play because of his red card suspension 😭 Guilherme has Neymar in his DMs and 4 goals in 4 games. Seattle's rolling in half-broken — 6 players OUT injured plus they just played Champions Cup midweek. Bring your ponchos, bring your energy, bring your <strong>soggy matchday vibes</strong>. 🧡☔
   </p>
   <div class="keely-hero-byline">
     <img src="img/keely-avatar.png" alt="Keely">
@@ -1307,10 +1368,10 @@
 
 <!-- ========== FOOTER ========== -->
 <div class="page-footer">
-  <div class="hearts">🧡🖤🧡</div>
+  <div class="hearts">🌧️🧡🌧️</div>
   <p><strong>The Girlfriend Guide</strong> — Houston Dynamo vs Seattle Sounders FC</p>
   <p>April 4, 2026 &bull; Shell Energy Stadium</p>
-  <p style="margin-top:8px;">Here for the vibe, not the score. 🫖✨</p>
+  <p style="margin-top:8px;">Here for the vibe, not the score. Even in the rain. 🌧️✨</p>
   <p style="margin-top:12px; font-size:0.72rem; opacity:0.5;">Player data verified April 3, 2026. If we got something wrong, DM us — we update fast. 💌</p>
   <div class="keely-credit">
     <img src="img/keely-avatar.png" alt="Keely">
