@@ -1,24 +1,27 @@
 {
   "_metadata": {
-    "generated_by": "perplexity_computer",
-    "generated_at": "2026-04-03T11:52:00-04:00",
-    "for_match": "Houston Dynamo FC vs Seattle Sounders FC",
-    "match_date": "2026-04-04",
-    "match_time": "7:30 PM CT",
-    "venue": "Shell Energy Stadium"
+    "generated_by": "keely",
+    "generated_at": "2026-04-09T03:10:00-05:00",
+    "for_match": "Houston Dynamo FC vs El Paso Locomotive FC",
+    "match_date": "2026-04-15",
+    "match_time": "7:00 PM CT",
+    "venue": "Shell Energy Stadium",
+    "competition": "2026 Lamar Hunt U.S. Open Cup — Round of 32",
+    "previous_match_data_at": "2026-04-03T11:52:00-04:00",
+    "notes": "Hot posts carried over from April 3 PC scan — current for most player/partner content. Opponent scouting updated for El Paso. Injury flags need refresh closer to April 15."
   },
-  "matchday_hook": "Saturday night under the lights at Shell Energy! Bond's wife was on BEAST GAMES (yes, the MrBeast show), the Bogusz baby watch continues (Wiktoria's been silent since January 👀), and our captain Sviatchenko is SUSPENDED after his telenovela performance at Dallas — scored a goal, scored an own goal, got a red card, all in one match. Oh and Guilherme? 4 goals, 3 assists. Neymar is literally in his DMs. Seattle rolls in but they might rest starters for a Champions Cup match midweek. This is the vibe check.",
+  "matchday_hook": "Wednesday night Open Cup energy at Shell Energy! 🚂 El Paso Locomotive rolls into town — a USL squad that just demolished New Mexico United 4-0 and they are NOT here to be tourists. Guilherme is still on fire (4G/3A and Neymar in his DMs), Bogusz baby watch is officially OVER (baby girl arrived! 👶), and Sviatchenko is back from suspension and ready to redeem himself. The Dynamo are two-time Open Cup champions. Time to defend the legacy.",
   "vibe_strip_items": [
-    "Bond's wife was on Beast Games (the MrBeast show!!)",
-    "👶 Bogusz baby watch — Wiktoria hasn't posted since Jan 21, baby girl was due in Feb",
-    "💍 Sviatchenko's 8th anniversary post — 19 years together, suspended for Saturday",
-    "🔥 Guilherme: 4G/3A in 4 matches, Neymar texting, 439K followers",
-    "🎂 Bouzat turned 32 — Fiorella's birthday tribute had us in our feelings",
-    "🎂 Ponce turned 29 on March 29",
-    "🍼 Artur's daughter turned 1 — sweetest birthday post",
-    "⛔ Captain suspended + 2 more OUT injured + Markanich banned = depleted squad",
-    "🔄 Seattle rotation risk — midweek Champions Cup vs Tigres",
-    "1️⃣.1️⃣M Héctor Herrera's Marzo 2026 recap — biggest IG in the squad by far"
+    "🚂 El Paso Locomotive FC — Open Cup Round of 32, midweek vibes",
+    "👶 BOGUSZ BABY GIRL HAS ARRIVED — the wait is over, she's here!",
+    "🔥 Guilherme: still the main character — 4G/3A, Neymar is a fan",
+    "💪 Sviatchenko BACK from suspension — redemption arc begins",
+    "🏆 Dynamo are 2x Open Cup champs (2018, 2023) — defending the legacy",
+    "🎯 El Paso: 2-0-1 in USL, beat New Mexico United 4-0 in Open Cup Round 2",
+    "🇸🇻 Amando Moreno (El Paso) — El Salvador international, 50+ USL goals, one to watch",
+    "1️⃣.1️⃣M Héctor Herrera still the biggest IG in the building",
+    "🍼 Artur's comeback timeline: mid-April — could be this match",
+    "⛔ Halter still OUT — mid-April return but Open Cup timing is tight"
   ],
   "hot_posts": [
     {
@@ -128,16 +131,10 @@
       "impact": "Defensive depth compromised. Fiancée Madison Tayler providing moral support from the stands."
     },
     {
-      "player": "Paul Arriola (Seattle)",
-      "status": "OUT",
-      "detail": "Knee injury.",
-      "impact": "Key Seattle attacker missing. Good news for Houston's depleted defense."
-    },
-    {
-      "player": "Jackson Ragen (Seattle)",
-      "status": "OUT",
-      "detail": "Hamstring injury.",
-      "impact": "Seattle defensive absence. They may also rotate due to midweek Champions Cup."
+      "player": "Artur",
+      "status": "QUESTIONABLE",
+      "detail": "Mid-April return expected — Open Cup timing may align with his comeback.",
+      "impact": "Could return for April 15 if recovery is on schedule. Worth watching closer to matchday."
     }
   ],
   "roster_changes": [
@@ -173,91 +170,74 @@
     }
   ],
   "opponent_scouting": {
-    "team": "Seattle Sounders FC",
-    "form_summary": "3-1-1, 10 points. Won 3 straight after opening loss. Strong defensively. Playing midweek CONCACAF Champions Cup match vs Tigres — ROTATION LIKELY.",
-    "rotation_risk": "HIGH — Seattle plays Tigres in midweek Champions Cup. Expect squad rotation for Saturday's trip to Houston. Manager may rest key players like Rusnák or Morris.",
+    "team": "El Paso Locomotive FC",
+    "competition": "2026 Lamar Hunt U.S. Open Cup — Round of 32",
+    "league": "USL Championship (second division)",
+    "form_summary": "2-0-1 in USL Championship, 7 points, 3rd in Western Conference. Beat New Mexico United 4-0 in Open Cup Round 2. Hot form coming in.",
+    "rotation_risk": "LOW — This is El Paso's biggest game of the season. No Champions Cup commitments. Expect their full strength XI.",
+    "narrative": "El Paso is coming to Houston with something to prove. USL underdogs in an Open Cup upset bid — the Locomotive are dangerous, organized, and in form. Don't sleep on them.",
     "players_to_watch": [
       {
-        "name": "Andrew Thomas",
-        "position": "Goalkeeper",
+        "name": "Amando Moreno",
+        "position": "Forward / Winger",
         "jersey_number": null,
-        "nationality": "American",
-        "player_instagram": null,
+        "nationality": "American (El Salvador national team)",
+        "nationality_flag": "🇸🇻",
+        "player_instagram": "@amando_moreno",
+        "player_instagram_url": "https://www.instagram.com/amando_moreno/",
+        "followers": "34K",
         "partner_name": null,
         "partner_instagram": null,
         "fun_facts": [
-          "Took over from Stefan Frei",
-          "Strong shot-stopper",
-          "Comfortable playing out from the back"
+          "Born in the US, plays for El Salvador national team (Salvadoran passport 2021)",
+          "Hit 50 USL Championship regular season goals milestone this season",
+          "10 goals + 4 assists in USL play last season — team's leading scorer",
+          "Called up to El Salvador's 2021 CONCACAF Gold Cup squad",
+          "34K Instagram followers — one of El Paso's most visible players"
         ],
-        "one_liner": "Seattle's new #1 — filling legendary boots and doing it well.",
-        "source": "https://www.bayoucitysoccer.net/dynamo/three-players-to-watch-seattle-sounders"
+        "one_liner": "The milestone man. 50 USL goals and counting, El Salvador international, and the face of El Paso's attack. He's the one Houston's defense needs to know about.",
+        "source": "https://www.eplocomotivefc.com/roster/amando-moreno/"
       },
       {
-        "name": "Paul Rothrock",
-        "position": "Attacker",
+        "name": "Gabi Torres",
+        "position": "Midfielder / Winger",
         "jersey_number": null,
-        "nationality": "American",
+        "nationality": "Brazilian",
+        "nationality_flag": "🇧🇷",
         "player_instagram": null,
+        "player_instagram_url": null,
+        "followers": null,
         "partner_name": null,
         "partner_instagram": null,
         "fun_facts": [
-          "Most active attacking threat",
-          "Intelligent runs",
-          "Always plays well against Houston"
+          "Set El Paso's all-time club assist record in 2025 — 11 assists across all competitions",
+          "Brazilian versatility: plays midfielder AND winger interchangeably",
+          "His left-side combination with Moreno is El Paso's most dangerous weapon",
+          "Former Phoenix Rising FC, came to El Paso via trade in January 2025",
+          "University of the District of Columbia alum — 34 goals, 21 assists in college"
         ],
-        "one_liner": "Houston's nightmare — this guy always shows up against the Dynamo.",
-        "source": "https://www.bayoucitysoccer.net/dynamo/three-players-to-watch-seattle-sounders"
+        "one_liner": "The record-setter. Gabi Torres broke El Paso's assist record in his first season there — the Brazilian creative engine who makes Moreno dangerous.",
+        "source": "https://www.eplocomotivefc.com/news/2025/01/08/el-paso-locomotive-fc-sign-defender-gabi-torres-for-2025/"
       },
       {
-        "name": "Albert Rusnák",
-        "position": "Attacking Midfielder",
-        "jersey_number": 11,
-        "nationality": "Slovak",
-        "player_instagram": "@albertrusnak10",
-        "partner_name": "Tanicka Rusnák",
-        "partner_instagram": "@tanickarusnak",
-        "fun_facts": [
-          "Creative engine",
-          "Controls tempo",
-          "Can score and assist",
-          "Wife Tanicka, daughter Ariana"
-        ],
-        "one_liner": "The 'quiet star' who runs Seattle's attack. Wife Tanicka and daughter Ariana are the Sounders' Inner Circle equivalent.",
-        "source": "https://www.bayoucitysoccer.net/dynamo/three-players-to-watch-seattle-sounders"
-      },
-      {
-        "name": "Cristian Roldan",
-        "position": "Defensive Midfielder",
-        "jersey_number": 10,
+        "name": "Robert Coronado",
+        "position": "Midfielder",
+        "jersey_number": null,
         "nationality": "American",
-        "player_instagram": "@cristianroldan_",
-        "partner_name": "Ciana Roldan",
-        "partner_instagram": "@cianaroldan_",
+        "nationality_flag": "🇺🇸",
+        "player_instagram": null,
+        "player_instagram_url": null,
+        "followers": null,
+        "partner_name": null,
+        "partner_instagram": null,
         "fun_facts": [
-          "62K followers",
-          "Brother Alex also plays for Seattle",
-          "USMNT contender",
-          "Baby girl born Jul 2024"
+          "From La Habra, California — a local kid making it in the lower divisions",
+          "Joined El Paso mid-2024 from USL League One side Central Valley Fuego FC",
+          "The engine in El Paso's midfield — the box-to-box presence that makes everything work",
+          "Born August 3, 1996"
         ],
-        "one_liner": "Brother duo! Cristian and Alex Roldan both play for Seattle. 62K followers, new dad, USMNT hopeful.",
-        "source": "https://www.instagram.com/cristianroldan_/"
-      },
-      {
-        "name": "Jordan Morris",
-        "position": "Left Wing",
-        "jersey_number": 13,
-        "nationality": "American",
-        "player_instagram": "@j.morris13",
-        "partner_name": "Eliza Morris",
-        "partner_instagram": "@lizahbee",
-        "fun_facts": [
-          "All-time Sounders leading scorer (91 goals)",
-          "Son Theo (2023), daughter Emilie (Dec 2025)",
-          "Local Seattle kid"
-        ],
-        "one_liner": "Sounders legend and girl dad x2. Daughter Emilie is only 4 months old.",
-        "source": "https://www.instagram.com/j.morris13/"
+        "one_liner": "The midfield heartbeat. Coronado keeps El Paso organized — the kind of player you don't notice until he's not there.",
+        "source": "https://www.eplocomotivefc.com/roster/robert-coronado/"
       }
     ]
   },
