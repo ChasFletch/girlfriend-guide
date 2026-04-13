@@ -1,14 +1,14 @@
 {
   "_metadata": {
     "generated_by": "keely",
-    "generated_at": "2026-04-12T14:02:00-05:00",
+    "generated_at": "2026-04-13T14:15:00-05:00",
     "for_match": "Houston Dynamo FC vs El Paso Locomotive FC",
     "match_date": "2026-04-15",
     "match_time": "7:00 PM CT",
     "venue": "Shell Energy Stadium",
     "competition": "2026 Lamar Hunt U.S. Open Cup — Round of 32",
     "previous_match_data_at": "2026-04-11T00:00:00-05:00",
-    "notes": "Updated April 12: Colorado 6-2 loss (April 11) added as bounce-back content angle. Sviatchenko suspension SERVED (Seattle April 4) — updated to AVAILABLE. Markanich 2-match ban SERVED — updated to AVAILABLE. Hot posts from April 3 PC scan still current. Injury status for Artur/Halter needs April 15 morning check (per Charles's Perplexity scan plan)."
+    "notes": "Updated April 13: BCS post-Colorado recap checked — no new injuries. Olsen confirmed 'a few players down our spine out' (consistent with Artur/Halter). Bogusz baby girl confirmed arrived (fixed DEFCON 1 inconsistency). Ponce stats corrected (0 MLS goals 2026, not 8 — prior hallucination). Artur/Halter final status: verify April 15 AM with Charles's Perplexity scan."
   },
   "matchday_hook": "After a rough Saturday in Colorado (we don't need to talk about it), the Dynamo have one week to flip the script — and what better way than Wednesday night Open Cup energy at Shell Energy? 🏆 El Paso Locomotive rolls in, a USL squad that just demolished New Mexico United 4-0 and they are NOT here to be tourists. But this is a new competition, a clean slate, and Houston is a TWO-TIME Open Cup champion. Guilherme is still the main character (4G/3A, Neymar in his DMs), Bogusz baby girl has arrived 👶, and Sviatchenko is back from suspension with something to prove. Ben Olsen — the man who won this cup as a PLAYER and as a COACH — knows exactly what it takes. Time to defend the legacy.",
   "vibe_strip_items": [
@@ -69,10 +69,10 @@
       "platform": "Instagram",
       "handle": "@wiktoria.wychowska",
       "post_date": "2026-01-21",
-      "description": "Last own post was Jan 21. Baby girl was due in February. Tagged in Bogusz's Mar 15 post from Houston. Radio silence since.",
+      "description": "Baby girl confirmed arrived (Feb/March 2026). Wiktoria last posted Jan 21 showing bump with '02.2026 💝'. Tagged in Bogusz's Mar 15 Houston post. Still in new-mom hibernation mode.",
       "caption_excerpt": "02.2026 💝",
-      "why_its_hot": "BABY WATCH IS AT DEFCON 1. Wiktoria's last post showed her pregnant belly with '02.2026 💝'. She was due in February. She was spotted in Bogusz's March 15 post in Houston. The baby has almost certainly arrived but they're keeping it private.",
-      "suggested_tea": "The Pilates instructor with 24K followers went quiet right when the baby was due. New mom hibernation mode is ON. We're just waiting for the reveal."
+      "why_its_hot": "The baby has arrived — Bogusz is officially a first-time dad. Wiktoria, the Pilates instructor with 24K followers, went full new-mom mode and has been quiet since the baby came. The private reveal is still pending.",
+      "suggested_tea": "First-time dad energy is fully activated. Bogusz is running midfield by day and dad life by night — and Wiktoria, 24K followers, is on total new-mom blackout. The reveal is going to break the Inner Circle when it drops."
     },
     {
       "player_or_partner": "Artur",
@@ -111,8 +111,8 @@
       "post_date": "2026-03-29",
       "description": "29th birthday celebrated by the team and on his personal feed.",
       "caption_excerpt": "Birthday celebration — 29 years young",
-      "why_its_hot": "The #10 just turned 29 and has 8 goals on the season. Designated Player money well spent. His wife Martina is on a social media break since July 2024.",
-      "suggested_tea": "8 goals at 29 — Ponce is in his prime. Birthday boy energy for the Seattle match."
+      "why_its_hot": "The #10 just turned 29 and is working to find his form as a Designated Player. The birthday vibes were immaculate even if the goal tally isn't there yet. Wife Martina has been on a social media break since July 2024 — a rare pair of private people in a very public squad.",
+      "suggested_tea": "Ponce turned 29 and the squad showed up. The DP is still finding his rhythm in Houston — but the birthday love from teammates says the dressing room believes in him."
     }
   ],
   "injury_flags": [
@@ -143,8 +143,8 @@
     {
       "player": "Colorado 6-2 result (April 11)",
       "status": "CONTEXT",
-      "detail": "Houston lost 6-2 to Colorado Rapids on April 11 (MLS). New injuries or rotation changes possible. Verify lineup news before April 14 assembly. Bounce-back narrative is a legit content angle for Open Cup guide.",
-      "impact": "Check Bayou City Soccer and MLS injury reports for any April 11 casualties before pipeline run."
+      "detail": "Houston lost 6-2 to Colorado Rapids on April 11 (MLS). BCS recap (April 13) confirms no new specific injuries named. Olsen quote: 'we still have a few players down our spine out' — consistent with Artur/Halter still absent. No new casualties reported.",
+      "impact": "No new injuries from Colorado game per BCS check April 13. Artur/Halter remain the known absences. Bounce-back narrative confirmed as the right angle."
     }
   ],
   "roster_changes": [
