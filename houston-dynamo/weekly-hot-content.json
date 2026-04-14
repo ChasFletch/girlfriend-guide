@@ -1,29 +1,59 @@
 {
   "_metadata": {
     "generated_by": "keely",
-    "generated_at": "2026-04-13T14:15:00-05:00",
+    "generated_at": "2026-04-14T15:30:00-05:00",
     "for_match": "Houston Dynamo FC vs El Paso Locomotive FC",
     "match_date": "2026-04-15",
     "match_time": "7:00 PM CT",
     "venue": "Shell Energy Stadium",
     "competition": "2026 Lamar Hunt U.S. Open Cup — Round of 32",
     "previous_match_data_at": "2026-04-11T00:00:00-05:00",
-    "notes": "Updated April 13: BCS post-Colorado recap checked — no new injuries. Olsen confirmed 'a few players down our spine out' (consistent with Artur/Halter). Bogusz baby girl confirmed arrived (fixed DEFCON 1 inconsistency). Ponce stats corrected (0 MLS goals 2026, not 8 — prior hallucination). Artur/Halter final status: verify April 15 AM with Charles's Perplexity scan."
+    "notes": "Updated April 14 with Charles's Perplexity Computer scan. KEY CORRECTIONS: (1) Bogusz baby due JULY 2026, NOT arrived — previous scans misread Wiktoria's Instagram timeline. (2) Guilherme now 5G/4A including 100th career goal vs Colorado. (3) Artur confirmed OUT all season (knee injury, preseason). (4) McGlynn QUESTIONABLE (new lower body, first time on injury report). (5) El Paso head coach Wilmer Cabrera WON 2018 Open Cup with Houston — revenge game narrative. (6) Rubio Rubín (El Paso) had baby boy YESTERDAY (April 13). El Paso 4-0-1 all season, better form than Houston right now."
   },
-  "matchday_hook": "After a rough Saturday in Colorado (we don't need to talk about it), the Dynamo have one week to flip the script — and what better way than Wednesday night Open Cup energy at Shell Energy? 🏆 El Paso Locomotive rolls in, a USL squad that just demolished New Mexico United 4-0 and they are NOT here to be tourists. But this is a new competition, a clean slate, and Houston is a TWO-TIME Open Cup champion. Guilherme is still the main character (4G/3A, Neymar in his DMs), Bogusz baby girl has arrived 👶, and Sviatchenko is back from suspension with something to prove. Ben Olsen — the man who won this cup as a PLAYER and as a COACH — knows exactly what it takes. Time to defend the legacy.",
+  "matchday_hook": "After a rough Saturday in Colorado (we don't need to talk about it), the Dynamo have one week to flip the script — and what better way than Wednesday night Open Cup energy at Shell Energy? 🏆 El Paso Locomotive rolls in, a USL squad that just went 4-0-1 and they are absolutely NOT here to be tourists. But this is a new competition, a clean slate, and Houston is a TWO-TIME Open Cup champion. Oh, and the man coaching El Paso tonight? Wilmer Cabrera — who WON the 2018 Open Cup right here at Shell Energy as Houston's head coach. He's coming back for it. Guilherme just hit his 100th career goal (even in a 6-2 loss, the man stays iconic — 5G/4A), Bogusz and Wiktoria are expecting their baby girl this summer 🤍, and Sviatchenko is back from suspension with something to prove. Ben Olsen knows what it takes. Time to defend the legacy.",
   "vibe_strip_items": [
     "🚂 El Paso Locomotive FC — Open Cup Round of 32, Wednesday night vibes",
     "😬 Colorado was rough (6-2). Open Cup is a new competition. Bounce back starts NOW.",
-    "🏆 Two-time Open Cup champs (2018, 2023) — Ben Olsen won this as player AND coach",
-    "👶 BOGUSZ BABY GIRL HAS ARRIVED — first-time dad in the building",
-    "🔥 Guilherme: 4G/3A, Neymar in his DMs — the main character is locked in",
+    "🏆 Two-time Open Cup champs (2018, 2023) — and El Paso's coach WON it with Houston in 2018. REVENGE GAME.",
+    "👶 El Paso's Rubio Rubín had his baby boy YESTERDAY. Is the man playing on zero sleep tonight?",
+    "💯 Guilherme's 100TH CAREER GOAL — even in a 6-2 loss he found the net. 5G/4A this season.",
     "💪 Sviatchenko BACK — suspension served, redemption arc is live",
-    "🎯 El Paso: beat New Mexico United 4-0 in Open Cup R2 — do not sleep on them",
-    "🇸🇻 Amando Moreno (El Paso) — El Salvador international, 50+ USL goals, watch him",
-    "1️⃣.1️⃣M Héctor Herrera still the biggest IG in the building",
-    "🍼 Artur comeback watch: mid-April return — April 15 is in range"
+    "🎯 El Paso: 4-0-1 all competitions — the Loco are in BETTER FORM than Houston right now",
+    "🇸🇻 Amando Moreno (El Paso) — 34K Instagram, El Salvador international, USL Team of the Week",
+    "1️⃣.1️⃣M Héctor Herrera still the biggest IG in the building (even if Wednesday was rough for him)",
+    "🤍 Bogusz and Wiktoria expecting their baby girl this SUMMER — July watch is on"
   ],
   "hot_posts": [
+    {
+      "player_or_partner": "Rubio Rubín (El Paso Locomotive FC)",
+      "platform": "Instagram / X (El Paso club account)",
+      "handle": "@rubiorubin17",
+      "post_date": "2026-04-13",
+      "description": "Baby boy Adriel born April 13 — El Paso Locomotive posted congratulations. Melody Olvera Rubín (@melodyolvera) is the mom. Former MLS player (Real Salt Lake) playing tonight on literally zero sleep.",
+      "caption_excerpt": "Congratulations to Rubio Rubín and family on the birth of baby boy Adriel! 🎉",
+      "why_its_hot": "His son was born YESTERDAY. The man is showing up tonight possibly running on pure adrenaline and new dad energy. Former MLS player, El Salvador international, their best scorer. The most compelling storyline walking onto that pitch tonight is wearing El Paso's away kit.",
+      "suggested_tea": "El Paso's striker had his baby boy born YESTERDAY (April 13). Adriel Rubín is one day old and his dad has a game to play. Wife Melody (@melodyolvera) is home with a newborn while Rubio is at Shell Energy. New dad energy: does it make you superhuman or completely useless? Houston is about to find out."
+    },
+    {
+      "player_or_partner": "Wilmer Cabrera (El Paso Head Coach)",
+      "platform": "Context / Narrative",
+      "handle": null,
+      "post_date": "2026-04-15",
+      "description": "El Paso's head coach managed the Houston Dynamo from 2017-2019 and won the 2018 US Open Cup with them — right here at Shell Energy Stadium. Tonight he's back with a lower-division team trying to eliminate his old club.",
+      "caption_excerpt": null,
+      "why_its_hot": "The revenge game writes itself. Cabrera won the trophy with Houston and now he's coaching the team trying to take it from them. The soccer gods have a sense of drama.",
+      "suggested_tea": "El Paso's coach is Wilmer Cabrera — the man who WON the US Open Cup WITH the Houston Dynamo in 2018. He managed them 2017-2019. He knows Shell Energy Stadium. He knows this team. He came back with a USL squad to take the cup his old club now defends. You literally cannot write this."
+    },
+    {
+      "player_or_partner": "Guilherme",
+      "platform": "Instagram",
+      "handle": "@guilherme11",
+      "post_date": "2026-04-12",
+      "description": "100th career goal scored at Colorado (90+3') — a piledriver from outside the box, even in a 6-2 loss. Dynamo posted 'Parabéns, Guilherme!' Now 5 goals, 4 assists in 6 MLS matches. 3rd in MLS for goal contributions.",
+      "caption_excerpt": "Parabéns, Guilherme! ⚽ Goal 100 of his career.",
+      "why_its_hot": "The man scored his 100th career goal in a 6-2 loss and somehow STILL made it about him. 439K Instagram followers, Neymar in his DMs, and now a milestone goal. He's literally carrying this team's content output on his back.",
+      "suggested_tea": "Guilherme scored his 100th career goal at Colorado (90+3'). In a 6-2 loss. On the road. The main character energy does not stop. 5 goals, 4 assists in 6 matches — 3rd in all of MLS for goal contributions. Neymar texted. The legacy grows."
+    },
     {
       "player_or_partner": "Isybella Bond (Jonathan Bond's wife)",
       "platform": "Instagram / TikTok",
@@ -38,11 +68,21 @@
       "player_or_partner": "Erik Sviatchenko",
       "platform": "Instagram",
       "handle": "@eriksviat",
-      "post_date": "2026-03-27",
-      "description": "8th wedding anniversary post — '19 years as sweethearts and today we celebrate 8 years of marriage ❤️ Forever us ❤️'",
-      "caption_excerpt": "19 år som kærester og idag kan vi fejre 8 års bryllupsdag ❤️ Forevigt os ❤️",
-      "why_its_hot": "The man who lived an entire telenovela vs Dallas (goal + own goal + red card) posted the most romantic anniversary tribute. The duality of Erik Sviatchenko. He sat out the Seattle game (suspension served) and now he's BACK — and ready to remind everyone why he's the captain.",
-      "suggested_tea": "Romance on the timeline, chaos on the pitch, and now he's back. The captain served his suspension, posted a 19-year anniversary tribute, and returns for Open Cup. The Sviatchenko redemption arc is officially in progress."
+      "post_date": "2026-04-05",
+      "description": "Featured in a Dynamo coffee recommendations reel — the captain is doing Houston lifestyle content now. Also posted 'Step by step we climb' after the Seattle loss (Apr 3).",
+      "caption_excerpt": "Step by step we climb, focused on ourselves",
+      "why_its_hot": "The man who lived an entire telenovela vs Dallas (goal + own goal + red card) is now recommending pour-overs and posting motivational captions. He's back from suspension and channeling his inner barista. The duality of Erik Sviatchenko.",
+      "suggested_tea": "Sviatchenko served his suspension, posted a 19-year anniversary tribute, and is now doing Houston coffee content. Romance on the timeline, chaos on the pitch, and now pour-over recommendations. He's BACK for Open Cup with something to prove."
+    },
+    {
+      "player_or_partner": "Wiktoria Wychowska (Bogusz's wife)",
+      "platform": "Instagram",
+      "handle": "@wiktoria.wychowska",
+      "post_date": "2026-01-21",
+      "description": "CORRECTION: Baby girl is due JULY 2026 — not February/March as previously thought. Per Bogusz's post-Portland interview (March 15): 'We're going to have a daughter in July.' Wiktoria's Jan 21 bump post with '02.2026 💝' was misread as a birth announcement — she was showing the bump, not announcing arrival. Wiktoria still quiet on social (last own post Jan 21, tagged in Bogusz's Mar 15 Houston post).",
+      "caption_excerpt": "02.2026 💝",
+      "why_its_hot": "The ball-under-jersey celebration after the Portland win (March 15) was Bogusz announcing the pregnancy. 'We're going to have a daughter in July' — his words. Wiktoria (@wiktoria.wychowska, 24K followers, @no13.pilates) is in full pregnancy mode. July baby watch is on.",
+      "suggested_tea": "Correction from last week: Bogusz's baby girl is coming in JULY, not already here. The ball-under-jersey celebration in March was the pregnancy announcement. Wiktoria, 24K Instagram followers and Pilates instructor, is expecting this summer. The reveal is going to be worth the wait."
     },
     {
       "player_or_partner": "Fiorella Curutchet",
@@ -55,54 +95,34 @@
       "suggested_tea": "The Bouzat-Curutchet family is settling into Houston beautifully. Salvador turned 2 in January, Bouzat turned 32 on March 28. Family vibes are immaculate."
     },
     {
-      "player_or_partner": "Héctor Herrera",
-      "platform": "Instagram",
-      "handle": "@h.herrera16",
-      "post_date": "2026-04-01",
-      "description": "'Marzo 2026' monthly recap post — lifestyle content with 1.1M followers watching.",
-      "caption_excerpt": "Marzo 2026",
-      "why_its_hot": "The squad's biggest IG presence (1.1M followers) posting monthly lifestyle recaps. Single king era continues. The prodigal son returned to Houston and he's thriving.",
-      "suggested_tea": "1.1M followers, freshly divorced, posting monthly recaps like he's running a magazine. Héctor Herrera is living his best single-in-Houston life."
-    },
-    {
-      "player_or_partner": "Wiktoria Wychowska",
-      "platform": "Instagram",
-      "handle": "@wiktoria.wychowska",
-      "post_date": "2026-01-21",
-      "description": "Baby girl confirmed arrived (Feb/March 2026). Wiktoria last posted Jan 21 showing bump with '02.2026 💝'. Tagged in Bogusz's Mar 15 Houston post. Still in new-mom hibernation mode.",
-      "caption_excerpt": "02.2026 💝",
-      "why_its_hot": "The baby has arrived — Bogusz is officially a first-time dad. Wiktoria, the Pilates instructor with 24K followers, went full new-mom mode and has been quiet since the baby came. The private reveal is still pending.",
-      "suggested_tea": "First-time dad energy is fully activated. Bogusz is running midfield by day and dad life by night — and Wiktoria, 24K followers, is on total new-mom blackout. The reveal is going to break the Inner Circle when it drops."
-    },
-    {
       "player_or_partner": "Artur",
       "platform": "Instagram",
       "handle": "@arturl33",
       "post_date": "2026-03-15",
-      "description": "Daughter's 1st birthday celebration — '1 ano da nossa pequenina!' (1 year of our little one!)",
+      "description": "Daughter's 1st birthday celebration — '1 ano da nossa pequenina!' while sidelined with season-long knee injury.",
       "caption_excerpt": "1 ano da nossa pequenina!",
-      "why_its_hot": "Sweet daddy content. Artur celebrated his daughter's first birthday with the most heartfelt post. He's injured right now but the family content is A+.",
-      "suggested_tea": "The Brazilian midfielder may be sidelined with an injury, but he's winning at dad life. His daughter just turned 1 and the celebration post was pure joy."
+      "why_its_hot": "Artur is OUT all season with a knee injury sustained in preseason — the earlier 'mid-April return' timelines were optimistic. But the daddy content is pure. His daughter's first birthday post was pure joy while he's stuck on the sideline.",
+      "suggested_tea": "The Brazilian midfielder won't make it tonight — confirmed OUT all season with a preseason knee injury. But he showed up for what matters: daughter's first birthday was celebrated with the best post on the squad's entire social feed."
     },
     {
-      "player_or_partner": "Guilherme",
+      "player_or_partner": "Héctor Herrera",
       "platform": "Instagram",
-      "handle": "@guilherme11",
-      "post_date": "2026-03-15",
-      "description": "Match celebration post with religious caption — 'Amado is happy Gloria a Deus ❤️‍'",
-      "caption_excerpt": "Amado is happy Gloria a Deus ❤️‍",
-      "why_its_hot": "439K followers watching the breakout star of the season. 4 goals, 3 assists in 4 matches. Neymar literally texted him. No confirmed partner — the man is all about football and God right now.",
-      "suggested_tea": "When Neymar is sliding into your DMs to say 'you learned that from me,' you've made it. Guilherme is the main character of the 2026 season and the vibes are spiritual."
+      "handle": "@h.herrera16",
+      "post_date": "2026-04-01",
+      "description": "'Marzo 2026' monthly recap post. Also: conceded the penalty for Colorado's 6th goal (90+5'). The 1.1M followers are watching a man in a difficult moment.",
+      "caption_excerpt": "Marzo 2026",
+      "why_its_hot": "1.1M followers — the squad's biggest social presence. The Colorado match was rough for HH specifically (penalty conceded in stoppage time). But he's doing lifestyle content and staying composed. The energy is: we move forward.",
+      "suggested_tea": "1.1M followers and still the most followed man on the squad. The Colorado game stung — penalty conceded in 90+5'. But Héctor Herrera's monthly lifestyle recaps don't stop for bad results. Resilience is the brand."
     },
     {
       "player_or_partner": "Houston Dynamo FC (squad)",
       "platform": "Context",
       "handle": null,
       "post_date": "2026-04-11",
-      "description": "Houston lost 6-2 to Colorado Rapids at home on April 11. Four days later they host El Paso Locomotive in the US Open Cup Round of 32.",
+      "description": "Houston lost 6-2 to Colorado Rapids on April 11. Now 2-4-0, 13th in the Western Conference. Open Cup is their best chance to win something this season.",
       "caption_excerpt": null,
-      "why_its_hot": "The bounce-back narrative writes itself. One of their worst results of the season (6-2 at home) and four days later they're hosting an Open Cup match with their two-championship legacy on the line. Ben Olsen won this cup as a player (DC United 2008) and as a coach (2013, 2023). He knows how to use a bad week as fuel.",
-      "suggested_tea": "Four days after a 6-2 loss, the two-time Open Cup champions host a USL team at Shell Energy. The math is simple: this is how you answer a bad week. Guilherme, Sviatchenko, and the rest have a very clear statement to make on Wednesday night."
+      "why_its_hot": "The stakes of tonight are higher than they look. A USL team in better form, a former Houston manager on the opposing bench, and a two-time champion club needing a result badly. The two-time Open Cup champs have something to prove.",
+      "suggested_tea": "Four days after a 6-2 loss, the two-time Open Cup champions host a USL team whose coach WON this tournament right here with Houston in 2018. The math is simple: this is how you answer a bad week. Guilherme, Sviatchenko, and the rest have a very clear statement to make on Wednesday night."
     },
     {
       "player_or_partner": "Ezequiel Ponce",
@@ -111,7 +131,7 @@
       "post_date": "2026-03-29",
       "description": "29th birthday celebrated by the team and on his personal feed.",
       "caption_excerpt": "Birthday celebration — 29 years young",
-      "why_its_hot": "The #10 just turned 29 and is working to find his form as a Designated Player. The birthday vibes were immaculate even if the goal tally isn't there yet. Wife Martina has been on a social media break since July 2024 — a rare pair of private people in a very public squad.",
+      "why_its_hot": "The #10 just turned 29 and is working to find his form. Wife Martina has been on a social media break since July 2024 — a rare pair of private people in a very public squad.",
       "suggested_tea": "Ponce turned 29 and the squad showed up. The DP is still finding his rhythm in Houston — but the birthday love from teammates says the dressing room believes in him."
     }
   ],
@@ -130,21 +150,21 @@
     },
     {
       "player": "Artur",
-      "status": "QUESTIONABLE",
-      "detail": "Lower body injury (knee per BeSoccer). Mid-April return — April 15 is right in that window. Verify April 15 AM with Charles's Perplexity scan.",
-      "impact": "Key midfield presence. If he returns, huge boost. If not, depth continues to cover."
+      "status": "OUT — all season",
+      "detail": "Knee injury sustained in preseason. Has been OUT all season. Transfermarkt lists 5+ missed matches. No timeline for return — 'mid-April' projections were optimistic and have passed.",
+      "impact": "Key CDM is confirmed absent. Spine of the team continues to be missing."
     },
     {
       "player": "Lucas Halter",
       "status": "OUT",
-      "detail": "Lower body injury. Mid-April return expected — tight timeline for April 15. Verify April 15 AM.",
-      "impact": "Defensive depth compromised. Fiancée Madison Tayler providing moral support from the stands."
+      "detail": "Lower body injury. Still OUT per April 10-11 MLS availability report. Mid-April return timeline has passed without return. Unlikely for April 15.",
+      "impact": "Defensive depth compromised. Madison Tayler providing moral support from the stands."
     },
     {
-      "player": "Colorado 6-2 result (April 11)",
-      "status": "CONTEXT",
-      "detail": "Houston lost 6-2 to Colorado Rapids on April 11 (MLS). BCS recap (April 13) confirms no new specific injuries named. Olsen quote: 'we still have a few players down our spine out' — consistent with Artur/Halter still absent. No new casualties reported.",
-      "impact": "No new injuries from Colorado game per BCS check April 13. Artur/Halter remain the known absences. Bounce-back narrative confirmed as the right angle."
+      "player": "Jack McGlynn",
+      "status": "QUESTIONABLE",
+      "detail": "New lower body injury. Listed as questionable on Matchday 7 (April 10-11) availability report — first time on the injury report this season. Worth watching in the lineup.",
+      "impact": "Midfield option uncertain. If out, depth in midfield is thin."
     }
   ],
   "roster_changes": [
@@ -153,6 +173,12 @@
       "player": "Tomas Wiesner",
       "detail": "Not on official roster as of April 3, 2026 verification.",
       "source": "https://www.houstondynamofc.com/players/"
+    },
+    {
+      "type": "removed",
+      "player": "Nelson Quiñónes",
+      "detail": "WAIVED March 18, 2026. No longer with the club.",
+      "source": "Transfermarkt"
     },
     {
       "type": "added",
@@ -183,131 +209,126 @@
     "team": "El Paso Locomotive FC",
     "competition": "2026 Lamar Hunt U.S. Open Cup — Round of 32",
     "league": "USL Championship (second division)",
-    "form_summary": "2-0-1 in USL Championship, 7 points, 3rd in Western Conference. Beat New Mexico United 4-0 in Open Cup Round 2. Hot form coming in.",
+    "form_summary": "4-0-1 across all competitions (W4-D1-L0), 3rd in USL Western Conference. Beat New Mexico United 4-0 in Open Cup Round 1, beat Laredo Heat 2-0 in Round 2. They are in BETTER FORM than Houston right now.",
+    "head_coach_note": "Wilmer Cabrera (managed Houston Dynamo 2017-2019, WON the 2018 US Open Cup with them at Shell Energy Stadium). REVENGE GAME narrative — this is the most compelling storyline of the match.",
     "rotation_risk": "LOW — This is El Paso's biggest game of the season. No Champions Cup commitments. Expect their full strength XI.",
-    "narrative": "El Paso is coming to Houston with something to prove. USL underdogs in an Open Cup upset bid — the Locomotive are dangerous, organized, and in form. Don't sleep on them.",
+    "narrative": "El Paso is coming to Houston with something to prove — AND their coach already knows how to win this tournament here. Wilmer Cabrera won the 2018 Open Cup with the Dynamo. He's coming back with a USL squad on a 4-match winning streak to take the trophy his old club defends. The soccer gods have a sense of drama.",
     "players_to_watch": [
+      {
+        "name": "Rubio Rubín",
+        "position": "Forward",
+        "jersey_number": null,
+        "nationality": "Guatemalan-American",
+        "nationality_flag": "🇬🇹🇺🇸",
+        "player_instagram": "@rubiorubin17",
+        "player_instagram_url": "https://www.instagram.com/rubiorubin17/",
+        "partner_name": "Melody Olvera Rubín",
+        "partner_instagram": "@melodyolvera",
+        "kids": "Baby boy Adriel — born April 13, 2026 (yesterday)",
+        "fun_facts": [
+          "Baby boy Adriel born YESTERDAY (April 13, 2026)",
+          "Former MLS player with Real Salt Lake",
+          "Guatemalan-American — represents Guatemala internationally",
+          "Goals in 3 of first 4 USL matches including opening day brace",
+          "Wife Melody (@melodyolvera) is home with a 1-day-old baby right now"
+        ],
+        "one_liner": "The new dad. His son was born yesterday. He's playing tonight anyway. New dad energy is either going to make him superhuman or completely useless — Houston is about to find out.",
+        "source": "https://x.com/eplocomotivefc/status/2043808303818428871"
+      },
       {
         "name": "Amando Moreno",
         "position": "Forward / Winger",
         "jersey_number": null,
-        "nationality": "American (El Salvador national team)",
-        "nationality_flag": "🇸🇻",
+        "nationality": "Salvadoran-American",
+        "nationality_flag": "🇸🇻🇺🇸",
         "player_instagram": "@amando_moreno",
         "player_instagram_url": "https://www.instagram.com/amando_moreno/",
         "followers": "34K",
         "partner_name": null,
         "partner_instagram": null,
         "fun_facts": [
-          "Born in the US, plays for El Salvador national team (Salvadoran passport 2021)",
-          "Hit 50 USL Championship regular season goals milestone this season",
-          "10 goals + 4 assists in USL play last season — team's leading scorer",
-          "Called up to El Salvador's 2021 CONCACAF Gold Cup squad",
-          "34K Instagram followers — one of El Paso's most visible players"
+          "34K Instagram followers — more than most Houston Dynamo players",
+          "El Salvador international",
+          "USL Championship Team of the Week (Week 5)",
+          "Hit 50+ career USL Championship goals milestone this season",
+          "Currently listed as single per public sources"
         ],
-        "one_liner": "The milestone man. 50 USL goals and counting, El Salvador international, and the face of El Paso's attack. He's the one Houston's defense needs to know about.",
-        "source": "https://www.eplocomotivefc.com/roster/amando-moreno/"
+        "one_liner": "The milestone man. 34K Instagram, El Salvador international, USL Team of the Week — this is El Paso's most dangerous attacker and he's got the followers to prove it.",
+        "source": "https://www.instagram.com/amando_moreno/"
       },
       {
-        "name": "Gabi Torres",
-        "position": "Midfielder / Winger",
-        "jersey_number": null,
-        "nationality": "Brazilian",
-        "nationality_flag": "🇧🇷",
-        "player_instagram": null,
-        "player_instagram_url": null,
-        "followers": null,
-        "partner_name": null,
-        "partner_instagram": null,
-        "fun_facts": [
-          "Set El Paso's all-time club assist record in 2025 — 11 assists across all competitions",
-          "Brazilian versatility: plays midfielder AND winger interchangeably",
-          "His left-side combination with Moreno is El Paso's most dangerous weapon",
-          "Former Phoenix Rising FC, came to El Paso via trade in January 2025",
-          "University of the District of Columbia alum — 34 goals, 21 assists in college"
-        ],
-        "one_liner": "The record-setter. Gabi Torres broke El Paso's assist record in his first season there — the Brazilian creative engine who makes Moreno dangerous.",
-        "source": "https://www.eplocomotivefc.com/news/2025/01/08/el-paso-locomotive-fc-sign-defender-gabi-torres-for-2025/"
-      },
-      {
-        "name": "Robert Coronado",
+        "name": "Eric Calvillo",
         "position": "Midfielder",
         "jersey_number": null,
-        "nationality": "American",
-        "nationality_flag": "🇺🇸",
-        "player_instagram": null,
-        "player_instagram_url": null,
-        "followers": null,
-        "partner_name": null,
-        "partner_instagram": null,
+        "nationality": "Salvadoran-American",
+        "nationality_flag": "🇸🇻🇺🇸",
+        "player_instagram": "@ericcalvillo26",
+        "player_instagram_url": "https://www.instagram.com/ericcalvillo26/",
+        "followers": "11K",
+        "partner_name": "Lorennak",
+        "partner_instagram": "@__Lorennak",
         "fun_facts": [
-          "From La Habra, California — a local kid making it in the lower divisions",
-          "Joined El Paso mid-2024 from USL League One side Central Valley Fuego FC",
-          "The engine in El Paso's midfield — the box-to-box presence that makes everything work",
-          "Born August 3, 1996"
+          "El Salvador international — dual nationality",
+          "Wife @__Lorennak tagged in his bio with ❤️",
+          "Scored in the 4-0 Open Cup win vs New Mexico",
+          "11K followers — strong for USL level",
+          "100+ club appearances for El Paso"
         ],
-        "one_liner": "The midfield heartbeat. Coronado keeps El Paso organized — the kind of player you don't notice until he's not there.",
-        "source": "https://www.eplocomotivefc.com/roster/robert-coronado/"
+        "one_liner": "The Inner Circle connection. Calvillo has a wife (@__Lorennak) tagged in his bio and scored in the Open Cup win. He's the midfield engine and the one El Paso partner watchers should follow.",
+        "source": "https://www.instagram.com/ericcalvillo26/"
       }
     ]
   },
   "beat_writer_sources": [
     {
       "outlet": "Bayou City Soccer",
-      "author": "Rudy Segura",
-      "title": "Three Players to Watch: Seattle Sounders",
-      "url": "https://www.bayoucitysoccer.net/dynamo/three-players-to-watch-seattle-sounders",
-      "key_takeaway": "Andrew Thomas (GK replacing Frei), Paul Rothrock (always dangerous vs Houston), Albert Rusnák (creative engine). Seattle may rotate due to midweek Champions Cup."
+      "author": "Dustyn Richardson",
+      "title": "BCS — checked April 14, no Open Cup preview published yet",
+      "url": "https://www.bayoucitysoccer.net/",
+      "key_takeaway": "No El Paso-specific preview as of April 14 evening. Open Cup gets less beat writer coverage than MLS. Colorado recap (April 13) confirmed no new injuries beyond Artur/Halter."
     },
     {
-      "outlet": "ESPN",
+      "outlet": "Our Esquina",
       "author": null,
-      "title": "MLS Standings",
-      "url": "https://www.espn.com/soccer/standings/_/league/usa.1/major-league-soccer",
-      "key_takeaway": "Seattle at 3-1-1, 10 points."
+      "title": "Mateusz Bogusz — Dynamo take baby steps over Timbers",
+      "url": "https://ouresquina.com/2026/mateusz-bogusz-dynamo-take-baby-steps-over-timbers/",
+      "key_takeaway": "BOGUSZ QUOTE: 'We're going to have a daughter in July, so that was good to score, so I can do this celebration.' — March 15, 2026. Baby due JULY, not February/March."
     },
     {
       "outlet": "MLS",
       "author": null,
-      "title": "Player Availability Report",
-      "url": "https://www.mlssoccer.com/league-reports/player-availability-report/",
-      "key_takeaway": "Houston: Artur (lower body), Halter (lower body) OUT. Seattle: Arriola (knee), Ragen (hamstring) OUT."
+      "title": "Player Availability Report — Matchday 7",
+      "url": "https://www.mlssoccer.com/news/mls-player-status-report-matchday-7-saturday-april-11-and-sunday-april-12",
+      "key_takeaway": "Houston: Artur (knee) OUT, Halter (lower body) OUT, McGlynn QUESTIONABLE (new lower body). Markanich and Sviatchenko AVAILABLE."
     },
     {
-      "outlet": "BeSoccer",
+      "outlet": "El Paso Locomotive FC (club X account)",
       "author": null,
-      "title": "Artur Injury Report",
-      "url": "https://www.besoccer.com/",
-      "key_takeaway": "Artur's injury is a knee issue — mid-April return expected. Halter also mid-April."
+      "title": "Rubio Rubín baby announcement",
+      "url": "https://x.com/eplocomotivefc/status/2043808303818428871",
+      "key_takeaway": "El Paso congratulated Rubio Rubín on the birth of baby boy Adriel on April 13, 2026."
     }
   ],
   "sources": [
     "https://www.instagram.com/jonathanbond23/",
     "https://www.instagram.com/isybellabond/",
-    "https://www.instagram.com/p/DWHVNtXk7QX/",
     "https://www.instagram.com/eriksviat/",
     "https://www.instagram.com/annesviat/",
     "https://www.instagram.com/fiorecurutchet/",
     "https://www.instagram.com/h.herrera16/",
     "https://www.instagram.com/wiktoria.wychowska/",
-    "https://www.instagram.com/x_bogus/",
     "https://www.instagram.com/arturl33/",
     "https://www.instagram.com/rachelblima/",
     "https://www.instagram.com/guilherme11/",
     "https://www.instagram.com/ezequielp9/",
-    "https://www.instagram.com/nickmarkanich/",
-    "https://www.instagram.com/abby.mchugh/",
-    "https://www.instagram.com/aliyu_bravo7/",
-    "https://www.instagram.com/ayshatou_jegah/",
-    "https://www.instagram.com/madison_tayler/",
-    "https://www.instagram.com/lucielingr/",
-    "https://www.instagram.com/bru_senna/",
-    "https://www.instagram.com/brookesavannah2/",
-    "https://www.instagram.com/martu.madeop/",
-    "https://www.bayoucitysoccer.net/dynamo/three-players-to-watch-seattle-sounders",
-    "https://www.espn.com/soccer/standings/_/league/usa.1/major-league-soccer",
-    "https://www.mlssoccer.com/league-reports/player-availability-report/",
+    "https://www.instagram.com/rubiorubin17/",
+    "https://www.instagram.com/melodyolvera/",
+    "https://www.instagram.com/amando_moreno/",
+    "https://www.instagram.com/ericcalvillo26/",
+    "https://x.com/eplocomotivefc/status/2043808303818428871",
+    "https://ouresquina.com/2026/mateusz-bogusz-dynamo-take-baby-steps-over-timbers/",
+    "https://www.mlssoccer.com/news/mls-player-status-report-matchday-7-saturday-april-11-and-sunday-april-12",
     "https://www.houstondynamofc.com/players/",
-    "https://www.houstondynamofc.com/news/10-man-houston-dynamo-fc-rally-back-ultimately-fall-4-3-to-fc-dallas-on-the-road"
+    "https://en.wikipedia.org/wiki/Wilmer_Cabrera"
   ]
 }
