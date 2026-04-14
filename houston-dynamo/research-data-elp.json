@@ -1,0 +1,313 @@
+{
+  "_metadata": {
+    "generated_by": "perplexity_computer",
+    "generated_at": "2026-04-14T15:00:00-05:00",
+    "scan_type": "full",
+    "match": "Houston Dynamo FC vs El Paso Locomotive FC",
+    "competition": "Lamar Hunt U.S. Open Cup — Round of 32",
+    "date": "2026-04-15",
+    "time": "7:00 PM CT",
+    "venue": "Shell Energy Stadium",
+    "broadcast": "Paramount+",
+    "notes": "Cup magic vibes. El Paso is on a 4-match winning streak and has actually been BETTER than the Dynamo lately. The Dynamo are 2-time Open Cup champs (2018, 2023) but currently in their worst form of the season. Winner hosts Austin FC or Louisville City in the Round of 16 (Apr 28-29)."
+  },
+  "injury_report": {
+    "artur_status": "OUT — knee injury, sustained in preseason. Has been out all season. Transfermarkt lists it as a knee injury with 5+ missed matches. No timeline for return given. Was initially projected for 'mid-April' but that clearly hasn't happened.",
+    "halter_status": "OUT — lower body (leg injury per Transfermarkt). Also has been out since at least March 21. Mid-April return was projected but he was still listed OUT on the April 10-11 MLS availability report. Unlikely for the El Paso match.",
+    "mcglynn_status": "QUESTIONABLE — lower body. NEW injury. Was listed as questionable on the Matchday 7 (April 10-11) availability report. First time on the injury report this season.",
+    "markanich_status": "AVAILABLE — suspension served (both matches). Back in the mix.",
+    "sviatchenko_status": "AVAILABLE — suspension served. Started vs Seattle and Colorado.",
+    "predicted_xi_notes": "BCS hasn't published an El Paso-specific preview (Open Cup gets less beat writer love than MLS). Based on the Colorado match lineup and available players, expect heavy rotation. Ben Olsen may use this as a chance to give fringe players minutes. Jimmy Maurer could start in goal. Agustin Resch, Sam Vines, Héctor Herrera likely to feature. Ondřej Lingr and Aliyu Ibrahim could get starts up front.",
+    "lineup_from_colorado_apr_11": {
+      "formation": "Not confirmed for El Paso",
+      "starters_colorado": ["Jonathan Bond", "Sam Vines", "Erik Sviatchenko", "Antonio Carlos", "Duane Holmes", "Diadié Samassékou", "Agustín Bouzat", "Lawrence Ennali", "Mateusz Bogusz", "Guilherme", "Ezequiel Ponce"],
+      "subs_used_colorado": ["Felipe Andrade", "Héctor Herrera", "Ondřej Lingr", "Aliyu Ibrahim"],
+      "notes": "After a 6-2 loss, expect rotation. Olsen will want to protect key players for the Saturday MLS match but also desperately needs a win for morale."
+    },
+    "sources": [
+      "https://www.mlssoccer.com/news/mls-player-status-report-matchday-7-saturday-april-11-and-sunday-april-12",
+      "https://www.sounderatheart.com/2026/04/opposition-scouting-report-houston-dynamo-3/",
+      "https://www.transfermarkt.us/houston-dynamo-fc/sperrenundverletzungen/verein/9168"
+    ]
+  },
+  "player_updates": {
+    "guilherme": {
+      "new_tea": "100TH CAREER GOAL. Scored vs Colorado (90+3') — a piledriver from outside the box, even in a 6-2 loss. Now has 5 goals and 4 assists in 6 matches, ranking 3rd in MLS for goal contributions. Dynamo posted 'Parabéns, Guilherme!' the next day. The man is literally carrying this team on his back while everyone around him is getting red cards and conceding 6 goals.",
+      "new_instagram_post": "Dynamo posted celebration of his 100th career goal on April 12. His personal IG (@guilherme11) — last confirmed post pattern shows match celebration content.",
+      "update_type": "milestone",
+      "sources": [
+        "https://x.com/HoustonDynamo/status/2043411369253376362",
+        "https://x.com/usasupersoccer/status/2043524582779338926",
+        "https://www.houstondynamofc.com/news/houston-dynamo-fc-fall-on-the-road-to-the-colorado-rapids"
+      ]
+    },
+    "erik_sviatchenko": {
+      "new_tea": "Back from suspension and immediately threw into the fire. Posted 'Step by step we climb' after the Seattle match. Then watched his team get hammered 6-2 at Colorado. The Dynamo also featured him in a coffee recommendations reel (Apr 5) — the captain is doing lifestyle content now. Anne Sviatchenko's IG still active with Houston lifestyle posts and Museum of Fine Arts content.",
+      "new_instagram_post": "Apr 3 — 'Step by step we climb, focused on ourselves' post. Apr 5 — Featured in Dynamo coffee reel.",
+      "update_type": "lifestyle_content",
+      "sources": [
+        "https://www.instagram.com/reel/DJR48WStEDV/",
+        "https://www.instagram.com/p/DO2h6mLjEBU/"
+      ]
+    },
+    "mateusz_bogusz": {
+      "new_tea": "CORRECTION: The baby is due in JULY, not February/March as previously reported. Per Our Esquina interview after the Portland win (March 15): 'We're going to have a daughter in July, so that was good to score, so I can do this celebration.' The ball-under-jersey celebration was a tribute to Wiktoria. Her IG (@wiktoria.wychowska) has been quiet — last own post Jan 21, tagged in Bogusz's Mar 15 Houston post. She's still in the 'Pilates princess enjoying the sun' era. Baby watch continues but it's a JULY watch, not imminent.",
+      "new_instagram_post": "Last Bogusz IG activity: Mar 15 post in Houston tagging Wiktoria.",
+      "update_type": "correction + baby_watch",
+      "sources": [
+        "https://ouresquina.com/2026/mateusz-bogusz-dynamo-take-baby-steps-over-timbers/",
+        "https://www.instagram.com/wiktoria.wychowska/"
+      ]
+    },
+    "lawrence_ennali": {
+      "new_tea": "Scored the consolation goal in the Colorado 6-2 loss (69th min) — his second of the season. Guilherme assisted. He's been one of the few bright spots in a dark stretch. Preslee Clark (@presleeclark) — no new notable posts found in the search, but she's been attending matches.",
+      "new_instagram_post": "Match content — goal celebration vs Colorado.",
+      "update_type": "goal",
+      "sources": [
+        "https://www.houstondynamofc.com/news/houston-dynamo-fc-fall-on-the-road-to-the-colorado-rapids"
+      ]
+    },
+    "sam_vines": {
+      "new_tea": "Made his Dynamo DEBUT vs Seattle (April 4) — came on as a substitute in the 90+2' minute. Also played vs Colorado. So yes, the Seattle match was his first Houston appearance, but it was literally 5 minutes of stoppage time in the rain. Not exactly a fairytale debut. Still waiting for a proper start.",
+      "new_instagram_post": null,
+      "update_type": "debut",
+      "sources": [
+        "https://www.houstondynamofc.com/news/houston-dynamo-fc-fall-1-0-to-seattle-sounders-fc-in-hard-fought-match"
+      ]
+    },
+    "franco_negri": {
+      "new_tea": "Made his first Dynamo START vs Seattle (April 4). Came off at halftime for Agustin Resch. Profile is private on Instagram.",
+      "new_instagram_post": null,
+      "update_type": "first_start",
+      "sources": [
+        "https://www.houstondynamofc.com/news/houston-dynamo-fc-fall-1-0-to-seattle-sounders-fc-in-hard-fought-match"
+      ]
+    },
+    "felipe_andrade": {
+      "new_tea": "OWN GOAL in the Colorado match (90+1'). A cross deflected off him and into the net to make it 5-2. Rough night. Also got a yellow card vs Seattle. Having a tough stretch.",
+      "new_instagram_post": null,
+      "update_type": "own_goal",
+      "sources": [
+        "https://www.espn.com/soccer/match/_/gameId/761539/houston-dynamo-fc-colorado-rapids"
+      ]
+    },
+    "hector_herrera": {
+      "new_tea": "Conceded the penalty that led to Colorado's 6th goal (90+5'). Came on as a sub. The 1.1M followers are watching a man in pain right now.",
+      "new_instagram_post": null,
+      "update_type": "incident",
+      "sources": [
+        "https://www.houstondynamofc.com/news/houston-dynamo-fc-fall-on-the-road-to-the-colorado-rapids"
+      ]
+    },
+    "aliyu_ibrahim": {
+      "new_tea": "Made his 100TH MLS APPEARANCE vs Seattle (came on in 88th minute). A quiet milestone on a rough night.",
+      "new_instagram_post": null,
+      "update_type": "milestone",
+      "sources": [
+        "https://www.houstondynamofc.com/news/houston-dynamo-fc-fall-1-0-to-seattle-sounders-fc-in-hard-fought-match"
+      ]
+    }
+  },
+  "el_paso_scout": {
+    "_team_overview": {
+      "full_name": "El Paso Locomotive FC",
+      "league": "USL Championship (2nd tier)",
+      "record_2026": "4-0-1 (W4-D1-L0), 3rd in Western Conference",
+      "usl_cup_path": "Beat New Mexico United 4-0 in Round 1, beat Laredo Heat 2-0 in Round 2",
+      "streak": "4-match winning streak across all competitions",
+      "key_stat": "Only 1 loss all season (a 2-2 draw is their worst result). Scored 7 goals in 3 USL matches.",
+      "stadium": "Southwest University Park, El Paso, TX",
+      "club_instagram": "@eplocomotivefc",
+      "vibe": "This team is HOT right now. They beat New Mexico 4-0 in the Open Cup, have only dropped 2 points all season, and their players are getting USL Team of the Week honors left and right. Don't sleep on the lower division side — they're in better form than the Dynamo.",
+      "head_coach": "Wilmer Cabrera (formerly managed Houston Dynamo FC 2017-2019, including the 2018 US Open Cup win. Revenge game narrative alert.)"
+    },
+    "players_to_watch": [
+      {
+        "name": "Rubio Rubín",
+        "position": "Forward",
+        "jersey_number": null,
+        "nationality": "Guatemalan-American",
+        "nationality_flag": "🇬🇹🇺🇸",
+        "age": null,
+        "instagram": "@rubiorubin17",
+        "instagram_url": "https://www.instagram.com/rubiorubin17/",
+        "partner_name": "Melody Olvera Rubín",
+        "partner_instagram": "@melodyolvera",
+        "partner_instagram_url": "https://www.instagram.com/melodyolvera/",
+        "kids": "Baby boy Adriel — BORN APRIL 13, 2026 (yesterday!!). El Paso Locomotive posted congratulations.",
+        "why_interesting": "NEW DAD ENERGY. His son Adriel was literally born YESTERDAY. The entire Loco familia is celebrating. He's also been the team's best scorer — goals in 3 of 4 USL matches including a brace in the season opener. Former MLS player (Real Salt Lake). Posted a wife anniversary post in December tagging @melodyolvera. The biggest tea in the building tomorrow is whether this man shows up running on zero sleep and scores anyway.",
+        "fun_facts": [
+          "Baby boy Adriel born April 13 — will he play tomorrow on zero sleep?",
+          "Guatemalan international (also has US citizenship)",
+          "Scored in 3 of first 4 USL matches including opening day brace",
+          "Former MLS player with Real Salt Lake",
+          "Wife Melody — anniversary post Dec 2024"
+        ],
+        "confidence": "high",
+        "sources": [
+          "https://x.com/eplocomotivefc/status/2043808303818428871",
+          "https://www.instagram.com/p/DDfNMS8v2uw/",
+          "https://en.wikipedia.org/wiki/2026_El_Paso_Locomotive_FC_season"
+        ]
+      },
+      {
+        "name": "Amando Moreno",
+        "position": "Forward",
+        "jersey_number": null,
+        "nationality": "Salvadoran",
+        "nationality_flag": "🇸🇻",
+        "age": null,
+        "instagram": "@amando_moreno",
+        "instagram_url": "https://www.instagram.com/amando_moreno/",
+        "followers": "34K",
+        "partner_name": null,
+        "partner_instagram": null,
+        "partner_instagram_url": null,
+        "kids": null,
+        "why_interesting": "34K Instagram followers — that's more than most Houston Dynamo players. El Salvador international. Named USL Championship Team of the Week for Week 5 after his recent performances. Scored in the 3-0 win over Monterey Bay. Single as far as public sources show. The 34K followers for a USL player is genuinely impressive — he's got a following.",
+        "fun_facts": [
+          "34K Instagram followers — bigger following than most Dynamo players",
+          "El Salvador international",
+          "USL Championship Team of the Week (Week 5)",
+          "Listed as single per public sources"
+        ],
+        "confidence": "high",
+        "sources": [
+          "https://www.instagram.com/amando_moreno/",
+          "https://www.instagram.com/p/DW1zfQllJAo/"
+        ]
+      },
+      {
+        "name": "Eric Calvillo",
+        "position": "Midfielder",
+        "jersey_number": null,
+        "nationality": "Salvadoran-American",
+        "nationality_flag": "🇸🇻🇺🇸",
+        "age": null,
+        "instagram": "@ericcalvillo26",
+        "instagram_url": "https://www.instagram.com/ericcalvillo26/",
+        "followers": "11K",
+        "partner_name": "Lorennak",
+        "partner_instagram": "@__Lorennak",
+        "partner_instagram_url": "https://www.instagram.com/__Lorennak/",
+        "kids": null,
+        "why_interesting": "El Salvador international with 11K followers and a tagged partner (@__Lorennak ❤️ in his bio). Scored in the Open Cup vs New Mexico. Posted a wife birthday tribute in March 2024 calling her 'my beautiful wife' — so they're married. The Inner Circle needs to investigate Lorennak's IG.",
+        "fun_facts": [
+          "El Salvador international — dual nationality",
+          "Partner @__Lorennak tagged in bio with ❤️",
+          "Scored in the 4-0 Open Cup win vs New Mexico",
+          "11K followers — strong for USL level",
+          "100+ club appearances for El Paso"
+        ],
+        "confidence": "high",
+        "sources": [
+          "https://www.instagram.com/ericcalvillo26/",
+          "https://www.instagram.com/p/C4Vt_kMr62H/"
+        ]
+      }
+    ],
+    "honorable_mentions": [
+      {
+        "name": "Alex Méndez",
+        "position": "Midfielder",
+        "nationality": "American",
+        "nationality_flag": "🇺🇸",
+        "instagram": null,
+        "why_notable": "Former US Soccer Young Player of the Year. Scoring gorgeous free kicks — has 3 goals this season, multiple TOTW honors. Club posts highlight 'WHAT. A. GOAL.' free kick content. The free kick specialist angle is fun for the guide.",
+        "sources": [
+          "https://www.instagram.com/reel/DV43PGmjF_8/",
+          "https://www.instagram.com/p/DWnUYqkjTqo/"
+        ]
+      },
+      {
+        "name": "Gabi Torres",
+        "position": "Midfielder / Defender",
+        "nationality": "Brazilian",
+        "nationality_flag": "🇧🇷",
+        "instagram": null,
+        "why_notable": "Set the El Paso single-season club record with 11 assists in 2025. Brazilian from Salvador, Bahia. Versatile — can play midfield, winger, or defender. Arrived from Phoenix Rising where he won the 2023 USL Championship. Said 'Me and my family are happy to be moving to El Paso' when signed — has a family but no public social media found.",
+        "sources": [
+          "https://www.eplocomotivefc.com/roster/gabriel-torres/",
+          "https://www.eplocomotivefc.com/news/2025/01/08/el-paso-locomotive-fc-sign-defender-gabi-torres-for-2025/"
+        ]
+      },
+      {
+        "name": "Robert Coronado",
+        "position": "Defender / Midfielder",
+        "nationality": "American",
+        "nationality_flag": "🇺🇸",
+        "instagram": "@robcoronado3",
+        "instagram_url": "https://www.instagram.com/robcoronado3/",
+        "why_notable": "From La Habra, California. Named USL Championship Team of the Week for Week 7. Club caption: 'ANYTHING BUT MID.' The man has a tagline. 100+ club appearances for El Paso — posted about reaching that milestone.",
+        "sources": [
+          "https://www.instagram.com/robcoronado3/",
+          "https://www.instagram.com/p/DIwmZoiyVN1/"
+        ]
+      }
+    ],
+    "coaching_revenge_narrative": {
+      "detail": "El Paso head coach Wilmer Cabrera managed Houston Dynamo FC from 2017-2019. He won the 2018 US Open Cup WITH the Dynamo. Now he's coming back to Shell Energy Stadium with a lower-division team to try to knock them out of the same tournament. This is PERFECT storyline material.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wilmer_Cabrera"
+      ]
+    }
+  },
+  "hot_content": [
+    {
+      "player": "Rubio Rubín (El Paso)",
+      "description": "BABY BOY ADRIEL BORN APRIL 13. El Paso Locomotive posted congratulations to Rubio and wife Melody. The man might be playing tomorrow on zero sleep. New dad energy is either going to make him superhuman or completely useless.",
+      "url": "https://x.com/eplocomotivefc/status/2043808303818428871",
+      "tea_level": "🔥🔥🔥"
+    },
+    {
+      "player": "Guilherme",
+      "description": "100TH CAREER GOAL scored at Colorado (90+3'). Even in a 6-2 loss, this man finds a way to be the main character. 5 goals, 4 assists, 3rd in MLS for goal contributions. Dynamo posted 'Parabéns, Guilherme!' The Neymar DMs energy continues.",
+      "url": "https://x.com/HoustonDynamo/status/2043411369253376362",
+      "tea_level": "🔥🔥🔥"
+    },
+    {
+      "player": "Erik Sviatchenko",
+      "description": "The captain is doing COFFEE CONTENT now. Dynamo featured him in a Houston coffee recommendations reel on April 5. Also posted 'Step by step we climb' after the Seattle loss. The vibes are... complicated. Man went from scoring own goals to recommending pour-overs in 2 weeks.",
+      "url": "https://www.instagram.com/reel/DJR48WStEDV/",
+      "tea_level": "🔥🔥"
+    },
+    {
+      "player": "Felipe Andrade",
+      "description": "Own goal at Colorado (90+1'). A cross deflected off him to make it 5-2. Also got a yellow vs Seattle. The Brazilian defender is having a week he'd rather forget.",
+      "url": "https://www.espn.com/soccer/match/_/gameId/761539/houston-dynamo-fc-colorado-rapids",
+      "tea_level": "🔥"
+    },
+    {
+      "player": "Aliyu Ibrahim",
+      "description": "100TH MLS APPEARANCE vs Seattle. A quiet milestone — came on in the 88th minute. Partner Ayshatou Jegah (@ayshatou_jegah) was discovered in last scan.",
+      "url": "https://www.houstondynamofc.com/news/houston-dynamo-fc-fall-1-0-to-seattle-sounders-fc-in-hard-fought-match",
+      "tea_level": "🔥"
+    },
+    {
+      "player": "Mateusz Bogusz",
+      "description": "CORRECTION: Baby girl due in JULY, not February/March. Per his own words after the Portland match: 'We're going to have a daughter in July.' Wiktoria's IG has been quiet since January but she's not overdue — just private. The ball-under-jersey celebration was the reveal moment.",
+      "url": "https://ouresquina.com/2026/mateusz-bogusz-dynamo-take-baby-steps-over-timbers/",
+      "tea_level": "🔥🔥"
+    },
+    {
+      "player": "Wilmer Cabrera (El Paso coach)",
+      "description": "REVENGE GAME. Cabrera managed the Dynamo 2017-2019 and WON the 2018 US Open Cup with them. Now he's back at Shell Energy with a USL team trying to knock his old club out. The narrative writes itself.",
+      "url": null,
+      "tea_level": "🔥🔥🔥"
+    }
+  ],
+  "season_context": {
+    "dynamo_record": "2-4-0 (6 pts from 6 matches, 13th in West)",
+    "dynamo_form": "Lost 4 of last 5. Only win was the 3-2 Portland match (105th-minute Bogusz goal). Since then: 0-0 at New England, 0-2 vs LAFC, 0-1 vs Seattle, 6-2 at Colorado. The vibes are BAD.",
+    "el_paso_form": "4-0-1 across all competitions. 4-match winning streak. 3rd in USL Western Conference with 7 points from 3 matches. Beat New Mexico 4-0 in Open Cup. This is genuinely a team in better form than the Dynamo right now.",
+    "open_cup_history": "Dynamo are 2-time champs (2018, 2023). Last year they beat Phoenix Rising 4-1 in Round of 32 before losing to Austin FC. The 2018 title was won under... Wilmer Cabrera. Who is now coaching El Paso. Against Houston. In the same tournament. You can't write this.",
+    "if_houston_advances": "Round of 16 vs Austin FC or Louisville City (April 28-29 at Shell Energy Stadium)"
+  },
+  "data_corrections": {
+    "bogusz_baby_due_date": "JULY 2026, not February/March. Source: Our Esquina interview post-Portland match. Previous scans had this wrong based on Wiktoria's Instagram timeline being misread.",
+    "guilherme_instagram": "Note: research request mentioned @guilhermeds7 — the verified handle from our browser scan is @guilherme11 (439K followers). No handle change detected.",
+    "nelson_quevedo_note": "This person is not on the Houston Dynamo roster. The request may have been referring to Nelson Quiñónes, who was WAIVED on March 18, 2026. He's no longer with the club. Transfermarkt lists him with a leg injury.",
+    "lawrence_warr_note": "This person is not on the roster. The request likely meant Lawrence Ennali (#11), whose partner is Preslee Clark (@presleeclark, luxury makeup & hairstylist, TikTok: @presleeclarkartistry).",
+    "patryk_bogusz_note": "First name is Mateusz, not Patryk."
+  }
+}
