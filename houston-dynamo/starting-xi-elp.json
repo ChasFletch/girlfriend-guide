@@ -1,0 +1,225 @@
+{
+  "_metadata": {
+    "generated_by": "perplexity_computer",
+    "generated_at": "2026-04-15T18:30:00-05:00",
+    "match": "Houston Dynamo FC vs El Paso Locomotive FC",
+    "competition": "Lamar Hunt U.S. Open Cup — Round of 32",
+    "date": "2026-04-15",
+    "time": "7:00 PM CT",
+    "venue": "Shell Energy Stadium",
+    "notes": "Rotation squad — most of these guys have thinner guide profiles. Card data below."
+  },
+  "name_corrections": {
+    "Steve Maurer": "Jimmy Maurer (#1, GK)",
+    "Augusto (#20)": "Guilherme (full name: Guilherme Augusto Vieira dos Santos)",
+    "Herrera C (#16)": "Héctor Herrera"
+  },
+  "houston_starting_xi": {
+    "Jimmy Maurer": {
+      "jersey_number": 1,
+      "position": "Goalkeeper",
+      "instagram": "@jimsmaurer",
+      "instagram_url": "https://www.instagram.com/jimsmaurer/",
+      "followers": "6.2K",
+      "partner_name": "Kristen Bumgarner Maurer",
+      "partner_instagram": "@krissybumm",
+      "partner_instagram_url": "https://www.instagram.com/krissybumm/",
+      "partner_bio": "⚽️ wife & mom Houston Diy",
+      "relationship_status": "married",
+      "kids": "Four — three boys + daughter Vivi (just turned 7)",
+      "fun_fact": "Kristen delivered their 4th child (the girl) AT HOME because they couldn't make it to the hospital. CBS Texas and MLS covered it. He said 'after three brothers, we weren't prepared for a pink blanket.'",
+      "background": "7 years at FC Dallas before Houston. Has an MBA and a UEFA coaching license. Bilingual (EN/ESP).",
+      "tea": "Dad of four with a wife who literally delivered a baby at home because they ran out of time. Kristen's IG is giving Pinterest energy. The man has an MBA AND a UEFA coaching license — overachiever alert.",
+      "2026_stats": "Backup GK. Tonight is likely his first competitive start of 2026.",
+      "sources": [
+        "https://www.instagram.com/jimsmaurer/",
+        "https://www.instagram.com/krissybumm/",
+        "https://www.cbsnews.com/texas/news/fc-dallas-goalie-jimmy-maurers-wife-delivers-baby-girl-home/",
+        "https://www.mlssoccer.com/news/home-delivery-fc-dallas-jimmy-maurer-his-wifes-surprise-birth"
+      ]
+    },
+    "Felipe Andrade": {
+      "jersey_number": 36,
+      "position": "Defender",
+      "instagram": "@felipe_andrade15_",
+      "instagram_url": "https://www.instagram.com/felipe_andrade15_/",
+      "partner_name": null,
+      "relationship_status": "unknown",
+      "fun_fact": "Won the CONMEBOL Recopa 2024 before Houston. Scored his first Dynamo goal vs Portland (Mar 14).",
+      "tea": "Having a week he'd rather forget — own goal at Colorado made it 5-2. The deflection was brutal.",
+      "2026_stats": "1 goal (vs Portland), 1 own goal (vs Colorado), 1 yellow card"
+    },
+    "Agustin Resch": {
+      "jersey_number": 34,
+      "position": "Defender (Center Back)",
+      "instagram": "@agus_resch02",
+      "instagram_url": "https://www.instagram.com/agus_resch02/",
+      "partner_name": null,
+      "relationship_status": "unknown",
+      "fun_fact": "6-foot-6. First Seton Hall player drafted in the MLS SuperDraft since Sacha Kljestan in 2006. BIG EAST Defensive Player of the Year.",
+      "background": "Argentine, via Seton Hall University (NJ). Promoted from Dynamo 2 on March 20 after impressing on short-term call-ups.",
+      "tea": "This 6'6\" Argentine came through college soccer at Seton Hall and was SO good in Dynamo 2 cameos they promoted him after 3 weeks. The Pirate-to-Dynamo pipeline is real.",
+      "2026_stats": "Multiple first-team appearances since March promotion"
+    },
+    "Franco Negri": {
+      "jersey_number": 21,
+      "position": "Defender (Left Back)",
+      "instagram": "@franco_negri3",
+      "instagram_url": "https://www.instagram.com/franco_negri3/",
+      "instagram_note": "PRIVATE account, 17K followers",
+      "partner_name": "Wife (name unknown — confirmed in Dynamo signing announcement)",
+      "relationship_status": "married",
+      "fun_fact": "Won the Supporters' Shield with Inter Miami (2024) playing alongside Messi, Busquets, and Suárez. Helped San Diego FC reach the Western Conference Final in their inaugural season (2025).",
+      "background": "From San Martín, Argentina. San Lorenzo → Quilmes → Independiente Rivadavia → Newell's Old Boys → Godoy Cruz → Inter Miami → San Diego → Houston.",
+      "tea": "Private IG, private wife, but a resume that includes playing with MESSI. The strong silent type energy is immaculate.",
+      "2026_stats": "First Dynamo start was vs Seattle (Apr 4). Came off at halftime for Resch.",
+      "sources": [
+        "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-veteran-argentinean-fullback-franco-negri"
+      ]
+    },
+    "Sam Vines": {
+      "jersey_number": 13,
+      "position": "Defender (Left Back)",
+      "instagram": "@sammyvines",
+      "instagram_url": "https://www.instagram.com/sammyvines/",
+      "partner_name": "Andrianna Vines",
+      "partner_instagram": null,
+      "partner_note": "IG handle still not found for Andrianna",
+      "relationship_status": "married (Aug/Sep 2025)",
+      "fun_fact": "USMNT defender (9 caps, scored in 2021 Gold Cup). Won the Belgian treble at Royal Antwerp in 2023.",
+      "tea": "Newlywed + USMNT player. Made his Dynamo debut vs Seattle (Apr 4) — 5 minutes of stoppage time in the rain. Tonight could be his first real START.",
+      "2026_stats": "1 appearance (sub vs Seattle, 90+2')"
+    },
+    "Aliyu Ibrahim": {
+      "jersey_number": 24,
+      "position": "Forward",
+      "instagram": "@aliyu_bravo7",
+      "instagram_url": "https://www.instagram.com/aliyu_bravo7/",
+      "tiktok": "@ibrahmaliyu",
+      "tiktok_url": "https://www.tiktok.com/@ibrahmaliyu",
+      "partner_name": "Ayshatou Jegah",
+      "partner_instagram": "@ayshatou_jegah",
+      "partner_instagram_url": "https://www.instagram.com/ayshatou_jegah/",
+      "relationship_status": "relationship",
+      "fun_fact": "Hit his 100th MLS appearance vs Seattle (Apr 4). Nigerian forward.",
+      "tea": "100 MLS caps is a quiet flex. Partner Ayshatou is in the Nigerian football social scene — attended Football Icon awards.",
+      "2026_stats": "100th MLS appearance reached"
+    },
+    "Agustín Bouzat": {
+      "jersey_number": 30,
+      "position": "Midfielder",
+      "instagram": "@chiquibouzat",
+      "instagram_url": "https://www.instagram.com/chiquibouzat/",
+      "partner_name": "Fiorella Curutchet",
+      "partner_instagram": "@fiorecurutchet",
+      "partner_instagram_url": "https://www.instagram.com/fiorecurutchet/",
+      "partner_followers": "6.5K",
+      "partner_bio": "Physical Education teacher. Posted birthday tribute to Bouzat on Mar 28 (his 32nd).",
+      "relationship_status": "married (Dec 2022)",
+      "kids": "Son Salvador (turned 2 in Jan 2026)",
+      "fun_fact": "Almost scored from midfield vs LAFC (hit the crossbar from near halfline), then got sent off in the same match.",
+      "tea": "Fiorella moved to Houston with him from Buenos Aires. She's a phys ed teacher turned soccer wife in Texas — the culture clash content writes itself. Son Salvador is 2.",
+      "2026_stats": "Regular starter in midfield"
+    },
+    "Héctor Herrera": {
+      "jersey_number": 16,
+      "position": "Midfielder",
+      "instagram": "@h.herrera16",
+      "instagram_url": "https://www.instagram.com/h.herrera16/",
+      "followers": "1.1M",
+      "tiktok": "@hherrera16",
+      "tiktok_url": "https://www.tiktok.com/@hherrera16",
+      "partner_name": null,
+      "relationship_status": "divorced (from Shantal Mayo, 2025). Single.",
+      "fun_fact": "Former Atlético Madrid and Porto midfielder. Mexican international. Captained the Dynamo to the 2023 US Open Cup title. This is HIS tournament.",
+      "tea": "1.1M followers, freshly divorced, single king era, playing in the tournament he won in 2023. Conceded the penalty for Colorado's 6th goal last match. The 1.1M are watching a man seeking redemption.",
+      "2026_stats": "Mostly used as sub. Conceded penalty vs Colorado (Apr 11)"
+    },
+    "Nick Markanich": {
+      "jersey_number": 17,
+      "position": "Forward",
+      "instagram": "@nickmarkanich",
+      "instagram_url": "https://www.instagram.com/nickmarkanich/",
+      "partner_name": "Abby McHugh",
+      "partner_instagram": "@abby.mchugh",
+      "partner_instagram_url": "https://www.instagram.com/abby.mchugh/",
+      "relationship_status": "relationship",
+      "fun_fact": "BACK from 2-match suspension for studs-up tackle on Portland's goalkeeper that caused visible bleeding. Got fined for refusing to leave the field.",
+      "tea": "The chaos agent returns. First match back after suspension. He went studs-up on a goalkeeper, drew blood, wouldn't leave the field, got a 2-game ban AND a fine. Tonight is his redemption arc (or his next incident).",
+      "2026_stats": "On loan. Red card vs Portland. 2-match ban served."
+    },
+    "Ondřej Lingr": {
+      "jersey_number": 9,
+      "position": "Midfielder",
+      "instagram": "@ondylingr",
+      "instagram_url": "https://www.instagram.com/ondylingr/",
+      "partner_name": "Lucie Lingr",
+      "partner_instagram": "@lucielingr",
+      "partner_instagram_url": "https://www.instagram.com/lucielingr/",
+      "partner_note": "PRIVATE account. Bio says '𝚖𝚘𝚖𝚖𝚢'",
+      "relationship_status": "married",
+      "kids": "Son (Lucie posted his first Dynamo jersey: 'Máme první dres pro Tondu⚽️')",
+      "fun_fact": "Czech international. Came from Slavia Prague (biggest Czech club). Lucie's IG post about their son's first Dynamo jersey was wholesome content.",
+      "tea": "Czech couple keeping it private. Lucie named their son's first Dynamo jersey moment on IG. Wholesome energy in a sea of chaos.",
+      "2026_stats": "Used primarily as sub"
+    },
+    "Guilherme": {
+      "jersey_number": 20,
+      "position": "Forward (Winger)",
+      "instagram": "@guilherme11",
+      "instagram_url": "https://www.instagram.com/guilherme11/",
+      "followers": "439K",
+      "partner_name": null,
+      "partner_note": "Possible lead: Rebecca Vieira (@rebeccavieirax, 546K) — UNVERIFIED",
+      "relationship_status": "unknown",
+      "fun_fact": "100th career goal at Colorado (Apr 11). Neymar texted him saying 'you learned that from me.' Signature celebration dance: Passinho do Beloved.",
+      "tea": "Scored his 100th career goal in a 6-2 LOSS. Main character behavior. Neymar in his DMs. 439K followers. 5G/4A in 6 matches, 3rd in MLS goal contributions.",
+      "2026_stats": "5 goals, 4 assists in 6 matches. 3rd in MLS for goal contributions."
+    }
+  },
+  "el_paso_starting_xi": {
+    "source": "FotMob predicted lineup",
+    "formation": "5-4-1 / 4-5-1",
+    "starters": [
+      {"name": "Sebastian Mora-Mora", "number": 1, "position": "GK"},
+      {"name": "Tony Alfaro", "number": 93, "position": "DEF"},
+      {"name": "Ortíz", "number": 25, "position": "DEF"},
+      {"name": "Kofi Twumasi", "number": 21, "position": "DEF"},
+      {"name": "Gomez", "number": 5, "position": "DEF"},
+      {"name": "Gabi Torres", "number": 16, "position": "MID"},
+      {"name": "Eric Calvillo", "number": 6, "position": "MID"},
+      {"name": "Álvaro Quezada", "number": 18, "position": "MID"},
+      {"name": "Amando Moreno", "number": 10, "position": "FWD"},
+      {"name": "Ricky Ruiz", "number": 12, "position": "DEF/MID"},
+      {"name": "Diego Abitia", "number": 9, "position": "FWD"}
+    ],
+    "bench_notable": [
+      {"name": "Robert Coronado", "number": 30, "position": "MID", "instagram": "@robcoronado3"},
+      {"name": "Roberto 'Beto' Avila", "number": 13, "position": "FWD", "note": "Former Houston Dynamo player — first MLS NEXT Pro to MLS signing in Dynamo history"},
+      {"name": "Jimmy Farkarlun", "number": 11, "position": "FWD"},
+      {"name": "Omar Mora", "number": 28, "position": "FWD"}
+    ],
+    "note": "Rubio Rubín NOT in the starting XI per FotMob prediction — possibly rested after baby Adriel was born April 13. Could come off the bench."
+  },
+  "pre_match_quotes": {
+    "junior_gonzalez_el_paso_asst_coach": {
+      "quote": "I believe there are a lot of USL players who are just as good as — if not better than — some MLS players. There's something for us to prove, that we belong on the field.",
+      "source": "https://www.eplocomotivefc.com/news/2026/04/14/locomotive-face-mls-test-at-houston-dynamo-fc/"
+    },
+    "ricky_ruiz_el_paso_defender": {
+      "quote": "We left the Open Cup with a bit of a bitter taste [from last year's Austin collapse]. That's something we're carrying into this match.",
+      "source": "https://www.eplocomotivefc.com/news/2026/04/14/locomotive-face-mls-test-at-houston-dynamo-fc/"
+    },
+    "ben_olsen_houston_coach": {
+      "quote": "Spoke about balancing players wanting to shake off Saturday's 6-2 loss with the need to rotate and get guys minutes who haven't played much this season.",
+      "source": "https://www.bayoucitysoccer.net/dynamo/reeling-houston-dynamo-turn-to-open-cup-for-reset-against-surging-el-paso"
+    }
+  },
+  "beat_writer_source": {
+    "outlet": "Bayou City Soccer",
+    "author": "Dustyn Richardson",
+    "title": "Reeling Houston Dynamo Turn to Open Cup for Reset Against Surging El Paso",
+    "url": "https://www.bayoucitysoccer.net/dynamo/reeling-houston-dynamo-turn-to-open-cup-for-reset-against-surging-el-paso",
+    "key_insight": "Houston has conceded first in EVERY game this season. El Paso has scored first in their last 6. El Paso has scored 10 first-half goals and 14 of 20 total goals on the road."
+  }
+}
