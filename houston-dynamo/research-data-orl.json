@@ -1,0 +1,136 @@
+{
+  "_metadata": {
+    "generated_by": "perplexity_computer",
+    "generated_at": "2026-04-18T18:15:00-05:00",
+    "match": "Orlando City SC vs Houston Dynamo FC",
+    "competition": "MLS Regular Season",
+    "date": "2026-04-18",
+    "time": "6:30 PM CT / 7:30 PM ET",
+    "venue": "Inter&Co Stadium, Orlando, FL",
+    "broadcast": "Apple TV"
+  },
+  "el_paso_recap": {
+    "result": "Houston 4-1 El Paso Locomotive FC",
+    "date": "2026-04-15",
+    "competition": "U.S. Open Cup Round of 32",
+    "goals": [
+      {"scorer": "Ondřej Lingr", "minute": 2},
+      {"scorer": "Mateusz Bogusz", "minute": 46},
+      {"scorer": "Nick Markanich", "minute": 58},
+      {"scorer": "Ezequiel Ponce", "minute": 80}
+    ],
+    "el_paso_goal": {"scorer": "Roberto Avila", "minute": 75},
+    "red_card": "Kofi Twumasi (El Paso) 25' — shoved Lingr running into the box. El Paso played 65+ minutes with 10 men.",
+    "first_starts": ["Nick Markanich", "Agustin Resch", "Sam Vines", "Aliyu Ibrahim", "Jimmy Maurer"],
+    "next_open_cup": "Round of 16 — Louisville City FC at Shell Energy Stadium, April 28 or 29",
+    "source": "https://www.houstondynamofc.com/news/houston-dynamo-fc-stop-the-locomotive-in-its-tracks-defeating-el-paso-4-1-to-reach-the-u-s-open-cup-round-of-16"
+  },
+  "injury_report": {
+    "artur": "OUT — preseason knee injury, no return date",
+    "halter": "OUT — lower body",
+    "mcglynn": "QUESTIONABLE — game-time decision, missed last 2 MLS matches (lower body)",
+    "markanich": "AVAILABLE — suspension fully served, scored vs El Paso on Wednesday",
+    "sviatchenko": "AVAILABLE",
+    "source": "https://www.bayoucitysoccer.net/dynamo/previewing-houston-dynamo-at-orlando-city-with-the-mane-land"
+  },
+  "predicted_xi_bcs": {
+    "formation": "3-4-2-1",
+    "source": "Dustyn Richardson, Bayou City Soccer / The Mane Land cross-interview",
+    "lineup": {
+      "GK": "Jonathan Bond",
+      "CB": ["Felipe Andrade", "Antônio Carlos", "Erik Sviatchenko"],
+      "WB": ["Lawrence Ennali", "Duane Holmes"],
+      "CM": ["Agustín Bouzat", "Diadié Samassékou"],
+      "AM": ["Guilherme", "Mateusz Bogusz"],
+      "ST": "Ezequiel Ponce"
+    }
+  },
+  "storylines": {
+    "griffin_dorsey_revenge": {
+      "detail": "Houston traded Griffin Dorsey to Orlando on Feb 18 for $1M in allocation money. Dynamo statement: 'We wish Griffin and his wife, Adriana, all the very best.' Now he could play against his old team tonight.",
+      "source": "https://www.houstondynamofc.com/news/houston-dynamo-fc-trade-defender-griffin-dorsey-to-orlando-city-sc-for-1-million-in-general-allocation-money-gam"
+    },
+    "both_teams_in_crisis": {
+      "orlando": "1W 1D 5L from 7 matches. Lost 5-0 to Nashville, 6-0 to LAFC. Conceded in 23 straight regular season matches — longest active streak in MLS, longest in club history, tied 14th longest ever.",
+      "houston": "2-4-0, 12th in West. Lost by 4+ in last away match (6-2 at Colorado). Conceded 10 goals in first 2 away matches — tied for most in MLS history.",
+      "source": "https://www.fotmob.com/news/1hk5tpvqfmhm31xs9ffqbfebxb-orlando-city-v-houston-dynamo-spicer-open-new-role-after-return-from-injury"
+    },
+    "guilherme_historic_pace": {
+      "detail": "9 goal contributions (5G/4A) in 6 matches — tied with Rafael Navarro for most in MLS. First Dynamo player to reach 9 contributions in first 6 matches since Brian Ching in 2006. That's a 20-year record.",
+      "source": "https://www.fotmob.com/news/1hk5tpvqfmhm31xs9ffqbfebxb-orlando-city-v-houston-dynamo-spicer-open-new-role-after-return-from-injury"
+    },
+    "opta_win_probability": {
+      "orlando": "52.3%",
+      "draw": "24.3%",
+      "houston": "23.4%"
+    }
+  },
+  "opponent_scouting": {
+    "team": "Orlando City SC",
+    "record_2026": "1W 1D 5L (4 pts from 7 matches)",
+    "form": "Lost 5-0 to Nashville, 6-0 to LAFC. Drew 1-1 at Columbus last time out. Conceded in 23 straight regular season matches.",
+    "interim_coach": "Martín Perelman",
+    "club_instagram": "@orlandocitysc",
+    "key_departure_from_houston": "Griffin Dorsey — traded from Dynamo to Orlando Feb 18 for $1M GAM. Wife Adriana.",
+    "beat_writer_sources": [
+      {
+        "outlet": "Bayou City Soccer",
+        "author": "Rudy Segura",
+        "title": "Three Players to Watch: Orlando City SC",
+        "url": "https://www.bayoucitysoccer.net/dynamo/three-players-to-watch-orlando-city-sc"
+      },
+      {
+        "outlet": "Bayou City Soccer / The Mane Land",
+        "author": "Dustyn Richardson / Ben Miller",
+        "title": "Previewing Houston Dynamo at Orlando City with The Mane Land",
+        "url": "https://www.bayoucitysoccer.net/dynamo/previewing-houston-dynamo-at-orlando-city-with-the-mane-land"
+      }
+    ],
+    "players_to_watch": [
+      {
+        "name": "Marco Pašalić",
+        "position": "Forward",
+        "nationality": "Croatian",
+        "nationality_flag": "🇭🇷",
+        "instagram": "@marco_pasalic",
+        "instagram_url": "https://www.instagram.com/marco_pasalic/",
+        "partner_name": null,
+        "partner_instagram": null,
+        "why_interesting": "One of Orlando's top scorers. Direct finisher with striker's instinct. Always looking to get forward. BCS says Houston defenders need to stay tight from the opening whistle.",
+        "source": "https://www.bayoucitysoccer.net/dynamo/three-players-to-watch-orlando-city-sc"
+      },
+      {
+        "name": "Martín Ojeda",
+        "position": "Attacking Midfielder (DP)",
+        "nationality": "Argentine",
+        "nationality_flag": "🇦🇷",
+        "instagram": "@martinoojeda_",
+        "instagram_url": "https://www.instagram.com/martinoojeda_/",
+        "partner_name": null,
+        "partner_instagram": null,
+        "why_interesting": "Orlando's most dangerous attacking player and Designated Player. Creates, scores, dictates tempo. 'If he gets time on the ball, he can completely change the rhythm of the game.' 8 assists and 4 goals — leads team in assists.",
+        "source": "https://www.bayoucitysoccer.net/dynamo/three-players-to-watch-orlando-city-sc"
+      },
+      {
+        "name": "Iván Angulo",
+        "position": "Midfielder",
+        "nationality": "Colombian",
+        "nationality_flag": "🇨🇴",
+        "instagram": "@ivangulo7",
+        "instagram_url": "https://www.instagram.com/ivangulo7/",
+        "followers": "46.6K",
+        "partner_name": null,
+        "partner_instagram": null,
+        "why_interesting": "Pace and constant movement. 'Doesn't stop running.' 2 assists this season (most on the team). Colombian international. 46.6K followers. BCS says Houston needs to be sharp tracking his runs.",
+        "source": "https://www.bayoucitysoccer.net/dynamo/three-players-to-watch-orlando-city-sc"
+      }
+    ]
+  },
+  "season_context": {
+    "dynamo_record": "2-4-0 (6 pts from 6 MLS matches, 12th in West)",
+    "dynamo_open_cup": "Beat El Paso 4-1 (Apr 15). Next: Louisville City, Apr 28-29.",
+    "key_stat_bcs": "Houston has conceded first in EVERY MLS match this season. Both teams have conceded 10+ goals in their first 2 away matches — tied for worst in MLS history.",
+    "guilherme_stat": "5G/4A in 6 matches. 9 goal contributions = most in MLS (tied w/ Navarro). First Dynamo player to 9 in first 6 matches since Brian Ching in 2006.",
+    "defensive_note": "Per Dustyn Richardson (BCS): 'They've been poor defensively, flat out. The offense can score with anyone but they can't keep teams from scoring, and in bunches. Olsen has shifted to a pronounced back three this season with growing pains. If Houston can get Andrade, Sviatchenko, and Carlos together consistently, this should help.'"
+  }
+}
