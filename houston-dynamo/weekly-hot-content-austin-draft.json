@@ -7,13 +7,13 @@
     "match_time": "TBD — confirm kickoff time (Copa Tejas / MLS Matchday 9)",
     "venue": "Q2 Stadium, Austin, Texas",
     "competition": "2026 MLS Regular Season — Matchday 9 | Copa Tejas Round 1",
-    "previous_match_data_at": "[[FILL: Orlando result timestamp]]",
+    "previous_match_data_at": "2026-04-18 FT: Houston 1-0 Orlando (Herrera 75')",
     "notes": "Austin FC away guide. COPA TEJAS ROUND 1. Austin: 13th West, 1W-3D-3L, 26th in MLS xG (4.1). Main DP: Facundo Torres (Uruguayan, from Palmeiras, former Orlando City). Louisville beat Austin 2-1 in Open Cup R32 (April 14). Houston hosts Louisville in Open Cup R16 on April 29. Research cache good through April 24 — run pipeline that day. Fill [FILL/UPDATE] placeholders after Orlando result."
   },
-  "matchday_hook": "Copa Tejas Round 1 is HERE. Houston heads to Q2 Stadium on Saturday to open the Texas trophy series — and after earning a point in Orlando (1-1 draw, Bassi PK 45+5'), the Dynamo road warriors arrive with Artur back in the captain's armband and 36-year-old Héctor Herrera proving he still belongs. Verde vs Orange. This is a rivalry match AND a trophy match. The vibe is different. 🧡",
+  "matchday_hook": "Copa Tejas Round 1 is HERE. Houston heads to Q2 Stadium on Saturday to open the Texas trophy series — and after a 1-0 WIN in Orlando (Herrera 75' on his 36th birthday 🎂), the Dynamo road warriors are riding momentum. Artur is back. Herrera just showed he still belongs. Verde vs Orange. This is a rivalry match AND a trophy match. The vibe is different. 🧡",
   "vibe_strip_items": [
     "🏆 COPA TEJAS ROUND 1 — Houston and Austin fight for the Texas trophy. Verde vs Orange. It matters.",
-    "🏆 Orlando result: 1-1 draw. Bassi PK (45+5'), McGuire (46'). One point earned on the road. Artur captained the full 90. Herrera came on at 61'.",
+    "🏆 Orlando result: 1-0 WIN. Herrera 75'. Herrera STARTED and scored on his 36th birthday. Three points. Road warriors confirmed.",
     "📈 Guilherme: check stats after April 18 — was at 9 goal contributions (5G/4A) in 6 MLS matches as of pre-Orlando. Tied for most in all of MLS. First Dynamo player to do that in first 6 matches since Brian Ching in 2006. TWENTY years.",
     "🎂 Guilherme turned 31 on April 13. Breaking 20-year records on his birthday week. Main character behavior.",
     "🇺🇾 Facundo Torres (Austin DP) — 0 goals in 2026 but 3 assists. Is THIS the Copa Tejas match he finally converts? He is genuinely dangerous.",
@@ -50,6 +50,15 @@
       "description": "Baby girl due July 2026. Every road game is a countdown to being home for the birth.",
       "why_it_works": "Most universally relatable content angle. New parents love this.",
       "content_angle": "Underappreciated workhorse + new dad countdown. He works hard, Guilherme gets the glory."
+    },
+    {
+      "player_or_partner": "Héctor Herrera",
+      "platform": "Instagram",
+      "handle": "@hectorherrera16 (UNVERIFIED — needs PC confirmation)",
+      "post_date": "2026-04-18",
+      "description": "Started and scored the match-winner in Orlando on his 36th birthday. Club legend returned to Houston for 2026. Mexican international, former Porto, former Atlético Madrid. Artur says they're great friends and 'he still plays at a high level.' Birthday goal in a road win — this is a gift-wrapped content moment.",
+      "why_it_works": "36th birthday goal on the road. Legend returns. Universal 'never stop' story.",
+      "content_angle": "36 and STILL doing it. Not a sub-on cameo — he STARTED and won the game. This is the main character energy for the Austin guide."
     },
     {
       "player_or_partner": "Facundo Torres (Austin FC — opponent scout)",
