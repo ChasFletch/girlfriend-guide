@@ -1,0 +1,107 @@
+{
+  "_metadata": {
+    "generated_by": "keely",
+    "generated_at": "2026-04-18T05:30:00-05:00",
+    "for_match": "Austin FC vs Houston Dynamo FC",
+    "match_date": "2026-04-25",
+    "match_time": "TBD — confirm kickoff time (Copa Tejas / MLS Matchday 9)",
+    "venue": "Q2 Stadium, Austin, Texas",
+    "competition": "2026 MLS Regular Season — Matchday 9 | Copa Tejas Round 1",
+    "previous_match_data_at": "[[FILL: Orlando result timestamp]]",
+    "notes": "Austin FC away guide. COPA TEJAS ROUND 1. Austin: 13th West, 1W-3D-3L, 26th in MLS xG (4.1). Main DP: Facundo Torres (Uruguayan, from Palmeiras, former Orlando City). Louisville beat Austin 2-1 in Open Cup R32 (April 14). Houston hosts Louisville in Open Cup R16 on April 29. Research cache good through April 24 — run pipeline that day. Fill [FILL/UPDATE] placeholders after Orlando result."
+  },
+  "matchday_hook": "Copa Tejas Round 1 is HERE. Houston heads to Q2 Stadium on Saturday to open the Texas trophy series — and after earning a point in Orlando (1-1 draw, Bassi PK 45+5'), the Dynamo road warriors arrive with Artur back in the captain's armband and 36-year-old Héctor Herrera proving he still belongs. Verde vs Orange. This is a rivalry match AND a trophy match. The vibe is different. 🧡",
+  "vibe_strip_items": [
+    "🏆 COPA TEJAS ROUND 1 — Houston and Austin fight for the Texas trophy. Verde vs Orange. It matters.",
+    "🏆 Orlando result: 1-1 draw. Bassi PK (45+5'), McGuire (46'). One point earned on the road. Artur captained the full 90. Herrera came on at 61'.",
+    "📈 Guilherme: check stats after April 18 — was at 9 goal contributions (5G/4A) in 6 MLS matches as of pre-Orlando. Tied for most in all of MLS. First Dynamo player to do that in first 6 matches since Brian Ching in 2006. TWENTY years.",
+    "🎂 Guilherme turned 31 on April 13. Breaking 20-year records on his birthday week. Main character behavior.",
+    "🇺🇾 Facundo Torres (Austin DP) — 0 goals in 2026 but 3 assists. Is THIS the Copa Tejas match he finally converts? He is genuinely dangerous.",
+    "🚗 Road warriors: three away matches in a row now. The Dynamo travel in style and they're battle-tested.",
+    "⚽ Austin FC: 13th Western Conference, 1W-3D-3L. 26th in MLS for expected goals. The Lions are vulnerable.",
+    "🏆 April 29: Louisville City FC at Shell Energy in Open Cup R16 — Verde might be eliminated but the cup run continues.",
+    "🤍 Bogusz baby girl due July — every away win is one match closer to being home for the birth.",
+    "💪 Artur: started full 90 AND captained vs Orlando (April 18) — fully back. McGlynn status still QUESTIONABLE for April 25 — check official matchday report."
+  ],
+  "hot_posts": [
+    {
+      "player_or_partner": "Ondřej Lingr",
+      "platform": "Instagram / MLS",
+      "handle": "@ondylingr",
+      "post_date": "[[UPDATE if new content after Orlando]]",
+      "description": "Bicycle kick in 78 seconds (Open Cup vs El Paso) — the moment that started this run. MLS Energy Moment of the Matchday.",
+      "why_it_works": "Viral highlight. Player awareness + shareable moment. Reposts his own goals.",
+      "content_angle": "Lead with the 78-second moment every time until something tops it."
+    },
+    {
+      "player_or_partner": "Guilherme",
+      "platform": "Instagram",
+      "handle": "@guilherme",
+      "post_date": "[[UPDATE after Orlando]]",
+      "description": "[[UPDATE stats after Orlando]] — Brazilian winger (listed as 'Augusto' on lineup cards — same person). 9 goal contributions (5G/4A) in 6 MLS matches as of April 18. Tied for most in all of MLS. First Dynamo player to reach 9 contributions in first 6 matches since Brian Ching in 2006 — a 20-year record. Turned 31 on April 13. Neymar publicly DMd him.",
+      "why_it_works": "Historic pace is a shareable stat. '20-year record' is the kind of number that travels.",
+      "content_angle": "Lead with the 20-year record. Then the birthday. Then Neymar. Individual brilliance — frame as star power, not team creator."
+    },
+    {
+      "player_or_partner": "Tomás Bogusz",
+      "platform": "Instagram",
+      "handle": "@tomasbogusz",
+      "post_date": "ongoing",
+      "description": "Baby girl due July 2026. Every road game is a countdown to being home for the birth.",
+      "why_it_works": "Most universally relatable content angle. New parents love this.",
+      "content_angle": "Underappreciated workhorse + new dad countdown. He works hard, Guilherme gets the glory."
+    },
+    {
+      "player_or_partner": "Facundo Torres (Austin FC — opponent scout)",
+      "platform": "Instagram",
+      "handle": "@facundotorres10 (UNVERIFIED — needs PC confirmation)",
+      "post_date": "2026 season",
+      "description": "Uruguayan DP winger. Former Orlando City leading scorer. Signed Jan 2026 from Palmeiras ($9.5M). Uruguay national team. 0G/3A in 2026 — creating but not converting.",
+      "why_it_works": "The name to know as a threat. South American flair angle plays well.",
+      "content_angle": "Enemy respect framing. He is genuinely dangerous and the audience should know who he is."
+    },
+    {
+      "player_or_partner": "Myrto Uzuni (Austin FC — opponent scout)",
+      "platform": "Instagram",
+      "handle": "TBD — needs PC scan",
+      "post_date": "2026 season",
+      "description": "Albanian international forward. Scored multiple times this season including vs LA Galaxy. Second goal of season confirmed.",
+      "why_it_works": "Discovery framing — Albanian international is rare in MLS. Audience will be curious.",
+      "content_angle": "The X-factor most people have not heard of. Who IS this guy and why is he a threat?"
+    },
+    {
+      "player_or_partner": "Brendan Hines-Ike (Austin FC — opponent scout)",
+      "platform": "Instagram",
+      "handle": "TBD",
+      "post_date": "2026 season",
+      "description": "American CB from Denver. Baby daughter. Into golf, community work, intellectual development. Signed extension through Dec 2026. Scored opening header vs Minnesota (Torres assist).",
+      "why_it_works": "Family content + American story. Passes the wholesome test.",
+      "content_angle": "Defensive anchor who is also a community guy. Respectful opponent, not a villain."
+    }
+  ],
+  "injury_flags": [
+    {
+      "player": "Lucas Halter",
+      "status": "OUT — lower body, timeline unclear",
+      "impact": "Defensive depth affected. CB pairing adjustment."
+    },
+    {
+      "player": "Artur",
+      "status": "AVAILABLE — started full 90 and captained vs Orlando April 18. Fully fit.",
+      "impact": "Back and captaining. CDM presence changes defensive shape. Expect him in the XI vs Austin."
+    },
+    {
+      "player": "Jack McGlynn",
+      "status": "QUESTIONABLE — lower body, missed last 2 league matches. Check official matchday report.",
+      "impact": "MF depth."
+    }
+  ],
+  "roster_changes": [],
+  "copa_tejas_context": {
+    "competition": "Copa Tejas 2026",
+    "teams": ["Houston Dynamo FC", "Austin FC", "FC Dallas"],
+    "format": "Round-robin among Texas MLS clubs. Trophy awarded at end of season.",
+    "houston_april_25": "Round 1 — at Austin FC (Q2 Stadium)",
+    "hook": "This is not just a regular season match. The Copa Tejas is a real trophy with real bragging rights. Houston vs Austin in Austin. Verde vs Orange. The Texas rivalry with stakes attached."
+  }
+}
