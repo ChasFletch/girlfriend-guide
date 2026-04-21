@@ -1,0 +1,113 @@
+{
+  "_metadata": {
+    "generated_by": "perplexity_computer",
+    "generated_at": "2026-04-21T11:05:00-05:00",
+    "type": "pre_match_refresh",
+    "match": "Houston Dynamo FC vs San Diego FC",
+    "competition": "MLS Regular Season",
+    "date": "2026-04-22",
+    "time": "7:30 PM CT / 8:30 PM ET",
+    "venue": "Shell Energy Stadium, Houston",
+    "broadcast": "Apple TV (MLS Season Pass)"
+  },
+  "handle_corrections": {
+    "hector_herrera": {
+      "correct_handle": "@h.herrera16",
+      "incorrect_handle_flagged": "@hectorherrera16",
+      "instagram_url": "https://www.instagram.com/h.herrera16/",
+      "followers": "~1.1M",
+      "bio": "Futbolista profesional en @houstondynamo | Campañas: @staypro | Rosarito beach",
+      "note": "The @hectorherrera16 handle does NOT resolve to his account. Use @h.herrera16."
+    },
+    "jeppe_tverskov": {
+      "correct_handle": "@jtverskov",
+      "instagram_url": "https://www.instagram.com/jtverskov/",
+      "followers": "~6,573",
+      "bio": "@sandiegofc",
+      "note": "Has Instagram but barely uses it — 6.6K followers for a team captain is giving 'boyfriend who doesn't do social.'"
+    },
+    "anders_dreyer": {
+      "handle": "@andersdreyer",
+      "status": "verified",
+      "followers": "~38K",
+      "bio": "For inquiries: ccaabusiness@outlook.com // contact@eliteconsulting.dk",
+      "posts": 104,
+      "note": "Bio is all business inquiries, no personality. 2025 MLS MVP runner-up energy."
+    },
+    "marcus_ingvartsen": {
+      "handle": "@marcusingvartsen",
+      "status": "verified",
+      "followers": "~18K",
+      "posts": 578,
+      "bio": "Player of @sandiegofc | Interested in Business | Performance | Mindset | Founder of…",
+      "note": "LinkedIn-in-his-Instagram-bio vibes. 'Mindset' guy."
+    }
+  },
+  "houston_injury_update": {
+    "mcglynn": {
+      "status": "OUT",
+      "source": "FotMob lineup page lists Jack McGlynn as unavailable (injury) for April 22 match",
+      "was_previously": "Questionable for matchday 8 (April 17-19)",
+      "replacement": "Samassékou + Bouzat continue as double pivot. Guilherme takes set pieces.",
+      "source_url": "https://www.fotmob.com/en-GB/matches/houston-vs-san-diego-fc/in6274o6"
+    },
+    "still_out": ["Lucas Halter (lower body, expected return mid-May)", "Artur (knee, no return date)"],
+    "available_now": ["Markanich (scored vs El Paso)", "Sviatchenko", "Resch"]
+  },
+  "san_diego_injury_disaster": {
+    "headline": "SDFC bringing a glorified B-team to Houston — 9 players out",
+    "out_list": [
+      {"name": "Luca Bombino", "position": "Starting LB", "note": "Scored last week, now injured. Huge loss."},
+      {"name": "Pablo Sisniega", "position": "GK", "note": "Lower back — Duran Ferree (22yo) likely in goal"},
+      {"name": "Wilson Eisner", "position": "RB", "note": "Lower body"},
+      {"name": "Kieran Sargeant", "position": "LB", "note": "Lower body, trained this week but not fit"},
+      {"name": "Ian Pilcher", "position": "RB", "note": "Lower body"},
+      {"name": "Andrés Reyes", "position": "CB", "note": "Lower body, out since preseason"},
+      {"name": "Willy Kumado", "position": "Defender", "note": "Lower body"},
+      {"name": "Alejandro Alvarado Jr.", "position": "Midfielder", "note": "Lower body"},
+      {"name": "Amahl Pellegrino", "position": "LW", "note": "Achilles — returned to bench at RSL, questionable for Houston"}
+    ],
+    "suspension_cleared": {
+      "name": "Chris McVey",
+      "note": "Red card in 3 straight starts (latest vs Minnesota 4/11 — second yellow in 46th min). Ban served, available tonight. BUT he's a walking yellow card waiting to happen."
+    }
+  },
+  "san_diego_form": {
+    "record_2026": "3-2-2 (11 pts from 7 matches)",
+    "last_5_matches": [
+      "Drew 2-2 at Real Salt Lake (4/18) — Pellegrino returned to bench",
+      "Lost 2-1 vs Minnesota (4/11) — McVey red card",
+      "Lost 3-0 at San Jose (4/4) — Dreyer: 1 shot, 0 on goal",
+      "Lost 4-0 at Toluca (CCC)",
+      "Won vs [prior match]"
+    ],
+    "trend": "3 losses + 2 draws in last 5. Winless streak + mounting reds + injury list = crisis mode.",
+    "source": "https://sports.yahoo.com/articles/red-alert-san-diego-fcs-221024904.html",
+    "coach": "Mikey Varas"
+  },
+  "san_diego_predicted_xi": {
+    "formation": "4-3-3",
+    "source": "FotMob predicted lineup",
+    "lineup": {
+      "GK": "Duran Ferree (22yo, only 1 MLS start ever)",
+      "DEF": ["Oscar Verhoeven (RB)", "Manu Duah (CB)", "Oswald Søe (CB)", "?? (LB — Sargeant/Soma patchwork)"],
+      "MID": ["Bryce Duke", "Aníbal Godoy", "Jeppe Tverskov (captain)"],
+      "ATT": ["Anders Dreyer (RW)", "Lewis Morgan / Marcus Ingvartsen (ST)", "Alex Mighten (LW)"]
+    },
+    "bench_names_of_note": ["David Vazquez", "Pedro Soma", "Alex Mighten", "Amahl Pellegrino (if available)", "Anisse Saidi", "Bryan Zamblé", "Emmanuel Boateng"]
+  },
+  "opta_win_probability": {
+    "houston": "41.0%",
+    "draw": "26.0%",
+    "san_diego": "33.0%",
+    "note": "Houston are favorites for first time this season. SD -102 on moneyline per oddstrader.",
+    "source": "https://www.oddstrader.com/major-league-soccer/matchups/houston-dynamo-vs-san-diego-fc-2026-04-22-e4788989/odds/"
+  },
+  "key_storylines": {
+    "first_meeting_2026": "First matchup of the season between the two. Last year Houston beat SD 4-3 in July — SD's worst defensive match of their expansion season.",
+    "dreyer_watch": "Anders Dreyer finished 2025 as MLS MVP runner-up. 3G/1A this season. Leads SD in crosses every single game. Houston needs to lock him down.",
+    "mcvey_ticking_bomb": "Chris McVey has a red card in 3 consecutive starts. Literally cannot stop himself. Give Ponce the ball in transition.",
+    "ingvartsen_vs_houston_history": "Marcus Ingvartsen reunion — matched against Guilherme's form (5G/4A in 6 matches, tied Navarro for most contributions in MLS).",
+    "sdfc_depth_crisis": "With 9 out, San Diego's bench might be teenagers and academy call-ups. Ferree starting in goal is huge — he only has 1 MLS start ever (final match of 2025)."
+  }
+}
