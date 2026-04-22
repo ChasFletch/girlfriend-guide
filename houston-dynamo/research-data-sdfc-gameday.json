@@ -1,0 +1,84 @@
+{
+  "_metadata": {
+    "generated_by": "perplexity_computer",
+    "generated_at": "2026-04-22T17:58:00-05:00",
+    "type": "gameday_update",
+    "match": "Houston Dynamo FC vs San Diego FC",
+    "kickoff": "2026-04-22T19:30:00-05:00",
+    "venue": "Shell Energy Stadium",
+    "supersedes_note": "Appends to research-data-sdfc-refresh.json (Apr 21)"
+  },
+  "houston_gameday": {
+    "confirmed_xi_3_4_3": {
+      "GK": "31 Jonathan Bond",
+      "DEF": ["34 Agustín Resch", "3 Antônio Carlos", "21 Franco Negri"],
+      "MID": ["36 Felipe Andrade", "18 Diadié Samassékou", "16 Héctor Herrera", "11 Lawrence Ennali"],
+      "ATT": ["20 Guilherme", "10 Ezequiel Ponce", "19 Mateusz Bogusz"],
+      "bench": ["1 Jimmy Maurer", "28 Erik Sviatchenko", "13 Sam Vines", "30 Agustín Bouzat", "9 Ondrej Lingr", "17 Nick Markanich", "24 Aliyu Ibrahim", "26 Blake Gillingham"]
+    },
+    "injury_updates": {
+      "new": {
+        "name": "Reese Miller",
+        "injury": "Hip",
+        "status": "OUT",
+        "note": "Added to injury report today. Rookie depth defender."
+      },
+      "still_out": [
+        {"name": "Jack McGlynn", "injury": "Lower body", "status": "OUT"},
+        {"name": "Lucas Halter", "injury": "Lower body", "status": "OUT — expected mid-May"}
+      ],
+      "good_news": {
+        "name": "Artur",
+        "status": "BACK",
+        "note": "Dynamo captain Artur returned to the pitch as a 2nd-half sub in the Orlando win (Apr 18), completing his comeback from the preseason knee injury. Available tonight as depth.",
+        "source": "Houston Dynamo FC official match preview, Apr 21 2026"
+      }
+    }
+  },
+  "san_diego_gameday": {
+    "confirmed_xi_4_3_3": {
+      "GK": "18 Duran Ferree",
+      "DEF": ["33 Oscar Verhoeven", "17 Osvald Søe", "26 Manu Duah", "97 Christopher McVey"],
+      "MID": ["21 Bryce Duke", "20 Aníbal Godoy", "6 Jeppe Tverskov (C)", "8 Onni Valakari"],
+      "ATT": ["10 Anders Dreyer", "7 Marcus Ingvartsen", "9 Lewis Morgan"],
+      "bench": ["1 CJ dos Santos", "14 Bryan Zamblé", "15 Pedro Soma", "24 Emmanuel Boateng", "29 Anisse Saidi", "77 Alex Mighten"]
+    },
+    "mcvey_starting_confirmed": {
+      "status": "STARTING at LB/CB",
+      "note": "McVey back from suspension — got his 3rd red card of 2026 vs Minnesota (4/11). East Village Times: 'McVey's return to the midfield will be important to San Diego's chance to bounce back.' Walking disciplinary nightmare. 6 red cards as a team in 2026 already (vs 4 all of last year).",
+      "coach_quote": "Mikey Varas: 'I can't explain what's happening... I think we're not receiving some calls.' Tverskov bluntly: 'It needs to stop.'"
+    },
+    "winless_streak_updated": "SIX matches without a win (L-L-D-L-L-L), including 4-2 loss at RSL Saturday. Went from 3-0-2 undefeated start to 3-3-2 in collapse mode.",
+    "missing_players": ["Luca Bombino", "Ian Pilcher", "Kieran Sargeant", "Willy Kumado", "Wilson Eisner", "Pablo Sisniega", "Alejandro Alvarado", "Andrés Reyes"]
+  },
+  "refreshed_storylines": {
+    "sargeant_subplot": {
+      "headline": "The one that got away (for a draft pick)",
+      "detail": "San Diego has Kieran Sargeant — a former Dynamo Academy Homegrown Player. Houston literally traded his right of first refusal to SDFC for a 2026 third-round SuperDraft pick. He's currently injured, won't feature tonight, but: imagine giving away a homegrown defender when your own backline is held together with Scotch tape and prayer.",
+      "source": "Houston Dynamo FC official match preview"
+    },
+    "dreyer_hot_streak": {
+      "update": "Scored in both matches vs RSL this month. Converted a penalty Saturday. Now at 4G/3A in 8 matches. Named 2025 MLS Newcomer of the Year — not just MVP runner-up, he also won the shiny participation trophy.",
+      "wiki_tea": "Danish, 27, signed to SDFC in January 2025 on a 3-year deal. Scored San Diego's first-ever goal in club history. Two of his Danish countrymen — Tverskov and Ingvartsen — were already there, so he joined the Denmark colony.",
+      "girlfriend_guide_angle": "If you're picking ONE opposition player to scream about, it's him. Has the bio of a business major ('For inquiries') and the goals of a man who knows he's the prettiest one on the pitch."
+    },
+    "ingvartsen_quiet_dangerous": {
+      "stat": "Team-leading 5 goals, 2 assists in 2026 (7 contributions, 8 matches). Tied with Guilherme on goal count.",
+      "note": "The 'Mindset | Performance | Business' bro is actually producing. Don't let the LinkedIn bio fool you."
+    },
+    "tverskov_frustrated_captain": {
+      "detail": "Captain (C), playing every single minute of the season (675 min in 8 matches), and publicly said of the red card epidemic: 'It needs to stop.' Starting midfielder for a Denmark rotation spot. Still only 6.6K on IG. The captain with no brand.",
+      "ig": "@jtverskov"
+    },
+    "matchup_significance": {
+      "houston_opportunity": "SDFC rolls into Shell Energy on a 6-game winless streak with 9 players out and a ticking-red-card time bomb at LB. Houston are home favorites (+151 moneyline was UNDERDOG price — SDFC +350 underdogs). Opta: Houston 41%.",
+      "last_meeting_history": "When these teams last met at Shell Energy (Oct 4, 2025), SDFC won 4-2 behind a Dreyer brace including an 89th-minute winner. Revenge game energy — though this is a very different SDFC team."
+    }
+  },
+  "handle_confirmations_final": {
+    "dreyer": "@andersdreyer ✅",
+    "ingvartsen": "@marcusingvartsen ✅",
+    "tverskov": "@jtverskov ✅ (NOT @jeppetverskov)",
+    "herrera": "@h.herrera16 ✅ (NOT @hectorherrera16 — does not exist)"
+  }
+}
