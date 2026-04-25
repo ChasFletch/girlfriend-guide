@@ -36,9 +36,12 @@ async def research_player(player: dict, team_name: str = "MLS", match_date: str 
 
     # Parse the JSON from Perplexity's response
     research = _extract_json(result)
-    if research:
+    if research and isinstance(research, dict):
         player["research"] = research
         player["research"]["_raw_response"] = result
+    elif research:
+        # Sonar returned a list instead of a dict — wrap it
+        player["research"] = {"_raw_response": result, "_list_response": research, "_parse_error": True}
     else:
         player["research"] = {"_raw_response": result, "_parse_error": True}
 
@@ -69,10 +72,10 @@ async def verify_player(player: dict) -> dict:
     result = await _call_perplexity(prompt)
     verification = _extract_json(result)
 
-    if verification:
+    if verification and isinstance(verification, dict):
         player["verified"] = _merge_research_with_verification(research, verification)
     else:
-        # If verification parse fails, use research as-is with medium confidence
+        # If verification parse fails or returns wrong type, use research as-is with medium confidence
         player["verified"] = _default_confidence(research)
 
     return player

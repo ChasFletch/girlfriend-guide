@@ -1,260 +1,150 @@
 {
   "_metadata": {
     "generated_by": "keely",
-    "generated_at": "2026-04-16T05:00:00-05:00",
-    "for_match": "Orlando City SC vs Houston Dynamo FC",
-    "match_date": "2026-04-18",
-    "match_time": "TBD — Apple TV (confirm kickoff time before pipeline runs)",
-    "venue": "Inter&Co Stadium, Orlando, Florida",
-    "competition": "2026 MLS Regular Season — Matchday 8",
-    "previous_match_data_at": "2026-04-15T21:00:00-05:00",
-    "notes": "Pre-scan version. RESULT: Houston 4-1 El Paso (Open Cup R32, April 15). Lingr bicycle kick in 78 seconds (MLS Energy Moment of the Matchday). Bogusz (46'), Markanich (58'), Ponce (80'). PC Friday scan will update injury statuses and fill Orlando player Instagram verification. Guilherme stats still 5G/4A in 6 MLS appearances (Open Cup match separate). Orlando: 1-1-5, 13th Eastern Conference, lost 5-0 to Nashville recently. Away game for Houston — 'road warriors' framing applies. Next Open Cup: at Austin FC, May 21, Q2 Stadium."
+    "generated_at": "2026-04-19T05:00:00-05:00",
+    "for_match": "Austin FC vs Houston Dynamo FC",
+    "match_date": "2026-04-25",
+    "match_time": "7:30 PM CT, Apple TV",
+    "venue": "Q2 Stadium, Austin, Texas",
+    "competition": "2026 MLS Regular Season — Matchday 9 | Copa Tejas Round 1",
+    "previous_match_data_at": "2026-04-22 FT: Houston 1-0 San Diego FC (Aliyu 35')",
+    "notes": "Austin FC away guide. COPA TEJAS ROUND 1. Austin: 13th West, 1W-4D-4L (7pts from 9 matches), 26th in MLS xG (4.1). COPA TEJAS 2025 history: Houston won 2-0 at Austin (April 26, 2025 — Lingr 61', Ponce 79'). Houston has won at Q2 before — use this as a hook. BCS Austin preview NOT YET LIVE as of April 23 — check BCS Friday morning before pipeline. Main DP: Facundo Torres (Uruguayan, from Palmeiras, former Orlando City). Louisville beat Austin 2-1 in Open Cup R32 (April 14). Houston hosts Louisville in Open Cup R16 on April 29. Research cache expired Apr 24 — run pipeline with --fresh flag (full Sonar run ~60 min). SD result: 1-0 W, Aliyu 35' (first goal of season), second consecutive clean sheet, THIRD straight win. Houston record: 4W-0D-4L, 12 pts after 8 MLS matches. Guilherme stats: check if he scored vs SD (Aliyu was the confirmed scorer). HANDLES CONFIRMED: Herrera @h.herrera16 (1.1M, VERIFIED April 21). Guilherme @guilherme11 (VERIFIED). Facundo Torres @facundotorres10 still UNVERIFIED — needs PC scan before pipeline. Bogusz baby angle is STALE (in 3+ guides) — rotate out or reframe with fresh post if available. Kickoff time CONFIRMED: 7:30 PM CT, Apple TV."
   },
-  "matchday_hook": "After the 4-1 Open Cup statement win (Lingr bicycle kick in SEVENTY-EIGHT SECONDS — MLS called it Energy Moment of the Matchday), the Dynamo take their good vibes on the road to Orlando. The Lions are 1-1-5 and struggling — just got 5-0'd by Nashville — and Houston is pulling up with momentum, Markanich chaos energy locked in, and Ponce with a point to prove after actually scoring on Wednesday. Guilherme is still the main character (5G/4A). Road trip energy is different. Away kit. New city. Let's go. ⚽🧡",
+  "matchday_hook": "Copa Tejas Round 1 is HERE. Houston heads to Q2 Stadium on Saturday to open the Texas trophy series — and after back-to-back 1-0 wins (Orlando on Herrera's birthday 🎂, San Diego at home on Wednesday), the Dynamo are on a THREE-MATCH winning streak. Two clean sheets in a row. Ibrahim Aliyu just scored his first goal of the season. This team is clicking. Verde vs Orange. Trophy match. Road warriors. The vibe is real right now. 🧡",
   "vibe_strip_items": [
-    "🚲 Lingr bicycle kick in 78 SECONDS. SEVENTY. EIGHT. Energy Moment of the Matchday.",
-    "🧡 Houston 4-1 El Paso — we're in the Open Cup Round of 16, baby. May 21 at Austin FC.",
-    "🔥 Markanich scored on his chaos return debut. He said he would. He did. The legend continues.",
-    "😤 Ponce scored. Bogusz scored. The whole squad showed up. Fresh vibes for the road trip.",
-    "💜 Orlando City: 1-1-5. Lost 5-0 to Nashville. Houston is walking in with all the momentum.",
-    "🎡 Tincho Ojeda (Orlando DP) takes his family to Disney/Universal — the most Florida thing possible.",
-    "🤍 Duncan McGuire FaceTimes his brother Holden every single day. That's it. That's the wholesome content.",
-    "💯 Guilherme still 5G/4A in MLS — 3rd in all of MLS for goal contributions. Main character status: active.",
-    "🤍 Bogusz baby girl comes in July — every road game he wins is a step closer to being home for the birth.",
-    "🏆 Round of 16 at Austin FC on May 21 — the Texas derby energy is already building"
+    "🏆 COPA TEJAS ROUND 1 — Houston and Austin fight for the Texas trophy. Verde vs Orange. It matters.",
+    "✅ San Diego result: 1-0 WIN. Aliyu 35' — first goal of the season for the Nigerian forward. Second consecutive clean sheet. THREE straight wins.",
+    "✅ Orlando result before that: 1-0 WIN. Herrera 75' on his 36th birthday. STARTED and scored.",
+    "📈 Houston record: 4W-0D-4L through 8 MLS matches. 12 points. Momentum is real.",
+    "🇳🇬 Ibrahim Aliyu — the man of the moment. Nigerian forward, 24, Kano native. Former Columbus Crew. Came back to Houston in March and just delivered his first goal of the season at the perfect time.",
+    "📈 Guilherme: 9 goal contributions (5G/4A) through 7 MLS matches. First Dynamo player to reach 9 in his first 6 MLS matches since Brian Ching in 2006 — TWENTY years.",
+    "🇺🇾 Facundo Torres (Austin DP) — 0 goals in 2026 but 3 assists. Is THIS the Copa Tejas match he finally converts? He is genuinely dangerous.",
+    "🚗 Road warriors on a THREE-MATCH win streak. Q2 Stadium has never felt so accessible.",
+    "⚽ Austin FC: 13th Western Conference, 1W-3D-3L. 26th in MLS for expected goals. The Lions are vulnerable.",
+    "🏆 April 29: Louisville City FC at Shell Energy in Open Cup R16 — Houston is two weeks away from advancing to the quarterfinal.",
+    "⚠️ Lingr SUSPENDED — red card late vs San Diego means the bicycle kick hero sits out tonight. Ennali or Ponce gets the start. Redemption arc loading?",
+    "✅ McGlynn AVAILABLE — was questionable all week but confirmed fit for Austin. The midfield engine is back.",
+    "🏟️ Austin is 5-1-1 at Q2 vs Houston all time. Houston's only win there was Sept 2024 (1-0). Last August: 2-2 comeback. Tonight without Lingr — can Aliyu or Ponce be that hero?",
+    "💪 Artur: fully back and available."
   ],
   "hot_posts": [
+    {
+      "player_or_partner": "Ibrahim Aliyu",
+      "platform": "Instagram / MLS",
+      "handle": "@aliyuibrahim (verify before pipeline)",
+      "post_date": "2026-04-22",
+      "description": "Nigerian forward, 24, from Kano. Scored his FIRST goal of the 2026 season in the 35th minute vs San Diego FC — the winner in a 1-0 home victory. This is his 'arrival' moment after returning to Houston from Columbus Crew in March. Look for any post-match celebration or reaction content.",
+      "why_it_works": "First goal of the season + homecoming narrative + team win. Timing is perfect.",
+      "content_angle": "He came back. And now he delivered. The Nigerian forward who returned home and scored when it mattered. This is the discovery framing for Austin — someone new who just proved they belong."
+    },
     {
       "player_or_partner": "Ondřej Lingr",
       "platform": "Instagram / MLS",
       "handle": "@ondylingr",
-      "post_date": "2026-04-15",
-      "description": "Bicycle kick goal in the 2nd minute (78 seconds) to open the scoring vs El Paso. MLS named it 'Energy Moment of the Matchday.' Lingr delivered the cross assist — wait, no, Markanich crossed for Lingr's bicycle kick. The goal was pure instinct. Wife Lucie (@lucielingr) and son Tonda are the wholesome backstory.",
-      "caption_excerpt": "Energy Moment of the Matchday — Ondřej Lingr, Houston Dynamo",
-      "why_its_hot": "A bicycle kick in 78 seconds is a reel that writes itself. MLS already amplified it as Energy Moment of the Matchday. The man just delivered the most shareable goal of the week in round 1 of the Open Cup. @ondylingr is about to have notifications turned off.",
-      "suggested_tea": "🚲 Lingr. Bicycle kick. 78 seconds. MLS literally gave him 'Energy Moment of the Matchday.' His wife Lucie and their son Tonda (short for Antonín — the most Czech name in history) got to see this one. The family keeps things quiet and wholesome while the goals are ANYTHING but. 💕⚽"
-    },
-    {
-      "player_or_partner": "Nick Markanich",
-      "platform": "Instagram",
-      "handle": "@n.markanich",
-      "post_date": "2026-04-15",
-      "description": "Scored in his first match back after serving his 2-match ban (serious foul play vs Portland). He delivered the cross for Lingr's bicycle kick AND scored the third goal himself at 58'. The chaos agent returned and immediately contributed to two goals.",
-      "caption_excerpt": null,
-      "why_its_hot": "He came back from a ban for the most chaotic red card foul (studs-up on the goalkeeper, refused to leave the pitch) and scored. He didn't just come back — he came back and delivered. The chaos-to-legend pipeline is real.",
-      "suggested_tea": "🃏 Markanich served his suspension, came back, crossed for Lingr's bicycle kick, AND scored the third goal. The chaos man is officially a legend. Not a redemption arc. A victory lap. Houston wins 4-1 and he's in the middle of all of it."
-    },
-    {
-      "player_or_partner": "Mateusz Bogusz",
-      "platform": "Instagram",
-      "handle": "@mateuszbogusz",
-      "post_date": "2026-04-15",
-      "description": "Scored the second goal (46', opening of second half) vs El Paso. Wife Wiktoria (@wiktoria.wychowska) is expecting their baby girl in July. The workhorse scored at halftime on the eve of fatherhood.",
-      "caption_excerpt": null,
-      "why_its_hot": "Every goal Bogusz scores this season feels like it's for the baby. Wiktoria is expecting in July. He runs his heart out every game, scores, and you just KNOW he's going home to her after. The most wholesome subplot in the squad right now.",
-      "suggested_tea": "🤍 Bogusz scored at halftime on Wednesday. His baby girl is coming in July. He runs every game like it matters — because it does. Wiktoria (@wiktoria.wychowska) has 24K followers and is very much the model Pilates instructor managing a pregnancy while her husband scores Open Cup goals. The Bogusz family is everything."
-    },
-    {
-      "player_or_partner": "Ezequiel Ponce",
-      "platform": "Instagram",
-      "handle": "@ezequielp9",
-      "post_date": "2026-04-15",
-      "description": "Scored the fourth goal (80') in the 4-1 win over El Paso. After concerns about his form (Charles noted low spark, compared to underperforming DP Ferreira earlier in season), Ponce delivered in the Open Cup.",
-      "caption_excerpt": null,
-      "why_its_hot": "The DP discourse was real. He scored. The discourse is paused — not over, but paused. One goal in an Open Cup match doesn't seal the narrative, but it's a step. Wife Martina has been on social media break since July 2024 — one of the most private couples on the squad.",
-      "suggested_tea": "😤 Ponce scored. In a 4-1 win. The discourse is officially on pause. He's still finding his groove in MLS, but Wednesday was a step. Wife Martina stays fully off social (she's been on a break since mid-2024) so the content angle is all Ponce, all football. He's figuring it out."
+      "post_date": "April 2026 — check for Orlando road trip content before pipeline runs",
+      "description": "Bicycle kick in 78 seconds (Open Cup vs El Paso) — the moment that started this run. MLS Energy Moment of the Matchday.",
+      "why_it_works": "Viral highlight. Player awareness + shareable moment. Reposts his own goals.",
+      "content_angle": "Lead with the 78-second moment every time until something tops it."
     },
     {
       "player_or_partner": "Guilherme",
       "platform": "Instagram",
       "handle": "@guilherme11",
-      "post_date": "2026-04-15",
-      "description": "Confirmed started vs El Paso (Open Cup). Didn't score in the Open Cup match but his MLS stats remain elite: 5G/4A in 6 MLS appearances, 3rd in all of MLS for goal contributions. 439K Instagram followers.",
-      "caption_excerpt": null,
-      "why_its_hot": "He's the main character even when he doesn't score. 439K followers, Neymar in his DMs, MLS stats that put him third in the entire league for goal contributions. The brand doesn't stop for one match. And Orlando's defense has to figure out how to handle him on Saturday.",
-      "suggested_tea": "💯 Guilherme didn't score vs El Paso but the squad won 4-1 anyway — proof this team is more than one player. In MLS? Still 5 goals, 4 assists, third in the league for goal contributions. 439K followers watching. Neymar tracking the stats from Brazil. The main character stays iconic."
+      "post_date": "April 2026 — check for post-Orlando road trip content before pipeline runs",
+      "description": "Brazilian winger (listed as 'Augusto' on lineup cards — same person). 9 goal contributions (5G/4A) through 7 MLS matches. Pace through first 6 MLS matches broke a 20-year club record — first Dynamo player to 9 contributions in opening 6 matches since Brian Ching in 2006. Still tied for most in all of MLS. Turned 31 on April 13. Neymar publicly DMd him.",
+      "why_it_works": "Historic pace is a shareable stat. '20-year record' is the kind of number that travels.",
+      "content_angle": "Lead with the 20-year record. Then the birthday. Then Neymar. Individual brilliance — frame as star power, not team creator."
     },
     {
-      "player_or_partner": "Martín Ojeda (Orlando City DP)",
+      "player_or_partner": "Tomás Bogusz",
       "platform": "Instagram",
-      "handle": "@martinoojeda_",
-      "post_date": "2026-04 (recent)",
-      "description": "Argentine Designated Player for Orlando City. Nicknamed 'Tincho.' Wife Oriana, son Benjamin. The family regularly visits Disney and Universal — they are living the full Orlando tourist experience while he's also their best player.",
-      "caption_excerpt": null,
-      "why_its_hot": "The Orlando DP is living his best Florida life with wife Oriana and son Benjamin at theme parks while also trying to keep their season from completely falling apart. The contrast energy is immaculate. Also re-signed through 2029 — he's not going anywhere.",
-      "suggested_tea": "🎡 Orlando's Argentine DP is named Martín Ojeda — 'Tincho' to everyone who loves him. Wife Oriana and son Benjamin are regular Disney and Universal visitors while he does his day job of holding Orlando's midfield together. Signed through 2029. The most Florida footballer in MLS right now."
+      "handle": "@tomasbogusz",
+      "post_date": "ongoing",
+      "description": "Baby girl due July 2026. Every road game is a countdown to being home for the birth.",
+      "why_it_works": "Most universally relatable content angle. New parents love this.",
+      "content_angle": "Underappreciated workhorse + new dad countdown. He works hard, Guilherme gets the glory."
     },
     {
-      "player_or_partner": "Duncan McGuire (Orlando City FWD)",
+      "player_or_partner": "Héctor Herrera",
       "platform": "Instagram",
-      "handle": "@duncan_13",
-      "post_date": "2026-04 (bounce-back season)",
-      "description": "American striker (from Omaha, Nebraska) in a self-described bounce-back season after a challenging 2025. His younger brother Holden has Down syndrome — they FaceTime nearly every day. The bond is the main character content angle.",
-      "caption_excerpt": null,
-      "why_its_hot": "The FaceTime-every-day detail with Holden is the kind of wholesome content that gets shared outside of soccer circles. It's real, it's specific, and it's the kind of thing that makes you root for someone regardless of what jersey they're wearing.",
-      "suggested_tea": "🤍 Orlando's American striker Duncan McGuire (@duncan_13) is in his bounce-back era after a tough 2025. But the storyline that keeps this man relatable? His younger brother Holden has Down syndrome — and they FaceTime nearly every day without fail. That's it. That's the content. The football is the day job."
+      "handle": "@h.herrera16 (VERIFIED — 1.1M followers, confirmed April 21)",
+      "post_date": "2026-04-18",
+      "description": "Started and scored the match-winner in Orlando on his 36th birthday. Club legend returned to Houston for 2026. Mexican international, former Porto, former Atlético Madrid. Artur says they're great friends and 'he still plays at a high level.' Birthday goal in a road win — this is a gift-wrapped content moment.",
+      "why_it_works": "36th birthday goal on the road. Legend returns. Universal 'never stop' story.",
+      "content_angle": "36 and STILL doing it. Not a sub-on cameo — he STARTED and won the game. This is the main character energy for the Austin guide."
     },
     {
-      "player_or_partner": "Isybella Bond (Jonathan Bond's wife)",
-      "platform": "Instagram / TikTok",
-      "handle": "@isybellabond",
-      "post_date": "2026-03 (ongoing)",
-      "description": "Isybella competed on Beast Games Season 2 and has been posting about a fertility journey. Former elite triple jumper. Their toddler calls the Dynamo kit 'Daddy footy.'",
-      "caption_excerpt": "my fertility journey ❤️‍🩹",
-      "why_its_hot": "Beast Games + goalkeeper's wife + fertility journey vulnerability content + 'Daddy footy.' It's too many storylines in one person.",
-      "suggested_tea": "📺 The goalkeeper's wife was on BEAST GAMES. As in the MrBeast show. On Amazon. She's also a former elite triple jumper and has been sharing a fertility journey with her followers. Their toddler calls the kit 'Daddy footy.' We can't make this up."
-    },
-    {
-      "player_or_partner": "Wiktoria Wychowska (Bogusz's wife)",
+      "player_or_partner": "Facundo Torres (Austin FC — opponent scout)",
       "platform": "Instagram",
-      "handle": "@wiktoria.wychowska",
-      "post_date": "ongoing (July 2026 baby watch)",
-      "description": "Baby girl due July 2026. Wiktoria is a Pilates instructor with 24K followers. @no13.pilates is her studio account. The pregnancy content is coming.",
-      "caption_excerpt": null,
-      "why_its_hot": "July baby watch continues. Every away trip Bogusz makes, he's one match closer to being home for the birth. The stakes of every road game are: score, get 3 points, get home safe for July.",
-      "suggested_tea": "🤍 Bogusz and Wiktoria's baby girl arrives in JULY. Every road game this season is one step closer. Wiktoria (@wiktoria.wychowska, Pilates instructor, 24K followers) is in full pregnancy mode while her husband is collecting Open Cup wins. July watch is ON."
+      "handle": "@facutorres11 (VERIFIED — 615K followers, largest IG on Austin roster)",
+      "post_date": "2026 season",
+      "description": "Uruguayan DP, 25, from Montevideo. Signed Jan 2026 from Palmeiras (4.5-year DP deal). 1G/3A in 9 matches — first Austin goal April 18. 615K Instagram followers, largest on Austin's roster. Partner: Avril Peón (Uruguayan, search 'Avril Peón Facundo Torres'). They have a daughter named Juana, born July 2023. Family man energy. Verde All Day says coach is deploying him wrong — too central, not letting him flourish.",
+      "why_it_works": "Baby daddy from Uruguay with 615K followers and a little girl named Juana. He's the protagonist Austin wants even if their system won't let him be. Audience will want to know who he is.",
+      "content_angle": "Enemy respect — lead with the person. Daughter Juana, partner Avril, 615K following. THEN the footballer: just scored his first Austin goal last week, finally clicking. DO NOT use 'WAG' — Avril Peón is introduced as who she is, not as 'Torres's girlfriend.'"
     },
     {
-      "player_or_partner": "Erik Sviatchenko",
+      "player_or_partner": "Myrto Uzuni (Austin FC — opponent scout)",
       "platform": "Instagram",
-      "handle": "@eriksviat",
-      "post_date": "2026-04-05 to April 15",
-      "description": "Captain. Served suspension, came back, won the Open Cup game. 19-year anniversary tribute to wife Anne (@annesviat) posted during his ban. Back in full captain mode.",
-      "caption_excerpt": "Step by step we climb",
-      "why_its_hot": "The man posted a romantic 19-year anniversary tribute to his wife while suspended, came back, and won a 4-1 Open Cup game as captain. The telenovela arc (goal + own goal + red card + ban + wife tribute + return) is officially resolved. He's just the captain again.",
-      "suggested_tea": "😭💕 Sviatchenko posted a 19-year anniversary tribute to wife Anne while suspended. Then came back. Then won 4-1 as captain. The telenovela arc that had everything — goal, own goal, red card, suspension, romantic anniversary content — is resolved. The captain is just the captain again. 🫡"
+      "handle": "@myrto_uzuni (VERIFIED — 151K followers, underscore between name)",
+      "post_date": "2026 season",
+      "description": "Albanian forward, 30, born in Berat, raised in Zakynthos, Greece. 2G/2A this season. Married to Uarda Hyseni (@uarda.uzuni — model/influencer, 33K followers, baby son born April 2025). Her bio literally says 'THE PRINCE'S MOTHER.' Posted mid-slump: 'From a child with nothing! To living my dreams!' April 9 2026.",
+      "why_it_works": "Albanian international in MLS is rare. Wife is a personality in her own right. The 'prince' baby content is universally shareable.",
+      "content_angle": "Discovery framing — who IS this guy? Lead with Uarda (@uarda.uzuni) as the Inner Circle entry: model, 'THE PRINCE'S MOTHER,' fully integrated into Austin life. Uzuni the player: the inspirational backstory kid from Albania who made it."
+    },
+    {
+      "player_or_partner": "Brendan Hines-Ike (Austin FC — opponent scout)",
+      "platform": "Instagram",
+      "handle": "TBD",
+      "post_date": "2026 season",
+      "description": "American CB from Denver. Baby daughter. Into golf, community work, intellectual development. Signed extension through Dec 2026. Scored opening header vs Minnesota (Torres assist).",
+      "why_it_works": "Family content + American story. Passes the wholesome test.",
+      "content_angle": "Defensive anchor who is also a community guy. Respectful opponent, not a villain."
+    },
+    {
+      "player_or_partner": "Lawrence Ennali + Preslee Clark",
+      "platform": "Instagram",
+      "handle": "@ennalilawrence (VERIFIED — from story itself) + @presleeclark (VERIFIED — tagged in story)",
+      "post_date": "2026-04-22",
+      "description": "Lawrence posted an Instagram story right after the San Diego 1-0 win — pitch-side photo with Preslee Clark at Shell Energy Stadium. Caption: 'Lawrence Ennali Hallelujah!!! 🧡' with tags @ennalilawrence @houstondynamo. FRESH: posted ~11 PM CDT April 22 post-match. Source: screenshot sent directly by Charles April 23.",
+      "why_it_works": "Posted by the player himself right after a win. Authentic, celebratory, passes the repost test (he posted it). Fresh inner circle content — Preslee at the stadium supporting him.",
+      "content_angle": "Introduce Preslee Clark as who she IS — luxury makeup artist, @presleeclark — with relationship as one line of context. The pitch-side photo after a winning night is the vibe the guide is built on. DO NOT lead with 'his girlfriend.' Lead with Preslee Clark, the person who was there celebrating the win."
     }
   ],
   "injury_flags": [
     {
-      "player": "Artur",
-      "status": "RETURNING — back in training",
-      "detail": "Coach Ben Olsen confirmed April 16 (post-El Paso presser) that Artur is back on the pitch for practice and feeling better. 'Season-ending' was incorrect — that read was based on Transfermarkt/injury reports which overstated the severity. Return timeline unclear but no longer out for season. PC Friday scan to confirm availability for April 18.",
-      "impact": "Potential return to midfield spine. CDM depth could be restored. Content angle: Artur comeback arc."
-    },
-    {
-      "player": "Lucas Halter",
-      "status": "OUT — likely",
-      "detail": "Lower body injury. Was OUT for April 15 Open Cup. Confirm status for April 18 via PC Friday scan.",
-      "impact": "Defensive depth issue. Madison Tayler (@madisontayler) moral support from stands."
+      "player": "Ondřej Lingr",
+      "status": "SUSPENDED — red card received late in San Diego FC match (April 22). CONFIRMED OUT for April 25.",
+      "impact": "Major. Lingr is the bicycle kick hero, top performer. Ennali or Ponce likely fills in. Content angle: 'Who steps up in Lingr's absence?' Ponce redemption arc if he starts and scores."
     },
     {
       "player": "Jack McGlynn",
-      "status": "QUESTIONABLE — update needed",
-      "detail": "New lower body injury listed first time on Matchday 7 report. Was available for Open Cup? Status for April 18 needs PC scan confirmation.",
-      "impact": "Midfield depth uncertain."
+      "status": "AVAILABLE — confirmed fit per official Houston preview (was questionable/OUT for San Diego). Flip from prior reports.",
+      "impact": "MF depth restored. May start alongside Samassékou."
     },
     {
-      "player": "Nick Markanich",
-      "status": "AVAILABLE — ban fully served",
-      "detail": "2-match ban served. Played and SCORED vs El Paso on April 15. Full squad member.",
-      "impact": "Forward threat confirmed — and chaos content is endless."
+      "player": "Lucas Halter",
+      "status": "OUT — lower body, expected mid-May",
+      "impact": "Defensive depth affected. CB pairing adjustment."
     },
     {
-      "player": "Erik Sviatchenko",
-      "status": "AVAILABLE",
-      "detail": "Suspension served. Played as captain vs El Paso. Available for Orlando.",
-      "impact": "Captain returns, backline leadership restored."
-    }
-  ],
-  "roster_changes": [
+      "player": "Artur",
+      "status": "AVAILABLE — returned vs Orlando, available for Austin.",
+      "impact": "Depth CDM. Check if Olsen starts him."
+    },
     {
-      "type": "note",
-      "player": "Full roster",
-      "detail": "No changes expected since April 15. PC Friday scan will confirm.",
-      "source": "Monitor houstondynamofc.com for any transactions"
+      "player": "Reese Miller",
+      "status": "OUT — hip injury.",
+      "impact": "Rookie depth defender. Low impact on starting XI."
     }
   ],
-  "opponent_scouting": {
-    "team": "Orlando City SC",
-    "competition": "2026 MLS Regular Season — Matchday 8",
-    "league": "MLS Eastern Conference",
-    "form_summary": "1-1-5, 13th in Eastern Conference. Just lost 5-0 to Nashville SC. Struggling badly. This is a winnable road match for Houston.",
-    "head_coach": "Oscar Pareja",
-    "rotation_risk": "MEDIUM — Houston has Open Cup R16 May 21 but still 2+ weeks away. Expect mostly full strength.",
-    "narrative": "Orlando is struggling badly and Houston is riding Open Cup momentum. Away kit, road warriors energy. The Lions need a bounce-back; the Dynamo need MLS points badly (been in the lower half of the West). Inter&Co Stadium (Exploria) is the venue — a proper MLS stadium with real atmosphere even when the home team is struggling.",
-    "players_to_watch": [
-      {
-        "name": "Martín Ojeda",
-        "nickname": "Tincho",
-        "position": "Midfielder / Creative Hub",
-        "jersey_number": null,
-        "nationality": "Argentine",
-        "nationality_flag": "🇦🇷",
-        "player_instagram": "@martinoojeda_",
-        "player_instagram_url": "https://www.instagram.com/martinoojeda_/",
-        "partner_name": "Oriana",
-        "kids": "Son: Benjamin",
-        "fun_facts": [
-          "Nicknamed 'Tincho'",
-          "Designated Player, re-signed through 2029",
-          "Wife Oriana and son Benjamin are Orlando theme park regulars (Disney, Universal)",
-          "Argentine creative playmaker — set-piece delivery, vision, goal threat",
-          "Was on MLS MVP watch list in 2025"
-        ],
-        "one_liner": "The Argentine DP with the family living the full Florida tourist life — Disney visits, Universal, you name it. Wife Oriana and son Benjamin are regulars. Tincho is their best player and he knows it.",
-        "source": "https://www.orlandocitysc.com/news/tincho-time-martin-ojeda-is-all-in-with-orlando-city"
-      },
-      {
-        "name": "Duncan McGuire",
-        "position": "Forward / Striker",
-        "jersey_number": null,
-        "nationality": "American",
-        "nationality_flag": "🇺🇸",
-        "player_instagram": "@duncan_13",
-        "player_instagram_url": "https://www.instagram.com/duncan_13/",
-        "partner_name": null,
-        "kids": null,
-        "fun_facts": [
-          "From Omaha, Nebraska — the most Midwestern MLS striker",
-          "Younger brother Holden has Down syndrome — they FaceTime nearly every day",
-          "Bounce-back season narrative after a challenging 2025",
-          "Tall, physical striker — leads the line with hold-up play",
-          "American player (no partner info found publicly)"
-        ],
-        "one_liner": "The American striker from Omaha with the most wholesome backstory: his younger brother Holden (Down syndrome) gets a FaceTime almost every single day. The football is the side quest.",
-        "source": "https://en.wikipedia.org/wiki/Duncan_McGuire_(soccer)"
-      },
-      {
-        "name": "Marco Pašalić",
-        "position": "Right Winger",
-        "jersey_number": null,
-        "nationality": "Croatian-German",
-        "nationality_flag": "🇭🇷🇩🇪",
-        "player_instagram": null,
-        "player_instagram_url": null,
-        "partner_name": null,
-        "kids": null,
-        "fun_facts": [
-          "Designated Player, age 25",
-          "MLS All-Star in his debut season (2025)",
-          "Croatian international — played for Croatia against Colombia IN ORLANDO in March 2026",
-          "Signed from Rijeka as a DP",
-          "World Cup hopeful for Croatia"
-        ],
-        "one_liner": "Croatian DP who was an MLS All-Star in year one AND played for Croatia in Orlando in March — literally played a national team game in the same city where he works. His personal Instagram TBD — PC scan to verify.",
-        "source": "https://www.orlandocitysc.com/news/marco-pasalic-shines-for-croatia-against-colombia-in-orlando"
-      }
-    ]
-  },
-  "beat_writer_sources": [
-    {
-      "outlet": "Bayou City Soccer",
-      "author": "Dustyn Richardson",
-      "title": "BCS — post-El Paso recap and Orlando preview expected",
-      "url": "https://www.bayoucitysoccer.net/",
-      "key_takeaway": "BCS typically publishes match recaps within 2 days of a game. El Paso recap should land April 16-17. Check before pipeline runs Friday."
-    }
-  ],
-  "sources": [
-    "https://www.houstondynamofc.com/news/houston-dynamo-fc-stop-the-locomotive-in-its-tracks-defeating-el-paso-4-1-to-reach-the-u-s-open-cup-round-of-16",
-    "https://www.mlssoccer.com/news/ondrej-lingr-makes-instant-impact-in-houston-energy-moment-of-the-matchday",
-    "https://www.instagram.com/ondylingr/",
-    "https://www.instagram.com/martinoojeda_/",
-    "https://www.instagram.com/duncan_13/",
-    "https://www.orlandocitysc.com/news/tincho-time-martin-ojeda-is-all-in-with-orlando-city",
-    "https://www.orlandocitysc.com/news/marco-pasalic-shines-for-croatia-against-colombia-in-orlando",
-    "https://en.wikipedia.org/wiki/Duncan_McGuire_(soccer)",
-    "https://www.austinfc.com/news/austin-fc-to-host-houston-dynamo-fc-in-us-open-cup-round-of-16-at-q2-stadium"
-  ]
+  "roster_changes": [],
+  "copa_tejas_context": {
+    "competition": "Copa Tejas 2026",
+    "teams": ["Houston Dynamo FC", "Austin FC", "FC Dallas"],
+    "format": "Round-robin among Texas MLS clubs. Trophy awarded at end of season.",
+    "houston_april_25": "Round 1 — at Austin FC (Q2 Stadium)",
+    "hook": "This is not just a regular season match. The Copa Tejas is a real trophy with real bragging rights. Houston vs Austin in Austin. Verde vs Orange. Austin is 5-1-1 at home vs Houston all-time. Houston's only Q2 win was Sept 2024 (1-0 — the first ever). Last August: a 2-2 thriller where McGlynn equalized in the 89th. Tonight Lingr is suspended. Ponce or Aliyu has to be the new hero at a stadium that's never loved us back.",
+    "austin_q2_home_record_vs_houston": "5-1-1 (source: Austin FC official preview April 25 2026)",
+    "houston_possession_stat": "40.9% average — lowest in MLS. Counter-punch style. Let Austin have the ball, hit on the break."
+  }
 }

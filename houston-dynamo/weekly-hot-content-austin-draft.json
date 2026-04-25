@@ -4,11 +4,11 @@
     "generated_at": "2026-04-19T05:00:00-05:00",
     "for_match": "Austin FC vs Houston Dynamo FC",
     "match_date": "2026-04-25",
-    "match_time": "TBD — confirm kickoff time before pipeline runs (Copa Tejas / MLS Matchday 9)",
+    "match_time": "7:30 PM CT, Apple TV",
     "venue": "Q2 Stadium, Austin, Texas",
     "competition": "2026 MLS Regular Season — Matchday 9 | Copa Tejas Round 1",
     "previous_match_data_at": "2026-04-22 FT: Houston 1-0 San Diego FC (Aliyu 35')",
-    "notes": "Austin FC away guide. COPA TEJAS ROUND 1. Austin: 13th West, 1W-3D-3L, 26th in MLS xG (4.1). Main DP: Facundo Torres (Uruguayan, from Palmeiras, former Orlando City). Louisville beat Austin 2-1 in Open Cup R32 (April 14). Houston hosts Louisville in Open Cup R16 on April 29. Research cache expired Apr 24 — run pipeline with --fresh flag (full Sonar run ~60 min). SD result: 1-0 W, Aliyu 35' (first goal of season), second consecutive clean sheet, THIRD straight win. Houston record: 4W-0D-4L, 12 pts after 8 MLS matches. Guilherme stats: check if he scored vs SD (Aliyu was the confirmed scorer). HANDLES CONFIRMED: Herrera @h.herrera16 (1.1M, VERIFIED April 21). Guilherme @guilherme11 (VERIFIED). Facundo Torres @facundotorres10 still UNVERIFIED — needs PC scan before pipeline. Bogusz baby angle is STALE (in 3+ guides) — rotate out or reframe with fresh post if available. Kickoff time for April 25: TBD — confirm before pipeline."
+    "notes": "Austin FC away guide. COPA TEJAS ROUND 1. Austin: 13th West, 1W-4D-4L (7pts from 9 matches), 26th in MLS xG (4.1). COPA TEJAS 2025 history: Houston won 2-0 at Austin (April 26, 2025 — Lingr 61', Ponce 79'). Houston has won at Q2 before — use this as a hook. BCS Austin preview NOT YET LIVE as of April 23 — check BCS Friday morning before pipeline. Main DP: Facundo Torres (Uruguayan, from Palmeiras, former Orlando City). Louisville beat Austin 2-1 in Open Cup R32 (April 14). Houston hosts Louisville in Open Cup R16 on April 29. Research cache expired Apr 24 — run pipeline with --fresh flag (full Sonar run ~60 min). SD result: 1-0 W, Aliyu 35' (first goal of season), second consecutive clean sheet, THIRD straight win. Houston record: 4W-0D-4L, 12 pts after 8 MLS matches. Guilherme stats: check if he scored vs SD (Aliyu was the confirmed scorer). HANDLES CONFIRMED: Herrera @h.herrera16 (1.1M, VERIFIED April 21). Guilherme @guilherme11 (VERIFIED). Facundo Torres @facundotorres10 still UNVERIFIED — needs PC scan before pipeline. Bogusz baby angle is STALE (in 3+ guides) — rotate out or reframe with fresh post if available. Kickoff time CONFIRMED: 7:30 PM CT, Apple TV."
   },
   "matchday_hook": "Copa Tejas Round 1 is HERE. Houston heads to Q2 Stadium on Saturday to open the Texas trophy series — and after back-to-back 1-0 wins (Orlando on Herrera's birthday 🎂, San Diego at home on Wednesday), the Dynamo are on a THREE-MATCH winning streak. Two clean sheets in a row. Ibrahim Aliyu just scored his first goal of the season. This team is clicking. Verde vs Orange. Trophy match. Road warriors. The vibe is real right now. 🧡",
   "vibe_strip_items": [
@@ -22,7 +22,10 @@
     "🚗 Road warriors on a THREE-MATCH win streak. Q2 Stadium has never felt so accessible.",
     "⚽ Austin FC: 13th Western Conference, 1W-3D-3L. 26th in MLS for expected goals. The Lions are vulnerable.",
     "🏆 April 29: Louisville City FC at Shell Energy in Open Cup R16 — Houston is two weeks away from advancing to the quarterfinal.",
-    "💪 Artur: fully back and available. McGlynn status TBD for April 25 — check official matchday report."
+    "⚠️ Lingr SUSPENDED — red card late vs San Diego means the bicycle kick hero sits out tonight. Ennali or Ponce gets the start. Redemption arc loading?",
+    "✅ McGlynn AVAILABLE — was questionable all week but confirmed fit for Austin. The midfield engine is back.",
+    "🏟️ Austin is 5-1-1 at Q2 vs Houston all time. Houston's only win there was Sept 2024 (1-0). Last August: 2-2 comeback. Tonight without Lingr — can Aliyu or Ponce be that hero?",
+    "💪 Artur: fully back and available."
   ],
   "hot_posts": [
     {
@@ -73,20 +76,20 @@
     {
       "player_or_partner": "Facundo Torres (Austin FC — opponent scout)",
       "platform": "Instagram",
-      "handle": "@facundotorres10 (UNVERIFIED — needs PC confirmation)",
+      "handle": "@facutorres11 (VERIFIED — 615K followers, largest IG on Austin roster)",
       "post_date": "2026 season",
-      "description": "Uruguayan DP winger. Former Orlando City leading scorer. Signed Jan 2026 from Palmeiras ($9.5M). Uruguay national team. 0G/3A in 2026 — creating but not converting.",
-      "why_it_works": "The name to know as a threat. South American flair angle plays well.",
-      "content_angle": "Enemy respect framing. He is genuinely dangerous and the audience should know who he is."
+      "description": "Uruguayan DP, 25, from Montevideo. Signed Jan 2026 from Palmeiras (4.5-year DP deal). 1G/3A in 9 matches — first Austin goal April 18. 615K Instagram followers, largest on Austin's roster. Partner: Avril Peón (Uruguayan, search 'Avril Peón Facundo Torres'). They have a daughter named Juana, born July 2023. Family man energy. Verde All Day says coach is deploying him wrong — too central, not letting him flourish.",
+      "why_it_works": "Baby daddy from Uruguay with 615K followers and a little girl named Juana. He's the protagonist Austin wants even if their system won't let him be. Audience will want to know who he is.",
+      "content_angle": "Enemy respect — lead with the person. Daughter Juana, partner Avril, 615K following. THEN the footballer: just scored his first Austin goal last week, finally clicking. DO NOT use 'WAG' — Avril Peón is introduced as who she is, not as 'Torres's girlfriend.'"
     },
     {
       "player_or_partner": "Myrto Uzuni (Austin FC — opponent scout)",
       "platform": "Instagram",
-      "handle": "TBD — needs PC scan",
+      "handle": "@myrto_uzuni (VERIFIED — 151K followers, underscore between name)",
       "post_date": "2026 season",
-      "description": "Albanian international forward. Scored multiple times this season including vs LA Galaxy. Second goal of season confirmed.",
-      "why_it_works": "Discovery framing — Albanian international is rare in MLS. Audience will be curious.",
-      "content_angle": "The X-factor most people have not heard of. Who IS this guy and why is he a threat?"
+      "description": "Albanian forward, 30, born in Berat, raised in Zakynthos, Greece. 2G/2A this season. Married to Uarda Hyseni (@uarda.uzuni — model/influencer, 33K followers, baby son born April 2025). Her bio literally says 'THE PRINCE'S MOTHER.' Posted mid-slump: 'From a child with nothing! To living my dreams!' April 9 2026.",
+      "why_it_works": "Albanian international in MLS is rare. Wife is a personality in her own right. The 'prince' baby content is universally shareable.",
+      "content_angle": "Discovery framing — who IS this guy? Lead with Uarda (@uarda.uzuni) as the Inner Circle entry: model, 'THE PRINCE'S MOTHER,' fully integrated into Austin life. Uzuni the player: the inspirational backstory kid from Albania who made it."
     },
     {
       "player_or_partner": "Brendan Hines-Ike (Austin FC — opponent scout)",
@@ -96,9 +99,28 @@
       "description": "American CB from Denver. Baby daughter. Into golf, community work, intellectual development. Signed extension through Dec 2026. Scored opening header vs Minnesota (Torres assist).",
       "why_it_works": "Family content + American story. Passes the wholesome test.",
       "content_angle": "Defensive anchor who is also a community guy. Respectful opponent, not a villain."
+    },
+    {
+      "player_or_partner": "Lawrence Ennali + Preslee Clark",
+      "platform": "Instagram",
+      "handle": "@ennalilawrence (VERIFIED — from story itself) + @presleeclark (VERIFIED — tagged in story)",
+      "post_date": "2026-04-22",
+      "description": "Lawrence posted an Instagram story right after the San Diego 1-0 win — pitch-side photo with Preslee Clark at Shell Energy Stadium. Caption: 'Lawrence Ennali Hallelujah!!! 🧡' with tags @ennalilawrence @houstondynamo. FRESH: posted ~11 PM CDT April 22 post-match. Source: screenshot sent directly by Charles April 23.",
+      "why_it_works": "Posted by the player himself right after a win. Authentic, celebratory, passes the repost test (he posted it). Fresh inner circle content — Preslee at the stadium supporting him.",
+      "content_angle": "Introduce Preslee Clark as who she IS — luxury makeup artist, @presleeclark — with relationship as one line of context. The pitch-side photo after a winning night is the vibe the guide is built on. DO NOT lead with 'his girlfriend.' Lead with Preslee Clark, the person who was there celebrating the win."
     }
   ],
   "injury_flags": [
+    {
+      "player": "Ondřej Lingr",
+      "status": "SUSPENDED — red card received late in San Diego FC match (April 22). CONFIRMED OUT for April 25.",
+      "impact": "Major. Lingr is the bicycle kick hero, top performer. Ennali or Ponce likely fills in. Content angle: 'Who steps up in Lingr's absence?' Ponce redemption arc if he starts and scores."
+    },
+    {
+      "player": "Jack McGlynn",
+      "status": "AVAILABLE — confirmed fit per official Houston preview (was questionable/OUT for San Diego). Flip from prior reports.",
+      "impact": "MF depth restored. May start alongside Samassékou."
+    },
     {
       "player": "Lucas Halter",
       "status": "OUT — lower body, expected mid-May",
@@ -106,17 +128,12 @@
     },
     {
       "player": "Artur",
-      "status": "AVAILABLE — returned as 2H sub vs Orlando, on bench vs San Diego. Fit and available.",
-      "impact": "Depth CDM presence. Check if Olsen starts him vs Austin."
-    },
-    {
-      "player": "Jack McGlynn",
-      "status": "OUT — lower body, missed San Diego match. Status for April 25 TBD — check official report.",
-      "impact": "MF depth. Samassékou + Bouzat pivot again if he's out."
+      "status": "AVAILABLE — returned vs Orlando, available for Austin.",
+      "impact": "Depth CDM. Check if Olsen starts him."
     },
     {
       "player": "Reese Miller",
-      "status": "OUT — hip injury, added to injury report April 22.",
+      "status": "OUT — hip injury.",
       "impact": "Rookie depth defender. Low impact on starting XI."
     }
   ],
@@ -126,6 +143,8 @@
     "teams": ["Houston Dynamo FC", "Austin FC", "FC Dallas"],
     "format": "Round-robin among Texas MLS clubs. Trophy awarded at end of season.",
     "houston_april_25": "Round 1 — at Austin FC (Q2 Stadium)",
-    "hook": "This is not just a regular season match. The Copa Tejas is a real trophy with real bragging rights. Houston vs Austin in Austin. Verde vs Orange. The Texas rivalry with stakes attached."
+    "hook": "This is not just a regular season match. The Copa Tejas is a real trophy with real bragging rights. Houston vs Austin in Austin. Verde vs Orange. Austin is 5-1-1 at home vs Houston all-time. Houston's only Q2 win was Sept 2024 (1-0 — the first ever). Last August: a 2-2 thriller where McGlynn equalized in the 89th. Tonight Lingr is suspended. Ponce or Aliyu has to be the new hero at a stadium that's never loved us back.",
+    "austin_q2_home_record_vs_houston": "5-1-1 (source: Austin FC official preview April 25 2026)",
+    "houston_possession_stat": "40.9% average — lowest in MLS. Counter-punch style. Let Austin have the ball, hit on the break."
   }
 }
