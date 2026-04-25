@@ -1,0 +1,234 @@
+{
+  "_metadata": {
+    "generated_by": "perplexity_computer",
+    "generated_at": "2026-04-25T07:30:00-05:00",
+    "type": "rivalry_prematch_research",
+    "match": "Austin FC vs Houston Dynamo FC",
+    "competition": "MLS Regular Season — Matchday 10 (Walmart Saturday Showdown)",
+    "rivalry": "Copa Tejas — first 2026 clash",
+    "date": "2026-04-25",
+    "kickoff_ct": "19:30",
+    "venue": "Q2 Stadium, Austin",
+    "broadcast": "Apple TV (MLS Season Pass) — flagship Saturday Showdown",
+    "vibe": "Texas Derby. Verde and Black hosting Orange Crush. Austin in literal crisis. Lingr suspended. Coach hot seat. Three DPs not gelling. Stuver standing on his head. Bring the chaos."
+  },
+
+  "the_state_of_things": {
+    "houston_form": {
+      "season_record": "4W-0D-4L MLS (12 pts, 15th West) + 1W Open Cup",
+      "current_streak": "3 wins in all comps including 1-0 over San Diego on 4/22 (28% possession, lowest in MLS)",
+      "all_time_record_vs_austin": "Austin leads 8W-0D-5W in MLS regular season (Austin won 5 of 7 at Q2)",
+      "last_meeting": "2-2 draw at Q2 Stadium, August 9, 2025 — McGlynn 89' equalizer from the spot",
+      "last_win_in_austin": "1-0 on Sept 21, 2024 — Houston's FIRST EVER win at Q2 Stadium"
+    },
+    "austin_form": {
+      "season_record": "1W-4D-4L MLS (7 pts, 25th overall, 13th West) + Open Cup eliminated",
+      "the_collapse": "5-1 thrashing at San Jose on 4/22 (allowed 4 goals from 78'-89'), 3-3 draw at Toronto where they led 3-2 with 12 minutes left, lost 2-0 in Open Cup at Louisville (a USL team)",
+      "stat_of_doom": "Austin has dropped 13 points from winning or tying positions after the 68th minute this season",
+      "winless_stretch": "0W-2D-3L in last 5 MLS matches",
+      "the_quote": "GK Brad Stuver, post-San Jose: 'We've been putting together 45 minutes. We've been putting together 60 minutes, but we haven't been putting together 90 minutes.' Tense.",
+      "fan_meltdown": "Austin fans publicly pining for previous coach Josh Wolff. Coach Nico Estévez's seat is reportedly 'decidedly warm.' Per Verde All Day, Wilfried Nancy and Jim Curtin are floating as potential replacements."
+    }
+  },
+
+  "the_storylines_we_actually_care_about": {
+    "1_austin_three_dp_disaster": {
+      "headline": "$30M+ in DPs, no chemistry, no goals",
+      "details": "Austin built around Brandon Vázquez (signed from Monterrey for a club-record $10M fee in early 2025), Myrto Uzuni (Albanian striker), and Facundo Torres (signed from Palmeiras as DP this offseason). Verde All Day says the Torres-Uzuni partnership has been 'okay but not great' and they've never seen all three on the field together because Vázquez is still rehabbing his ACL from last year's Open Cup run.",
+      "girlfriend_guide_take": "Three DPs, two healthy, zero clicking. Austin's expensive boys can't share a bedroom let alone a forward line."
+    },
+    "2_lingr_suspended_drama": {
+      "headline": "Houston's hot striker eats a red, sits this one out",
+      "details": "Ondřej Lingr scored 2 goals + 1 assist in last 3 matches, then got sent off in the 97th minute vs San Diego on 4/22 (second yellow). He's suspended. Houston needs a new look up top.",
+      "knock_on": "Aliyu Ibrahim — who scored the lone goal vs SD off Lingr's assist — likely starts as the lone striker. Bogusz and Guilherme support."
+    },
+    "3_austin_injury_room": {
+      "headline": "Austin's training table is busier than the field",
+      "out": [
+        {"name": "Brandon Vázquez", "injury": "ACL rehab from 2025 Open Cup", "status": "OUT — slow return"},
+        {"name": "Dani Pereira", "injury": "Hamstring → 'scar tissue'", "status": "OUT — came back vs Louisville, lasted <10 minutes"},
+        {"name": "Robert Taylor", "injury": "Knee", "status": "OUT"}
+      ],
+      "questionable": [
+        {"name": "Owen Wolff", "injury": "Sports hernia (preseason surgery)", "status": "QUESTIONABLE — hasn't played a single minute in 2026, might see his first action tonight per coach"}
+      ],
+      "the_setup": "Wolff is described by Verde All Day as 'the primary catalyst' for Austin's offense. He's been out since preseason. If he plays, it's his 2026 debut in a derby. If he doesn't, Austin keeps drowning."
+    },
+    "4_copa_tejas_first_clash": {
+      "headline": "Austin's only Copa Tejas chance vs Houston this year (only one league meeting)",
+      "context": "Copa Tejas is the supporter-driven trophy for the best Texas pro club by points. Houston won it in 2024. San Antonio FC won it in 2025. The 2026 race is wide open.",
+      "stakes": "Whoever wins tonight gets ALL the bragging rights vs the other this calendar year. There's no return fixture between Austin and Houston in MLS this season."
+    },
+    "5_estevez_hot_seat": {
+      "headline": "Austin's Spanish coach might be coaching for his job",
+      "details": "Nico Estévez (44, from Valencia, Spain, ex-USMNT assistant) was hired before 2025 season to get Austin back to playoffs. He did, then they lost in Round 1. Started 2026 with $20M+ in DP investment and they're 1-4-4. Per The Austin Chronicle and Verde All Day, the seat is 'decidedly warm.' Sporting director Rodolfo Borrell may not pull the plug pre-World Cup, but if Austin gets housed at home in this rivalry game, the call comes faster."
+    },
+    "6_q2_stadium_curse": {
+      "headline": "Houston has WON exactly ONE TIME at Q2 Stadium",
+      "details": "Houston's all-time record at Q2 is 1W-1D-5L. The lone win was Sept 21, 2024. Last August they drew 2-2. Q2 is Austin's fortress, even when Austin is bad.",
+      "fan_chant_potential": "When Houston scores tonight, every Dynamo fan in section 121 needs to point at Austin's coaching box."
+    }
+  },
+
+  "tactical_breakdown": {
+    "houston_3_4_2_1_predicted": {
+      "formation": "3-4-2-1",
+      "predicted_xi": {
+        "GK": "31 Jonathan Bond",
+        "DEF": ["34 Agustín Resch", "3 Antônio Carlos", "21 Franco Negri"],
+        "MID": ["36 Felipe Andrade (LWB)", "30 Agustín Bouzat", "18 Diadié Samassékou", "24 Aliyu Ibrahim (RWB)"],
+        "ATT_10s": ["19 Mateusz Bogusz", "20 Guilherme Augusto"],
+        "ST": "10 Ezequiel Ponce"
+      },
+      "alternatives": "If Olsen wants Aliyu as the lone striker (he scored vs SD), Ponce drops to bench and Andrade or Holmes slot in",
+      "style": "Lowest possession in MLS (40.9% avg), 28% vs SD. Counter-press, hit hard on transitions. Two 1-0 wins in a row.",
+      "key_to_unlock": "Austin's set-piece defense is suspect. Guilherme has 4 assists, 3 from set pieces. Bogusz takes the dead balls."
+    },
+    "austin_4_4_2_predicted": {
+      "formation": "4-4-2 (or 4-3-3 if Wolff plays)",
+      "predicted_xi_per_bcs": {
+        "GK": "1 Brad Stuver",
+        "DEF": ["3 Mikkel Desler (RB)", "5 Oleksandr Svatok (CB)", "4 Brendan Hines-Ike (CB)", "17 Jon Gallagher (LB)"],
+        "MID": ["6 Ilie Sánchez (CDM)", "20 Nico Dubersarsky (CDM)", "7 Jayden Nelson (RM)", "11 Facundo Torres (CAM)", "30 Joseph Rosales (LM)"],
+        "ATT": ["10 Myrto Uzuni"]
+      },
+      "predicted_xi_per_sportsgambler": {
+        "GK": "1 Brad Stuver",
+        "DEF": ["17 Jon Gallagher", "4 Brendan Hines-Ike", "15 Jon Bell", "29 Guilherme Biro"],
+        "MID": ["14 Besard Šabović", "20 Nico Dubersarsky", "30 Joseph Rosales", "40 Jorge Alastuey"],
+        "ATT": ["11 Facundo Torres", "19 CJ Fodrey"]
+      },
+      "key_decisions": "Whether Uzuni and Nelson recover from being questionable last week. Whether Wolff makes his 2026 debut. If Wolff is back, the formation shifts and Austin becomes more dangerous.",
+      "weakness": "Concedes from 68'-90' constantly. 10 of 19 goals against this season have come in the final 22 minutes. Mental fragility late."
+    }
+  },
+
+  "the_players_we_should_be_thirsting_over": {
+    "facundo_torres": {
+      "position": "Winger / CAM / Designated Player",
+      "jersey": 11,
+      "instagram": "@facutorres11",
+      "instagram_corrected": "Handle is @facutorres11 — NOT @facutorres11_ (no trailing underscore)",
+      "follower_count": "~615K (largest IG following on Austin's roster by an order of magnitude)",
+      "bio": "Montevideo, Uruguay • 25 años / 2000 • Futbolista | @austinfc y @aufoficial 2021-2024…",
+      "the_tea": {
+        "background": "Uruguayan, born April 13, 2000 in Montevideo. Came up at Peñarol, transferred to Orlando City in 2022, then to Palmeiras (Brazil) in 2025. Austin signed him as a DP this offseason for a 4.5-year deal through 2030. Holds a US Green Card.",
+        "personal": "Has a daughter named Juana, born July 2023, with partner Avril Peón (per Instagram and Spanish-language sports press). Family man.",
+        "season_so_far": "1G/3A in 9 matches. All 3 assists came from set pieces. Scored his first Austin goal April 18. Verde All Day notes he's being deployed as a 'centrally-focused 10' — described as Austin's coach making 'too-clever moves not allowing those players to flourish where they're best.'",
+        "girlfriend_guide_angle": "The most-followed man on Austin's roster, baby daddy from Uruguay, finally scored his first goal a week ago. He's the protagonist they want him to be even if the system isn't letting him."
+      }
+    },
+    "myrto_uzuni": {
+      "position": "Forward / Left winger",
+      "jersey": 10,
+      "instagram": "@myrto_uzuni (NOT @myrtouzuni — handle has an underscore)",
+      "instagram_corrected": "Verified handle: @myrto_uzuni",
+      "follower_count": "~151K",
+      "bio": "•Winning–that's the most important thing to me, it's as simple as that. • •@austinfc • •@nike •",
+      "display_name": "Myrto Uzuni 🦁",
+      "the_tea": {
+        "background": "Albanian international, 30 years old, born in Berat, Albania, raised in Zakynthos, Greece from age 10. Last club: Granada (La Liga, Spain).",
+        "wife": "Married to Uarda Hyseni (now Uarda Uzuni). She's a model, ~10 years younger than him. They became parents in April 2025 to a son. Her IG is @uarda.uzuni — bio reads 'THE PRINCE'S MOTHER' (as in their baby is the prince). 33K followers.",
+        "the_albanian_obsession": "Albanian and Kosovar tabloids LIVE for these two. Quote from Albanian press: 'Madly in love with the 20-year-old beauty who has captured the heart of the Berat talent.' He used to dedicate every goal to her.",
+        "the_post": "On April 9, 2026 (mid-slump), he posted: 'From a child with nothing! To living my dreams! Many nights of dreaming!' — peak inspirational athlete-on-his-finsta energy.",
+        "season_so_far": "2G/2A in 9 matches. Per Verde All Day: 'one goal was a belly goal from a yard out stepping in front of a Jon Gallagher shot.' So... grateful, not gorgeous goals.",
+        "girlfriend_guide_angle": "Hot Albanian striker with a stunning model wife who calls their kid 'The Prince.' Worship/jealousy duality maxxed."
+      }
+    },
+    "brandon_vazquez": {
+      "position": "Forward (DP)",
+      "jersey": 9,
+      "instagram": "@brvndonvazquez",
+      "instagram_corrected": "Verified — note the V replaces the 'a' in branded style",
+      "follower_count": "~112K",
+      "the_tea": {
+        "background": "26-year-old USMNT striker. Born in San Diego, came through Atlanta United system. Played for FC Cincinnati, then Monterrey in Liga MX. Signed by Austin for a CLUB-RECORD $10M fee in early 2025.",
+        "wife": "Married to Bianca Vazquez, who is an Austin REALTOR® (her own IG bio). They're a power couple — he plays soccer, she sells houses.",
+        "wife_quotes": "On April 29, 2023, Brandon posted: 'Happy Birthday wifey ❤️ The best moments of my life have been with you by my side.' Bianca's own posts wax poetic — 'I wish I could put into words how grateful I am to have you in my life. All the sacrifices you've made for us.' Couple goals.",
+        "season_status": "OUT — torn ACL in 2025 Open Cup run. Slow return. Has not played a single minute for Austin in 2026. The DP they paid $10M for is in the gym.",
+        "girlfriend_guide_angle": "The injured American striker whose realtor wife is more visible on Austin Instagram than he is. They got married in 2023 — couple-of-the-year energy when he's not in a knee brace."
+      }
+    },
+    "jayden_nelson": {
+      "position": "Winger",
+      "jersey": 7,
+      "instagram": "@jaydennelsonn (double n at the end)",
+      "instagram_corrected": "NOT @jaydenelson_ — verified handle is @jaydennelsonn",
+      "follower_count": "~15K",
+      "bio": "Footballer for @austinfc @niketoronto Athlete #HumbleBeast",
+      "the_tea": {
+        "background": "23-year-old Canadian international from Brampton, Ontario. TFC homegrown product, then went to Norwegian club Rosenborg, then SSV Ulm in German 2nd division (loan), then Vancouver in 2025 (3G/11A in 40 apps), now Austin via trade for $1.25M GAM + 1st round draft pick.",
+        "world_cup_dream": "Eyeing a 2026 FIFA World Cup roster spot for Canada. Major motivation tonight.",
+        "personal": "His Instagram is locked-in athlete content. Bio uses #HumbleBeast which is... a choice. No public partner info found.",
+        "girlfriend_guide_angle": "Mid-tier follower count, Canadian, Brampton-born, dreams of the World Cup, his most recent post is from February. The boyfriend who only posts when something good happens."
+      }
+    },
+    "owen_wolff": {
+      "position": "Midfielder",
+      "jersey": 33,
+      "instagram": "@owenmwolff (NOT @owenwolff10)",
+      "instagram_corrected": "Verified handle: @owenmwolff",
+      "follower_count": "~7.2K (smallest of the group — surprising for an Austin academy product)",
+      "the_tea": {
+        "background": "21-year-old American midfielder. Son of Austin FC's previous head coach Josh Wolff (whose firing fans now want reversed). He IS THE COACH'S SON. Came up through Austin's academy.",
+        "the_subplot": "Owen's dad coached him until late 2024 when Josh was fired and replaced by Estévez. Now Owen is fighting to come back from preseason sports hernia surgery while fans openly ask for his dad to be re-hired.",
+        "season_status": "Hasn't played a single minute in 2026. Listed as questionable for tonight. Could make his 2026 debut in a Texas Derby with his dad's name on every fan's lips.",
+        "girlfriend_guide_angle": "The coach's son trying to come back from groin surgery while his dad is being mythologized by the fanbase that hated him a year ago. Sports drama writes itself."
+      }
+    }
+  },
+
+  "houston_side_developments": {
+    "lingr_suspension": {
+      "name": "Ondřej Lingr",
+      "what_happened": "Got a second yellow in stoppage time vs San Diego (4/22). Picked up a red. Suspended for tonight. Was hot before this — assist + goal contributions in last 3 matches.",
+      "implication": "Aliyu Ibrahim likely starts as the man up top. Or Olsen flips Bogusz/Guilherme into the front line."
+    },
+    "ennali_returns": {
+      "note": "Lawrence Ennali came on as a sub vs SD (75'). Available if needed. 2G this season."
+    },
+    "artur_back": {
+      "note": "Captain Artur returned to play vs SD as a 66' sub — first 2026 minutes after preseason knee. Available."
+    },
+    "miller_out": {
+      "note": "Reese Miller still out (hip) per latest team injury report."
+    }
+  },
+
+  "instagram_handle_audit": {
+    "purpose": "Per girlfriendguide.gg standards — every handle must be verified and correct",
+    "verified_correct": [
+      "@brvndonvazquez (Brandon Vázquez)",
+      "@h.herrera16 (Héctor Herrera, Houston) — already corrected from prior session",
+      "@jtverskov (Jeppe Tverskov, San Diego) — already corrected from prior session"
+    ],
+    "corrections_for_atx_squad": [
+      {"player": "Myrto Uzuni", "wrong": "@myrtouzuni", "correct": "@myrto_uzuni"},
+      {"player": "Jayden Nelson", "wrong": "@jaydenelson_", "correct": "@jaydennelsonn"},
+      {"player": "Facundo Torres", "wrong": "@facutorres11_", "correct": "@facutorres11"},
+      {"player": "Owen Wolff", "wrong": "@owenwolff10", "correct": "@owenmwolff"}
+    ],
+    "wags_added": [
+      {"name": "Bianca Vázquez", "partner_of": "Brandon Vázquez", "ig": "search 'BIANCA VAZQUEZ Austin REALTOR' on IG", "occupation": "Austin realtor", "note": "Fully integrated into Austin life — she sells the houses, he plays for the team"},
+      {"name": "Uarda Hyseni / Uzuni", "partner_of": "Myrto Uzuni", "ig": "@uarda.uzuni", "occupation": "Model / influencer", "note": "Bio: 'THE PRINCE'S MOTHER' — they have a son born April 2025; ~33K followers"},
+      {"name": "Avril Peón", "partner_of": "Facundo Torres", "ig": "Search 'Avril Peón Facundo Torres'", "occupation": "Unknown — Uruguayan", "note": "Mother of his daughter Juana (born July 2023)"}
+    ]
+  },
+
+  "predicted_match_outlook": {
+    "opta_or_betting_lean": "Per BTTS Yes -149 (favorite). Both teams expected to score. Austin moneyline -110 home, Houston +260 away.",
+    "houston_path_to_winning": "Defend deep, take Austin's mistakes, score from a counter or set piece. Standard Olsen W. Aliyu/Bogusz to capitalize.",
+    "austin_path_to_winning": "Get Wolff back on the field. Pressure Houston into transitions. Hope Torres can finally do something centrally. Force Bond into difficult saves.",
+    "x_factor_player": "Ibrahim Aliyu — scored game-winner vs SD, likely makes first Copa Tejas start. Houston's lowest-followed but on-fire striker.",
+    "the_chaos_factor": "If Houston scores first at Q2 (where they only have 1 win), the Verde nation will turn on Estévez before halftime. If Austin scores first, the building wakes up and Houston has to chase the game with their lowest-possession-in-MLS style."
+  },
+
+  "rivalry_facts_for_color": {
+    "all_time_meetings": "13 (per FotMob), Austin 8W-0D-5W. ZERO draws until last August's 2-2.",
+    "first_ever_meeting": "April 17, 2021 at Q2 Stadium — Houston won 2-0, Mauro Manotas brace",
+    "best_houston_moment": "Sept 21, 2024 — Houston's first ever win at Q2 (1-0). Set a Houston single-season road wins record.",
+    "biggest_austin_loss_in_series": "Houston 2-0 Austin (April 26, 2025) — Houston started 2025 with this win",
+    "the_patterns": "When Houston wins this matchup, they win by 1. When Austin wins, they often run away with it (2-0, 4-1). The games are either tight or blowouts — rarely middle-ground.",
+    "the_supporters": "Austin's Los Verdes supporters group has actively trolled Houston with banners. Houston's fans (the user's group) push back on Facebook. This match has the highest 'fan cringe' content production rate of any Houston regular-season game."
+  }
+}
