@@ -1,150 +1,136 @@
 {
   "_metadata": {
     "generated_by": "keely",
-    "generated_at": "2026-04-19T05:00:00-05:00",
-    "for_match": "Austin FC vs Houston Dynamo FC",
-    "match_date": "2026-04-25",
-    "match_time": "7:30 PM CT, Apple TV",
-    "venue": "Q2 Stadium, Austin, Texas",
-    "competition": "2026 MLS Regular Season — Matchday 9 | Copa Tejas Round 1",
-    "previous_match_data_at": "2026-04-22 FT: Houston 1-0 San Diego FC (Aliyu 35')",
-    "notes": "Austin FC away guide. COPA TEJAS ROUND 1. Austin: 13th West, 1W-4D-4L (7pts from 9 matches), 26th in MLS xG (4.1). COPA TEJAS 2025 history: Houston won 2-0 at Austin (April 26, 2025 — Lingr 61', Ponce 79'). Houston has won at Q2 before — use this as a hook. BCS Austin preview NOT YET LIVE as of April 23 — check BCS Friday morning before pipeline. Main DP: Facundo Torres (Uruguayan, from Palmeiras, former Orlando City). Louisville beat Austin 2-1 in Open Cup R32 (April 14). Houston hosts Louisville in Open Cup R16 on April 29. Research cache expired Apr 24 — run pipeline with --fresh flag (full Sonar run ~60 min). SD result: 1-0 W, Aliyu 35' (first goal of season), second consecutive clean sheet, THIRD straight win. Houston record: 4W-0D-4L, 12 pts after 8 MLS matches. Guilherme stats: check if he scored vs SD (Aliyu was the confirmed scorer). HANDLES CONFIRMED: Herrera @h.herrera16 (1.1M, VERIFIED April 21). Guilherme @guilherme11 (VERIFIED). Facundo Torres @facundotorres10 still UNVERIFIED — needs PC scan before pipeline. Bogusz baby angle is STALE (in 3+ guides) — rotate out or reframe with fresh post if available. Kickoff time CONFIRMED: 7:30 PM CT, Apple TV."
+    "generated_at": "2026-04-27T21:20:00-05:00",
+    "for_match": "Houston Dynamo FC vs Louisville City FC",
+    "match_date": "2026-04-29",
+    "match_time": "7:00 PM CT, Paramount+",
+    "venue": "Shell Energy Stadium, Houston, Texas",
+    "competition": "2026 Lamar Hunt U.S. Open Cup — Round of 16",
+    "previous_match_data_at": "2026-04-25 FT: Austin FC 2-0 Houston Dynamo FC (Copa Tejas R1, Nelson 13', Uzuni 47')",
+    "notes": "Louisville is USL — open cup guide framing. Houston storylines lead, opponent is the discovery angle. Louisville beat Austin 2-1 in R32 (April 14, Sean Totsch 26', Tola Showunmi 32'). Houston hosted El Paso in R32 (4-1 win, April 15). LINGR IS BACK — suspension served vs Austin, available for Open Cup. Tola Showunmi has 4 Cup goals and leads Cup Golden Boot — he is the main threat. Taylor Davila is USL Player of the Year 2025. Simon Bird is the interim head coach (took over from Danny Cruz March 2026 — UofL alum, hometown connection). CRITICAL INTEL (Apr 27): Louisville RESTED Showunmi, Totsch, AND Davila for the April 25 USL Cup match vs Fort Wayne — they are sending the A-team to Shell Energy. This is not a casual cup trip. Bird quote on Houston: 'Houston are up there.' First-ever competitive meeting between the clubs. HANDLES VERIFIED: Showunmi=@tolaashow, Davila=@taylor_davila7, Totsch=@tophcity (bio: 'Defender for Louisville City FC, 3-time USL Cup Champion'). McGlynn: sub vs Austin at 55', no new injury — day-to-day. Research cache fresh from April 25, good through May 2. Do NOT run --fresh unless cache check fails."
   },
-  "matchday_hook": "Copa Tejas Round 1 is HERE. Houston heads to Q2 Stadium on Saturday to open the Texas trophy series — and after back-to-back 1-0 wins (Orlando on Herrera's birthday 🎂, San Diego at home on Wednesday), the Dynamo are on a THREE-MATCH winning streak. Two clean sheets in a row. Ibrahim Aliyu just scored his first goal of the season. This team is clicking. Verde vs Orange. Trophy match. Road warriors. The vibe is real right now. 🧡",
+  "matchday_hook": "After Saturday's Copa Tejas gut punch, the Orange is back at Shell Energy on Wednesday for Open Cup business. Louisville City FC — defending USL Players' Shield winners — beat an MLS team to get here (Austin FC, 2-1 in R32). They're serious. But so is Houston. Ben Olsen has won this cup three times. Ondřej Lingr is BACK from his suspension. And nobody in this city has forgotten 2023. The Open Cup is Houston's trophy. Let's go get it. 🏆🧡",
   "vibe_strip_items": [
-    "🏆 COPA TEJAS ROUND 1 — Houston and Austin fight for the Texas trophy. Verde vs Orange. It matters.",
-    "✅ San Diego result: 1-0 WIN. Aliyu 35' — first goal of the season for the Nigerian forward. Second consecutive clean sheet. THREE straight wins.",
-    "✅ Orlando result before that: 1-0 WIN. Herrera 75' on his 36th birthday. STARTED and scored.",
-    "📈 Houston record: 4W-0D-4L through 8 MLS matches. 12 points. Momentum is real.",
-    "🇳🇬 Ibrahim Aliyu — the man of the moment. Nigerian forward, 24, Kano native. Former Columbus Crew. Came back to Houston in March and just delivered his first goal of the season at the perfect time.",
-    "📈 Guilherme: 9 goal contributions (5G/4A) through 7 MLS matches. First Dynamo player to reach 9 in his first 6 MLS matches since Brian Ching in 2006 — TWENTY years.",
-    "🇺🇾 Facundo Torres (Austin DP) — 0 goals in 2026 but 3 assists. Is THIS the Copa Tejas match he finally converts? He is genuinely dangerous.",
-    "🚗 Road warriors on a THREE-MATCH win streak. Q2 Stadium has never felt so accessible.",
-    "⚽ Austin FC: 13th Western Conference, 1W-3D-3L. 26th in MLS for expected goals. The Lions are vulnerable.",
-    "🏆 April 29: Louisville City FC at Shell Energy in Open Cup R16 — Houston is two weeks away from advancing to the quarterfinal.",
-    "⚠️ Lingr SUSPENDED — red card late vs San Diego means the bicycle kick hero sits out tonight. Ennali or Ponce gets the start. Redemption arc loading?",
-    "✅ McGlynn AVAILABLE — was questionable all week but confirmed fit for Austin. The midfield engine is back.",
-    "🏟️ Austin is 5-1-1 at Q2 vs Houston all time. Houston's only win there was Sept 2024 (1-0). Last August: 2-2 comeback. Tonight without Lingr — can Aliyu or Ponce be that hero?",
-    "💪 Artur: fully back and available."
+    "🏆 OPEN CUP R16 — Houston defending the legacy. Ben Olsen has won this cup as player (DC United 2008), coach (DC United 2013), and Houston coach (2023). He is the cup.",
+    "✅ Copa Tejas was rough: Austin 2-0 Saturday. But Open Cup is a new competition. Fresh slate. Home crowd. Shell Energy.",
+    "🔥 LINGR IS BACK — suspension served vs Austin. The bicycle kick hero returns for the Open Cup. 78-second goals don't just happen once.",
+    "🏆 Louisville beat Austin FC 2-1 in R32 (April 14). Tola Showunmi scored. They are NOT a pushover — they're the defending USL regular-season champions.",
+    "👀 Tola Showunmi: 4 Open Cup goals in 2026, leading the Cup Golden Boot race. He's the one to watch.",
+    "⭐ Taylor Davila: USL Championship Player of the Year 2025. 25 years old, from Sherman Oaks. Signed through 2028. This is the best player in the second division walking into our building.",
+    "🏟️ HOME ADVANTAGE. Shell Energy. 7 PM CT. Paramount+. This is Houston's tournament.",
+    "⚠️ Louisville rested Showunmi, Davila, AND Totsch for their April 25 USL match. They saved their whole attack for us. Simon Bird on Houston: 'We need to continue to strive to play against the best teams, and Houston are up there.' They are NOT underestimating this.",
+    "🧡 Ibrahim Aliyu's first goal came at the perfect time vs San Diego. Will he or Ponce step up again with the Open Cup on the line?",
+    "🎂 Héctor Herrera: scored on his 36th birthday in Orlando. Club legend having himself a return season."
   ],
   "hot_posts": [
     {
-      "player_or_partner": "Ibrahim Aliyu",
-      "platform": "Instagram / MLS",
-      "handle": "@aliyuibrahim (verify before pipeline)",
-      "post_date": "2026-04-22",
-      "description": "Nigerian forward, 24, from Kano. Scored his FIRST goal of the 2026 season in the 35th minute vs San Diego FC — the winner in a 1-0 home victory. This is his 'arrival' moment after returning to Houston from Columbus Crew in March. Look for any post-match celebration or reaction content.",
-      "why_it_works": "First goal of the season + homecoming narrative + team win. Timing is perfect.",
-      "content_angle": "He came back. And now he delivered. The Nigerian forward who returned home and scored when it mattered. This is the discovery framing for Austin — someone new who just proved they belong."
-    },
-    {
       "player_or_partner": "Ondřej Lingr",
-      "platform": "Instagram / MLS",
+      "platform": "Instagram",
       "handle": "@ondylingr",
-      "post_date": "April 2026 — check for Orlando road trip content before pipeline runs",
-      "description": "Bicycle kick in 78 seconds (Open Cup vs El Paso) — the moment that started this run. MLS Energy Moment of the Matchday.",
-      "why_it_works": "Viral highlight. Player awareness + shareable moment. Reposts his own goals.",
-      "content_angle": "Lead with the 78-second moment every time until something tops it."
+      "post_date": "April 2026 — check for post-Austin road trip content + any reaction to return",
+      "description": "Czech forward who went VIRAL with a bicycle kick in 78 seconds vs El Paso (MLS Energy Moment of the Matchday). Red card late vs San Diego meant he served suspension at Austin. He's BACK for Open Cup. The man who started the winning run returns for the biggest home game of the spring.",
+      "why_it_works": "The viral moment player returning from suspension for a cup game is a perfect content arc.",
+      "content_angle": "He started this entire run with one goal in 78 seconds. He had to watch from home in Austin. Now he's back — and this is Cup time. 🚲🏆"
     },
     {
       "player_or_partner": "Guilherme",
       "platform": "Instagram",
       "handle": "@guilherme11",
-      "post_date": "April 2026 — check for post-Orlando road trip content before pipeline runs",
-      "description": "Brazilian winger (listed as 'Augusto' on lineup cards — same person). 9 goal contributions (5G/4A) through 7 MLS matches. Pace through first 6 MLS matches broke a 20-year club record — first Dynamo player to 9 contributions in opening 6 matches since Brian Ching in 2006. Still tied for most in all of MLS. Turned 31 on April 13. Neymar publicly DMd him.",
-      "why_it_works": "Historic pace is a shareable stat. '20-year record' is the kind of number that travels.",
-      "content_angle": "Lead with the 20-year record. Then the birthday. Then Neymar. Individual brilliance — frame as star power, not team creator."
+      "post_date": "April 2026 — check for post-Austin content or any training posts",
+      "description": "Brazilian winger (Augusto on lineup sheets). 9 goal contributions (5G/4A) through 7 MLS matches — first Dynamo player to 9 contributions in first 6 MLS matches since Brian Ching in 2006. Neymar publicly praised him. Turned 31 April 13. The star power of the team.",
+      "why_it_works": "20-year club record. Neymar mention. Brazilian flair in Houston.",
+      "content_angle": "Frame as star power, not team creator. The 20-year record is the stat. The Neymar DM is the gossip. Individual brilliance."
     },
     {
       "player_or_partner": "Tomás Bogusz",
       "platform": "Instagram",
       "handle": "@tomasbogusz",
-      "post_date": "ongoing",
-      "description": "Baby girl due July 2026. Every road game is a countdown to being home for the birth.",
-      "why_it_works": "Most universally relatable content angle. New parents love this.",
-      "content_angle": "Underappreciated workhorse + new dad countdown. He works hard, Guilherme gets the glory."
+      "post_date": "ongoing — baby due July 2026",
+      "description": "Baby girl due July 2026. The countdown is on. Underappreciated workhorse — makes great runs, creates space, doesn't get the glory. Bogusz is the guy doing the work that lets Guilherme shine.",
+      "why_it_works": "First-time dad energy is universally relatable. Every game is one closer to July.",
+      "content_angle": "The workhorse who runs for two. Baby due in July — this cup run is his gift to his daughter. Keep it warm and wholesome."
     },
     {
       "player_or_partner": "Héctor Herrera",
       "platform": "Instagram",
-      "handle": "@h.herrera16 (VERIFIED — 1.1M followers, confirmed April 21)",
-      "post_date": "2026-04-18",
-      "description": "Started and scored the match-winner in Orlando on his 36th birthday. Club legend returned to Houston for 2026. Mexican international, former Porto, former Atlético Madrid. Artur says they're great friends and 'he still plays at a high level.' Birthday goal in a road win — this is a gift-wrapped content moment.",
-      "why_it_works": "36th birthday goal on the road. Legend returns. Universal 'never stop' story.",
-      "content_angle": "36 and STILL doing it. Not a sub-on cameo — he STARTED and won the game. This is the main character energy for the Austin guide."
-    },
-    {
-      "player_or_partner": "Facundo Torres (Austin FC — opponent scout)",
-      "platform": "Instagram",
-      "handle": "@facutorres11 (VERIFIED — 615K followers, largest IG on Austin roster)",
-      "post_date": "2026 season",
-      "description": "Uruguayan DP, 25, from Montevideo. Signed Jan 2026 from Palmeiras (4.5-year DP deal). 1G/3A in 9 matches — first Austin goal April 18. 615K Instagram followers, largest on Austin's roster. Partner: Avril Peón (Uruguayan, search 'Avril Peón Facundo Torres'). They have a daughter named Juana, born July 2023. Family man energy. Verde All Day says coach is deploying him wrong — too central, not letting him flourish.",
-      "why_it_works": "Baby daddy from Uruguay with 615K followers and a little girl named Juana. He's the protagonist Austin wants even if their system won't let him be. Audience will want to know who he is.",
-      "content_angle": "Enemy respect — lead with the person. Daughter Juana, partner Avril, 615K following. THEN the footballer: just scored his first Austin goal last week, finally clicking. DO NOT use 'WAG' — Avril Peón is introduced as who she is, not as 'Torres's girlfriend.'"
-    },
-    {
-      "player_or_partner": "Myrto Uzuni (Austin FC — opponent scout)",
-      "platform": "Instagram",
-      "handle": "@myrto_uzuni (VERIFIED — 151K followers, underscore between name)",
-      "post_date": "2026 season",
-      "description": "Albanian forward, 30, born in Berat, raised in Zakynthos, Greece. 2G/2A this season. Married to Uarda Hyseni (@uarda.uzuni — model/influencer, 33K followers, baby son born April 2025). Her bio literally says 'THE PRINCE'S MOTHER.' Posted mid-slump: 'From a child with nothing! To living my dreams!' April 9 2026.",
-      "why_it_works": "Albanian international in MLS is rare. Wife is a personality in her own right. The 'prince' baby content is universally shareable.",
-      "content_angle": "Discovery framing — who IS this guy? Lead with Uarda (@uarda.uzuni) as the Inner Circle entry: model, 'THE PRINCE'S MOTHER,' fully integrated into Austin life. Uzuni the player: the inspirational backstory kid from Albania who made it."
-    },
-    {
-      "player_or_partner": "Brendan Hines-Ike (Austin FC — opponent scout)",
-      "platform": "Instagram",
-      "handle": "TBD",
-      "post_date": "2026 season",
-      "description": "American CB from Denver. Baby daughter. Into golf, community work, intellectual development. Signed extension through Dec 2026. Scored opening header vs Minnesota (Torres assist).",
-      "why_it_works": "Family content + American story. Passes the wholesome test.",
-      "content_angle": "Defensive anchor who is also a community guy. Respectful opponent, not a villain."
+      "handle": "@h.herrera16 (VERIFIED — 1.1M followers)",
+      "post_date": "2026-04-18 — birthday goal at Orlando",
+      "description": "Started and scored the Orlando match-winner on his 36th birthday. Club legend returning for 2026. Mexican international, former Porto captain, former Atlético Madrid. Artur quote: 'He and Hector are great friends on and off the field. Happy to play with him again. He turns 36 tomorrow but he still plays at a high level.'",
+      "why_it_works": "36 years old, scoring game-winners on the road, in a cup run. The full legend arc.",
+      "content_angle": "36 and doing it. Not a legacy signing — STARTED and won the game. Open Cup is his arena too."
     },
     {
       "player_or_partner": "Lawrence Ennali + Preslee Clark",
       "platform": "Instagram",
-      "handle": "@ennalilawrence (VERIFIED — from story itself) + @presleeclark (VERIFIED — tagged in story)",
+      "handle": "@ennalilawrence + @presleeclark (BOTH VERIFIED)",
       "post_date": "2026-04-22",
-      "description": "Lawrence posted an Instagram story right after the San Diego 1-0 win — pitch-side photo with Preslee Clark at Shell Energy Stadium. Caption: 'Lawrence Ennali Hallelujah!!! 🧡' with tags @ennalilawrence @houstondynamo. FRESH: posted ~11 PM CDT April 22 post-match. Source: screenshot sent directly by Charles April 23.",
-      "why_it_works": "Posted by the player himself right after a win. Authentic, celebratory, passes the repost test (he posted it). Fresh inner circle content — Preslee at the stadium supporting him.",
-      "content_angle": "Introduce Preslee Clark as who she IS — luxury makeup artist, @presleeclark — with relationship as one line of context. The pitch-side photo after a winning night is the vibe the guide is built on. DO NOT lead with 'his girlfriend.' Lead with Preslee Clark, the person who was there celebrating the win."
+      "description": "Lawrence posted a pitch-side photo with Preslee right after the San Diego 1-0 win. Caption: 'Lawrence Ennali Hallelujah!!! 🧡' — celebratory, authentic, posted by the player himself. Fresh Inner Circle content.",
+      "why_it_works": "Posted by the player himself. Passes the repost test because he posted it.",
+      "content_angle": "Introduce Preslee Clark as who she IS — luxury makeup artist. Then the pitch-side win photo as the vibe the guide is built on. DO NOT lead with 'his girlfriend.'"
+    },
+    {
+      "player_or_partner": "Tola Showunmi (Louisville — opponent scout)",
+      "platform": "Instagram",
+      "handle": "@tolaashow (VERIFIED — confirmed via instagram.com/tolaashow/)",
+      "post_date": "2026 Open Cup season",
+      "description": "25-year-old forward. Returned from Crawley Town FC (England) for a second stint at Louisville City FC. Has scored 4 goals in the 2026 Open Cup — leading the Cup Golden Boot race. Scored vs Austin in R32 (32'). WAS UNUSED SUB vs Fort Wayne April 25 (USL Cup) — Louisville rested him specifically for Shell Energy. He's coming in fresh.",
+      "why_it_works": "English-trained player coming back for a second stint and scoring for fun. Golden Boot leader is a newsworthy stat even in USL.",
+      "content_angle": "Discovery framing: 'Who IS this guy?' Came back from England. Now he's hunting a Cup Golden Boot against MLS clubs. If you haven't heard of Tola Showunmi, you're about to."
+    },
+    {
+      "player_or_partner": "Taylor Davila (Louisville — opponent scout)",
+      "platform": "Instagram",
+      "handle": "@taylor_davila7 (VERIFIED — LouCity official Instagram has tagged him in reels)",
+      "post_date": "2026 season",
+      "description": "USL Championship Player of the Year 2025. 25 years old, from Sherman Oaks, California. 6'1\" midfielder. Signed through 2028 — the centerpiece of Louisville's future. The best player in the second division by award. NOT in the Fort Wayne lineup April 25 — rested for Houston.",
+      "why_it_works": "Award-winner walking into Shell Energy. The talent pedigree is real. Discovery angle.",
+      "content_angle": "USL Player of the Year wants to prove he belongs against MLS. Young California kid, not yet in the top flight, using the Open Cup as his audition. Does he have what it takes?"
+    },
+    {
+      "player_or_partner": "Simon Bird (Louisville — coach spotlight)",
+      "platform": "N/A — coach reference for Inner Circle/matchday context",
+      "handle": "N/A",
+      "post_date": "March 2026 — interim appointment",
+      "description": "Interim head coach. University of Louisville alum — played there 2001-2004, named Conference USA Player of the Year 2003. English, from Lincoln. Appointed interim when Danny Cruz departed March 2026. On facing Houston: 'It's great for the club. It's great for our players. We need to continue to strive to play against the best teams, and Houston are up there.' Record as interim: 7-1-1. He's not a caretaker — he's running this.",
+      "why_it_works": "Coaching his childhood team in a cup run against an MLS side. Emotional underdog narrative.",
+      "content_angle": "He grew up loving this club before he coached it. Now he's walking into Shell Energy trying to upset the defending champions. The personal stakes make Louisville's story real."
     }
   ],
   "injury_flags": [
     {
       "player": "Ondřej Lingr",
-      "status": "SUSPENDED — red card received late in San Diego FC match (April 22). CONFIRMED OUT for April 25.",
-      "impact": "Major. Lingr is the bicycle kick hero, top performer. Ennali or Ponce likely fills in. Content angle: 'Who steps up in Lingr's absence?' Ponce redemption arc if he starts and scores."
-    },
-    {
-      "player": "Jack McGlynn",
-      "status": "AVAILABLE — confirmed fit per official Houston preview (was questionable/OUT for San Diego). Flip from prior reports.",
-      "impact": "MF depth restored. May start alongside Samassékou."
+      "status": "AVAILABLE — suspension was served vs Austin FC (April 25). Back for Open Cup.",
+      "impact": "Major positive — the bicycle kick hero returns. He should be in the starting XI. Redemption arc from Austin."
     },
     {
       "player": "Lucas Halter",
       "status": "OUT — lower body, expected mid-May",
-      "impact": "Defensive depth affected. CB pairing adjustment."
+      "impact": "CB pairing continues without him."
+    },
+    {
+      "player": "Jack McGlynn",
+      "status": "AVAILABLE but building fitness — came on as sub at 55' vs Austin (played ~35 min). No new injury reported. Day-to-day, may not start.",
+      "impact": "Midfield engine. Likely off the bench rather than starting. Full match availability uncertain."
     },
     {
       "player": "Artur",
-      "status": "AVAILABLE — returned vs Orlando, available for Austin.",
-      "impact": "Depth CDM. Check if Olsen starts him."
+      "status": "AVAILABLE — fully fit since Orlando",
+      "impact": "CDM depth."
     },
     {
       "player": "Reese Miller",
-      "status": "OUT — hip injury.",
-      "impact": "Rookie depth defender. Low impact on starting XI."
+      "status": "OUT — hip injury",
+      "impact": "Low impact on starting XI."
     }
   ],
   "roster_changes": [],
-  "copa_tejas_context": {
-    "competition": "Copa Tejas 2026",
-    "teams": ["Houston Dynamo FC", "Austin FC", "FC Dallas"],
-    "format": "Round-robin among Texas MLS clubs. Trophy awarded at end of season.",
-    "houston_april_25": "Round 1 — at Austin FC (Q2 Stadium)",
-    "hook": "This is not just a regular season match. The Copa Tejas is a real trophy with real bragging rights. Houston vs Austin in Austin. Verde vs Orange. Austin is 5-1-1 at home vs Houston all-time. Houston's only Q2 win was Sept 2024 (1-0 — the first ever). Last August: a 2-2 thriller where McGlynn equalized in the 89th. Tonight Lingr is suspended. Ponce or Aliyu has to be the new hero at a stadium that's never loved us back.",
-    "austin_q2_home_record_vs_houston": "5-1-1 (source: Austin FC official preview April 25 2026)",
-    "houston_possession_stat": "40.9% average — lowest in MLS. Counter-punch style. Let Austin have the ball, hit on the break."
+  "open_cup_context": {
+    "competition": "2026 Lamar Hunt U.S. Open Cup — Round of 16",
+    "winner_earns": "Berth in the 2027 Concacaf Champions Cup",
+    "houston_path": "R32: Houston 4-1 El Paso Locomotive FC (April 15) | R16: vs Louisville City FC (April 29)",
+    "louisville_path": "R32: Louisville 2-1 Austin FC (April 14, Totsch 26', Showunmi 32')",
+    "ben_olsen_legacy": "Won Open Cup as DC United player (2008), DC United head coach (2013), Houston Dynamo head coach (2023). Third coach ever to win Open Cup with two different clubs. Defending it is personal.",
+    "hook": "Houston is the defending champion. Olsen built this. Louisville beat an MLS team to be here — they're not walking in as tourists. But Shell Energy in April with Lingr back and the whole squad rested from a Wednesday? This is Houston's home. Defend it. 🏆"
   }
 }
