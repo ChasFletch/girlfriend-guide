@@ -1,0 +1,264 @@
+{
+  "_metadata": {
+    "generated_by": "perplexity_computer",
+    "generated_at": "2026-05-02T07:55:00-05:00",
+    "type": "match_preview_with_roster_deep_dive",
+    "match": "Houston Dynamo FC vs Colorado Rapids",
+    "competition": "MLS Regular Season — Matchday 11",
+    "date": "2026-05-02",
+    "kickoff_ct": "17:30",
+    "venue": "Shell Energy Stadium, Houston",
+    "broadcast": "Apple TV (MLS Season Pass)",
+    "purpose": "Charles wants FRESH content. Site has been static for weeks. This file goes BEYOND the match — deep tea on partners, siblings, backstories, and personal angles for the 2026 Dynamo roster. Use this as the foundation for the next several weeks of guide refreshes."
+  },
+
+  "tonight_match_card": {
+    "houston_state": {
+      "record": "5W-1D-4L MLS through MD10 (16 pts) + 2-1 AET Open Cup win over Louisville on 4/29 to advance to QF",
+      "context": "Coming off a derby loss at Austin (0-2 on 4/25), then comeback Open Cup heroics vs the reigning USL champs",
+      "lineup_predicted": "Bond; Resch, Sviatchenko, Vines; Andrade, Herrera, Artur, Ennali; Bogusz, Guilherme; Ponce (per Sportsgambler 4-4-2 read; Olsen often runs 3-4-2-1)",
+      "key_returns": "Lingr available after MLS suspension; McGlynn back from injury; Markanich riding momentum from Open Cup goal/assist"
+    },
+    "colorado_state": {
+      "record": "Per ESPN 2026 squad data — Cole Bassett 28 apps + 3G/4A; Rafael Navarro 31 apps + 12G/3A; Yapi 29 apps + 8G/2A",
+      "predicted_xi": "Steffen; Navarro, Holding, Herrington, Thompson; Aaronson, Ojediran, Minoungou; Frederick, Sealy, Navarro (per Sportsgambler)",
+      "shorthanded_note": "Sam Vines was WAIVED by Colorado in February 2026 ahead of season — signed with Houston March 20."
+    }
+  },
+
+  "headline_storylines": {
+    "1_vines_revenge_arc": {
+      "headline": "Sam Vines's revenge match",
+      "the_story": "Vines came up through the COLORADO RAPIDS ACADEMY, joined them at age 13, signed his Homegrown deal in February 2018. Spent two stints with the club (2018-21, 2024-26) for 116 total appearances. The Rapids WAIVED HIM on February 21, 2026. Houston scooped him up March 20. Tonight he plays his former club for the first time wearing orange.",
+      "ig": "@sam_vines (player)",
+      "sources_h": [
+        "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-u-s-national-team-defender-sam-vines",
+        "https://en.wikipedia.org/wiki/Sam_Vines"
+      ]
+    },
+    "2_homecoming_for_houston_brazilian": {
+      "headline": "Halter's lower-body injury keeps him on the bench",
+      "details": "Lucas Halter has been OUT since around March 16 with a lower-body injury, expected return around May 10 per RotoWire — won't feature tonight."
+    },
+    "3_open_cup_quarterfinal_draw_was_yesterday": {
+      "headline": "QF draw was Thursday morning, May 19-20 dates set",
+      "houston_won_round_of_16": "2-1 in extra time vs Louisville City — McGlynn missed an early penalty (saved off the post), but eventually we got the comeback. McGlynn's first start since returning from injury."
+    }
+  },
+
+  "the_deep_tea": {
+    "_intro": "Updated personal intel for content. NEW finds in bold notes. Use to plan a few weeks of cards.",
+
+    "Sam_Vines": {
+      "player_ig": "@sam_vines",
+      "partner_name": "Andrianna Vines",
+      "partner_ig_status": "previous research had partner verified — refresh suggested",
+      "tea_for_tonight": "Colorado Academy product since age 13. Got waived by his hometown club Feb 21, 2026. Faces them tonight. Petty, professional, perfect.",
+      "girlfriend_guide_angle": "The Childhood-Sweetheart-Of-A-Club just got dumped, signed with the rival, and is back to make eye contact across the pitch. We love a power move."
+    },
+
+    "Erik_Sviatchenko": {
+      "player_ig": "@eriksviatchenko",
+      "partner_name": "Anne Rudmose Sviatchenko",
+      "NEW_TEA_WIFE_WAS_PRO": "Anne Rudmose is a former Danish football player. When Erik signed for Celtic in January 2016, Celtic Women SIGNED HIS PARTNER too. Power couple status confirmed. ([BBC Sport](https://www.bbc.com/sport/football/35641677))",
+      "NEW_TEA_FAMILY": "Erik's father Sergei Sviatchenko is a Ukrainian-Danish art and fashion icon — created the famous photo blog 'Close Up and Private' in 2009 that revolutionized men's fashion photography. Erik literally grew up modeling in front of his dad's camera. His brother Philip is also part of the project. [closeupandprivate.com](http://closeupandprivate.com/newsletter/nl27-202211/)",
+      "girlfriend_guide_angle": "Husband AND wife played professional soccer for the same Glasgow club. Father is a Vogue-adjacent art legend. He posts fashion fits to his actual public Facebook page wearing brands like @adaysmarch. Houston's fashionable Dane. Add a 'Style Watch' card."
+    },
+
+    "Nick_Markanich": {
+      "player_ig": "@nickmarkanich",
+      "partner_name": "Abby McHugh",
+      "partner_ig": "@abby.mchugh",
+      "NEW_TEA_PARTNER": "Wife Abby McHugh is a former NIU women's soccer alum (~24 years old). They moved together to Spain (Castellón) with TWO DOGS. Wholesome content couple. April 2026 beach vacation post.",
+      "NEW_TEA_TWIN_BROTHER": "Nick has a TWIN BROTHER — Anthony Markanich — who plays defender for MINNESOTA UNITED FC. The two are competitive lifelong rivals. Per [Star Tribune feature](https://www.startribune.com/minnesota-united-anthony-markanich-twin-brother-nick/601252202), the family kept a 'preseason scoresheet' that Anthony led 1-0 in 2025. They will meet on the pitch when Houston plays Minnesota.",
+      "NEW_TEA_HERITAGE": "Filipino descent on his mother's side. Grew up in Bourbonnais, Illinois. Set scoring records at NIU.",
+      "girlfriend_guide_angle": "Twins on rival MLS teams + a wife who used to play college ball + two dogs that emigrated to Spain and back. THIS is content. Card idea: 'The Markanich Family Scoresheet' — track every Nick vs Anthony interaction across the season."
+    },
+
+    "Jack_McGlynn": {
+      "player_ig": "@jackmcglynn7",
+      "partner": "Has a girlfriend (mentioned in 2025 GOAL interview) but name/IG not public",
+      "NEW_TEA_FAMILY": "Older brother Conor McGlynn plays USL League One for Westchester SC (previously Rhode Island FC, Hartford Athletic). They've FACED OFF in USL matches. Both trained at Blau Weiss Gottschee Academy in Queens, where their father Paul (Irish-born) is a director/coach.",
+      "NEW_TEA_IRISH_HERITAGE": "Could've represented Republic of Ireland through his dad. Chose USA. Has played U16, U20, U23, and senior USMNT.",
+      "NEW_TEA_BITTER_PHILLY_EXIT": "Per [GOAL interview](https://www.goal.com/en-us/lists/want-it-and-i-want-it-all-jack-mcglynn-and-his-world-class-left-foot-have-world-cup-aspirations-and-despite-some-negative-labels-and-bitter-philadelphis-union-exit-he-s-aiming-for-the-biggest-stage/bltab30bc49f71b244f), Jack found out about his trade to Houston (Feb 2025, $2.1M cash — first-ever cash-for-Homegrown deal in MLS history) FROM HIS DAD while he was with his girlfriend. Quote: 'Tactically it made sense, but handled poorly... no respect.' Cold.",
+      "girlfriend_guide_angle": "Queens Irish-American family, brother in USL, Philly broke up with him over text basically. Card idea: 'Brothers Across the Pyramid' — Jack in MLS, Conor in USL League One, both rocking the McGlynn left foot."
+    },
+
+    "Mateusz_Bogusz": {
+      "player_ig": "@x_bogus",
+      "partner_name": "Wiktoria Wychowska",
+      "partner_ig": "@wiktoria.wychowska",
+      "tea_potential_baby_news": "Bogusz tagged his partner in a March 15, 2026 IG post (caption visible publicly). Older posts referenced 'She's on her way' (Jan 7, 2026) — suggests a baby may have arrived or is imminent. STATUS: needs verification before publishing.",
+      "girlfriend_guide_angle": "Polish power couple. New baby or new fit content potentially incoming."
+    },
+
+    "Lucas_Halter": {
+      "player_ig": "@lucas_halter",
+      "partner_status": "Likely-girlfriend Raianne mentioned in TikTok comments (unverified — DO NOT publish until confirmed)",
+      "NEW_TEA_PESO_PLUMA": "April 3, 2026 — Halter and Héctor Herrera met PESO PLUMA. There's a [Facebook video](https://www.facebook.com/houstondynamo/videos/hector-herrera-and-lucas-halter-meet-peso-pluma/883725448038157/). The Dynamo is collecting celebrity friends.",
+      "NEW_TEA_FAMILY": "Father is a PE teacher in Salto, São Paulo who pushed his soccer career from a young age. Brazilian Globo did a family feature ([redeglobo.globo.com](https://redeglobo.globo.com/sp/tvtem/revistadesabado/noticia/revista-de-sabado-conhece-a-familia-do-jogador-de-futebol-lucas-halter.ghtml)).",
+      "NEW_TEA_LANGUAGE": "Despite a Brazil-only career before Houston, his English is reportedly excellent. Captain at Vitória before signing.",
+      "girlfriend_guide_angle": "Working-class PE-teacher dad → Vitória captain → Peso Pluma photo op. Underdog with charisma."
+    },
+
+    "Felipe_Andrade": {
+      "player_ig": "@felipe_andrade15_",
+      "partner_status": "Nothing publicly visible",
+      "NEW_TEA_FAITH": "Devout Christian. Posts captions like 'Glória a Deus por tudo!!' and 'Gratidão a Deus.' Won the 2023 Copa Libertadores with Fluminense youth setup before joining Dynamo via loan, then permanent.",
+      "girlfriend_guide_angle": "The team's quiet faith guy. Cup pedigree from Brazil."
+    },
+
+    "Agustin_Resch": {
+      "player_ig": "@agus_resch02",
+      "partner_status": "Nothing publicly visible. Plays it close to the chest.",
+      "NEW_TEA_HEIGHT": "He's 6 FOOT 6. Defender. Born in Arata — a tiny town in La Pampa province, Argentina.",
+      "NEW_TEA_BRAINS": "Studied Business Finance at Seton Hall. BIG EAST All-Academic Team and Scholar All-America honors. ([Seton Hall bio](https://shupirates.com/sports/mens-soccer/roster/agustin-resch/7685))",
+      "girlfriend_guide_angle": "6'6\" finance major from a town nobody's heard of. Smart, quiet, tall. The dad-energy starter."
+    },
+
+    "Aliyu_Ibrahim": {
+      "player_ig": "@aliyu_bravo7",
+      "partner_status": "Nothing publicly visible — keeps personal life private",
+      "NEW_TEA_BRAVO": "His IG handle is 'aliyu_bravo7' — Bravo is his nickname.",
+      "NEW_TEA_BACKSTORY": "Born Kano, Nigeria. Played for Oasis FC and Footwork FC in Nigeria, then NK Lokomotiva Zagreb in Croatia, before Houston (originally 2023, then briefly Columbus, then back via trade in March 2026). Represented Nigeria U-20 at 2019 Africa Cup of Nations.",
+      "girlfriend_guide_angle": "The wandering striker who keeps coming back to Houston. Bravo by name, Bravo by trade."
+    },
+
+    "Franco_Negri": {
+      "player_ig": "@franco_negri3",
+      "partner_status": "Married — Houston Dynamo's signing announcement explicitly welcomed his wife to Houston, but her name and IG are not publicly available.",
+      "NEW_TEA_NICKNAME": "His Argentine youth team was called 'Los Cuervos del Fin del Mundo' — 'The Crows of the End of the World' — because they played in Tierra del Fuego.",
+      "NEW_TEA_FAMILY_MOVE": "Family moved from Mendoza to Tierra del Fuego when he was 14. He struggled to adapt at first.",
+      "girlfriend_guide_angle": "Played for a team called The Crows From The End Of The World. That's a band name. Steady veteran energy."
+    },
+
+    "Guilherme_Augusto": {
+      "player_ig_attempt": "@guigutoh (unverified — profile may be private or different handle)",
+      "partner_status": "Nothing publicly visible — extremely private",
+      "NEW_TEA_RESUME": "Played for Grêmio, Botafogo, Chapecoense, Fortaleza, Al-Faisaly (Saudi Arabia), Al Dhafra (UAE), and CAPTAINED SANTOS FC (Pelé's old club!) in 2024-25 before signing with Houston in January 2026 for a reported $2.1 million transfer fee as a Designated Player.",
+      "NEW_TEA_DEBUT": "Scored a BRACE on his Dynamo debut on February 21, 2026 vs Chicago Fire.",
+      "girlfriend_guide_angle": "He captained Pelé's old club. Saudi Arabia stint. Quiet DP with a debut brace. Mysterious. International. Add a card."
+    }
+  },
+
+  "the_existing_partners_to_refresh": {
+    "_intro": "These were already in our March-14 dataset. The site needs fresh content — re-verify their IGs, browse for new posts, and surface anything from the last 6 weeks.",
+    "high_priority_refreshes": [
+      {
+        "player": "Jonathan Bond",
+        "partner": "Isy Bella Bond (@isybellabond)",
+        "refresh_angle": "She's English, very active. Likely vacation/family posts to mine."
+      },
+      {
+        "player": "Antônio Carlos",
+        "partner": "Bru Senna (@brusenna)",
+        "refresh_angle": "Brazilian, often posts couple content. Refresh."
+      },
+      {
+        "player": "Artur",
+        "partner": "Rachel Lima (@racheljlima or similar)",
+        "refresh_angle": "Brazilian wife, wedding history, possible new posts"
+      },
+      {
+        "player": "Duane Holmes",
+        "partner": "Brooke Holmes",
+        "refresh_angle": "American wife, established family"
+      },
+      {
+        "player": "Agustín Bouzat",
+        "partner": "Fiorella Curutchet",
+        "refresh_angle": "Argentine WAG, often a content creator type"
+      },
+      {
+        "player": "Mateusz Bogusz",
+        "partner": "Wiktoria Wychowska (@wiktoria.wychowska)",
+        "refresh_angle": "POSSIBLE BABY NEWS — verify before publishing"
+      },
+      {
+        "player": "Ezequiel Ponce",
+        "partner": "Martina Madeo",
+        "refresh_angle": "Argentine WAG, refresh — confidence was only medium"
+      },
+      {
+        "player": "Ondřej Lingr",
+        "partner": "Lucie Lingr",
+        "refresh_angle": "Czech wife, refresh"
+      },
+      {
+        "player": "Lawrence Ennali",
+        "partner": "Preslee Clark",
+        "refresh_angle": "Likely-American partner; established couple"
+      }
+    ]
+  },
+
+  "content_card_ideas_unlocked": [
+    {
+      "card_title": "The Markanich Twin Scoresheet",
+      "what_it_is": "Track every interaction between Nick (HOU) and Anthony (MIN) this season. Family-feud running joke.",
+      "frequency": "Updates whenever they play each other or one of them scores"
+    },
+    {
+      "card_title": "Sviatchenko Style Watch",
+      "what_it_is": "Highlight Erik's pregame fits and tag his fashion-icon dad's archive.",
+      "frequency": "Every other home game"
+    },
+    {
+      "card_title": "McGlynn Brothers Pyramid Watch",
+      "what_it_is": "Jack's MLS goals + Conor's USL L1 goals stacked side-by-side.",
+      "frequency": "Weekly during USL/MLS overlap"
+    },
+    {
+      "card_title": "WAG Realtor Roundup",
+      "what_it_is": "Houston's wife economy is heavy on real estate (Bianca Vázquez of Austin set the precedent). Audit our own Houston WAGs for businesses, side hustles, and Etsy stores.",
+      "frequency": "Quarterly deep dive"
+    },
+    {
+      "card_title": "Vines Revenge Watch",
+      "what_it_is": "Tonight is the moment. Document his minutes, his defensive actions, and any photo of his face vs Colorado.",
+      "frequency": "One-off (tonight)"
+    },
+    {
+      "card_title": "Sibling Power Rankings",
+      "what_it_is": "Houston has a SHOCKING number of player-with-pro-soccer-sibling angles. Markanich (twin in MIN), McGlynn (brother in USL), and that's just from one research run. Catalogue all of them.",
+      "frequency": "One-off ranked listicle"
+    },
+    {
+      "card_title": "Faith on the Field",
+      "what_it_is": "Felipe Andrade's posts are openly Christian. Several other Brazilians too. Soft, non-preachy roundup of who's quietly devout.",
+      "frequency": "One-off"
+    }
+  ],
+
+  "ig_handles_to_re_verify_via_browser": [
+    "@sam_vines",
+    "@franco_negri3",
+    "@agus_resch02",
+    "@felipe_andrade15_",
+    "@lucas_halter",
+    "@aliyu_bravo7",
+    "@guigutoh (suspected — needs browser check)",
+    "@nickmarkanich",
+    "@abby.mchugh (Markanich's wife)",
+    "@anthonymarkanich (twin brother — needs verification)"
+  ],
+
+  "_sources": [
+    "https://www.houstondynamofc.com/news/houston-dynamo-fc-sign-u-s-national-team-defender-sam-vines",
+    "https://en.wikipedia.org/wiki/Sam_Vines",
+    "https://en.wikipedia.org/wiki/2026_Houston_Dynamo_FC_season",
+    "https://www.coloradorapids.com/news/colorado-rapids-announce-2026-preseason-training-camp-roster",
+    "https://www.sportsgambler.com/betting-tips/football/houston-dynamo-vs-colorado-rapids-prediction-lineups-odds-2026-05-02/",
+    "https://www.click2houston.com/sports/2026/04/30/dynamo-keep-us-open-title-hopes-alive-with-win-over-louisville-city-fc/",
+    "https://www.bbc.com/sport/football/35641677",
+    "http://closeupandprivate.com/newsletter/nl27-202211/",
+    "https://www.startribune.com/minnesota-united-anthony-markanich-twin-brother-nick/601252202",
+    "https://www.essentiallysports.com/soccer-football-news-meet-jack-mcglynns-family-learn-about-his-soccer-player-brother-conor-father-paul-mother-kim-more/",
+    "https://www.goal.com/en-us/lists/want-it-and-i-want-it-all-jack-mcglynn-and-his-world-class-left-foot-have-world-cup-aspirations-and-despite-some-negative-labels-and-bitter-philadelphis-union-exit-he-s-aiming-for-the-biggest-stage/bltab30bc49f71b244f",
+    "https://redeglobo.globo.com/sp/tvtem/revistadesabado/noticia/revista-de-sabado-conhece-a-familia-do-jogador-de-futebol-lucas-halter.ghtml",
+    "https://www.facebook.com/houstondynamo/videos/hector-herrera-and-lucas-halter-meet-peso-pluma/883725448038157/",
+    "https://shupirates.com/sports/mens-soccer/roster/agustin-resch/7685",
+    "https://www.bayoucitysoccer.net/dynamo/meet-the-new-guys-lucas-halter",
+    "https://www.coloradorapids.com/news/brothers-roommates-teammates-cole-and-sam-bassett-take-on-new-relationship-on-the-colorado-pitch"
+  ]
+}
