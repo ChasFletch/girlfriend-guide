@@ -1,0 +1,136 @@
+{
+  "_metadata": {
+    "generated_by": "keely",
+    "generated_at": "2026-04-19T08:30:00-05:00",
+    "for_match": "Houston Dynamo FC vs San Diego FC",
+    "match_date": "2026-04-22",
+    "match_time": "7:30 PM CT",
+    "venue": "Shell Energy Stadium, Houston, Texas",
+    "competition": "2026 MLS Regular Season — Matchday 9",
+    "previous_match_data_at": "2026-04-18 FT: Houston 1-0 Orlando City SC (Herrera 75')",
+    "notes": "San Diego FC is in year 2 (2025 was their expansion/inaugural season). They were Western Conference No. 1 seed in 2025 with MLS expansion record 63 pts. Entering April 22 on a 3-game losing streak (lost to San Jose, Minnesota, Real Salt Lake). Houston catches them cold at home after 2 straight wins. Research cache for Houston players is valid through April 24 (cached April 17) — no need for --fresh flag. Run: python pipeline/generate.py --team houston-dynamo --opponent 'San Diego FC' --date 2026-04-22. NOTE: Chucky Lozano (@hirvinglozano, 2M followers) is NOT on SDFC in 2026 — released pre-season, being paid ~$6M to not play. Do not include him."
+  },
+  "matchday_hook": "Wednesday night at Shell Energy and the Dynamo are COOKING. After a 1-0 road win in Orlando (Herrera birthday goal, clean sheet), Houston welcomes San Diego FC — last year's Western Conference No. 1 seed who are currently on a three-game losing streak. They built the most successful expansion season in MLS history in 2025, but 2026 has not been kind. Houston catches them cold, at home, with all the momentum. Artur is back. Herrera is a whole storyline. The vibe is different right now. 🧡",
+  "vibe_strip_items": [
+    "🏠 HOME GAME. Shell Energy under the lights on a Wednesday. The vibes at night matches are different.",
+    "📉 San Diego FC: 3 STRAIGHT LOSSES heading in. The defending Western Conference No. 1 seed is struggling. Houston smells blood.",
+    "🎂 Héctor Herrera scored the winner in Orlando ON HIS 36TH BIRTHDAY. Club legend. Started the match. Won the match. This is what returning home looks like.",
+    "💪 Artur captained the full 90 in Orlando and is FULLY back. The CDM spine is restored.",
+    "🇩🇰 San Diego's big three — Dreyer, Ingvartsen, Tverskov — are all Danish. The Danish invasion of San Diego is real and they are genuinely excellent footballers.",
+    "📈 Guilherme: 9 goal contributions (5G/4A) through 7 MLS matches. Still tied for most in all of MLS. The 20-year club record stands.",
+    "🤍 Bogusz baby girl due July — home match, counting down the wins.",
+    "⚽ Anders Dreyer (San Diego) had 38 goal contributions in 2025 — tied the MLS record for new players. He is a serious threat on Wednesday.",
+    "🏆 Up next after Wednesday: Copa Tejas Round 1 at Austin FC on Saturday. Houston is playing for bragging rights AND a trophy. The week gets bigger from here.",
+    "🎙️ Manny Machado (San Diego Padres all-star) is a San Diego FC investor — the sports celebrity overlap is real. But he can't help them stop conceding."
+  ],
+  "hot_posts": [
+    {
+      "player_or_partner": "Héctor Herrera",
+      "platform": "Instagram",
+      "handle": "@hectorherrera16 (UNVERIFIED — confirm via PC before publishing)",
+      "post_date": "2026-04-18",
+      "description": "Scored the match-winner at Orlando on his 36th birthday. STARTED the match (not a cameo sub). Club legend who returned to Houston for 2026. Mexican international, former Porto captain, former Atlético Madrid. Artur said post-match: 'He and Hector are great friends on and off the field. Happy to play with him again and for him to score tonight. Hector turns 36 tomorrow but he still plays at a high level.' Birthday goal on the road = instant content.",
+      "why_it_works": "36 and still STARTING and WINNING road games. Universal 'never stop' story. The friendship quote from Artur adds warmth.",
+      "content_angle": "The legend who came back and immediately showed up. Lead with the birthday, end with the win."
+    },
+    {
+      "player_or_partner": "Anders Dreyer (San Diego FC — opponent scout)",
+      "platform": "Instagram",
+      "handle": "@andersdreyer (LIKELY CORRECT — verify before publishing)",
+      "post_date": "2026 season",
+      "description": "Danish winger. 2025 MLS Newcomer of the Year. 38 goal contributions in his debut season — tied the MLS record for new players. Made MLS Best XI alongside Messi. His father is retired footballer Flemming Dreyer. Has a young toddler son — explicitly credits fatherhood for his mental stability and peak performance. Extended contract through 2028-29.",
+      "why_it_works": "The new-dad-thriving angle is universal lifestyle content. His 2025 season numbers are genuinely historic and shareable.",
+      "content_angle": "Enemy respect framing. He is dangerous. He is also a dad who talks about his son making him a better player. Root for him on every other Wednesday."
+    },
+    {
+      "player_or_partner": "Marcus Ingvartsen (San Diego FC — opponent scout)",
+      "platform": "Instagram",
+      "handle": "@marcusingvartsen (VERIFIED)",
+      "post_date": "2026 season",
+      "description": "Danish forward. Married to Simone Becker Ingvartsen (partner name confirmed; her Instagram TBD). Posted about getting their US green card — 'Our Green Card has officially been...' — a huge milestone, immigrating to San Diego with his family to build a life there. Hot start to 2026 after coming in doubted. Part of SDFC's Danish core trio with Dreyer and Tverskov.",
+      "why_it_works": "The green card post is personal, real, and shareable. Life-abroad immigrant story resonates with the audience.",
+      "content_angle": "Discovery framing. He is building a life in America, scoring goals, and his wife is along for the ride. Check his IG for Simone content."
+    },
+    {
+      "player_or_partner": "Duran Ferree (San Diego FC — opponent scout)",
+      "platform": "Instagram / @sandiegofc",
+      "handle": "Personal IG UNVERIFIED — club features him on @sandiegofc",
+      "post_date": "2026 season",
+      "description": "Starting goalkeeper. 19 years old. San Diego native. First player EVER signed by San Diego FC — before they had a stadium, a badge, or a fanbase, they signed Duran Ferree. He grew up in San Diego wanting to play for a team that didn't exist yet. He is now that team's starting goalkeeper. Started their season opener (5-0 win over Montreal) on MLS debut.",
+      "why_it_works": "This story writes itself. Born here, signed first, played first. The ultimate local kid makes it content.",
+      "content_angle": "You grew up wanting to play for a team that didn't exist. And then it existed. And then they signed you first. Discovery framing — most people don't know this story."
+    },
+    {
+      "player_or_partner": "Guilherme",
+      "platform": "Instagram",
+      "handle": "@guilherme (handle needs PC verification — also listed as @guilherme11)",
+      "post_date": "April 2026 — check for recent content",
+      "description": "Brazilian winger (listed as 'Augusto' on lineup cards — same person). 9 goal contributions (5G/4A) through 7 MLS matches. First Dynamo player to reach 9 in his first 6 MLS matches since Brian Ching in 2006 — a 20-year record. Still tied for most goal contributions in all of MLS. Turned 31 on April 13. Neymar publicly DMd him.",
+      "why_it_works": "Historic pace is a shareable stat. '20-year record' travels. Neymar DM is celebrity world overlap.",
+      "content_angle": "Star power, not team creator. Lead with the record, add the birthday, close with Neymar."
+    },
+    {
+      "player_or_partner": "Tomás Bogusz",
+      "platform": "Instagram",
+      "handle": "@tomasbogusz",
+      "post_date": "ongoing",
+      "description": "Baby girl due July 2026. Home match Wednesday — every win at Shell Energy is one step closer to being home for the birth.",
+      "why_it_works": "Most universally relatable angle in the guide. Home game adds warmth — he's playing in his city, for his family.",
+      "content_angle": "Underappreciated workhorse + new dad countdown. He works hard, Guilherme gets the glory. Let Bogusz have this one."
+    }
+  ],
+  "injury_flags": [
+    {
+      "player": "Lucas Halter",
+      "status": "OUT — lower body, timeline unclear",
+      "impact": "CB depth. Monitor for any update before Wednesday."
+    },
+    {
+      "player": "Artur",
+      "status": "AVAILABLE — started full 90 and captained vs Orlando April 18. Fully fit.",
+      "impact": "CDM anchor back. Changes the defensive shape significantly."
+    },
+    {
+      "player": "Jack McGlynn",
+      "status": "QUESTIONABLE — lower body. Check official matchday report before pipeline runs.",
+      "impact": "MF depth."
+    }
+  ],
+  "roster_changes": [],
+  "opponent_scout": {
+    "team": "San Diego FC",
+    "year_in_mls": 2,
+    "head_coach": "Mikey Varas",
+    "2025_finish": "Western Conference No. 1 seed, 63 pts (MLS expansion record). Anders Dreyer: 38 goal contributions (tied MLS record for new players), MLS Newcomer of the Year, MLS Best XI.",
+    "2026_form": "3W-1D-2L through 6 matches, then 3 straight losses (San Jose, Minnesota, Real Salt Lake). Cold heading into April 22.",
+    "chucky_lozano_note": "Hirving Lozano (@hirvinglozano, 2M followers) was SDFC's first DP — released before 2026, being paid ~$6M to not play. NOT at Houston match. Do not include.",
+    "ownership_hook": "Investors include Manny Machado (6x MLB All-Star, San Diego Padres) and the Sycuan Band of the Kumeyaay Nation (first Native American tribe to own a stake in professional soccer in the US).",
+    "top_3_spotlights": [
+      {
+        "name": "Anders Dreyer",
+        "position": "RW",
+        "nationality": "Danish",
+        "instagram": "@andersdreyer (LIKELY CORRECT — verify)",
+        "priority": 1,
+        "hook": "2025 MLS Newcomer of the Year, 38 goal contributions. Young dad — credits his toddler son for his mental stability."
+      },
+      {
+        "name": "Marcus Ingvartsen",
+        "position": "FWD",
+        "nationality": "Danish",
+        "instagram": "@marcusingvartsen (VERIFIED)",
+        "partner": "Simone Becker Ingvartsen",
+        "priority": 2,
+        "hook": "Posted about getting US green card — immigrating to San Diego with family. Wholesome life-abroad content."
+      },
+      {
+        "name": "Duran Ferree",
+        "position": "GK",
+        "nationality": "American (San Diego native)",
+        "instagram": "Personal IG UNVERIFIED",
+        "priority": 3,
+        "hook": "19-year-old San Diego native. First player ever signed by SDFC. Grew up wanting to play for a team that didn't exist yet."
+      }
+    ]
+  }
+}
